@@ -1,4 +1,4 @@
-milgame-techfictionstorygen.py (FLASK)
+milgame_techfictionstorygen.py (FLASK)
 militarygame_techrandomstorygenerator.py
 story.html
 style.css
