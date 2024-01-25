@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Story Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Military Game-Tech Fiction Story Generator</h1>
+        <form action="/generate" method="get">
+            <button type="submit">Generate Story</button>
+        </form>
+        <div id="storyBox">
+            {{ story|safe }}
+        </div>
+    </div>
+</body>
+</html>
+
