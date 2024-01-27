@@ -1,4 +1,3 @@
-milgame_techfictionstorygen.py (FLASK)
-militarygame_techrandomstorygenerator.py
-story.html
-style.css
+Flask==3.11
+Flask-SQLAlchemy
+
