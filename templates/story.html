@@ -12,8 +12,12 @@
             <button type="submit">Generate Story</button>
         </form>
         <div id="storyBox">
-            {{ story|safe }}
+            {{ story.replace('\n', '<br><br>')|safe }}
         </div>
+    </div>
+    <br>
+    <div class="container2">
+        <strong>Military game-tech fiction:</strong><p><i>human stories of military conflict featuring advanced technology told with concepts in video games</i></p>
     </div>
 </body>
 </html>

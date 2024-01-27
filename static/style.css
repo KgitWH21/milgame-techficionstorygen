@@ -29,13 +29,14 @@ button:hover {
     background-color: #006237; /* Slightly lighter green on hover */
 }
 
-#storyBox {
-    margin-top: 30px;
-    border: 1px solid #ddd;
-    padding: 15px;
+#storyBox {   
     background-color: #fff;
-    min-height: 150px;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+    line-height: 1.6; /* Adjust line height for better readability */
+    padding: 20px; /* Add padding inside the box */
+    font-size: 1.1em; /* Slightly larger font size, adjust as needed */
+    white-space: pre-wrap; /* If you have line breaks (\n) in your text, this will render them */
+    word-wrap: break-word; /* Ensure long words do not overflow */
+    text-align: justify; /* Optional: to justify the text within the box */
+    max-width: 800px; /* Optional: set a maximum width for the box */
+    margin: auto; /* Center the box if a max-width is set */
 }
