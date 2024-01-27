@@ -1,7 +1,4 @@
 Flask
 Flask-SQLAlchemy
-<<<<<<< HEAD
 gunicorn
-=======
-gunicorn
->>>>>>> 637db8bfd50ae4589683ed450ac9216428c7eafd
+
