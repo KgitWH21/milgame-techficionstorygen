@@ -233,7 +233,7 @@ story_elements["VIDEO_GAME_FRANCHISE"] = [
     "SOMA", "The Witness", "Until Dawn", "Kentucky Route Zero", "Limbo", "Inside", "Oxenfree", "Pillars of Eternity", 
     "Ghost of Tsushima", "Control", "Hellblade: Senua's Sacrifice" , "Final Fantasy IV", "Final Fantasy V", "Final Fantasy VI",
     "Final Fantasy VII", "Final Fantasy VIII", "Final Fantasy IX", "Final Fantasy X", "Final Fantasy XII", "Final Fantasy XIII",
-    "Final Fantasy XIII-2", "Lightning Returns: Final Fantasy XIII", "Final Fantasy Tactics"
+    "Final Fantasy XIII-2", "Lightning Returns: Final Fantasy XIII", "Final Fantasy Tactics", "Xenoblade Chronicles 2", "Xenoblade Chronicles 3",  "Xenoblade Chronicles X"
 ]
 
 story_elements["CHARACTER_GENDER"] = [
