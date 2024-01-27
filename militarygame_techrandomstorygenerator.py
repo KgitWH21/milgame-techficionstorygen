@@ -56,9 +56,10 @@ story_elements["MILITARY_SCENARIO"] = [
 ]
 
 story_elements["MILITARY_PROTAGONIST"] = [
-    "Junior Enlisted member", "Mid-Career Enlisted member", "Senior Enlisted member",
-    "Junior Officer", "Mid-Career Officer", "Senior Officer", "Veteran", "Civilian affiliated with the military",
-    "Contractor affiliated with the military", "Dependent spouse", "Dependent child"
+    "Junior Enlisted", "Mid-Career Enlisted", "Senior Enlisted",
+    "Junior Officer", "Mid-Career Officer", "Senior Officer", "Veteran", "military affiliated civilian",
+    "military affiliated contractor", "Dependent spouse", "Dependent child", "grizzled combat veteran", "retiree", "a civilian who never served",
+    "Conscript", "Child soldier", "With Unknown Status", "Defector", "Consciencious Objector", "Mercenary"
 ]
 
 story_elements["TECHNOLOGY_OBJECT"] = [
@@ -190,6 +191,123 @@ story_elements["CHARACTER_GENDER"] = [
         "male", "female", "ungendered", "transgender"    
     ]
 
+story_elements["JOBS"] = [
+    "KC-135 Stratotanker Pilot", "F-16 Fighting Falcon Pilot", "B-2 Spirit Bombardier", "C-17 Globemaster III Navigator", "Weapons Systems Officer", "Drone Pilot",
+    "Intelligence Analyst", "Aerospace Propulsion Specialist", "Cyber Transport Systems Specialist", "Equal Opportunity Specialist", "Special Investigations Officer",
+    "Fire Protection Specialist", "Aerospace Ground Equipment Specialist", "Aircraft Loadmaster", "Aircraft Electrical and Environmental Systems Specialist",
+    "Aircraft Metals Technology Specialist", "Airfield Management Officer", "Air Traffic Control Officer", "Civil Engineer Officer", "Medical Service Corps Officer",
+    "Public Affairs Officer", "Judge Advocate General", "Flight Surgeon", "Mental Health Nurse", "Dental Hygienist", "Surgical Services Specialist", "Pharmacy Technician",
+    "Pararescue Specialist", "Combat Weather Officer", "Emergency Management Officer", "Cyberspace Operations Officer", "Space Systems Operations Specialist",
+    "Nuclear and Missile Operations Officer", "Security Forces Officer", "Contracting Officer", "Logistics Readiness Officer", "Aircraft Maintenance Officer",
+    "Diet Therapy Specialist", "Operations Intelligence Specialist", "Health Services Management Specialist", "Personnel Officer", "Financial Management Officer",
+    "Bioenvironmental Engineer Officer", "Communications and Information Officer", "Aerospace Medicine Specialist", "Historian", "Weather Officer", "Chaplain"
+
+    #Army Jobs
+        "AH-64 Apache Helicopter Pilot",
+    "Military Intelligence Officer",
+    "Cyber Operations Specialist",
+    "Combat Medic Specialist",
+    "Signal Corps Officer",
+    "Civil Affairs Officer",
+    "Psychological Operations Specialist",
+    "Logistics Support Specialist",
+    "Ranger Qualified Infantryman",
+    "Special Forces Engineer Sergeant",
+    "Military Police Officer",
+    "Fire Support Specialist",
+    "Counterintelligence Agent",
+    "Explosive Ordnance Disposal Specialist",
+    "Air Defense Artillery Officer",
+    "Public Affairs Specialist",
+    "Transportation Management Coordinator",
+    "Finance Management Technician",
+    "Chemical, Biological, Radiological, and Nuclear (CBRN) Officer",
+    "Human Resources Specialist",
+    "Judge Advocate General's Corps Attorney",
+    "Aviation Operations Specialist",
+    "Unmanned Aerial Vehicle Operator",
+    "Dental Specialist",
+    "Healthcare Administration Officer",
+    "Wheeled Vehicle Mechanic",
+    "Chaplain",
+    "Information Technology Specialist",
+    "Paralegal Specialist",
+    "Army Bandperson",
+    "Environmental Science/Engineering Officer",
+    "Medical Service Corps Officer",
+    "Pharmacy Specialist",
+    "Aircraft Powerplant Repairer",
+    "Quartermaster Officer",
+    "Field Artillery Firefinder Radar Operator",
+    "Special Forces Medical Sergeant",
+    "Armor Officer",
+    "Nuclear Medical Science Officer",
+    "Aircraft Electrician",
+    "Carpentry and Masonry Specialist",
+    "Biomedical Equipment Specialist",
+    "Criminal Investigations Special Agent",
+    "Horizontal Construction Engineer",
+    "Multimedia Illustrator",
+    "Petroleum Supply Specialist",
+    "Signal Support Systems Specialist",
+    "Watercraft Operator",
+    "Geospatial Engineer",
+    "Army National Guard Sniper"
+    #Navy Jobs
+    "Naval Aviator - F/A-18 Hornet Pilot", "Cryptologic Warfare Officer", "Explosive Ordnance Disposal (EOD) Officer", 
+    "Navy SEAL Officer", "Nuclear Submarine Officer", "Naval Flight Officer - E-2 Hawkeye", "Surface Warfare Officer - Destroyer",
+    "Naval Intelligence Officer", "Navy Chaplain", "Healthcare Administration Officer", "Naval Reactors Engineer", 
+    "Fire Controlman - Aegis", "Logistics Specialist", "Hospital Corpsman", "Cryptologic Technician", "Aviation Structural Mechanic",
+    "Information Systems Technician", "Machinist's Mate - Nuclear", "Naval Aircrewman - MH-60 Seahawk", "Sonar Technician - Submarine",
+    "Special Warfare Boat Operator", "Navy Diver", "Aviation Ordnanceman", "Electronics Technician - Submarine", "Aviation Machinist's Mate",
+    "Master-at-Arms", "Operations Specialist", "Culinary Specialist", "Construction Mechanic - Seabees", "Navy Musician",
+    "Aerospace Maintenance Duty Officer", "Oceanography Officer", "Public Affairs Officer", "Civil Engineer Corps Officer",
+    "Naval Flight Surgeon", "Cyber Warfare Engineer", "Supply Corps Officer", "Nuclear Power School Instructor", "Environmental Health Officer",
+    "Physical Therapy Officer", "Aviation Electrician's Mate", "Mass Communication Specialist", "Personnel Specialist", "Gas Turbine System Technician",
+    "Religious Program Specialist", "Aviation Boatswain's Mate", "Navy Judge Advocate General's Corps Officer", "Dental Corps Officer",
+    "Medical Corps Officer", "Naval Aviator - MH-53 Sea Dragon Pilot"
+    #Marine Corps jobs
+    "0311 - Rifleman", "0321 - Reconnaissance Marine", "0331 - Machine Gunner", "0341 - Mortarman", "0351 - Infantry Assault Marine", "0352 - Anti-tank Missileman", "0651 - Cyber Network Operator", 
+    "0811 - Field Artillery Cannoneer", "0844 - Fire Control Man", "0861 - Fire Support Man", "1371 - Combat Engineer", "1391 - Bulk Fuel Specialist", "1833 - Assault Amphibious Vehicle (AAV) Crewman", 
+    "2671 - Middle East Cryptologic Linguist", "4421 - Legal Services Specialist", "5821 - Criminal Investigator CID Agent", "5951 - Air Traffic Control Radar Technician", 
+    "6046 - Aircraft Maintenance Administration Specialist", "6074 - Cryogenics Equipment Operator", "6174 - Helicopter Crew Chief, UH-1Y Venom", "6216 - Fixed-Wing Aircraft Crew Chief, KC-130", 
+    "6256 - Fixed-Wing Aircraft Airframe Mechanic, AV-8B Harrier", "6276 - Fixed-Wing Aircraft Airframe Mechanic, F/A-18", "6286 - Fixed-Wing Aircraft Electrical Systems Technician, F-35B Lightning II", 
+    "6314 - Unmanned Aerial Vehicle (UAV) Operator", "6531 - Aircraft Ordnance Technician", "6842 - Meteorology and Oceanography (METOC) Analyst Forecaster", "7011 - Expeditionary Airfield Systems Technician", 
+    "7041 - Aviation Operations Specialist", "7257 - Air Traffic Controller", "7314 - Vertical TakeOff and Landing Unmanned Aerial Vehicle (UAV) Operator", "7372 - C-130 Hercules Loadmaster", 
+    "7381 - C-22 Osprey Crew Chief", "8411 - Recruiters", "8421 - Career Planner", "8431 - Psychological Operations Specialist", "8652 - Reconnaissance Man, Parachute Qualified", 
+    "8999 - Sergeant Major of the Marine Corps", "9051 - Religious Program Specialist", "1302 - Combat Engineer Officer", "1802 - Tank Officer", "2502 - Communications Officer", "3002 - Ground Supply Officer", 
+    "3404 - Financial Management Officer", "4402 - Judge Advocate", "5803 - Military Police Officer", "6602 - Space Operations Officer", "7208 - Low Altitude Air Defense Officer", "7509 - Pilot, F/A-18 Hornet", 
+    "7562 - Pilot, MV-22 Osprey"
+    #US Space Force Jobs
+        "Space Operations Officer", "Cyberspace Operations Officer", "Intelligence Officer", "Missile and Space Systems Maintenance Officer",
+    "Space Systems Operations Specialist", "Cyber Systems Operations Specialist", "Cyber Transport Systems Specialist", "Intelligence Analyst", 
+    "Sensor Operator for Remote Sensing", "Satellite Communications Operator", "Space Systems Operations Analyst", "Space Electronic Warfare Specialist", 
+    "Acquisition Manager for Space Systems", "Orbital Analyst", "Aerospace Medicine Specialist", "Space Environmental Specialist", "Space Operator Assistant",
+    "Spacecraft Launch and Recovery Technician", "Orbital Space Vehicle Repairman", "Extraterrestrial Habitat Architect", "Lunar Excavation Operator", 
+    "Interstellar Communications Specialist", "Zero-Gravity Construction Worker", "Planetary Geologist", "Astrobiologist", "Space-Based Solar Power Engineer", 
+    "Orbital Debris Removal Specialist", "Space Traffic Controller", "Deep Space Navigator", "Exoplanet Explorer", "Space Diplomacy Officer", 
+    "Interplanetary Network Engineer", "Artificial Gravity Systems Technician", "Space Suit Technician", "Astro-Pharmaceutical Researcher", 
+    "Cosmic Radiation Protection Specialist", "Space Tourism Coordinator", "Extraterrestrial Agriculture Specialist", "Quantum Communication Specialist", 
+    "Space-Based Manufacturing Engineer", "Off-Earth Mining Technician", "Astro-Cultural Officer", "Celestial Navigation Specialist", 
+    "Interstellar Trade Analyst", "Space Settlement Administrator", "Anti-Satellite (ASAT) Warfare Specialist", "Exoatmospheric Pilot"
+        "Astro-Engineering Liaison", "Interorbital Threat Analyst", "Nanosatellite Swarm Coordinator", "Spaceborne AI Ethics Supervisor", 
+    "Cosmic Weather Forecaster", "Spacecraft Quarantine Enforcer", "Astrocartography Expert", "Orbital Habitat Safety Inspector", 
+    "Hyperspace Route Planner", "Anti-Meteoroid Defense Operator", "Lunar Logistics Specialist", "Deep Space Rescue Operative", 
+    "Extra-Vehicular Activity (EVA) Combat Trainer", "Advanced Propulsion Technician", "Space Debris Analyst and Clearing Coordinator", 
+    "Interstellar Signal Decryptor", "Quantum Encryption Officer", "Off-Planet Resource Rights Negotiator", "Astro-Sociologist", 
+    "Exoplanetary Claim Assessor", "Interorbital Commerce Regulator", "Zero-G Medical Practitioner", "Space Fleet Supply Chain Manager", 
+    "Celestial Body Mapping Specialist", "Space Sovereignty Advocate", "Extraterrestrial Ecosystems Protector", "Off-World Habitat Ethicist", 
+    "Galactic Historian", "Starship Loadmaster", "Remote Sensing Data Analyst", "Space Elevator Operator", "Cosmo-Chemical Analyst", 
+    "Space-Based Crisis Response Coordinator", "Interstellar Beacon Operator", "Cosmic Event Early Warning Specialist", "Wormhole Exploration Lead", 
+    "Alien Technology Reverse Engineer", "Xenobiology Containment Officer", "Galactic Network Cyber Defender", "Planetary Defense Strategist", 
+    "Spaceborne Humanitarian Aid Dispatcher", "Orbital Colony Legal Consultant", "Zero-G Agriculture Innovator", "SpaceTime Anomalies Investigator", 
+    "Interstellar Communications Relay Architect", "Vacuum-Compatible Materials Scientist", "Space Traffic Incident Investigator", 
+    "Cosmic Surveillance Systems Architect", "Offensive Space Operations Strategist", "Defensive Space Infrastructure Engineer"
+
+]
+
+
+
 # Now, all your categories are formatted and ready for use in your story generator.
 
 
@@ -200,7 +318,7 @@ def select_random_element(category):
     return random.choice(story_elements[category])
 
 def generate_story():
-    story = f"This story is about a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_GENDER')} {select_random_element('MILITARY_PROTAGONIST')} during {select_random_element('MILITARY_SCENARIO')}. "
+    story = f"This story is about a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_GENDER')} {select_random_element('MILITARY_PROTAGONIST')} {select_random_element('JOBS')} during {select_random_element('MILITARY_SCENARIO')}. "
     story += f"The major event of the story involves {select_random_element('BASIC_EVENT')}. "
     story += f"The story starts with {select_random_element('STORY_DESCRIPTOR')} theme, "
     story += f"and ends with {select_random_element('STORY_TYPE')}. "
