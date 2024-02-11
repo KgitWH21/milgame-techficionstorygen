@@ -112,7 +112,9 @@ story_elements["BASIC_EVENT"] = [
     "Rite of Passage", "Sacrifice", "Stagnation", "Success", "Suffering", "Superstitions: Bad Luck", "Superstitions: Good Luck", 
     "Survival", "Teamwork", "Technology", "Tradition", "Transformation", "Trust", "Truth", "Unity", "Vanity", "Vice", 
     "Violence", "Virtue", "Vulnerability", "War", "Wealth", "fire", "typhoon", "jail time", "traffic jam", "street fight", "darkness",
-    "power outage", "blizzard", "tornado", "famine", "dehydration", "pestilience", "pandemic", "inflation", "election",
+    "power outage", "blizzard", "tornado", "famine", "dehydration", "pestilience", "pandemic", "inflation", "election", "nemesis", "rival", "adversary", "hater", "act of God",
+    "digital troll", "boss", "mini-boss", "race", "competition", "ex-boyfriend", "ex-girlfriend", "ex-lover", "ex-boss", "parents", "mother-in-law", "father-in-law", "brother"
+    "sister", "opponent", "drug dealer", "crooked cop", "gang member" 
 ]
 
 
