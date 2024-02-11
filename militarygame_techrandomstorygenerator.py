@@ -53,6 +53,25 @@ story_elements = {
         "multigenerational saga", "mythic retelling", "pirate adventure", "post-war drama", "prehistoric fiction", "psychological horror", "robotic uprising", "shakespearean", 
         "space colonization", "spy thriller", "time loop", "virtual reality adventure"
     ],
+
+    "NARRATIVE_PERSPECTIVE": [
+        "First Person Singular ('I')",
+        "First Person Plural ('We')",
+        "First Person Peripheral",
+        "First Person Unreliable",
+        "First Person Stream of Consciousness",
+        "Epistolary First Person",
+        "Second Person ('You')",
+        "Second Person Interactive",
+        "Third Person Limited",
+        "Third Person Multiple",
+        "Third Person Omniscient",
+        "Third Person Objective",
+        "Third Person Stream of Consciousness",
+        "Third Person Epistolary",
+        "Third Person Cinematic",
+        "Third Person Unreliable Narrator"
+    ],
     # ... other categories like BASIC_EVENT, MILITARY_SCENARIO, etc.
 }
 
@@ -426,7 +445,7 @@ def select_random_element(category):
     return random.choice(story_elements[category])
 
 def generate_story():
-    story = f"This story is about a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_GENDER')} {select_random_element('MILITARY_PROTAGONIST')} {select_random_element('JOBS')} during {select_random_element('MILITARY_SCENARIO')}. "
+    story = f"This {select_random_element('NARRATIVE_PERSPECTIVE')} story is about a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_GENDER')} {select_random_element('MILITARY_PROTAGONIST')} {select_random_element('JOBS')} during {select_random_element('MILITARY_SCENARIO')}. "
     story += f"Their goal is to {select_random_element('CHARACTER_GOALS')}. \n"
     story += f"But {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('BASIC_EVENT')} gets in their way. \n\n"
     story += f"The major event of the story involves {select_random_element('BASIC_EVENT')}. "
@@ -435,6 +454,7 @@ def generate_story():
     story += f"The piece of technology central to the plot is the {select_random_element('TECHNOLOGY_FUNCTION')} {select_random_element('TECHNOLOGY_OBJECT')}. "
     story += f"This is known to cause {select_random_element('EMOTION_AMPLIFIER')} leading to {select_random_element('EMOTION')}. \n\n"
     story += f"It is also rumored to allow the user the ability of: {select_random_element('SUPERHUMAN_ABILITY')}.\n\n"
+    story += f"This story explores the emotion of: {select_random_element('EMOTION')}.\n\n"
     story += f"Elements and themes from the video game {select_random_element('VIDEO_GAME_FRANCHISE')} are adapted in this story."
 
     return story
