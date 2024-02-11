@@ -199,7 +199,11 @@ story_elements["EMOTION"] = [
 story_elements["EMOTION_AMPLIFIER"] = [
     "Addiction", "Arousal", "Attraction", "Boredom", "Cold", "Dehydration", "Distraction", "Exhaustion", 
     "Hangover", "Heat", "Hunger", "Illness", "Inebriation", "Lethargy", "Overstimulation", "Pain", 
-    "Relaxation", "Stress"
+    "Relaxation", "Stress", "Drunken stupor", "Drunken rage", "Bloodlust", "Terrified", "Rage", "Hypoxic", "Poisoned",
+    "Drowning panic", "Suicidal thoughts", "Acid trip", "Dreamy hallucination", "Nightmare hallucination", "Uncontrolled laughter",
+    "Endless crying", "Dark depression", "Neuroticism", "Animalistic rage", "Suffocating Isolation", "Intense loneliness", "Hedonistic binge",
+    "Stress eating", "Starvation", "Blood slowing", "Blood rushing", "Amnesia", "Blindness", "Deafness", "Body constriction", "Vomit inducing vertigo"
+    "General anxiety"
 ]
 
 story_elements["SUPERHUMAN_ABILITY"] = [
