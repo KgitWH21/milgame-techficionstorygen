@@ -36,7 +36,7 @@ story_elements = {
         "scatterbrained", "seasoned", "secretive", "serene", "serious", "short-tempered", "sickly", "silly", "social", 
         "spendthrift", "spiritual", "stingy", "stressed", "strong", "studious", "stupid", "suave", "tired", "ugly", 
         "unambitious", "unathletic", "unbalanced", "uncreative", "unethical", "unfriendly", "unhappy", "unpredictable", 
-        "unremarkable", "unstable", "unwise", "vicious", "violent", "weak", "wealthy", "well-traveled", "wise", "withdrawn", "youthful", "foolish", "vindictive"
+        "unremarkable", "unstable", "unwise", "vicious", "violent", "weak", "wealthy", "well-traveled", "wise", "withdrawn", "youthful", "foolish", "vindictive",
         "vengeful", "horrible"
     ],
     "STORY_TYPE": [
@@ -114,7 +114,7 @@ story_elements["BASIC_EVENT"] = [
     "Violence", "Virtue", "Vulnerability", "War", "Wealth", "fire", "typhoon", "jail time", "traffic jam", "street fight", "darkness",
     "power outage", "blizzard", "tornado", "famine", "dehydration", "pestilience", "pandemic", "inflation", "election", "nemesis", "rival", "adversary", "hater", "act of God",
     "digital troll", "boss", "mini-boss", "race", "competition", "ex-boyfriend", "ex-girlfriend", "ex-lover", "ex-boss", "parents", "mother-in-law", "father-in-law", "brother"
-    "sister", "opponent", "drug dealer", "crooked cop", "gang member" 
+    "sister", "opponent", "drug dealer", "crooked cop", "gang member", "thug", "overlord", "demonlord", "restless ghost" 
 ]
 
 
@@ -123,11 +123,22 @@ story_elements["MILITARY_SCENARIO"] = [
     "Pre-Wartime", "Wartime", "Post-Wartime", "Peace time"
 ]
 
+story_elements["TIME_PERIOD"] = [
+    "Near-present (10 - 30 Earth years from now)", "Future-present (30 - 100 Earth years from now)", "Future-past (100 - 2000 years from now)", "Distant future (2000 - 10000 Earth years from now)",
+    "Future Frontier (10000 - 1M Earth years from now)", "Present Future (10000 - 1M Earth years from now)", "Forever Future (1M - 13B Earth years from now)"
+]
+
+story_elements["Culture_Inspiration"] = [
+    "Chinese", "Singaporean", "Taiwanese", "Modern Japanese", "Okinawan", "Hokkaido Japanese", "American - California", "American - Texas", "American - Hawaiian", "American - Alaskan",
+    "American - Las Vegas", "American - Washington DC", "American - Deep South", "Mexican", "Maldivian", "Italian", "Mongolian", "Japanese - Yonaguni", "Japanese - Edo", "Japanese - Meiji",
+    "Imperial Japanese"
+]
+
 story_elements["MILITARY_PROTAGONIST"] = [
     "Junior Enlisted", "Mid-Career Enlisted", "Senior Enlisted",
     "Junior Officer", "Mid-Career Officer", "Senior Officer", "Veteran", "military affiliated civilian",
-    "military affiliated contractor", "Dependent spouse", "Dependent child", "grizzled combat veteran", "retiree", "a civilian who never served",
-    "Conscript", "Child soldier", "With unknown military Status", "Defector", "Consciencious Objector", "Mercenary", 
+    "military affiliated contractor", "Dependent spouse", "Dependent child", "grizzled combat veteran", "retiree", "civilian who never served",
+    "Conscript", "Child soldier", "With unknown military Status", "Defector", "Consciencious Objector", "Mercenary", "Lone Wolf", 
 ]
 
 story_elements["TECHNOLOGY_OBJECT"] = [
@@ -143,7 +154,7 @@ story_elements["TECHNOLOGY_OBJECT"] = [
     "Club", "Javelin", "Morning star", "Kukri", "Sabre", "Bowie knife", "Bayonet", "Machete", "Compound bow", 
     "Taser", "Revolver", "Semi-automatic pistol", "Rifle", "Shotgun", "Sniper rifle", "Submachine gun", "Machine gun", 
     "Grenade", "Rocket launcher", "Flamethrower", "Landmine", "Naval mine", "Torpedo", "Guided missile", "Tactical knife", 
-    "Stun baton", "Pepper spray", "Electrified baton", "Bola",
+    "Stun baton", "Pepper spray", "Electrified baton", "Bola", 
     # Items
     "Toothbrush", "Toothpaste", "Soap", "Shampoo", "Conditioner", "Towel", "Comb", "Hair dryer", "Mirror", 
     "Deodorant", "Nail clippers", "Razor", "Toilet paper", "Facial tissue", "Moisturizer", "Sunscreen", "Lip balm", 
@@ -254,7 +265,7 @@ story_elements["VIDEO_GAME_FRANCHISE"] = [
     "SOMA", "The Witness", "Until Dawn", "Kentucky Route Zero", "Limbo", "Inside", "Oxenfree", "Pillars of Eternity", 
     "Ghost of Tsushima", "Control", "Hellblade: Senua's Sacrifice" , "Final Fantasy IV", "Final Fantasy V", "Final Fantasy VI",
     "Final Fantasy VII", "Final Fantasy VIII", "Final Fantasy IX", "Final Fantasy X", "Final Fantasy XII", "Final Fantasy XIII",
-    "Final Fantasy XIII-2", "Lightning Returns: Final Fantasy XIII", "Final Fantasy Tactics", "Xenoblade Chronicles 2", "Xenoblade Chronicles 3",  "Xenoblade Chronicles X"
+    "Final Fantasy XIII-2", "Lightning Returns: Final Fantasy XIII", "Final Fantasy Tactics", "Xenoblade Chronicles 2", "Xenoblade Chronicles 3",  "Xenoblade Chronicles X", "The Legend of Zelda: A Link to the Past"
 ]
 
 story_elements["CHARACTER_GENDER"] = [
@@ -932,79 +943,79 @@ story_elements["CHARACTER_MEGA_ARCHETYPE"] = [
 ]
 
 story_elements["Character_sub-archetype"] = [
-    "The Rogue With a Heart of Gold: Seemingly selfish or aloof, this character eventually reveals a deep sense of honor and willingness to risk all for the right cause",
-    "The Rebellious Hero: Rejects societal norms and bravely defies authority, driven by a deeper understanding or morality that others might not see",
-    "The Disguised Stranger: Someone who hides their true identity, often revealing themselves in a pivotal moment, providing a dramatic twist to the story",
-    "The Wandering Bard: Roaming from place to place, this character is both a teller of tales and a player in them, often influencing events subtly",
-    "The Broken Optimist: Once believed in the best outcomes, but life events have jaded them, setting them on a path to regain their optimism",
-    "The Gentle Giant: Imposing in stature but soft at heart, their physical strength is in contrast with their gentle nature",
-    "The Reluctant Warrior: Prefers peace and avoids conflict, but when pushed, displays unmatched skill and determination in combat",
-    "The Seeker of Vengeance: Motivated primarily by revenge, their journey often questions the costs and morality of their quest",
-    "The Cursed Wanderer: A character doomed to roam, often bearing a curse or a tragic past that denies them rest or respite",
-    "The Melancholic Dreamer: Often lost in thought, this archetype is more in tune with the ethereal and the artistic, sometimes to their detriment",
-    "The Enigmatic Scholar: Holds vast knowledge and is often reserved, revealing depths in carefully chosen moments",
-    "The Fallen Hero: Once revered but brought down by a flaw or twist of fate, their journey is one of redemption or tragedy",
-    "The Scheming Artisan: Talented in their craft but uses it for dubious or malicious ends, weaving complex plots",
-    "The Leader with a Dark Secret: Exudes confidence and gathers followers, but hides a crucial aspect of their past or intentions",
-    "The Outlaw Out for Justice: Operates outside the law, but for noble or just causes, often challenging what's deemed 'legal' and 'moral'",
-    "The Silent Observer: Speaks little, but their actions or the few words they do utter hold significant weight or insight",
-    "The Ethereal Mystic: Connected deeply with the spiritual or supernatural, their knowledge often guides or warns the main characters",
-    "The Enigmatic Stranger: Appears unexpectedly, offering assistance or posing challenges, their true intentions and identity a mystery",
-    "The Puppet Master: Operates from the shadows, manipulating events and characters to achieve their goals",
-    "The Defiant Artist: Uses their art to challenge norms, make political statements, or rebel against established order",
-    "The Nurturing Guardian: Offers emotional, spiritual, or physical protection and guidance, often at the risk of their own well-being",
-    "The Dreamer Awakened: Once lived in their own world or fantasies, but a pivotal event forces them to confront reality",
-    "The Fallen Noble: Was once in a position of power or prestige but lost it, now seeks redemption or a return to former glory",
-    "The Merchant with a Code: Engages in commerce (sometimes illicit), but operates based on a set of unbreakable personal ethics",
-    "The Charming Scoundrel: Engages in morally ambiguous or outright criminal activities but does so with charm and wit",
-    "The Ethical Adversary: Opposes the protagonist but does so out of personal honor or a conflicting sense of what's right",
-    "The Reviled Martyr: Sacrifices for the greater good but receives scorn or indifference rather than praise from the masses",
-    "The Mirror Twin: Bears an uncanny resemblance in appearance or character to another, often revealing suppressed traits or desires of the counterpart",
-    "The Hopeful Outlander: From a different culture or world, they bring fresh perspectives and optimism, often challenging the status quo",
-    "The Mournful Avenger: Seeks vengeance for a personal loss, driven by sorrow and rage, often questioning their own motives along the way",
-    "The Lighthearted Sage: Imparts wisdom or guidance, but does so with humor and a carefree demeanor",
-    "The Reclusive Genius: Exceptionally skilled or knowledgeable, but shuns society, often due to trauma or disdain for societal norms",
-    "The Sentinel at the End: Guards the last barrier or threshold the protagonist must face, often providing the final challenge",
-    "The Orphan Seeking Kin: Driven by a desire to find their true origins or family, their journey intertwines with larger events",
-    "The Masked Avenger: Works in the shadows, hiding their identity as they seek justice or vengeance",
-    "The Wild Card: Unpredictable, with shifting loyalties or unclear motives, they add an element of uncertainty to the story",
-    "The Naive Idealist: Often young or inexperienced, they believe in the inherent good of the world, which might lead to both triumphs and tragedies",
-    "The Brooding Loner: Haunted by their past, they prefer solitude but are often pulled into societal affairs against their will",
-    "The Resilient Survivor: Has undergone significant trauma, yet their journey is one of healing and overcoming",
-    "The Curious Explorer: Driven by a thirst for knowledge or the unknown, they often embark on adventures into uncharted territories",
-    "The Playful Trickster: Relies on wit and cunning, often playing pranks or deceiving others, but not necessarily with malicious intent",
-    "The Aging Warrior: Past their prime but with a wealth of experience, they often play mentor roles or seek one final grand adventure",
-    "The Benevolent Guide: Often has mystical or otherworldly knowledge, guiding the protagonist on their journey",
-    "The Outcast with a Secret: Shunned or misunderstood by society, they possess knowledge or abilities that become crucial to the plot",
-    "The Determined Inventor: Driven by innovation, they're constantly creating, sometimes leading to beneficial discoveries or unintended consequences",
-    "The Cynic with a Hidden Heart: Appears jaded or sarcastic but eventually reveals deep-seated passion or kindness",
-    "The Guardian at the Crossroads: Protects a certain territory or object, determining who can pass or obtain it, often testing the protagonist's worthiness",
-    "The Time-Tested Friend: Has been friends with another character for ages, providing a bridge to the past and unconditional support",
-    "The Wanderer with No Past: Arrives from nowhere, with no past that they're willing to discuss, but plays a crucial role in events",
-    "The Prophet of Doom: Predicts dire events or outcomes, often dismissed or misunderstood until their prophecies begin to come true",
-    "The Relentless Pursuer: Single-minded in their mission to hunt someone or something down, stopping at nothing to achieve their goal",
-    "The Enthusiastic Amateur: Lacks professional skills or knowledge but makes up for it with passion and a can-do attitude",
-    "The Virtuous Outcast: Possesses a moral code but is excluded or shunned by mainstream society",
-    "The Disguised Ruler: A leader or royalty in hiding, either for protection or to observe their people unnoticed",
-    "The Dreamer Bound by Reality: Aspires for more than their circumstances allow, often leading to bittersweet outcomes",
-    "The Fallen Mentor: Once a guide or teacher, they've since lost their way, often needing redemption or serving as a warning",
-    "The Ambiguous Ally: Their allegiance is unclear, keeping other characters (and the audience) guessing",
-    "The Pacifist Warrior: Skilled in combat but chooses non-violence, only fighting when absolutely necessary",
-    "The Altruistic Thief: Steals, but with noble intentions, often redistributing wealth or righting societal wrongs",
-    "The Disillusioned Dreamer: Once held great ideals or dreams but faced setbacks, leading to a more cynical worldview",
-    "The Benevolent Conqueror: Seeks to expand their domain, but with the aim of bringing peace, order, or prosperity",
-    "The Broken Peacemaker: Strives for peace but has personal traumas or conflicts that they struggle with",
-    "The Seeker of Forbidden Truths: Goes to great lengths to uncover truths that others believe should remain hidden or forgotten",
-    "The Ethical Mercenary: Works for hire, but has a personal code that dictates who they will and won't work for or what jobs they'll accept",
-    "The Tinkerer at the Crossroads: Always inventing or tweaking, their creations might bring about significant change or disaster",
-    "The Displaced Noble: Born to privilege but finds themselves in humble or challenging circumstances, often learning profound lessons",
-    "The Tormented Artist: Creates profound art but is plagued by personal demons or societal misunderstandings",
-    "The Echo from the Past: Returns from a bygone era or brings an old way of thinking into the present, challenging modern perspectives",
-    "The Defender of the Lost Cause: Continues to fight for a cause that most believe is already lost or futile",
-    "The Hidden Mastermind: Operates from the shadows, their influence felt but their identity and intentions concealed",
-    "The Star-Crossed Lovers: These characters are deeply in love but fated for tragedy, often due to external forces like feuding families, differing backgrounds, or insurmountable circumstances",
-    "The Loyal Retainer: Unwaveringly dedicated to another character, they provide support, often at great personal risk or sacrifice",
-    "The Forgotten Chronicler: Records events or truths that others overlook or choose to forget, often providing a different perspective on history"
+    "The Rogue With a Heart of Gold: Seemingly selfish or aloof, this character eventually reveals a deep sense of honor and willingness to risk all for the right cause. Example: Han Solo from Star Wars",
+    "The Rebellious Hero: Rejects societal norms and bravely defies authority, driven by a deeper understanding or morality that others might not see. Example: Aragorn from The Lord of the Rings",
+    "The Disguised Stranger: Someone who hides their true identity, often revealing themselves in a pivotal moment, providing a dramatic twist to the story. Example: Katniss Everdeen from The Hunger Games",
+    "The Wandering Bard: Roaming from place to place, this character is both a teller of tales and a player in them, often influencing events subtly. Example: Kvothe from The Name of the Wind",
+    "The Broken Optimist: Once believed in the best outcomes, but life events have jaded them, setting them on a path to regain their optimism. Example: Ted Lasso from Ted Lasso",
+    "The Gentle Giant: Imposing in stature but soft at heart, their physical strength is in contrast with their gentle nature. Example: Hodor from Game of Thrones",
+    "The Reluctant Warrior: Prefers peace and avoids conflict, but when pushed, displays unmatched skill and determination in combat. Example: Samwise Gamgee from The Lord of the Rings",
+    "The Seeker of Vengeance: Motivated primarily by revenge, their journey often questions the costs and morality of their quest. Example: Inigo Montoya from The Princess Bride",
+    "The Cursed Wanderer: A character doomed to roam, often bearing a curse or a tragic past that denies them rest or respite. Example: The Flying Dutchman",
+    "The Melancholic Dreamer: Often lost in thought, this archetype is more in tune with the ethereal and the artistic, sometimes to their detriment. Example: Jay Gatsby from The Great Gatsby",
+    "The Enigmatic Scholar: Holds vast knowledge and is often reserved, revealing depths in carefully chosen moments. Example: Trelawney from Harry Potter",
+    "The Fallen Hero: Once revered but brought down by a flaw or twist of fate, their journey is one of redemption or tragedy.  Example: Anakin Skywalker from Star Wars",
+    "The Scheming Artisan: Talented in their craft but uses it for dubious or malicious ends, weaving complex plots. Example: Iago from Othello",
+    "The Leader with a Dark Secret: Exudes confidence and gathers followers, but hides a crucial aspect of their past or intentions. Example: President Snow from The Hunger Games",
+    "The Outlaw Out for Justice: Operates outside the law, but for noble or just causes, often challenging what's deemed 'legal' and 'moral'. Example: Robin Hood.",
+    "The Silent Observer: Speaks little, but their actions or the few words they do utter hold significant weight or insight. Example: Boo Radley from To Kill a Mockingbird",
+    "The Ethereal Mystic: Connected deeply with the spiritual or supernatural, their knowledge often guides or warns the main characters. Example: The Ancient One from Doctor Strange",
+    "The Enigmatic Stranger: Appears unexpectedly, offering assistance or posing challenges, their true intentions and identity a mystery. Example: The Continental Op from Dashiell Hammett's detective stories",
+    "The Puppet Master: Operates from the shadows, manipulating events and characters to achieve their goals. Example: Varys from Game of Thrones",
+    "The Defiant Artist: Uses their art to challenge norms, make political statements, or rebel against established order. Example: Edmond Dantès from The Count of Monte Cristo",
+    "The Nurturing Guardian: Offers emotional, spiritual, or physical protection and guidance, often at the risk of their own well-being. Example: Molly Weasley from Harry Potter",
+    "The Dreamer Awakened: Once lived in their own world or fantasies, but a pivotal event forces them to confront reality. Example: Walter Mitty from… The Secret Life of Walter Mitty",
+    "The Fallen Noble: Was once in a position of power or prestige but lost it, now seeks redemption or a return to former glory. Example: Prince Zuko from Avatar: The Last Airbender",
+    "The Merchant with a Code: Engages in commerce (sometimes illicit), but operates based on a set of unbreakable personal ethics. Example: Han Solo from Star Wars before he joins the Rebellion",
+    "The Charming Scoundrel: Engages in morally ambiguous or outright criminal activities but does so with charm and wit. Example: Neal Caffrey from White Collar",
+    "The Ethical Adversary: Opposes the protagonist but does so out of personal honor or a conflicting sense of what's right. Example: Killmonger from Black Panther",
+    "The Reviled Martyr: Sacrifices for the greater good but receives scorn or indifference rather than praise from the masses. Example: John Proctor from The Crucible",
+    "The Mirror Twin: Bears an uncanny resemblance in appearance or character to another, often revealing suppressed traits or desires of the counterpart. Example: Tyler Durden from Fight Club ",
+    "The Hopeful Outlander: From a different culture or world, they bring fresh perspectives and optimism, often challenging the status quo. Example: Wonder Woman in… Wonder Woman",
+    "The Mournful Avenger: Seeks vengeance for a personal loss, driven by sorrow and rage, often questioning their own motives along the way. Example: The Bride from Kill Bill",
+    "The Lighthearted Sage: Imparts wisdom or guidance, but does so with humor and a carefree demeanor. Example: Uncle Iroh from Avatar: The Last Airbender",
+    "The Reclusive Genius: Exceptionally skilled or knowledgeable, but shuns society, often due to trauma or disdain for societal norms. Example: Dr Robert Ford from Westworld",
+    "The Sentinel at the End: Guards the last barrier or threshold the protagonist must face, often providing the final challenge. Example: The Black Knight from Monty Python and the Holy Grail",
+    "The Orphan Seeking Kin: Driven by a desire to find their true origins or family, their journey intertwines with larger events. Example: Elsa from Frozen",
+    "The Masked Avenger: Works in the shadows, hiding their identity as they seek justice or vengeance. Example: V from… V for Vendetta",
+    "The Wild Card: Unpredictable, with shifting loyalties or unclear motives, they add an element of uncertainty to the story. Example: Tactus from Red Rising",
+    "The Naive Idealist: Often young or inexperienced, they believe in the inherent good of the world, which might lead to both triumphs and tragedies. Example: Pip from Great Expectations",
+    "The Brooding Loner: Haunted by their past, they prefer solitude but are often pulled into societal affairs against their will. Example: Jessica Jones from… the Jessica Jones series",
+    "The Resilient Survivor: Has undergone significant trauma, yet their journey is one of healing and overcoming. Example: Lisbeth Salander from The Girl with the Dragon Tattoo",
+    "The Curious Explorer: Driven by a thirst for knowledge or the unknown, they often embark on adventures into uncharted territories. Example: Sir John Huxley from The Lost World",
+    "The Playful Trickster: Relies on wit and cunning, often playing pranks or deceiving others, but not necessarily with malicious intent. Example: Puck from A Midsummer Night's Dream",
+    "The Aging Warrior: Past their prime but with a wealth of experience, they often play mentor roles or seek one final grand adventure. Example: Master Roshi from Dragon Ball",
+    "The Benevolent Guide: Often has mystical or otherworldly knowledge, guiding the protagonist on their journey.  Example: Mr Miyagi from The Karate Kid",
+    "The Outcast with a Secret: Shunned or misunderstood by society, they possess knowledge or abilities that become crucial to the plot. Example: Quasimodo from The Hunchback of Notre Dame",
+    "The Determined Inventor: Driven by innovation, they're constantly creating, sometimes leading to beneficial discoveries or unintended consequences. Example: Doc Brown from Back to the Future",
+    "The Cynic with a Hidden Heart: Appears jaded or sarcastic but eventually reveals deep-seated passion or kindness.  Example: Dr Gregory House from… House",
+    "The Guardian at the Crossroads: Protects a certain territory or object, determining who can pass or obtain it, often testing the protagonist's worthiness. Example: The Sphinx from Greek mythology",
+    "The Time-Tested Friend: Has been friends with another character for ages, providing a bridge to the past and unconditional support. Example: Sevro in Red Rising",
+    "The Wanderer with No Past: Arrives from nowhere, with no past that they're willing to discuss, but plays a crucial role in events. Example: The Man With No Name from A Fistful of Dollars",
+    "The Prophet of Doom: Predicts dire events or outcomes, often dismissed or misunderstood until their prophecies begin to come true. Example: Cassandra from Greek mythology",
+    "The Relentless Pursuer: Single-minded in their mission to hunt someone or something down, stopping at nothing to achieve their goal. Example: Javert from Les Misérables",
+    "The Enthusiastic Amateur: Lacks professional skills or knowledge but makes up for it with passion and a can-do attitude. Example: Elle Woods from Legally Blonde",
+    "The Virtuous Outcast: Possesses a moral code but is excluded or shunned by mainstream society. Example: Jean Valjean from Les Misérables",
+    "The Disguised Ruler: A leader or royalty in hiding, either for protection or to observe their people unnoticed. Example: King Richard in Robin Hood",
+    "The Dreamer Bound by Reality: Aspires for more than their circumstances allow, often leading to bittersweet outcomes.Example: Walter Mitty from The Secret Life of Walter Mitty",
+    "The Fallen Mentor: Once a guide or teacher, they've since lost their way, often needing redemption or serving as a warning. Example: Ben Kenobi from Star Wars",
+    "The Ambiguous Ally: Their allegiance is unclear, keeping other characters (and the audience) guessing. Example: Severus Snape from Harry Potter",
+    "The Pacifist Warrior: Skilled in combat but chooses non-violence, only fighting when absolutely necessary. Example: Aang from Avatar: The Last Airbender",
+    "The Altruistic Thief: Steals, but with noble intentions, often redistributing wealth or righting societal wrongs. Example: Robin Hood",
+    "The Disillusioned Dreamer: Once held great ideals or dreams but faced setbacks, leading to a more cynical worldview. Example: Don Quixote from… Don Quixote",
+    "The Benevolent Conqueror: Seeks to expand their domain, but with the aim of bringing peace, order, or prosperity. Example: Cyrus the Great",
+    "The Broken Peacemaker: Strives for peace but has personal traumas or conflicts that they struggle with. Example: Desmond Doss from Hacksaw Ridge",
+    "The Seeker of Forbidden Truths: Goes to great lengths to uncover truths that others believe should remain hidden or forgotten. Example: Robert Langdon from Angels & Demons",
+    "The Ethical Mercenary: Works for hire, but has a personal code that dictates who they will and won't work for or what jobs they'll accept. Example: Geralt of Rivia from The Witcher",
+    "The Tinkerer at the Crossroads: Always inventing or tweaking, their creations might bring about significant change or disaster. Example: Doc Brown from Back to the Future",
+    "The Displaced Noble: Born to privilege but finds themselves in humble or challenging circumstances, often learning profound lessons. Example: Prince Edward from The Prince and the Pauper",
+    "The Tormented Artist: Creates profound art but is plagued by personal demons or societal misunderstandings. Example: Vincent van Gogh",
+    "The Echo from the Past: Returns from a bygone era or brings an old way of thinking into the present, challenging modern perspectives. Example: Captain America in The Avengers",
+    "The Defender of the Lost Cause: Continues to fight for a cause that most believe is already lost or futile. Example: Ned Stark from Game of Thrones",
+    "The Hidden Mastermind: Operates from the shadows, their influence felt but their identity and intentions concealed. Example: Keyser Söze from The Usual Suspects",
+    "The Star-Crossed Lovers: These characters are deeply in love but fated for tragedy, often due to external forces like feuding families, differing backgrounds, or insurmountable circumstances. Example: Romeo and Juliet",
+    "The Loyal Retainer: Unwaveringly dedicated to another character, they provide support, often at great personal risk or sacrifice. Example: Alfred from Batman",
+    "The Forgotten Chronicler: Records events or truths that others overlook or choose to forget, often providing a different perspective on history. Example: Samwell Tarly from Game of Thrones"
 ]
 
 
@@ -1025,13 +1036,15 @@ def generate_story():
     story += f"The major event of the story involves {select_random_element('BASIC_EVENT')}. "
     story += f"This is a {select_random_element('STORY_DESCRIPTOR')} {select_random_element('STORY_TYPE')}-themed story, "
     story += f"with a {select_random_element('STORY_DESCRIPTOR')} ending. \n\n"
+    story += f"It takes place in the {select_random_element('TIME_PERIOD')} in a world influenced by {select_random_element('Culture_Inspiration')} culture. \n\n"
     story += f"The piece of technology central to the plot is the {select_random_element('TECHNOLOGY_FUNCTION')} {select_random_element('TECHNOLOGY_OBJECT')}. "
     story += f"This is known to cause {select_random_element('EMOTION_AMPLIFIER')} leading to {select_random_element('EMOTION')}. \n\n"
     story += f"It is also rumored to allow the user the ability of: {select_random_element('SUPERHUMAN_ABILITY')}.\n\n"
     story += f"This story explores the emotion of: {select_random_element('EMOTION')}.\n\n"
+    story += f"Elements and themes from the video game {select_random_element('VIDEO_GAME_FRANCHISE')} are adapted in this story.\n\n"
     story += f"The main character is a {select_random_element('CHARACTER_RACE')} {select_random_element('CHARACTER_AGE')}, "
-    story += f"their relationship status is {select_random_element('CHARACTER_RELATIONSHIP')}. \n"
-    story += f"Here are more facts about the main character. \n\n"
+    story += f"their relationship status is {select_random_element('CHARACTER_RELATIONSHIP')}. \n\n"
+    story += f"Here are more facts about the main character: \n\n"
     story += f"Physical build: {select_random_element('PHYSICAL_BUILD')} \n\n"
     story += f"Tone of voice: {select_random_element('Tone_of_voice')} \n\n"
     story += f"Language type: {select_random_element('LANGUAGE_TYPE')} \n\n"  
@@ -1047,7 +1060,7 @@ def generate_story():
     story += f"Character secret: {select_random_element('CHARACTER_SECRET')} \n\n"
     story += f"Mega-archetype: {select_random_element('CHARACTER_MEGA_ARCHETYPE')} \n\n"
     story += f"Sub-archetype: {select_random_element('Character_sub-archetype')} \n\n"  
-    story += f"Elements and themes from the video game {select_random_element('VIDEO_GAME_FRANCHISE')} are adapted in this story."
+
 
     return story
 
