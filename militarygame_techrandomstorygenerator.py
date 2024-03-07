@@ -138,6 +138,21 @@ story_elements["World_State"] = ["Rising", "Expanding",  "Shifting", "Dying", "F
     "Mirrored", "Observed", "Paradoxical" 
 ]
 
+story_elements["world_scopes"] = [
+    "microscopic-sized", 
+    "subatomic-sized",
+    "interior-sized", 
+    "neighborhood-sized", 
+    "city-sized", 
+    "region/province-sized", 
+    "nation-sized", 
+    "continent-sized", 
+    "planet-sized", 
+    "solar system-sized", 
+    "galaxy-sized", 
+    "universe-sized" 
+]
+
 story_elements["MILITARY_PROTAGONIST"] = [
     "Junior Enlisted", "Mid-Career Enlisted", "Senior Enlisted",
     "Junior Officer", "Mid-Career Officer", "Senior Officer", "Veteran", "military affiliated civilian",
@@ -1044,7 +1059,7 @@ def generate_story():
     story += f"The major event of the story involves {select_random_element('BASIC_EVENT')}. "
     story += f"This is a {select_random_element('STORY_DESCRIPTOR')} {select_random_element('STORY_TYPE')}-themed story, "
     story += f"with a {select_random_element('STORY_DESCRIPTOR')} ending. \n\n"
-    story += f"It takes place in the {select_random_element('TIME_PERIOD')} in a {select_random_element('World_State')} world influenced by {select_random_element('Culture_Inspiration')} culture. \n\n"
+    story += f"It takes place in the {select_random_element('TIME_PERIOD')} in a {select_random_element('world_scopes')} {select_random_element('World_State')} world influenced by {select_random_element('Culture_Inspiration')} culture. \n\n"
     story += f"The piece of technology central to the plot is the {select_random_element('TECHNOLOGY_FUNCTION')} {select_random_element('TECHNOLOGY_OBJECT')}. "
     story += f"This is known to cause {select_random_element('EMOTION_AMPLIFIER')} leading to {select_random_element('EMOTION')}. \n\n"
     story += f"It is also rumored to allow the user the ability of: {select_random_element('SUPERHUMAN_ABILITY')}.\n\n"
