@@ -473,6 +473,10 @@ story_elements["CHARACTER_GOALS"] = [
 story_elements["CHARACTER_RACE"] = ["human", "human", "human", "bio-hacked human", "human with animal abilities", "cyborg", 
     ]
 
+story_elements["CHARACTER_ETHNICITY"] = ["White American", "Black Texan", "Japanese", "Chinese", "Singaporean", "Mongolian", "Italian", "Mexican", "White British", "Indian",
+        "Maldivian", "Burmese", "Japanese - Ainu", "Japanese American", "Black Washington DC", "Spanish", "French", "Bruneian", "Australian", "Canadian", 
+    ]
+
 story_elements["CHARACTER_AGE"] = ["Child (8 - 12)",
         "Young Adult (13 - 17)",
         "College Age Adult (18 - 25)",
@@ -1065,7 +1069,7 @@ def generate_story():
     story += f"It is also rumored to allow the user the ability of: {select_random_element('SUPERHUMAN_ABILITY')}.\n\n"
     story += f"This story explores the emotion of: {select_random_element('EMOTION')}.\n\n"
     story += f"Elements and themes from the video game {select_random_element('VIDEO_GAME_FRANCHISE')} are adapted in this story.\n\n"
-    story += f"The main character is a {select_random_element('CHARACTER_RACE')} {select_random_element('CHARACTER_AGE')}, "
+    story += f"The main character is a {select_random_element('CHARACTER_RACE')} {select_random_element('CHARACTER_ETHNICITY')} {select_random_element('CHARACTER_AGE')}, "
     story += f"their relationship status is {select_random_element('CHARACTER_RELATIONSHIP')}. \n\n"
     story += f"Here are more facts about the main character: \n\n"
     story += f"Physical build: {select_random_element('PHYSICAL_BUILD')} \n\n"
