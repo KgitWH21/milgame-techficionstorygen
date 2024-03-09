@@ -918,7 +918,7 @@ story_elements["DESTINY"] = [
     "Revealing a Universal Truth - The character discovers or reveals a truth that affects the understanding of reality, philosophy, or spirituality across the world.",
     "Becoming a Beacon of Hope - Inspiring hope in others during dark times, leading by example to overcome despair and apathy.",
     "Unleashing Magical Powers - Awakening latent magical powers that change the character's destiny, setting them on a path of discovery and conflict.",
-    "Charting a New Star System - Mapping and exploring a"
+    "Charting a New Star System - Mapping and exploring a new system"
 ]
 
 story_elements["DEATH_CAUSE"] = [
