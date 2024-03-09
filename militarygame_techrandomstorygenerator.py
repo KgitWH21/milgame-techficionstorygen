@@ -117,6 +117,20 @@ story_elements["BASIC_EVENT"] = [
     "sister", "opponent", "drug dealer", "crooked cop", "gang member", "thug", "overlord", "demonlord", "restless ghost" 
 ]
 
+story_elements["PLOT_ARCHETYPE"] = [
+    "Hero's Journey", "Coming of Age", "Love Triangle", "Revenge", "Forbidden Love", "Rags to Riches", "Underdog", "Quest", "Sacrifice", "Mystery", "Betrayal", "Chosen One",
+    "Fish Out of Water", "Redemption", "The Mentor", "Parallel Worlds", "Dystopia", "Overcoming the Monster", "Escape", "Survival", "War", "Discovery", "Identity Crisis",
+    "The Double", "Voyage and Return", "Family Drama", "Rebellion", "Time Travel", "Apocalypse", "Power and Corruption", "Redemption Quest", "Unrequited Love", "Tragedy",
+    "Reincarnation", "Survival of the Fittest", "Framing Device", "Stranger in a Strange Land", "Escape from Death", "Forbidden Knowledge", "Society vs. Individual",
+    "Supernatural Encounter", "Body Swap", "The Prophecy", "Socratic Hero", "Framing for a Crime", "Wandering Hero", "The Masquerade", "Time Loop", "Love at First Sight",
+    "Human vs. Nature", "Heir to the Throne", "Corrupting Influence", "The Big Game", "Cursed Object", "Journey to the Center", "Mistaken Identity", "Apocalypse Survival",
+    "Immortality Quest", "Sworn Enemies", "Impossible Love", "Revenge of the Underdog", "Prophecy Fulfillment", "The Artifact", "Betrayal of Trust", "Man vs. Machine",
+    "Amnesia", "Forbidden Power", "Mentor's Redemption", "Madness and Sanity", "Framed for Betrayal", "Race Against Time", "The Last of Their Kind", "The Secret Society",
+    "Forbidden Journey", "Parental Sacrifice", "The MacGuffin", "Crime and Punishment", "Parallel Lives", "The Fall from Grace", "The False Prophecy", "Hidden Heir",
+    "Cursed Bloodline", "Generation Gap", "Navigating the Afterlife", "Framed for Murder", "Obsession", "The Long Return Home", "Twist of Fate", "The Dark Past", "The Heirloom",
+    "The Puppet Master", "The Final Stand", "The Ultimate Power", "Perfect Crime"
+]
+
 
 # Example for other categories, following the same structure:
 story_elements["MILITARY_SCENARIO"] = [
@@ -158,6 +172,26 @@ story_elements["MILITARY_PROTAGONIST"] = [
     "Junior Officer", "Mid-Career Officer", "Senior Officer", "Veteran", "military affiliated civilian",
     "military affiliated contractor", "Dependent spouse", "Dependent child", "grizzled combat veteran", "retiree", "civilian who never served",
     "Conscript", "Child soldier", "With unknown military Status", "Defector", "Consciencious Objector", "Mercenary", "Lone Wolf", 
+]
+
+story_elements["MILITARY_CULTURE"] = [
+    "Ancient Greek Hoplites", "Roman Legions", "Persian Immortals", "Scythian Horse Archers", "Celtic Chariot Warriors", "Qin Dynasty Terracotta Army", "Indian War Elephants",
+    "Spartan Agoge Warriors", "Macedonian Phalanx", "Carthaginian Armies", "Mauryan Empire Armies (India)", "Numidian Cavalry (North Africa)", "Dacian Falxmen (Romania)",
+    "Thracian Peltasts (Light infantry)", "Gallic Warriors", "Medieval European Knights", "Japanese Samurai", "Mongol Hordes", "Byzantine Cataphracts", "Viking Raiders",
+    "Mamluk Slave-Soldiers (Egypt)", "Teutonic Knights", "English Longbowmen", "Swiss Pikemen", "Aztec Jaguar and Eagle Warriors", "Inca Slingers and Axemen",
+    "Khmer Empire War Elephants (Southeast Asia)", "Ayyubid Dynasty Armies (Middle East)", "Rajputs of India", "Kievan Rus Druzhina (Elite Warriors)", "Ottoman Janissaries",
+    "Spanish Tercios", "Landsknechts (German Mercenaries)", "Winged Hussars (Polish-Lithuanian Commonwealth)", "Mughal Armies (India)", "Ming Dynasty Armies (China)",
+    "Conquistadors (Spain)", "Safavid Qizilbash (Persia)", "Joseon Dynasty Armies (Korea)", "Armies of the Italian Wars", "Swedish Caroleans (Under Gustavus Adolphus)",
+    "Barbary Pirates", "Sengoku Period Japanese Armies", "Omani Maritime Empire", "Napoleonic French Armies", "Prussian Armies of Frederick the Great", "British Redcoats",
+    "Cossacks (Russia)", "Zulu Impis", "Gurkhas (Nepal)", "Maori Warriors", "American Civil War Armies (Union & Confederate)", "French Foreign Legion", "Imperial Japanese Army",
+    "Haitian Revolutionaries", "Sikh Armies (India)", "Mexican Revolutionary Armies", "Boer Commandos (South Africa)", "Mahdist Warriors (Sudan)", "World War I Trench Warfare",
+    "World War II Blitzkrieg (Germany)", "Soviet Tank Armies", "Finnish Sisu", "US Marine Corps", "Guerrilla Warfare (various conflicts)", "Israeli Defense Forces",
+    "Special Operations Forces (various nations)", "Chinese People's Liberation Army", "Indian Army", "Turkish Armed Forces", "Pakistan Armed Forces", "Brazilian Armed Forces",
+    "North Korean People's Army", "Iranian Armed Forces", "Egyptian Armed Forces", "Italian Armed Forces", "German Bundeswehr", "British Armed Forces", "Canadian Armed Forces",
+    "Australian Defence Force", "Polish Armed Forces", "Armed Forces of the Philippines", "Nigerian Armed Forces", "South African National Defence Force", "Vietnam People's Army",
+    "Armed Forces of Ukraine", "Royal Thai Armed Forces", "Indonesian National Armed Forces", "Mexican Armed Forces", "Colombian Armed Forces", "Swiss Armed Forces",
+    "Bangladesh Armed Forces", "Republic of Korea Armed Forces (South Korea)", "Korean People's Army (North Korea)"
+    "Iraqi Armed Forces", "Saudi Arabian Armed Forces", "Algerian Armed Forces", "Moroccan Armed Forces", "Cyberwarfare Operations (various nations)" 
 ]
 
 story_elements["TECHNOLOGY_OBJECT"] = [
@@ -777,9 +811,200 @@ story_elements["PERSONAL_MOTIVATION"]= [
     "Patriotism",
     "Personal Growth",
     "Nostalgia",
-    "Retribution",
+    "Retribution", "Hedonism", "Transcendence", "Ultimate body",
     # "More motivations" seems to be an instruction rather than an item in the list
 ]
+
+story_elements["DESTINY_DISCOVERY"] = [
+    "Ancient Prophecy: A character learns of their destiny through an ancient prophecy, perhaps inscribed on a relic or passed down through generations orally, setting them on a path predestined by history.",
+    "Dreams and Visions: The character experiences vivid dreams or visions that reveal glimpses of their future or hints at their destiny, compelling them to seek out their meaning and fulfill their purpose.",
+    "A Chance Encounter: An unexpected meeting with a stranger or a creature of myth who imparts wisdom or a message that hints at the character's true destiny, sparking a journey of discovery.",
+    "Inheritance of a Family Legacy: Upon receiving a family heirloom, diary, or symbol, the character discovers their destiny is linked to a family legacy they must continue or rectify.",
+    "A Call to Adventure: A dramatic event, such as a crisis, attack, or personal loss, thrusts the character into a larger world or conflict, revealing their role in the unfolding events.",
+    "Mystical Test or Trial: The character is put through a test or trial, possibly orchestrated by a mystical force or order, revealing their destiny as they pass or fail.",
+    "Revelation of Hidden Origins: Discovering they are not who they thought, perhaps due to hidden parentage, a secret society, or an unknown species, the character learns of their true place in the world.",
+    "An Artifact or Tome: Finding or being given an ancient artifact or tome that, when interacted with, unveils the character's destiny through its secrets or powers.",
+    "Divine Intervention: A deity or supernatural force directly intervenes or communicates with the character, setting them on their destined path with a clear purpose or mission.",
+    "Self-Discovery in Adversity: In the face of overwhelming adversity or during a journey of self-discovery, the character realizes their destiny through their actions, choices, and the impact they have on others.",
+    "Ancestral Connection: Through a mystical link to their ancestors, the character receives visions, memories, or guidance that unveils their destined path, intertwined with their lineage's purpose.",
+    "An Ominous Omen: Strange phenomena or occurrences, interpreted as omens, begin to manifest around the character, gradually revealing their fated role in larger events.",
+    "A Destiny Foretold: A character's destiny is prophesied at birth, either by a seer, oracle, or celestial event, setting them on a path they must ultimately confront.",
+    "The Mantle of Responsibility: Upon the death or incapacitation of a mentor or predecessor, the character is entrusted with a sacred duty or mantle they must take up as their destiny.",
+    "A Destined Artifact: The character comes into possession of a powerful artifact or relic that mystically binds itself to them, revealing their fated purpose as its wielder or guardian.",
+    "A Cataclysmic Event: A world-altering calamity or cataclysm befalls the character's world, thrusting them into a pivotal role as the chosen one meant to restore balance.",
+    "The Call of Nature: Through a deep attunement with the natural world, elements, or spirits, the character is chosen as a destined protector or emissary of the natural order.",
+    "A Fateful Crossroads: At a pivotal moment of choice, the character's decision unwittingly sets them on a path that reveals their greater purpose and destiny.",
+    "A Destined Companion: The character encounters a mystical or fated companion (animal, spirit guide, etc.) who accompanies and guides them in fulfilling their destiny.",
+    "The Burden of Legacy: Discovering they are the heir to a legendary legacy or bloodline, the character must embrace their destiny or face the consequences of failing their storied lineage.",
+    "A Cryptic Riddle: The character stumbles upon an ancient, cryptic riddle that, once solved, unveils clues about their preordained quest.",
+    "Mark of Destiny: A mystical birthmark, symbol, or sigil manifests on the character, marking them as the chosen one destined for greatness.",
+    "Cosmic Alignment: A rare celestial event or astrological phenomenon coincides with the character's birth or awakening, signaling their fated purpose.",
+    "Echoes of the Past: Visions or memories from past lives or incarnations haunt the character, gradually revealing their eternal, cyclic destiny.",
+    "The Imprisoned Destiny: The character liberates an imprisoned powerful being who, out of gratitude, bestows knowledge of their fated path.",
+    "A Fateful Bargain: To save themselves or a loved one, the character strikes a deal, unknowingly binding themselves to a destiny serving higher powers.",
+    "Whispers on the Wind: Strange, ethereal whispers on the wind gradually coalesce into a message revealing the character's fated journey.",
+    "The Destined Bloodline: Deep within the character's lineage lies a destined bloodline, and upon reaching a certain age or circumstance, their destiny awakens.",
+    "A Twist of Fate: The character's path crosses with another destined individual, and a fateful exchange or event intertwines their destined paths.",
+    "The Dying Wish: On their deathbed, a mentor, friend, or loved one burdens the character with a final wish or quest that unveils their grander destiny.",
+    "The Fated Wound: While sustaining a near-fatal wound, the character experiences visions or a spiritual awakening that reveals their true purpose.",
+    "The Destined Child: The character learns they were separated from their birth family for their protection, but destiny calls them to reclaim their heritage.",
+    "A Celestial Messenger: A divine celestial being, angel, or cosmic entity manifests before the character to unveil their sacred calling.",
+    "The Fated Hour: A prophesied celestial event, planetary alignment, or astrological phenomenon heralds the arrival of the character's destined time.",
+    "The Mythical Beast: The character encounters a mythical beast or guardian whose wisdom or connection unveils their heroic, destined path.",
+    "The Destined Exile: Exiled or banished due to circumstance, the character discovers their true purpose lies in righting the wrongs of their exile.",
+    "The Chosen Sacrifice: To save their people, the character is chosen as the sacrificial offering, only to have destiny intervene and redirect their path.",
+    "The Fated Soulmate: The character's destiny is intertwined with another soul, and their fated union or meeting sets them on an extraordinary path.",
+    "A Fateful Homecoming: Upon returning to their birthplace, the character discovers truths about their origins that reveal their destined purpose.",
+    "The Cursed Destiny: What seems like a curse befalling the character is revealed to be part of a greater destiny they must embrace.",
+    "The Call of the Ancients: Ancient spirits, deities, or elders call out to the character, choosing them as the champion to uphold a sacred legacy.",
+    "The Shattered Destiny: The character was meant for greatness but stumbled, and must pick up the shattered pieces to reclaim their destined path.",
+    "The Fated Gemini: The character discovers they are one of two fated individuals destined to unite as a catalyst for a greater purpose.",
+    "The Destined Outsider: As an outsider or outcast, the character discovers their role in bridging the gulf between worlds or peoples.",
+    "The Mantle of the Fallen: Upon the death of a legendary hero, the character unexpectedly inherits their destined mantle and quests.",
+    "The Cosmic Baton: A powerful cosmic entity passes the torch of their fated purpose to the character as their mortal champion.",
+    "The Fated Wanderer: A drifter or wanderer, the character's journeys lead them to intersect with pivotal events revealing their grander destiny.",
+    "The Destined Redemption: The character's dark past is forgiven, as they are chosen for a destined path of redemption and atonement.",
+    "The Fated Martyr: The character sacrifices themselves, only to be resurrected or reborn into a new existence as the destined savior.",
+    "The Imprisoned Destiny: The character awakens imprisoned or shackled, gradually realizing their confinement was to prepare them for their epic fated role."
+]
+
+story_elements["DESTINY"] = [
+    "Discovering a New Passion - A character might uncover a latent talent or passion that reshapes their life's direction, offering them a new purpose.",
+    "Rebuilding a Broken Relationship - The journey involves mending a fractured relationship with a family member, friend, or lost love, requiring forgiveness and understanding.",
+    "Unearthing a Hidden Truth - This destiny involves revealing a significant secret or truth that has been buried, possibly reshaping the character's understanding of their past or present.",
+    "Overcoming a Personal Demon - A character faces and overcomes a personal struggle, such as addiction, fear, or a deeply ingrained prejudice, leading to personal growth and transformation.",
+    "Achieving Mastery in a Skill - The character dedicates their life to mastering a craft, art, or skill, achieving renown and fulfillment in their chosen field.",
+    "Building a Family - This could involve starting a family through childbirth, adoption, or creating a chosen family of close friends and allies, providing a sense of belonging and legacy.",
+    "Saving a Community - The character plays a pivotal role in saving a community from a disaster, threat, or oppressive force, earning their place as a local hero.",
+    "Inventing Something Revolutionary - The destiny involves creating or discovering something that changes the course of society, technology, or how people interact with the world.",
+    "Finding True Love - A classic but powerful destiny, where the character finds a soulmate, changing their life's trajectory and perspective on love.",
+    "Protecting an Endangered Species - The character becomes a guardian of a species on the brink of extinction, dedicating their life to its preservation and the restoration of its habitat.",
+    "Leading a Movement - The character emerges as the leader of a social, political, or environmental movement, fighting for change and inspiring others.",
+    "Exploring Unknown Territories - This involves the character venturing into uncharted lands or realms, discovering new worlds, cultures, or realities.",
+    "Restoring an Heirloom or Artifact - The character is tasked with restoring or safeguarding a precious item, which might hold historical, cultural, or mystical significance.",
+    "Achieving Inner Peace - After a journey of self-discovery and challenge, the character finds a deep, enduring sense of peace and contentment within themselves.",
+    "Writing a Magnum Opus - The character completes a work of art or literature that earns critical acclaim and stands the test of time, fulfilling a creative destiny.",
+    "Avenging a Wrong - Driven by a sense of justice or revenge, the character seeks to right a wrong or avenge a loss, reshaping their life and others'.",
+    "Becoming a Mentor - Having achieved wisdom and experience, the character dedicates themselves to guiding the next generation, shaping future leaders or heroes.",
+    "Saving a Planet - A grand destiny involving the character playing a key role in preventing a planetary catastrophe, whether through diplomacy, scientific achievement, or heroism.",
+    "Restoring Harmony to a Realm - The character is central to resolving a conflict or imbalance that affects a kingdom, dimension, or universe, bringing peace and stability.",
+    "Unlocking a Mystical Power - The destiny involves the character discovering they possess a unique power or ability, which they must learn to control and use for a greater purpose.",
+    "Unraveling a Cosmic Mystery - Delving into the unknown to solve a mystery that spans the cosmos, perhaps revealing new truths about the universe or existence itself.",
+    "Founding a New Society - Leading the creation of a new community or society, based on innovative ideals, in uncharted territories or under new social models.",
+    "Becoming a Legend - Through heroic deeds or profound wisdom, the character's actions earn them a place in history or myth, remembered for generations.",
+    "Breaking a Curse - Ending a curse that has plagued a family, land, or object, often requiring a journey of self-discovery or sacrifice.",
+    "Reconciling Two Warring Factions - Acting as a peacemaker, the character brings together two opposing sides, fostering peace and cooperation.",
+    "Discovering an Ancient Civilization - Uncovering the secrets of a lost civilization, which may hold lost knowledge, technologies, or powers.",
+    "Escaping a Dystopian Society - The character's destiny is to escape or dismantle a repressive regime or society, possibly leading a group to freedom.",
+    "Mastering an Ancient Art - Learning a nearly forgotten skill, martial art, or magical practice, becoming its sole master and protector.",
+    "Forging a Legendary Weapon - Crafting or finding a weapon of unparalleled power, which may be pivotal in a significant upcoming conflict.",
+    "Healing a Blighted Land - Restoring life and prosperity to a land that has been desecrated or destroyed, perhaps through magical or technological means.",
+    "Deciphering a Prophecy - The character is key to interpreting a prophecy, which guides them on a quest or shapes the fate of their world.",
+    "Becoming a Space Explorer - Venturing into the depths of space to explore new planets, galaxies, or dimensions, encountering alien life and unknown phenomena.",
+    "Starting a Revolution - Sparking and leading a revolution to overthrow an oppressive system, fighting for freedom and equality.",
+    "Becoming a Guardian of Nature - Assuming the role of protector for the natural world, defending it against exploitation and destruction.",
+    "Unifying a Fragmented Realm - Bringing together disparate kingdoms, tribes, or factions under a single banner for the common good.",
+    "Transcending Humanity - The character undergoes a transformation that elevates them beyond human limitations, whether through evolution, enlightenment, or technology.",
+    "Restoring an Ancient Order - Reviving an ancient order or guild that was lost to time, bringing back its knowledge, traditions, and influence.",
+    "Solving a World-Altering Puzzle - Piecing together a puzzle or mystery that has the power to change the world's understanding of history, science, or magic.",
+    "Becoming Immortal - Achieving immortality, whether through magical means, scientific achievement, or a pact with a higher power, and dealing with its consequences.",
+    "Defeating a God or Demigod - The destiny involves confronting and defeating a being of immense power, changing the course of history and the balance of power.",
+    "Crafting a Peace Treaty - Negotiating a peace treaty that ends a long-standing war or conflict, ushering in a new era of peace and cooperation.",
+    "Becoming the Chosen One - Fulfilling a prophecy as the chosen one, destined to bring balance, salvation, or destruction to the world.",
+    "Discovering a New Form of Life - Finding a completely new form of life, possibly changing the understanding of biology, consciousness, or existence.",
+    "Inventing a World-Changing Technology - Creating a technology that revolutionizes how people live, communicate, or interact with the world.",
+    "Overthrowing a Tyrant - The character plays a crucial role in dethroning a tyrant, freeing their land or people from oppression.",
+    "Surviving Against All Odds - Overcoming insurmountable challenges to survive a perilous journey, situation, or conflict, often inspiring others.",
+    "Revealing a Universal Truth - The character discovers or reveals a truth that affects the understanding of reality, philosophy, or spirituality across the world.",
+    "Becoming a Beacon of Hope - Inspiring hope in others during dark times, leading by example to overcome despair and apathy.",
+    "Unleashing Magical Powers - Awakening latent magical powers that change the character's destiny, setting them on a path of discovery and conflict.",
+    "Charting a New Star System - Mapping and exploring a"
+]
+
+story_elements["DEATH_CAUSE"] = [
+    "Noble Sacrifice: Dying to save others, perhaps by shielding them from harm or ensuring their escape from peril.",
+    "Tragic Misunderstanding: A fatal outcome resulting from a misunderstanding or miscommunication, highlighting the fragility of life and the importance of clarity.",
+    "Cursed Artifact: Coming into contact with or using a cursed object, which leads to an inevitable demise as the curse takes effect.",
+    "Mystical Backlash: Overusing magical powers or tapping into forbidden magic, leading to a backlash that consumes the character.",
+    "Heroic Last Stand: Making a valiant stand against overwhelming odds, buying time for others or defending a crucial point, only to be overrun.",
+    "Betrayal: Being fatally betrayed by a close friend or ally, a death that underscores themes of trust and treachery.",
+    "Self-Sacrifice to Avert Prophecy: Choosing death to avert a dark prophecy, perhaps preventing a greater evil from emerging or saving the world from destruction.",
+    "Transformation Gone Wrong: Attempting to gain power or immortality through a transformation that goes tragically awry, leading to demise.",
+    "Caught in a Crossfire: An accidental death during a battle or conflict, highlighting the chaos and unpredictability of warfare.",
+    "Sacrificed for the Greater Good: Being sacrificed or choosing self-sacrifice for a ritual or purpose that serves the greater good, but at the cost of one's life.",
+    "Ultimate Redemption: Dying in an act of redemption, perhaps to make amends for past misdeeds or to save another's soul.",
+    "Unwilling Participant in a Duel: Killed in a duel or contest that they were forced into or entered under false pretenses, underscoring themes of honor and duress.",
+    "Environmental Catastrophe: Succumbing to a natural disaster or environmental hazard while trying to save others or investigate the phenomenon.",
+    "Victim of a Curse: Being the target of a powerful curse that leads to a slow, inevitable decline and eventual death, often surrounded by mystery.",
+    "Sacrifice to Seal Away Evil: Offering themselves as a sacrifice to seal away an ancient evil or to close a portal to a dangerous realm, ensuring peace at the cost of their life.",
+    "Doomed Love: Dying as a result of a doomed or forbidden love affair, whether by suicide, in a duel, or as a sacrifice to save the beloved.",
+    "Witness to the Unspeakable: Encountering an eldritch or cosmic horror that drives them to madness or death, unable to cope with the revelation.",
+    "Martyrdom for a Cause: Being killed for advocating or defending a cause, their death becoming a catalyst for change or revolution.",
+    "Alchemy Experiment Failure: Dying due to a miscalculation or unforeseen reaction during an alchemical experiment, reflecting the dangers of hubris and the unknown.",
+    "A Deal with Dark Forces: The character's demise comes as the price of a deal made with demonic or dark forces, a final reckoning for their choices.",
+    "Temporal Paradox: Being erased from existence due to a disruption or paradox in the timeline, leaving only fragments of their story behind.",
+    "Dimensional Rift: Falling victim to the effects of a rift between dimensions, where the laws of physics and reality break down, leading to a bizarre and unsettling demise.",
+    "Celestial Phenomenon: Dying during a rare celestial event, like a solar eclipse or the passing of a comet, imbuing their death with cosmic significance.",
+    "Mythical Beast Attack: Succumbing to the deadly assault of a legendary or mythical beast, their fate intertwined with ancient lore.",
+    "Avatar of Nature's Wrath: Becoming a vessel for the unbridled fury of nature itself, their death a consequence of unleashing such primal forces.",
+    "Essence Drained: Having their life essence or soul forcibly extracted by a powerful entity, leaving behind a hollow, lifeless husk.",
+    "Trapped in a Twisted Realm: Becoming trapped in a nightmarish, alternate realm where reality is warped, and the rules of existence are rewritten, leading to a fate worse than death.",
+    "Fusion Gone Awry: An attempt to fuse with another being or entity goes catastrophically wrong, resulting in the loss of individual identities and eventual unraveling.",
+    "Paradoxical Existence: A character's very existence becomes a paradox, causing them to unravel and fade from reality as the universe corrects itself.",
+    "Chrono-displacement: Being displaced in time, either to the past or future, and unable to return to their own timeline, resulting in their eventual demise due to the discontinuity.",
+    "Psychological Annihilation: Succumbing to a psychological assault or mind-shattering revelation that destroys their grip on reality and sense of self, leading to a complete mental breakdown and eventual physical death.",
+    "Ascension to a Higher Plane: The character's consciousness or soul transcends their physical form, leaving behind an empty vessel as they ascend to a higher plane of existence.",
+    "Entropic Decay: Being exposed to a force or phenomenon that accelerates the character's molecular decay, causing them to age rapidly and disintegrate over a short period.",
+    "Memetic Hazard: Encountering a dangerous idea or concept that proves fatal to the character, either by driving them insane or causing their mind to reject their physical form.",
+    "Quantum Entanglement Paradox: Becoming quantum-entangled with another being or entity, leading to a paradoxical situation where the character's existence is tied to the other, resulting in their demise when the entanglement is severed.",
+    "Entropy Reversal: A localized reversal of entropy causes the character to rapidly devolve, regressing through their stages of life until they cease to exist.",
+    "Chronokinetic Burnout: The overuse of chronokinetic abilities (time manipulation) leads to a catastrophic burnout, causing the character to be erased from the timeline.",
+    "Metaphysical Implosion: The character's metaphysical essence or soul implodes, creating a localized singularity that consumes their physical form.",
+    "Anti-Life Equation: Exposure to the Anti-Life Equation, a theoretical formula that negates the existence of all life, leads to the character's instantaneous and absolute erasure from reality.",
+    "Akashic Overload: Delving too deeply into the Akashic Records (the metaphysical library containing all knowledge in the universe) overloads the character's mind, causing them to merge with the collective consciousness and lose their individual identity.",
+    "Unmade: The character is 'unmade' by a being or force capable of unraveling the fundamental fabric of their existence, causing them to cease to exist on all planes of reality.",
+    "Divergent Timeline Collapse: The character's timeline diverges from the primary reality, causing it to collapse and erase the character from existence as the universe course-corrects.",
+    "Multiverse Implosion: A flaw or instability within the multiverse causes neighboring parallel realities to collide and implode, annihilating the character across all possible existences.",
+    "Dimensional Shear: The character is caught in a dimensional shear, where planes of reality intersect and tear them apart at a fundamental level, leaving no trace behind.",
+    "Conceptual Negation: A being or force capable of negating the very concept of the character's existence causes them to be erased from reality as if they never existed.",
+    "Entropic Singularity: An uncontrolled entropic singularity consumes the character, causing them to be erased from existence as the singularity collapses in on itself.",
+    "Quantum Suicide: A thought experiment gone wrong, where the character's consciousness fails to transfer to a parallel reality, leading to their demise in the present timeline.",
+    "Cosmic Reset: A cosmic force or entity initiates a hard reset of the universe, erasing the character from existence as reality is rewritten from the beginning.",
+    "Dissolution of the Self: The character's sense of self and identity gradually dissolves until they become one with the universe, losing their individual existence.",
+    "Infinite Recursion: The character becomes trapped in an infinite recursive loop, causing their existence to be endlessly replicated and eventually overwritten, leading to their erasure from reality."
+    "Heart Disease: Conditions affecting the heart's structure and function.",
+    "Cancer: Uncontrolled growth and spread of abnormal cells.",
+    "Stroke: Interruption of blood supply to part of the brain.",
+    "Respiratory Diseases: Conditions affecting the lungs and respiratory system.",
+    "Alzheimer's Disease: A progressive neurodegenerative disorder causing memory loss and cognitive impairment.",
+    "Accidents: Unintentional injuries from various causes.",
+    "Diabetes: Chronic condition characterized by elevated blood sugar levels.",
+    "Influenza and Pneumonia: Respiratory illnesses caused by viruses or bacteria.",
+    "Kidney Disease: Conditions affecting the kidneys' ability to filter waste.",
+    "Suicide: The intentional act of taking one's own life.",
+    "Liver Disease: Conditions affecting the liver's function, such as cirrhosis and hepatitis.",
+    "Septicemia: A life-threatening condition caused by the body's response to an infection.",
+    "Hypertension: High blood pressure, which can lead to heart disease, stroke, and other complications.",
+    "Parkinson's Disease: A progressive neurological disorder affecting movement and cognitive function.",
+    "Malnutrition: Deficiencies or imbalances in nutrient intake, leading to various health problems.",
+    "HIV/AIDS: A chronic, potentially life-threatening condition caused by the human immunodeficiency virus.",
+    "Homicide: The intentional killing of one person by another.",
+    "Alcoholism: Excessive and prolonged consumption of alcohol, leading to various health issues.",
+    "Drug Overdose: The accidental or intentional ingestion of excessive amounts of drugs or substances.",
+    "Malaria: A life-threatening infectious disease transmitted by mosquitoes.",
+    "Tuberculosis: A potentially serious infectious disease that primarily affects the lungs.",
+    "Meningitis: Inflammation of the protective membranes covering the brain and spinal cord.",
+    "Pandemics: Widespread outbreaks of infectious diseases, such as COVID-19 or influenza pandemics.",
+    "Birth Complications: Complications during pregnancy, childbirth, or the postnatal period.",
+    "Congenital Anomalies: Birth defects or structural abnormalities present at birth.",
+    "Execution by hanging", "Execution by drowning", "Execution by breaking on a wheel", "Execution by stoning ",
+    "Unknown", "Shot to death", "Burned alive", "Buried alive", "Slow poisoning", "Instant poisoning", "Auto-erotic aspyhxiation",
+    "Fatal fall", "Car accident", "Trampled by animals", "Disembowelment", "Death fight", "Blunt force trauma", "Forced suicide",
+    "Flaying", "Scaphism - milk and honey torture", "Beheading", "Boiled alive", "Broken heart", "Loneliness", "Sadness", "Drug-induced hysteria",
+    "Beaten to death", "Starvation", "Dehydration", "Frozen", "Mystical circumstances", "Plane crash", "Space collision", "Space gas ingestion",
+    "Dreams devoured", "Eaten alive by strange creatures",
+]
+
 
 story_elements["CHARACTER_STRENGTH"] = [
         "Resilience", "Empathy", "Intelligence", "Courage", "Loyalty", "Honesty", 
@@ -806,6 +1031,11 @@ story_elements["CHARACTER_WEAKNESS"] = [
     "Skepticism", "Indifference", "Ingratitude", "Overcompetitiveness", 
     "Unreliability", "Deceptiveness", "Low self-esteem"
 ]
+
+story_elements["FIGHTING_STYLE"] = ["an acrobatic", "an ancient", "an artistic", "a brutal", "a classic", "a complex", "a complicated", "a dishonorable", "an elaborate", "an elegant", "a graceful", 
+         "a grueling", "a honorable", "an innovative", "a modified", "an odd", "a painful", "a sadistic", "a simple", "a straightforward", "a strange", "a weird", "a dirty", 
+         "a Hollywood", "a weapons-heavy"
+ ]
 
 story_elements["CHARACTER_SECRET"] = [
         "I'm adopted but I've never told anyone.",
@@ -1057,19 +1287,24 @@ def select_random_element(category):
     return random.choice(story_elements[category])
 
 def generate_story():
-    story = f"This {select_random_element('NARRATIVE_PERSPECTIVE')} story is about a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_GENDER')} {select_random_element('MILITARY_PROTAGONIST')} {select_random_element('JOBS')} during {select_random_element('MILITARY_SCENARIO')}. "
+    story = f"WORLD: \n\n"
+    story += f"This story takes place in the {select_random_element('TIME_PERIOD')} in a {select_random_element('World_State')} {select_random_element('world_scopes')} world influenced by {select_random_element('Culture_Inspiration')} culture. \n\n"
+    story += f"Customs, traditions, and lore of {select_random_element('MILITARY_CULTURE')} military culture dominate the society. \n\n" 
+    story += f"Elements and themes from the video game {select_random_element('VIDEO_GAME_FRANCHISE')} are adapted in this story.\n\n"
+    story += f"STORY: \n\n"
+    story += f"This story follows the plot archetype: {select_random_element('PLOT_ARCHETYPE')}. \n\n"
+    story += f"It is a {select_random_element('NARRATIVE_PERSPECTIVE')} story is about a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_GENDER')} {select_random_element('MILITARY_PROTAGONIST')} {select_random_element('JOBS')} during {select_random_element('MILITARY_SCENARIO')}. "
     story += f"Their goal is to {select_random_element('CHARACTER_GOALS')}. \n"
     story += f"But {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('BASIC_EVENT')} gets in their way. \n\n"
     story += f"The major event of the story involves {select_random_element('BASIC_EVENT')}. "
     story += f"This is a {select_random_element('STORY_DESCRIPTOR')} {select_random_element('STORY_TYPE')}-themed story, "
     story += f"with a {select_random_element('STORY_DESCRIPTOR')} ending. \n\n"
-    story += f"It takes place in the {select_random_element('TIME_PERIOD')} in a {select_random_element('world_scopes')} {select_random_element('World_State')} world influenced by {select_random_element('Culture_Inspiration')} culture. \n\n"
     story += f"The piece of technology central to the plot is the {select_random_element('TECHNOLOGY_FUNCTION')} {select_random_element('TECHNOLOGY_OBJECT')}. "
     story += f"This is known to cause {select_random_element('EMOTION_AMPLIFIER')} leading to {select_random_element('EMOTION')}. \n\n"
     story += f"It is also rumored to allow the user the ability of: {select_random_element('SUPERHUMAN_ABILITY')}.\n\n"
     story += f"This story explores the emotion of: {select_random_element('EMOTION')}.\n\n"
-    story += f"Elements and themes from the video game {select_random_element('VIDEO_GAME_FRANCHISE')} are adapted in this story.\n\n"
-    story += f"The main character is a {select_random_element('CHARACTER_RACE')} {select_random_element('CHARACTER_ETHNICITY')} {select_random_element('CHARACTER_AGE')}, "
+    story += f"CHARACTER: \n\n"
+    story += f"The main character is a {select_random_element('CHARACTER_ETHNICITY')} {select_random_element('CHARACTER_RACE')} {select_random_element('CHARACTER_AGE')}, "
     story += f"their relationship status is {select_random_element('CHARACTER_RELATIONSHIP')}. \n\n"
     story += f"Here are more facts about the main character: \n\n"
     story += f"Physical build: {select_random_element('PHYSICAL_BUILD')} \n\n"
@@ -1085,9 +1320,16 @@ def generate_story():
     story += f"Character strength: {select_random_element('CHARACTER_STRENGTH')} \n\n" 
     story += f"Character weakness: {select_random_element('CHARACTER_WEAKNESS')} \n\n" 
     story += f"Character secret: {select_random_element('CHARACTER_SECRET')} \n\n"
+    story += f"Character fighting style: {select_random_element('FIGHTING_STYLE')} style \n\n"
     story += f"Mega-archetype: {select_random_element('CHARACTER_MEGA_ARCHETYPE')} \n\n"
-    story += f"Sub-archetype: {select_random_element('Character_sub-archetype')} \n\n"  
-
+    story += f"Sub-archetype: {select_random_element('Character_sub-archetype')} \n\n"
+    story += f"DESTINY DICE: \n\n"  
+    story += f"Their destiny is discovered through {select_random_element('DESTINY_DISCOVERY')} \n\n"
+    story += f"Their destiny is {select_random_element('DESTINY')} \n\n"
+    story += f"Age at discovery: {[random.randint(0, 199)]} \n\n"
+    story += f"Age destiny achieved: {[random.randint(0, 199)]} \n\n"
+    story += f"Death age: {[random.randint(0, 199)]} \n\n"
+    story += f"Cause of death? {select_random_element('DEATH_CAUSE')} \n\n"
 
     return story
 
