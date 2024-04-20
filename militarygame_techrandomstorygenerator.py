@@ -338,6 +338,10 @@ story_elements["CHARACTER_GENDER"] = [
         "male","male","male","male","female", "female", "female", "female", "ungendered", "transgender"    
     ]
 
+story_elements["CHARACTER_ATTRACTION"] = [
+        "men","men","men","men","women", "women", "women", "women", "ungendered", "transgender", "male cyborgs", "female cyborgs", "men with animal features", "women with animal features", "otherworldy/fantasy beings", "themselves",  
+    ]
+
 story_elements["JOBS"] = [
     "KC-135 Stratotanker Pilot", "F-16 Fighting Falcon Pilot", "B-2 Spirit Bombardier", "C-17 Globemaster III Navigator", "Weapons Systems Officer", "Drone Pilot",
     "Intelligence Analyst", "Aerospace Propulsion Specialist", "Cyber Transport Systems Specialist", "Equal Opportunity Specialist", "Special Investigations Officer",
@@ -2548,7 +2552,7 @@ def generate_story():
     story += f"CHARACTER: \n\n"
     story += f"The main character is a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_GENDER')} {select_random_element('CHARACTER_ETHNICITY')} {select_random_element('CHARACTER_RACE')} {select_random_element('CHARACTER_AGE')}, "
     story += f"their relationship status is {select_random_element('CHARACTER_RELATIONSHIP')}. \n\n"
-    story += f"In LOVE they are {select_random_element('CHARACTER_DESCRIPTOR')}. Sexual Turn-on: {select_random_element('SEX_KINK')}. Sexual Turn-off: {select_random_element('SEX_KINK')}.  \n\n"
+    story += f"In LOVE they are {select_random_element('CHARACTER_DESCRIPTOR')}. Attracted to: {select_random_element('CHARACTER_ATTRACTION')}. Sexual Turn-on: {select_random_element('SEX_KINK')}. Sexual Turn-off: {select_random_element('SEX_KINK')}.  \n\n"
     story += f"At WORK they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
     story += f"In SOCIETY they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
     story += f"When threatened their response is {select_random_element('STRESS_RESPONSE')}. \n\n"
