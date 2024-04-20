@@ -2238,7 +2238,7 @@ def generate_story():
     story += f"At WORK they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
     story += f"In SOCIETY they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
     story += f"When threatened their response is {select_random_element('STRESS_RESPONSE')}. \n\n"
-    story += f"Their oppponent is a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('OPPONENTS')}. \n\n"
+    story += f"Their opponent is a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('OPPONENTS')}. \n\n"
     story += f"The disaster they face is {select_random_element('STORY_COMPLICATIONS')}. \n\n"
     story += f"Here are more facts about the main character: \n\n"
     story += f"Physical build: {select_random_element('PHYSICAL_BUILD')} \n\n"
