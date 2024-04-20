@@ -2559,7 +2559,7 @@ def generate_story():
     story += f"Their objective is to {select_random_element('CHARACTER_GOALS')}. \n\n"
     story += f"Their opponent is a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('OPPONENTS')}. \n\n"
     story += f"The disaster they face is {select_random_element('STORY_COMPLICATIONS')}. \n\n"
-    story += f"Resonant element {select_random_element('RESONANT_ELEMENT')}. \n\n"
+    story += f"Resonant element: {select_random_element('RESONANT_ELEMENT')}. \n\n"
     story += f"Here are more facts about the main character: \n\n"
     story += f"Physical build: {select_random_element('PHYSICAL_BUILD')} \n\n"
     story += f"Height: {select_random_element('HEIGHT')} \n\n"
