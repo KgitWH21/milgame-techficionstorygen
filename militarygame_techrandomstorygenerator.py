@@ -37,8 +37,17 @@ story_elements = {
         "spendthrift", "spiritual", "stingy", "stressed", "strong", "studious", "stupid", "suave", "tired", "ugly", 
         "unambitious", "unathletic", "unbalanced", "uncreative", "unethical", "unfriendly", "unhappy", "unpredictable", 
         "unremarkable", "unstable", "unwise", "vicious", "violent", "weak", "wealthy", "well-traveled", "wise", "withdrawn", "youthful", "foolish", "vindictive",
-        "vengeful", "horrible"
+        "vengeful", "horrible", "eccentric", "sarcastic", "mischievous", "stoic", "observant", "resourceful", "manipulative", "chaotic", "impulsive", "sassy",
+        "introspective", "empathetic", "snarky", "analytical", "skeptical", "resilient", "adaptable", "sentimental", "protective", "spontaneous", "disciplined",
+        "enigmatic", "flirtatious", "chivalrous", "meticulous", "whimsical", "boisterous", "frugal", "gullible", "diplomatic", "sly", "audacious", "perceptive", "cultured",
+        "inquisitive",  "honorable", "refined", "pompous", "pretentious", "quirky", "paranoid", "discreet", "tactful", "gallant", "sophisticated", "ostentatious", "frivolous",
+        "vivacious", "zealous", "sensible", "valiant", "unflappable", "incorruptible", "tenacious", "jovial", "exuberant", "pensive", "fastidious", "morbid", "nonchalant",
+        "debonair", "austere", "gregarious", "enigmatic", "eloquent", "unscrupulous", "assertive", "diffident", "intrepid", "imperturbable", "capricious", "amiable", "irreverent",
+        "benevolent", "inscrutable", "acerbic", "sagacious", "petulant", "vivacious", "reticent", "deferential", "belligerent", "sanguine", "mercurial", "obstinate", "laconic",
+        "sardonic", "droll", "lugubrious", "insouciant", "feckless", "truculent", "indefatigable", "punctilious", "cavalier", "sanctimonious", "furtive", "insipid", "garrulous",
+        "obsequious", "querulous", "audacious", "phlegmatic"
     ],
+
     "STORY_TYPE": [
         "action", "adventure", "caper", "character study", "comedy", "conflict", "conspiracy", "crime", "drama", "horror", "mystery", "quest", "relationship", "revenge", 
         "romance", "slice-of-life", "thriller", "tragedy", "transformation", "fantasy", "science fiction", "historical", "political", "satire", "dystopian", "utopian", 
@@ -2221,7 +2230,7 @@ def generate_story():
     story += f"Elements and themes from the video game {select_random_element('VIDEO_GAME_FRANCHISE')} are adapted in this story.\n\n"
     story += f"STORY: \n\n"
     story += f"This story follows the plot archetype: {select_random_element('PLOT_ARCHETYPE')}. \n\n"
-    story += f"It is a {select_random_element('NARRATIVE_PERSPECTIVE')} story is about a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_GENDER')} {select_random_element('MILITARY_PROTAGONIST')} {select_random_element('JOBS')} during {select_random_element('MILITARY_SCENARIO')}. "
+    story += f"It is a {select_random_element('NARRATIVE_PERSPECTIVE')} story is about a {select_random_element('MILITARY_PROTAGONIST')} {select_random_element('JOBS')} during {select_random_element('MILITARY_SCENARIO')}. "
     story += f"Their goal is to {select_random_element('CHARACTER_GOALS')}. \n"
     story += f"But {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('BASIC_EVENT')} gets in their way. \n\n"
     story += f"The major event of the story involves {select_random_element('BASIC_EVENT')}. "
@@ -2232,7 +2241,7 @@ def generate_story():
     story += f"It is also rumored to allow the user the ability of: {select_random_element('SUPERHUMAN_ABILITY')}.\n\n"
     story += f"This story explores the emotion of: {select_random_element('EMOTION')}.\n\n"
     story += f"CHARACTER: \n\n"
-    story += f"The main character is a {select_random_element('CHARACTER_ETHNICITY')} {select_random_element('CHARACTER_RACE')} {select_random_element('CHARACTER_AGE')}, "
+    story += f"The main character is a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_GENDER')} {select_random_element('CHARACTER_ETHNICITY')} {select_random_element('CHARACTER_RACE')} {select_random_element('CHARACTER_AGE')}, "
     story += f"their relationship status is {select_random_element('CHARACTER_RELATIONSHIP')}. \n\n"
     story += f"In LOVE they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
     story += f"At WORK they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
