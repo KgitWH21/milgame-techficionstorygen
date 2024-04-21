@@ -484,7 +484,7 @@ story_elements["CHARACTER_GOALS"] = [
         "Set up a cultural festival to celebrate diversity", "Organize a fundraiser to support local theaters", "Build a playground accessible to children of all abilities", 
         "Start a community initiative to support the elderly", "Fund the restoration of a historic public park", "Develop a sustainable beekeeping project to support biodiversity", 
         "Create a program to teach coding to underrepresented groups", "Set up a network of support for small organic farmers", 
-        "Launch a campaign to end single-use plastics in a city"
+        "Launch a campaign to end single-use plastics in a city",
         #Future goals
         "Integrate advanced AI into their brain for enhanced cognition", "Achieve digital immortality by uploading their consciousness", 
         "Invent a biohacking kit for self-directed evolution", "Establish the first human colony on Mars", "Develop a symbiotic relationship with an alien species", 
@@ -525,6 +525,8 @@ story_elements["CHARACTER_RACE"] = ["human", "human", "human", "bio-hacked human
 
 story_elements["CHARACTER_ETHNICITY"] = ["White American", "Black Texan", "Japanese", "Chinese", "Singaporean", "Mongolian", "Italian", "Mexican", "White British", "Indian",
         "Maldivian", "Burmese", "Japanese - Ainu", "Japanese American", "Black Washington DC", "Spanish", "French", "Bruneian", "Australian", "Canadian", "Taiwanese",
+        "Native American - Navajo", "Hispanic", "Nicaraguan", "Chinese American", "White American", "Black Texan", "Japanese", "Chinese", "Singaporean", "Mongolian", "Italian", "Mexican", "White British", "Indian",
+        "Maldivian", "Burmese", "Japanese - Ainu", "Japanese American", "Black Washington DC", "Spanish", "French", "Bruneian", "Australian", "Canadian", "Taiwanese",
         "Native American - Navajo", "Hispanic", "Nicaraguan", "Chinese American", "Afghan", "Albanian", "Algerian", "American", "Andorran", "Angolan", "Antiguan", 
         "Argentine", "Armenian", "Australian", "Austrian", "Azerbaijani", "Bahamian", "Bahraini", "Bangladeshi", "Barbadian", "Belarusian", "Belgian", "Belizean", "Beninese", "Bhutanese", 
         "Bolivian", "Bosnian", "Botswanan", "Brazilian", "British", "Bruneian", "Bulgarian", "Burkinabe", "Burmese", "Burundian", "Cambodian", "Cameroonian", "Canadian", "Cape Verdean", 
@@ -549,12 +551,17 @@ story_elements["CHARACTER_AGE"] = ["Child (8 - 12)",
         "Young Working Adult (26 - 35)",
         "Working Adult (36 - 45)",
         "Older Working Adult (46 - 65)",
-        "Retiree (66 - 74)",
+        "Old person (66 - 74)",
         "Elderly (75 - 110)",
         "Genetically enhanced (110+)"
     ]
 
 story_elements["CHARACTER_RELATIONSHIP"] = ["Siblings", "Single (happy)", "Single (searching)", "Single (cynical)", "Single (heartbroken)", "Single (playing the field)", "Co-workers (Unacquainted)",
+        "Co-workers (close platonic relationship)", "Co-workers (supervisor-supervisee)", "Co-workers (secret lovers)", "Co-workers (rivals)", "Co-workers (enemies)", "Friends",
+        "Childhood friends", "Best friends", "Distant friends", "Online only friends (never met in person)", "In a relationship (just started dating)", "In a long term relationship",
+        "Fracturing relationship", "Sex only relationship", "Ex-partners", "Engaged", "Married (happily)", "Newlyweds", "Married (unhappy)", "Married (with kids)", "Married (open marriage)",
+        "Divorced (happily)", "Divorced (unhappily)", "Divorced (with kids)", "Re-married", "Widow/Widower", "Parasocial relationship", "In a relationship with a higher power/organization",
+        "In a relationship with work", "Siblings", "Single (happy)", "Single (searching)", "Single (cynical)", "Single (heartbroken)", "Single (playing the field)", "Co-workers (Unacquainted)",
         "Co-workers (close platonic relationship)", "Co-workers (supervisor-supervisee)", "Co-workers (secret lovers)", "Co-workers (rivals)", "Co-workers (enemies)", "Friends",
         "Childhood friends", "Best friends", "Distant friends", "Online only friends (never met in person)", "In a relationship (just started dating)", "In a long term relationship",
         "Fracturing relationship", "Sex only relationship", "Ex-partners", "Engaged", "Married (happily)", "Newlyweds", "Married (unhappy)", "Married (with kids)", "Married (open marriage)",
@@ -574,22 +581,99 @@ story_elements["PHYSICAL_BUILD"] = [
     "thin",
     "average",
     "athletic", "angular", "feminine", "narrow", "graceful",
-    "competitive athlete build", "plump", "round", "slender",
+    "competitive athlete build", "plump", "round", "slender", "fat",
     "Overweight",
-    "Obese"
+    "Obese", "thin", "average", "athletic", "angular", "feminine", "narrow", "graceful",
+    "competitive athlete build", "plump", "round", "slender", "Overweight", "Obese",
+    "Skinny", "Lean", "Wiry", "Sinewy", "Muscular", "Brawny", "Stocky", "Sturdy",
+    "Solid", "Hefty", "Bulky", "Portly", "Stout", "Rotund", "Flabby", "Paunchy",
+    "Potbellied", "Heavyset", "Corpulent", "Gaunt", "Underweight", "Emaciated",
+    "Malnourished", "Frail", "Petite", "Diminutive", "Elfin", "Waif-like", "Lanky",
+    "Gangly", "Rangy", "Leggy", "Statuesque", "Towering", "Willowy", "Svelte",
+    "Curvaceous", "Buxom", "Voluptuous", "Zaftig", "Rubenesque", "Busty", "Hippy",
+    "Pear-shaped", "Apple-shaped", "Hourglass figure", "Trim", "Fit", "Chiseled",
+    "Ripped", "Shredded", "Herculean", "Adonis-like", "Amazonian", "Somatotype",
+    "Mesomorph", "Endomorph", "Ectomorph", "Leptosomatic", "Pyknic", "Athletic",
+    "Asthenic", "Hypersthenic", "Thickset", "Burly", "Husky", "Fleshy", "Massive",
+    "Strapping", "Sturdy", "Well-built", "Barrel-chested", "Broad-shouldered"
 ]
 
-story_elements["Tone_of_voice"] = ["Cheerful", "Melancholy", "Monotone", "Gruff", "Sincere", "Sarcastic", "Whiny", "Enthusiastic", "Apathetic", "Cold"]
+story_elements["TONE_OF_VOICE"] = [
+    "Cheerful", "Melancholy", "Monotone", "Gruff", "Sincere", "Sarcastic", "Whiny",
+    "Enthusiastic", "Apathetic", "Cold", "Warm", "Friendly", "Hostile", "Confident",
+    "Timid", "Assertive", "Submissive", "Authoritative", "Hesitant", "Nervous",
+    "Relaxed", "Angry", "Gentle", "Harsh", "Bitter", "Sweet", "Condescending",
+    "Humble", "Arrogant", "Patronizing", "Respectful", "Mocking", "Serious",
+    "Humorous", "Playful", "Flirtatious", "Seductive", "Innocent", "Mysterious",
+    "Ominous", "Excited", "Bored", "Curious", "Confused", "Surprised", "Impressed",
+    "Disappointed", "Frustrated", "Impatient", "Calming", "Soothing", "Comforting",
+    "Encouraging", "Inspirational", "Motivational", "Persuasive", "Convincing",
+    "Doubtful", "Skeptical", "Suspicious", "Trusting", "Gullible", "Naive", "Jaded",
+    "Cynical", "Sarcastic", "Ironic", "Sardonic", "Deadpan", "Matter-of-fact",
+    "Blunt", "Evasive", "Vague", "Cryptic", "Mysterious", "Whispered", "Hushed",
+    "Mumbled", "Shouted", "Yelled", "Screamed", "Bellowed", "Roared", "Thunderous",
+    "Booming", "Shrill", "Piercing", "Raspy", "Hoarse", "Throaty", "Nasal", "Reedy",
+    "Breathy", "Sultry", "Husky", "Silky", "Velvety", "Smooth", "Clear", "Resonant",
+    "Rich", "Mellow", "Soft-spoken", "Lilting", "Lyrical", "Sing-song", "Staccato",
+    "Halting", "Rapid-fire", "Meandering", "Rambling", "Incoherent", "Eloquent",
+    "Articulate", "Expressive", "Dramatic", "Theatrical", "Exaggerated", "Understated",
+    "Restrained", "Measured", "Cautious", "Tentative", "Bold", "Brash", "Cocky",
+    "Pretentious", "Pompous", "Grandiose", "Overwrought", "Histrionic", "Hysterical",
+    "Unhinged", "Manic", "Depressed", "Flat", "Robotic", "Mechanical", "Artificial",
+    "Synthesized", "Ethereal", "Otherworldly", "Eerie", "Haunting", "Foreboding",
+    "Menacing", "Threatening", "Intimidating", "Soothing", "Hypnotic", "Mesmerizing",
+    "Enchanting", "Alluring", "Beguiling", "Sensual", "Arousing", "Titillating",
+    "Salacious", "Lurid", "Lewd", "Raunchy", "Bawdy", "Crass", "Vulgar", "Obscene"
+]
 
-story_elements["LANGUAGE_TYPE"] = ["Articulate", "Inarticulate", "Profane", "Academic", "Simple", "Flowery", "Technical"]
+story_elements["LANGUAGE_TYPE"] = [
+    "Articulate", "Inarticulate", "Profane", "Academic", "Simple", "Flowery", "Technical",
+    "Verbose", "Concise", "Eloquent", "Stammering", "Rambling", "Succinct", "Poetic",
+    "Prosaic", "Metaphorical", "Literal", "Figurative", "Abstract", "Concrete", "Jargon-filled",
+    "Layman's terms", "Slang-heavy", "Formal", "Informal", "Colloquial", "Dialect-specific",
+    "Regional", "Idiomatic", "Cliché-ridden", "Original", "Quirky", "Conventional", "Archaic",
+    "Modern", "Futuristic", "Anachronistic", "Polished", "Rough", "Refined", "Crude",
+    "Sophisticated", "Unsophisticated", "Politically correct", "Politically incorrect",
+    "Diplomatic", "Undiplomatic", "Tactful", "Tactless", "Euphemistic", "Blunt", "Allusive",
+    "Explicit", "Implicit", "Ambiguous", "Unambiguous", "Coherent", "Incoherent", "Logical",
+    "Illogical", "Rational", "Irrational", "Objective", "Subjective", "Impartial", "Biased",
+    "Emphatic", "Understated", "Hyperbolic", "Litotic", "Sarcastic", "Sincere", "Ironic",
+    "Straightforward", "Metaphysical", "Mundane", "Esoteric", "Accessible", "Obscure",
+    "Clear", "Opaque", "Transparent", "Convoluted", "Simplistic", "Nuanced", "Repetitive",
+    "Redundant", "Tautological", "Oxymoronic", "Paradoxical", "Nonsensical", "Meaningful",
+    "Profound", "Shallow", "Substantive", "Superficial", "Circumlocutory", "Discursive",
+    "Digressive", "Parenthetical", "Elliptical", "Telegraphic", "Fragmented", "Rhapsodic",
+    "Lyrical", "Narrative", "Anecdotal", "Expository", "Persuasive", "Argumentative",
+    "Rhetorical", "Didactic", "Pedagogical", "Hortatory", "Sermonic", "Oracular", "Prophetic"
+]
 
 story_elements["CLOTHING_STYLE"] = [
-    "artistic", "attractive", "bizarre", "businesslike", "classy", 
-    "complicated", "dignified", "elaborate", "elegant", "flattering",
-    "impractical", "mysterious", "no-nonsense", "odd", "plain", 
-    "practical", "professional", "revealing", "risque", "severe",
-    "sexy", "simple", "strange", "tight", "uncomplicated", 
-    "unconventional", "unusual", "utilitarian", "weird"
+    "artistic", "attractive", "bizarre", "businesslike", "classy", "complicated", "dignified",
+    "elaborate", "elegant", "flattering", "impractical", "mysterious", "no-nonsense", "odd",
+    "plain", "practical", "professional", "revealing", "risque", "severe", "sexy", "simple",
+    "strange", "tight", "uncomplicated", "unconventional", "unusual", "utilitarian", "weird",
+    "avant-garde", "bohemian", "casual", "chic", "classic", "clean-cut", "conservative",
+    "contemporary", "cool", "couture", "cutting-edge", "daring", "dashing", "dramatic",
+    "eclectic", "edgy", "extravagant", "fashionable", "flamboyant", "flashy", "formal",
+    "frumpy", "funky", "glamorous", "gothic", "grunge", "hippie", "hipster", "iconic",
+    "individualistic", "kawaii", "kitschy", "loud", "minimalist", "mod", "modern", "outlandish",
+    "outdated", "over-the-top", "preppy", "punk", "quirky", "rebellious", "retro", "romantic",
+    "rustic", "sassy", "shabby chic", "sleek", "sophisticated", "sporty", "statement-making",
+    "streetwear", "stylish", "tacky", "tasteful", "themed", "timeless", "trendy", "understated",
+    "unique", "urban", "vintage", "whimsical", "youthful", "vibrant", "vivid", "wild",
+    "bold", "bright", "busy", "colorful", "crisp", "dull", "eye-catching", "faded", "feminine",
+    "floral", "fruity", "geometric", "graphic", "masculine", "muted", "nautical", "neon",
+    "neutral", "pastel", "patterned", "plaid", "polka-dotted", "psychedelic", "soft",
+    "solid-colored", "sparkly", "striped", "subtle", "textured", "tie-dyed", "tropical",
+    "uniform", "androgynous", "baggy", "boxy", "comfortable", "distressed", "embellished",
+    "fitted", "flowing", "form-fitting", "frilly", "gathered", "high-waisted", "layered",
+    "loose", "low-cut", "oversized", "pleated", "pocketed", "ruffled", "seamless", "sheer",
+    "skintight", "slouchy", "strapless", "structured", "tailored", "tapered", "traditional",
+    "unstructured", "vented", "voluminous", "wraparound", "asymmetrical", "backless", "belted",
+    "buttoned", "cuffed", "collared", "cowl-necked", "crisscrossed", "draped", "fringed",
+    "halter", "hooded", "laced", "off-the-shoulder", "one-shouldered", "scalloped", "scooped",
+    "slashed", "slit", "square-necked", "sweetheart", "turtlenecked", "twisted", "wrapped",
+    "zippered"
 ]
 
 story_elements["BIRTHPLACE"] = ["A bustling city", "A remote village", "The depths of a forest", "A small island", "The heart of a desert", "A mountain village", "The edge of an ocean",
@@ -870,7 +954,7 @@ story_elements["CHARACTER_NAME_TYPE"] = [
 ]
 
 story_elements["LIFE_SATISFACTION"] = [
-    "miserable", 
+    "Miserable", 
     "Very Unhappy", 
     "Unhappy", 
     "Slightly Unsatisfied", 
@@ -922,33 +1006,33 @@ story_elements["FINANCIAL_HEALTH_STATUS"] = [
 ]
 
 story_elements["BODY_IMAGE"] = [
-"Highly Insecure",
-"Severely Self-Conscious",
-"Very Dissatisfied",
-"Somewhat Uncomfortable",
-"Mildly Insecure",
-"Neutral",
-"Slightly Confident",
-"Somewhat Satisfied",
-"Mostly Comfortable",
-"Very Self-Assured",
-"Highly Confident"
+    "Highly Insecure",
+    "Severely Self-Conscious",
+    "Very Dissatisfied",
+    "Somewhat Uncomfortable",
+    "Mildly Insecure",
+    "Neutral",
+    "Slightly Confident",
+    "Somewhat Satisfied",
+    "Mostly Comfortable",
+    "Very Self-Assured",
+    "Highly Confident"
 ]
 
 story_elements["HEIGHT"] = [
-"Very Short",
-"Short",
-"Slightly Below Average",
-"Average",
-"Slightly Above Average",
-"Tall",
-"Very Tall"
+    "Very Short",
+    "Short",
+    "Slightly Below Average",
+    "Average",
+    "Slightly Above Average",
+    "Tall",
+    "Very Tall"
 ]
 
 story_elements["STRESS_RESPONSE"] = [
-"Fight",
-"Flight",
-"Mixed"
+    "Fight",
+    "Flight",
+    "Mixed"
 ]
 
 story_elements["SKIN_TONE"] = [
@@ -1201,64 +1285,26 @@ story_elements["PERSONAL_IDEOLOGY"] = [
 ]
 
 story_elements["BODY_PART_OBSESSION"] = [
-"Eyes",
-"Lips",
-"Nose",
-"Ears",
-"Teeth",
-"Tongue",
-"Cheeks",
-"Chin",
-"Jaw",
-"Forehead",
-"Eyebrows",
-"Eyelashes",
-"Hair",
-"Neck",
-"Shoulders",
-"Collarbone",
-"Chest",
-"Breasts",
-"Nipples",
-"Ribs",
-"Stomach",
-"Belly Button",
-"Waist",
-"Hips",
-"Butt",
-"Groin",
-"Pubic Area",
-"Penis",
-"Vulva",
-"Thighs",
-"Knees",
-"Calves",
-"Ankles",
-"Feet",
-"Toes",
-"Heels",
-"Arches",
-"Upper Back",
-"Lower Back",
-"Shoulder Blades",
-"Arms",
-"Elbows",
-"Forearms",
-"Wrists",
-"Hands",
-"Palms",
-"Fingers",
-"Fingernails",
-"Thumb",
-"Armpit",
-"Skin",
-"Birthmarks",
-"Scars",
-"Tattoos",
-"Freckles",
-"Moles",
-"Veins",
-"Muscles"
+    "Eyes", "Lips", "Nose", "Ears", "Teeth", "Tongue", "Cheeks", "Chin", "Jaw", "Forehead",
+    "Eyebrows", "Eyelashes", "Hair", "Neck", "Shoulders", "Collarbone", "Chest", "Breasts",
+    "Nipples", "Ribs", "Stomach", "Belly Button", "Waist", "Hips", "Butt", "Groin", "Pubic Area",
+    "Penis", "Vulva", "Thighs", "Knees", "Calves", "Ankles", "Feet", "Toes", "Heels", "Arches",
+    "Upper Back", "Lower Back", "Shoulder Blades", "Arms", "Elbows", "Forearms", "Wrists", "Hands",
+    "Palms", "Fingers", "Fingernails", "Thumb", "Armpit", "Skin", "Birthmarks", "Scars", "Eyes", "Lips", "Nose", "Ears", "Teeth", "Tongue", "Cheeks", "Chin", "Jaw", "Forehead",
+    "Eyebrows", "Eyelashes", "Hair", "Neck", "Shoulders", "Collarbone", "Chest", "Breasts",
+    "Nipples", "Ribs", "Stomach", "Belly Button", "Waist", "Hips", "Butt", "Groin", "Pubic Area",
+    "Penis", "Vulva", "Thighs", "Knees", "Calves", "Ankles", "Feet", "Toes", "Heels", "Arches",
+    "Upper Back", "Lower Back", "Shoulder Blades", "Arms", "Elbows", "Forearms", "Wrists", "Hands",
+    "Palms", "Fingers", "Fingernails", "Thumb", "Armpit", "Skin", "Birthmarks", "Scars", "Tattoos",
+    "Freckles", "Moles", "Veins", "Muscles", "Dimples", "Cleavage", "Sideboob", "Underboob",
+    "Abs", "Adonis Belt", "Love Handles", "Treasure Trail", "Happy Trail", "Gluteal Fold",
+    "Inner Thighs", "Back of Knees", "Anklebones", "Achilles Tendon", "Instep", "Toenails",
+    "Fingertips", "Knuckles", "Calluses", "Cuticles", "Pulse Points", "Adam's Apple",
+    "Nape of Neck", "Sideburns", "Stubble", "Beard", "Mustache", "Goatee", "Soul Patch",
+    "Peach Fuzz", "Unibrow", "Cowlick", "Widow's Peak", "Hairline", "Roots", "Split Ends",
+    "Highlights", "Body Hair", "Chest Hair", "Leg Hair", "Toe Hair", "Nose Hair", "Ear Hair",
+    "Pubic Hair", "Bald Spot", "Tan Lines", "Stretch Marks", "Cellulite", "Wrinkles", "Crow's Feet",
+    "Laugh Lines", "Worry Lines", "Frown Lines", "Hickey"
 ]
 
 
@@ -2064,7 +2110,7 @@ story_elements["SEX_KINK"] = [
 "Submission",
 "Domination",
 "Restricted mobility",
-"Pregnancy",
+"Pregnancy", "Intelligence", "Concentration", "Life-threatening situations",
 ]
 
 story_elements["RESONANT_ELEMENT"] = [
@@ -2183,6 +2229,20 @@ story_elements["RESONANT_ELEMENT"] = [
 ]
 
 story_elements["LANGUAGE"] = [
+"Official Country Language",
+"Secondary Country Language",
+"English",
+"None - Monolingual (Official Country Language)",
+"None - Monolingual (Secondary Country Language)",
+"None - Monolingual (Regional Dialect)",
+"None - Monolingual (Indigenous Language)",
+"None - Monolingual (Minority Language)",
+"None - Monolingual (Immigrant Language)",
+"None - Monolingual (Sign Language)",
+"None - Monolingual (Creole or Pidgin)",
+"None - Monolingual (Constructed Language)",
+"None - Monolingual (Extinct Language)",
+"None - Monolingual (Unspecified)",
 "Official Country Language",
 "Secondary Country Language",
 "English",
@@ -2478,58 +2538,35 @@ story_elements["SPECIAL_SKILL"] = [
 "Fandom conventions"
 ]
 
-story_elements["PERSONAL_MOTIVATION"]= [
-    "Survival",
-    "Revenge",
-    "Love",
-    "Family",
-    "Recognition",
-    "Power",
-    "Wealth",
-    "Redemption",
-    "Freedom",
-    "Knowledge",
-    "Legacy",
-    "Justice",
-    "Adventure",
-    "Self-Improvement",
-    "Competition",
-    "Duty",
-    "Fear",
-    "Friendship",
-    "Loyalty",
-    "Curiosity",
-    "Peace",
-    "Chaos",
-    "Altruism",
-    "Creativity",
-    "Validation",
-    "Belonging",
-    "Fame",
-    "Independence",
-    "Exploration",
-    "Challenge",
-    "Religion/Spirituality",
-    "Moral Integrity",
-    "Ambition",
-    "Pleasure",
-    "Conquest",
-    "Recognition within Subculture",
-    "Escapism",
-    "Tradition",
-    "Rebellion",
-    "Preservation",
-    "Jealousy",
-    "Health",
-    "Equality",
-    "Control over Destiny",
-    "Anonymity",
-    "Legacy for Offspring",
-    "Patriotism",
-    "Personal Growth",
-    "Nostalgia",
-    "Retribution", "Hedonism", "Transcendence", "Ultimate body",
-    # "More motivations" seems to be an instruction rather than an item in the list
+story_elements["PERSONAL_MOTIVATION"] = [
+    "Survival", "Revenge", "Love", "Family", "Recognition", "Power", "Wealth", "Redemption",
+    "Freedom", "Knowledge", "Legacy", "Justice", "Adventure", "Self-Improvement", "Competition",
+    "Duty", "Fear", "Friendship", "Loyalty", "Curiosity", "Peace", "Chaos", "Altruism",
+    "Creativity", "Validation", "Belonging", "Fame", "Independence", "Exploration", "Challenge",
+    "Religion/Spirituality", "Moral Integrity", "Ambition", "Pleasure", "Conquest",
+    "Recognition within Subculture", "Escapism", "Tradition", "Rebellion", "Preservation",
+    "Jealousy", "Health", "Equality", "Control over Destiny", "Anonymity", "Legacy for Offspring",
+    "Patriotism", "Personal Growth", "Nostalgia", "Retribution", "Hedonism", "Transcendence",
+    "Ultimate body", "Acceptance", "Admiration", "Atonement", "Authenticity", "Autonomy",
+    "Balance", "Beauty", "Benevolence", "Bliss", "Catharsis", "Closure", "Comfort", "Community",
+    "Compassion", "Confidence", "Connection", "Consistency", "Contribution", "Conviction",
+    "Courage", "Creation", "Destruction", "Discovery", "Diversity", "Dominance", "Ecstasy",
+    "Efficiency", "Elegance", "Enlightenment", "Enthusiasm", "Envy", "Excellence", "Exclusivity",
+    "Expertise", "Faith", "Forgiveness", "Gratitude", "Greed", "Guidance", "Harmony", "Healing",
+    "Honor", "Hope", "Humility", "Immortality", "Impact", "Inclusion", "Indulgence", "Influence",
+    "Innovation", "Inspiration", "Intensity", "Intimacy", "Intrigue", "Intuition", "Invincibility",
+    "Joy", "Kindness", "Liberation", "Longevity", "Luck", "Luxury", "Mastery", "Meaning", "Mercy",
+    "Mystery", "Novelty", "Nurturing", "Obedience", "Openness", "Opportunity", "Optimism", "Order",
+    "Originality", "Passion", "Patience", "Perfection", "Perseverance", "Piety", "Popularity",
+    "Potential", "Prestige", "Pride", "Privacy", "Productivity", "Purity", "Purpose", "Rationality",
+    "Reliability", "Resilience", "Respect", "Responsibility", "Restoration", "Risk", "Romance",
+    "Sacrifice", "Safety", "Satisfaction", "Security", "Seduction", "Self-Actualization",
+    "Self-Control", "Self-Discovery", "Self-Expression", "Self-Reliance", "Sensation", "Sensuality",
+    "Serenity", "Service", "Sexuality", "Shelter", "Simplicity", "Skill", "Solitude", "Stability",
+    "Status", "Stimulation", "Strength", "Structure", "Success", "Support", "Surprise",
+    "Sustainability", "Sympathy", "Synergy", "Teamwork", "Temperance", "Thrill", "Tolerance",
+    "Transformation", "Transparency", "Trust", "Truth", "Unity", "Variety", "Victory", "Virtue",
+    "Vision", "Vitality", "Vulnerability", "Wealth", "Wisdom", "Wonder"
 ]
 
 story_elements["DESTINY_DISCOVERY"] = [
@@ -2724,38 +2761,213 @@ story_elements["DEATH_CAUSE"] = [
 
 
 story_elements["CHARACTER_STRENGTH"] = [
-        "Resilience", "Empathy", "Intelligence", "Courage", "Loyalty", "Honesty", 
-        "Compassion", "Optimism", "Integrity", "Creativity", "Discipline", "Initiative", 
-        "Leadership", "Adaptability", "Confidence", "Charisma", "Patience", "Perseverance", 
-        "Wit", "Ambition", "Altruism", "Open-mindedness", "Gratitude", "Self-awareness", 
-        "Humility", "Focus", "Determination", "Cooperation", "Kindness", "Resourcefulness", 
-        "Accountability", "Skillfulness", "Assertiveness", "Passion", "Tolerance", 
-        "Generosity", "Pragmatism", "Visionary", "Empowerment", "Spontaneity", "Dedication", 
-        "Discretion", "Insightfulness", "Curiosity", "Mindfulness", "Foresight", "Sincerity", 
-        "Tenacity", "Diligence", "Forgiveness"
-    ]
-
-story_elements["CHARACTER_WEAKNESS"] = [
-    "Arrogance", "Impulsiveness", "Greed", "Dishonesty", "Cowardice", 
-    "Insecurity", "Short-Temperedness", "Jealousy", "Procrastination", 
-    "Stubbornness", "Laziness", "Indecisiveness", "Ignorance", "Gullibility", 
-    "Overconfidence", "Apathy", "Intolerance", "Naivety", "Selfishness", 
-    "Manipulative", "Recklessness", "Vengefulness", "Perfectionism", "Vanity", 
-    "Close-mindedness", "Pessimism", "Insensitivity", "Hypocrisy", "Dependence", 
-    "Sycophancy", "Impatience", "Materialism", "Inconsistency", "Forgetfulness", 
-    "Melancholy", "Paranoia", "Cynicism", "Absent-mindedness", "Pettiness", 
-    "Fanaticism", "Excessive Pride", "Escapism", "Disloyalty", "Moodiness", 
-    "Skepticism", "Indifference", "Ingratitude", "Overcompetitiveness", 
-    "Unreliability", "Deceptiveness", "Low self-esteem"
+    "Resilience", "Empathy", "Intelligence", "Courage", "Loyalty", "Honesty", "Compassion",
+    "Optimism", "Integrity", "Creativity", "Discipline", "Initiative", "Leadership",
+    "Adaptability", "Confidence", "Charisma", "Patience", "Perseverance", "Wit", "Ambition",
+    "Altruism", "Open-mindedness", "Gratitude", "Self-awareness", "Humility", "Focus",
+    "Determination", "Cooperation", "Kindness", "Resourcefulness", "Accountability",
+    "Skillfulness", "Assertiveness", "Passion", "Tolerance", "Generosity", "Pragmatism",
+    "Visionary", "Empowerment", "Spontaneity", "Dedication", "Discretion", "Insightfulness",
+    "Curiosity", "Mindfulness", "Foresight", "Sincerity", "Tenacity", "Diligence", "Forgiveness",
+    "Authenticity", "Bravery", "Calmness", "Charm", "Chivalry", "Cleanliness", "Commitment",
+    "Consistency", "Conviction", "Courtesy", "Decisiveness", "Dependability", "Diplomacy",
+    "Eloquence", "Enthusiasm", "Fairness", "Faithfulness", "Fearlessness", "Flexibility",
+    "Friendliness", "Gracefulness", "Helpfulness", "Heroism", "Hospitality", "Humbleness",
+    "Idealism", "Impartiality", "Incorruptibility", "Industriousness", "Ingenuity",
+    "Inquisitiveness", "Intuition", "Inventiveness", "Judiciousness", "Justice", "Magnanimity",
+    "Mediation", "Meticulousness", "Modesty", "Morality", "Nobility", "Objectivity",
+    "Orderliness", "Originality", "Perceptiveness", "Persuasiveness", "Piety", "Prudence",
+    "Punctuality", "Purity", "Rationality", "Reliability", "Resoluteness", "Respectfulness",
+    "Responsibility", "Restraint", "Righteousness", "Self-control", "Self-discipline",
+    "Self-reliance", "Self-sacrifice", "Selflessness", "Sensitivity", "Serenity", "Service",
+    "Simplicity", "Sobriety", "Steadfastness", "Stoicism", "Strength of character", "Sympathy",
+    "Tact", "Thriftiness", "Tidiness", "Timeliness", "Tolerance", "Traditionalism",
+    "Tranquility", "Trustworthiness", "Understanding", "Valor", "Vigilance", "Warmth", "Zeal"
 ]
 
-story_elements["FIGHTING_STYLE"] = ["an acrobatic", "an ancient", "an artistic", "a brutal", "a classic", "a complex", "a complicated", "a dishonorable", "an elaborate", "an elegant", "a graceful", 
-         "a grueling", "a honorable", "an innovative", "a modified", "an odd", "a painful", "a sadistic", "a simple", "a straightforward", "a strange", "a weird", "a dirty", 
-         "a Hollywood", "a weapons-heavy"
- ]
+story_elements["CHARACTER_WEAKNESS"] = [
+    "Arrogance", "Impulsiveness", "Greed", "Dishonesty", "Cowardice", "Insecurity",
+    "Short-Temperedness", "Jealousy", "Procrastination", "Stubbornness", "Laziness",
+    "Indecisiveness", "Ignorance", "Gullibility", "Overconfidence", "Apathy", "Intolerance",
+    "Naivety", "Selfishness", "Manipulative", "Recklessness", "Vengefulness", "Perfectionism",
+    "Vanity", "Close-mindedness", "Pessimism", "Insensitivity", "Hypocrisy", "Dependence",
+    "Sycophancy", "Impatience", "Materialism", "Inconsistency", "Forgetfulness", "Melancholy",
+    "Paranoia", "Cynicism", "Absent-mindedness", "Pettiness", "Fanaticism", "Excessive Pride",
+    "Escapism", "Disloyalty", "Moodiness", "Skepticism", "Indifference", "Ingratitude",
+    "Overcompetitiveness", "Unreliability", "Deceptiveness", "Low self-esteem", "Aggressiveness",
+    "Attention-seeking", "Bitterness", "Bluntness", "Boastfulness", "Carelessness",
+    "Chronic lateness", "Clinginess", "Compulsiveness", "Control freak", "Cruelty",
+    "Deceitfulness", "Disorganization", "Egocentrism", "Emotional instability", "Envy",
+    "Fickleness", "Flakiness", "Frivolousness", "Gluttony", "Gossiping", "Hedonism",
+    "Hoarding", "Hostility", "Impulsive spending", "Inability to delegate", "Indulgence",
+    "Inflexibility", "Insensitivity", "Intrusiveness", "Irresponsibility", "Lack of boundaries",
+    "Lack of empathy", "Lack of focus", "Lack of self-control", "Lecherousness", "Martyr complex",
+    "Mercilessness", "Narcissism", "Narrow-mindedness", "Neglectfulness", "Obsessiveness",
+    "Overemotional", "Passive-aggressiveness", "Poor communication", "Prejudice", "Promiscuity",
+    "Quarrelsomeness", "Rebelliousness", "Resentfulness", "Rudeness", "Ruthlessness",
+    "Self-centeredness", "Self-destructiveness", "Self-doubt", "Self-hatred",
+    "Self-righteousness", "Selfishness", "Short attention span", "Sloppiness", "Social anxiety",
+    "Spitefulness", "Squeamishness", "Stinginess", "Submissiveness", "Tactlessness",
+    "Tardiness", "Thrill-seeking", "Timidity", "Unambitious", "Unassertiveness",
+    "Uncleanliness", "Uncooperativeness", "Undependability", "Unfriendliness", "Ungrateful",
+    "Unkindness", "Unpredictability", "Untrustworthiness", "Verbosity", "Vindictiveness",
+    "Volatility", "Vulgarity", "Wishy-washiness", "Withdrawal", "Workaholic"
+]
+
+story_elements["FIGHTING_STYLE"] = [
+    "an acrobatic", "an ancient", "an artistic", "a brutal", "a classic", "a complex",
+    "a complicated", "a dishonorable", "an elaborate", "an elegant", "a graceful", "a grueling",
+    "a honorable", "an innovative", "a modified", "an odd", "a painful", "a sadistic",
+    "a simple", "a straightforward", "a strange", "a weird", "a dirty", "a Hollywood",
+    "a weapons-heavy", "an animal-like", "a technology-based", "an aggressive", "an agile",
+    "an unconventional", "a street-smart", "a tactical", "a strategic", "a disciplined",
+    "an unpredictable", "a flashy", "a minimalist", "a brutal", "a precise", "a fluid",
+    "a rigid", "a wild", "a controlled", "an improvisational", "a reactive", "a proactive",
+    "a defensive", "an offensive", "a counter-attacking", "a pressure-based", "a evasive",
+    "a deceptive", "a opportunistic", "a relentless", "an intimidating", "a psychological",
+    "a calculated", "a reckless", "a patient", "an impatient", "a methodical", "a chaotic",
+    "a adaptive", "a specialized", "a versatile", "a unorthodox", "a traditional", "a modern",
+    "a futuristic", "a primitive", "an instinctive", "a learned", "a natural", "a trained",
+    "a self-taught", "a mentor-taught", "a family-taught", "a culturally-influenced",
+    "a religion-influenced", "a philosophy-influenced", "an art-influenced", "a sport-influenced",
+    "a dance-influenced", "a music-influenced", "a military-influenced", "a guerrilla-influenced",
+    "a survival-influenced", "a street-influenced", "a prison-influenced", "an assassin-influenced",
+    "a ninja-influenced", "a pirate-influenced", "a cowboy-influenced", "a knight-influenced",
+    "a gladiator-influenced", "a samurai-influenced", "a viking-influenced", "a spartan-influenced",
+    "a shaolin-influenced", "a wushu-influenced", "a capoeira-influenced", "a krav-maga-influenced",
+    "a jeet-kune-do-influenced", "a muay-thai-influenced", "a taekwondo-influenced",
+    "a judo-influenced", "a jiu-jitsu-influenced", "a wrestling-influenced", "a boxing-influenced",
+    "a kickboxing-influenced", "a karate-influenced", "a kung-fu-influenced", "a tai-chi-influenced",
+    "a aikido-influenced", "a kendo-influenced", "a fencing-influenced", "a archery-influenced",
+    "a gunslinging-influenced", "a swordsmanship-influenced", "a marksmanship-influenced",
+    "a staffplay-influenced", "a whip-wielding-influenced", "a chainsaw-wielding-influenced",
+    "a mech-piloting-influenced",
+]
+
+story_elements["WEAPON"] = [
+    "Sword", "Longbow", "Crossbow", "Spear", "Shield", "Axe", "Mace", "Dagger", "Halberd",
+    "War hammer", "Flail", "Blowgun", "Slingshot", "Bo staff", "Nunchaku", "Katana", "Rapier",
+    "Scimitar", "Gladius", "Pike", "Trident", "Club", "Javelin", "Morning star", "Kukri",
+    "Sabre", "Bowie knife", "Bayonet", "Machete", "Compound bow", "Taser", "Revolver",
+    "Semi-automatic pistol", "Rifle", "Shotgun", "Sniper rifle", "Submachine gun", "Machine gun",
+    "Grenade", "Rocket launcher", "Flamethrower", "Landmine", "Naval mine", "Torpedo",
+    "Guided missile", "Tactical knife", "Stun baton", "Pepper spray", "Electrified baton", "Bola",
+    "Khopesh", "Falchion", "Claymore", "Zweihänder", "Flamberge", "Cutlass", "Saif", "Shamshir",
+    "Dao", "Jian", "Butterfly sword", "Hook sword", "Meteor hammer", "Chakram", "Katar", "Urumi",
+    "Karambit", "Kris", "Blunderbuss", "Musket", "Arquebus", "Derringer", "Pepperbox", "Bazooka",
+    "Tomahawk", "Atlatl", "Iklwa", "Maquahuitl", "Macuahuitl", "Tepoztopilli", "Tlacochtli",
+    "Churika", "Pata", "Khanda", "Aara", "Tabar", "Khanjar", "Shotel", "Sica", "Falx", "Xyston",
+    "Gastraphetes", "Ballista", "Scorpio", "Polybolos", "Onager", "Trebuchet", "Mangonel",
+    "Lance", "Arming sword", "Longsword", "Estoc", "Cinquedea", "Katzbalger", "Messer", "Falcata",
+    "Kopis", "Xiphos", "Makhaira", "Rhomphaia", "Peltast", "Sarissa", "Dory", "Xyele", "Javelin",
+    "Pilum", "Plumbata", "Angon", "Francisca", "Seax", "Langseax", "Scramasax", "Dirk", "Stiletto",
+    "Main-gauche", "Parrying dagger", "Rondel dagger", "Misericorde", "Cinquedea", "Stiletto",
+    "Baselard", "Balisong", "Tantō", "Ninjatō", "Kodachi", "Ōdachi", "Nagamaki", "Tachi", "Bokken",
+    "Shinai", "Suburitō", "Hachiwara", "Masakari", "Kamayari", "Sasumata", "Nata", "Tekkan",
+    "Hachiwari", "Tinbe", "Rochin", "Ryufuka Bo", "Tambo", "Chidanbo", "Konsaibo", "Han bo",
+    "Gun", "Tang hulu", "Iron bow", "Cho ko nu", "Qiang", "Ge", "Ji", "Guan dao", "Podao", "Woldo",
+    "Dan bong", "Three-section staff", "Rope dart", "Emeici", "Flying claws", "Wind and fire wheels",
+    "Deer horn knives", "Chicken sickles", "Fei cha", "Sheng biao", "Tiě jiǎ", "Tie shan", "Miao dao",
+    "Dadao", "Zhua", "Tegha", "Pata", "Urumi", "Haladie", "Dandpatta", "Chuttuvaal", "Katar",
+    "Bhuj", "Gupti", "Bagh nakh", "Bichawa", "Vajra mushti", "Chakram", "Katar", "Katara", "Suwaiya",
+    "Kirpan", "Pesh-kabz", "Chilanum", "Silambam", "Lathi", "Gurj", "Saintie", "Chigiriki",
+    "Kusarigama", "Kyoketsu-shoge", "Tekagi-shuko", "Kakute", "Shobo", "Tessen", "Gunbai",
+    "Manju nage", "Nage teppo", "Torinawa", "Fukiya", "Fukibari", "Makibishi", "Shuriken", "Kunai",
+    "Yawara", "Tekko", "Kubotan", "Sodegarami", "Suntetsu", "Kongō", "Keisaku", "Vajra", "Dorje",
+    "Kṛpāṇa", "Changpao", "Deerhorn Knives", "Monk's spade", "Wind and fire wheels", "Emei piercers",
+    "Rope dart", "Flying guillotine", "Fei cha", "Tiějiǎ", "Tie shan", "Miao dao", "Dadao", "Zhua",
+    "Jian", "Dao", "Hook swords", "Butterfly swords", "Yu Jue Liang", "Shuang Yue", "Hu cha",
+    "Sai", "Tekkō", "Shuriken", "Kunai", "Fukiya", "Fukibari", "Nunchaku", "Sai", "Tonfa", "Atlatl",
+    "Woomera", "Boleadoras", "Lariat", "Lasso", "Bullwhip", "Sjambok", "Knout", "Cat o' nine tails",
+    "Rante", "Surujin", "Kusari-fundo", "Manriki-gusari", "Ono", "Kanabo", "Kusari-gama", "Hojo",
+    "Nekode", "Okinawan sai", "Tinbe-rochin", "Sang Kauw", "Batanggas", "Sibat", "Panabas",
+    "Kampilan", "Barong", "Dulo-dulo", "Guna", "Karambit", "Kukri", "Kris", "Parang", "Laring",
+    "Niabor", "Mandau", "Bambu runcing", "Celurit", "Kipas", "Cabang", "Tumbuk lada", "Golok", "Bagh naka",
+    "Bindhi", "Bangkung", "Gedak", "Kerambit", "Siwah", "Langgai Tinggang", "Sabit", "Keris Sundang",
+    "Luju", "Rencong", "Binakoko", "Igorot axe", "Panabas", "Tabak-toyok", "Tamaraw horn knife", "Pirah",
+]
+
+story_elements["HABITS"] = [
+    "Reading a book", "Practicing yoga", "Meditating", "Taking a nature walk", "Gardening",
+    "Cooking a healthy meal", "Painting or drawing", "Writing in a journal", "Playing a musical instrument",
+    "Singing", "Dancing", "Knitting or crocheting", "Doing a jigsaw puzzle", "Playing chess",
+    "Solving crossword puzzles", "Taking a relaxing bath", "Getting a massage", "Stargazing",
+    "Bird watching", "Fishing", "Swimming", "Cycling", "Hiking", "Camping", "Practicing deep breathing",
+    "Stretching", "Taking a nap", "Listening to calming music", "Watching a comedy", "Having a picnic",
+    "Playing with a pet", "Volunteering for a cause", "Attending a support group", "Learning a new skill",
+    "Taking a photography class", "Joining a book club", "Attending a pottery workshop", "Going to a museum",
+    "Visiting an art gallery", "Attending a concert", "Going to a theater performance", "Taking a dance class",
+    "Joining a sports team", "Playing mini-golf", "Going bowling", "Attending a yoga retreat",
+    "Joining a meditation group", "Taking a cooking class", "Attending a personal development seminar",
+    "Going on a scenic drive", "Visiting a botanical garden", "Attending a farmer's market",
+    "Going to a health spa", "Taking a martial arts class", "Spending time with friends or family",
+    "Lifting weights", "Spending time with children", "Running", "Seeing a therapist", "Commenting online",
+    "Talking to strangers online", "Laughing", "People watching",
+    #Unproductive habits 
+    "Binge-watching TV shows", "Mindlessly scrolling through social media", "Procrastinating",
+    "Sleeping in excessively", "Engaging in gossip", "Playing video games for hours", "Excessive online shopping",
+    "Eating junk food", "Consuming alcohol excessively", "Smoking cigarettes", "Taking recreational drugs",
+    "Excessive gambling", "Engaging in risky sexual behavior", "Loitering aimlessly", "Littering", "Vandalism",
+    "Trespassing", "Shoplifting", "Pickpocketing", "Stealing", "Cheating", "Lying compulsively",
+    "Spreading rumors", "Cyberbullying", "Trolling online forums", "Engaging in flame wars",
+    "Watching conspiracy theory videos", "Believing in pseudoscience", "Joining a cult",
+    "Engaging in superstitious behavior", "Fortune telling", "Tarot card reading", "Astrology obsession",
+    "Hoarding useless items", "Collecting junk", "Engaging in pointless arguments", "Holding grudges",
+    "Seeking revenge", "Plotting against others", "Manipulating people", "Enabling bad behavior",
+    "Neglecting responsibilities", "Skipping work or school", "Procrastinating on important tasks",
+    "Missing deadlines", "Disregarding personal hygiene", "Wearing dirty clothes", "Living in a messy space",
+    "Hoarding garbage", "Engaging in self-destructive behavior", "Self-sabotaging", "Wallowing in self-pity",
+    "Constantly complaining", "Blaming others for personal problems", "Excessive weed smoking", "Excessive pornography viewing",
+    "Endlessly comparing themself with others", "Zoning out", "Negative self-talk", "Yelling at others",
+    "Punching walls in", "Throwing a tantrum", "Crying non-stop", "Paying for sex",
+]
 
 story_elements["CHARACTER_SECRET"] = [
         "I'm adopted but I've never told anyone.",
+        "I cheated on an important exam in high school.",
+        "I'm still in love with my ex.",
+        "I have a secret half-sibling my family doesn't know about.",
+        "I never actually graduated from college like I tell people.",
+        "I caused the injury that ended my friend's sports career.",
+        "I've stolen money from jobs in the past.",
+        "I frequently call in sick when I'm not really ill.",
+        "I once ran a red light and caused an accident but drove away.",
+        "I pretended to have a terminal illness to get money from friends.",
+        "I lied about my credentials to get my current job.",
+        "I'm secretly addicted to prescription painkillers.",
+        "I cheated with my best friend's partner.",
+        "I have a hidden social media account to stalk exes.",
+        "I used to deal drugs and launder money.",
+        "I got plastic surgery but tell people I look this good naturally.",
+        "I write fake positive reviews for my own business.",
+        "I've borrowed money I can't repay from friends and family.",
+        "I have an illegitimate child I keep secret.",
+        "I never finished my master's degree like I claim.",
+        "I started the nasty rumor that ruined my coworker's career.",
+        "I have a criminal record under a different name.",
+        "I'm embellishing my past to run for public office.",
+        "I filed for bankruptcy years ago but kept it quiet.",
+        "I lied about my age to marry someone much younger.",
+        "I cheated my way through college with paid test takers.",
+        "I'm secretly struggling with a severe gambling addiction.",
+        "I maintain multiple social media accounts to manipulate people.",
+        "I frequently abuse prescription drugs recreationally.",
+        "I started the fire that burned down my childhood home for insurance money.",
+        "I've stolen business ideas from past employers and claimed them as my own.",
+        "I keep secrets about my sexuality that would shock my friends and family.",
+        "I never visit my sick relative like I claim - I use that time for myself.",
+        "I once injured someone in a hit and run while driving drunk.",
+        "I lied that I have a made-up disease to get donations from strangers.",
+        "I pretend my family is wealthy but we actually live paycheck to paycheck.",
+        "I'm having an affair with a married coworker.",
+        "I swindled my last employer out of thousands before getting fired.",
+        "I have multiple identities and backstories I use to manipulate people.",
+        "I hacked into a company's system and stole proprietary information to advance my career.",
+        "I secretly despise my spouse but keep up happy appearances.",
+        "I never graduated high school like I claim.",
+        "I started malicious rumors about a former boss who fired me.",
+        "I take credit for other people's work and ideas.",
+                "I'm adopted but I've never told anyone.",
         "I cheated on an important exam in high school.",
         "I'm still in love with my ex.",
         "I have a secret half-sibling my family doesn't know about.",
@@ -2904,6 +3116,57 @@ story_elements["CHARACTER_SECRET"] = [
         "I orchestrated hate crimes to fuel divisions and make profit from chaos.",
         "I have participated in atrocities that would be considered war crimes.",
         "I planned the assassination of a world leader."
+        "I secretly have a second family in another country.",
+        "I caused a fatal accident while driving drunk and fled the scene.",
+        "I'm part of an underground fight club.",
+        "I'm a member of a secret society that controls world events.",
+        "I have a secret room in my house where I keep my darkest secrets.",
+        "I'm a sleeper agent for a foreign government.",
+        "I have a secret identity as a vigilante.",
+        "I'm secretly a member of a notorious hacker group.",
+        "I have a secret addiction to a dangerous and illegal substance.",
+        "I'm secretly a member of a doomsday cult.",
+        "I have a secret laboratory where I conduct unethical experiments.",
+        "I'm secretly a member of a cannibal society.",
+        "I have a secret underground bunker stocked with supplies for the apocalypse.",
+        "I'm secretly a member of a secret organization that hunts supernatural creatures.",
+        "I have a secret collection of illegal weapons.",
+        "I'm secretly a member of a secret society that practices dark magic.",
+        "I have a secret hideout where I stash my ill-gotten gains.",
+        "I'm secretly a member of a secret society that controls the global economy.",
+        "I have a secret identity as a professional assassin.",
+        "I'm secretly a member of a secret society that controls the media.",
+        "I have a secret room in my house dedicated to my obsession with a celebrity.",
+        "I'm secretly a member of a secret society that controls the world's governments.",
+        "I have a secret identity as a notorious art thief.",
+        "I'm secretly a member of a secret society that worships an ancient evil deity.",
+        "I have a secret underground prison where I keep my enemies.",
+        "I'm secretly a member of a secret society that controls the world's religions.",
+        "I have a secret identity as a master of disguise.",
+        "I'm secretly a member of a secret society that possesses alien technology.",
+        "I have a secret vault where I keep my most valuable and dangerous artifacts.",
+        "I'm secretly a member of a secret society that controls the world's militaries.",
+        "I have a secret identity as a master hacker.",
+        "I'm secretly a member of a secret society that has unlocked the secrets of immortality.",
+        "I have a secret underground laboratory where I create genetically engineered creatures.",
+        "I'm secretly a member of a secret society that has the power to manipulate reality itself.",
+        "I have a secret identity as a notorious serial killer.",
+        "I'm secretly a member of a secret society that controls the world's criminal underworld.",
+        "I have a secret room in my house where I practice dark rituals.",
+        "I'm secretly a member of a secret society that has discovered the key to time travel.",
+        "I have a secret identity as a master of espionage.",
+        "I'm secretly a member of a secret society that controls the world's supply of a vital resource.",
+        "I have a secret bunker filled with supplies and weapons for the zombie apocalypse.",
+        "I'm secretly a member of a secret society that has made contact with extraterrestrial beings.",
+        "I have a secret identity as a notorious arms dealer.",
+        "I'm secretly a member of a secret society that has discovered the cure for all diseases.",
+        "I have a secret underground city where I rule as a tyrannical dictator.",
+        "I'm secretly a member of a secret society that has unlocked the secrets of telepathy and mind control.",
+        "I have a secret identity as a master of psychological manipulation.",
+        "I'm secretly a member of a secret society that controls the world's supply of advanced technology.",
+        "I have a secret island where I hunt humans for sport.",
+        "I'm secretly a member of a secret society that has discovered the secrets of inter-dimensional travel.",
+        "I have a secret identity as the mastermind behind a global criminal empire."
     ]
 
 story_elements["CHARACTER_MEGA_ARCHETYPE"] = [
@@ -2992,6 +3255,30 @@ story_elements["Character_sub-archetype"] = [
     "The Forgotten Chronicler: Records events or truths that others overlook or choose to forget, often providing a different perspective on history. Example: Samwell Tarly from Game of Thrones"
 ]
 
+story_elements["LEVEL_OF_IMPORTANCE"] = [
+    "0 - Not Important at All",
+    "1 - A little Important",
+    "2 - Slightly Important",
+    "3 - Somewhat Important",
+    "4 - Moderately Important",
+    "5 - Important",
+    "6 - Quite Important",
+    "7 - Very Important",
+    "8 - Highly Important",
+    "9 - Tremendously Important",
+    "10 - Extremely Important"
+]
+
+story_elements["MOST_IMPORTANT"] = [
+    "LOVE (relationships)",
+    "WORK",
+    "SOCIETY",
+    "OBJECTIVE",
+    "OPPONENT",
+    "BODY",
+    "DESTINY",
+]
+
 
 
 # Now, all your categories are formatted and ready for use in your story generator.
@@ -3022,23 +3309,31 @@ def generate_story():
     story += f"CHARACTER: \n\n"
     story += f"The main character is a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_GENDER')} {select_random_element('CHARACTER_ETHNICITY')} {select_random_element('CHARACTER_RACE')} {select_random_element('CHARACTER_AGE')}, "
     story += f"their relationship status is {select_random_element('CHARACTER_RELATIONSHIP')}. \n\n"
-    story += f"In LOVE they are {select_random_element('CHARACTER_DESCRIPTOR')}. Attracted to: {select_random_element('CHARACTER_ATTRACTION')}. Sexual Turn-on: {select_random_element('SEX_KINK')}. Sexual Turn-off: {select_random_element('SEX_KINK')}.  \n\n"
+    story += f"In LOVE (relationships) they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n Attracted to: {select_random_element('CHARACTER_ATTRACTION')}. \n Sexual Turn-on: {select_random_element('SEX_KINK')}. Sexual Turn-off: {select_random_element('SEX_KINK')}.  \n\n"
+    story += f"LOVE level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
     story += f"At WORK they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
+    story += f"WORK level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
     story += f"In SOCIETY they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
+    story += f"SOCIETY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
+    story += f"Copes with STRESS by {select_random_element('HABITS')} and {select_random_element('HABITS')}. \n\n"
     story += f"When threatened their response is {select_random_element('STRESS_RESPONSE')}. \n\n"
-    story += f"Their objective is to {select_random_element('CHARACTER_GOALS')}. \n\n"
-    story += f"Their opponent is a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('OPPONENTS')}. \n\n"
+    story += f"Their OBJECTIVE is to {select_random_element('CHARACTER_GOALS')}. \n\n"
+    story += f"OBJECTIVE level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
+    story += f"Their OPPONENT is a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('OPPONENTS')}. \n\n"
+    story += f"OPPONENT level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
     story += f"The disaster they face is {select_random_element('STORY_COMPLICATIONS')}. \n\n"
+    story += f"They prioritize {select_random_element('MOST_IMPORTANT')} over everything. \n\n"
     story += f"Resonant element: {select_random_element('RESONANT_ELEMENT')}. \n\n"
     story += f"Here are more facts about the main character: \n\n"
     story += f"Their name is {select_random_element('CHARACTER_NAME_TYPE')}. It starts with [{random.choice(string.ascii_uppercase)}]. \n\n"
+    story += f"BODY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
     story += f"Physical build: {select_random_element('PHYSICAL_BUILD')} \n\n"
     story += f"Skin tone: {select_random_element('SKIN_TONE')} \n\n"
     story += f"Height: {select_random_element('HEIGHT')} \n\n"
     story += f"Body Image: {select_random_element('BODY_IMAGE')} \n\n"
     story += f"Notable body part: {select_random_element('BODY_PART_OBSESSION')} \n\n"
     story += f"Movement style: {select_random_element('MOVEMENT_STYLE')} \n\n"
-    story += f"Tone of voice: {select_random_element('Tone_of_voice')} \n\n"
+    story += f"Tone of voice: {select_random_element('TONE_OF_VOICE')} \n\n"
     story += f"Language type: {select_random_element('LANGUAGE_TYPE')} \n\n"
     story += f"Language: {select_random_element('LANGUAGE')} \n\n"  
     story += f"Special skill: {select_random_element('SPECIAL_SKILL')} \n\n"  
@@ -3057,9 +3352,11 @@ def generate_story():
     story += f"Character weakness: {select_random_element('CHARACTER_WEAKNESS')} \n\n" 
     story += f"Character secret: {select_random_element('CHARACTER_SECRET')} \n\n"
     story += f"Character fighting style: {select_random_element('FIGHTING_STYLE')} style \n\n"
+    story += f"Character weapon: {select_random_element('WEAPON')} style \n\n"
     story += f"Mega-archetype: {select_random_element('CHARACTER_MEGA_ARCHETYPE')} \n\n"
     story += f"Sub-archetype: {select_random_element('Character_sub-archetype')} \n\n"
-    story += f"DESTINY DICE: \n\n"  
+    story += f"DESTINY DICE: \n\n"
+    story += f"DESTINY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"  
     story += f"Their destiny is discovered through {select_random_element('DESTINY_DISCOVERY')} \n\n"
     story += f"Their destiny is {select_random_element('DESTINY')} \n\n"
     story += f"Age at discovery: {[random.randint(0, 199)]} \n\n"
