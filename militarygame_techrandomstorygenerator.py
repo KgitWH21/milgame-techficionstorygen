@@ -3477,7 +3477,7 @@ def generate_story():
     story += f"Character weakness: {select_random_element('CHARACTER_WEAKNESS')} \n\n" 
     story += f"Character secret: {select_random_element('CHARACTER_SECRET')} \n\n"
     story += f"Character fighting style: {select_random_element('FIGHTING_STYLE')} style \n\n"
-    story += f"Character weapon: {select_random_element('WEAPON')} style \n\n"
+    story += f"Character weapon: {select_random_element('WEAPON')} \n\n"
     story += f"Mega-archetype: {select_random_element('CHARACTER_MEGA_ARCHETYPE')} \n\n"
     story += f"Sub-archetype: {select_random_element('Character_sub-archetype')} \n\n"
     story += f"DESTINY DICE: \n\n"
