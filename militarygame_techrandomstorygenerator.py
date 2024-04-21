@@ -3470,7 +3470,7 @@ def generate_story():
     story += f"Mental health status: {select_random_element('MENTAL_HEALTH_STATUS')} \n\n"
     story += f"Physical health status: {select_random_element('PHYSICAL_HEALTH_STATUS')} \n\n"
     story += f"Financial health status: {select_random_element('FINANCIAL_HEALTH_STATUS')} \n\n"
-    story += f"Greatest fear: {select_random_element('GREATEST_FEAR')} style \n\n"
+    story += f"Greatest fear: {select_random_element('GREATEST_FEAR')} \n\n"
     story += f"Personal motivation: {select_random_element('PERSONAL_MOTIVATION')} \n\n"
     story += f"Personal ideology: {select_random_element('PERSONAL_IDEOLOGY')} \n\n"
     story += f"Character strength: {select_random_element('CHARACTER_STRENGTH')} \n\n" 
