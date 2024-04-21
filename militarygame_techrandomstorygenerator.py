@@ -1148,66 +1148,12 @@ story_elements["SOCIAL_ENVIRONMENT"] = [
 ]
 
 story_elements["LIFE_EXPERIENCE"] = [
-"Sheltered Upbringing",
-"Average Childhood",
-"Challenging Childhood",
-"Traumatic Childhood",
-"Orphaned at a Young Age",
-"Raised in Foster Care",
-"Homeschooled",
-"Boarding School Education",
-"Public School Education",
-"Private School Education",
-"Dropped Out of High School",
-"High School Graduate",
-"Some College Education",
-"Associate's Degree",
-"Bachelor's Degree",
-"Master's Degree",
-"Doctorate Degree",
-"Self-Taught",
-"Vocational Training",
-"Military Experience",
-"Veteran of War",
-"World Traveler",
-"Lived Abroad",
-"Missionary Work",
-"Peace Corps Volunteer",
-"Worked Odd Jobs",
-"Corporate Career",
-"Small Business Owner",
-"Freelancer",
-"Artist",
-"Musician",
-"Writer",
-"Actor",
-"Athlete",
-"Stay-at-Home Parent",
-"Single Parent",
-"Caregiver for Family Member",
-"Survived a Life-Threatening Illness",
-"Battled Addiction",
-"Recovered from Addiction",
-"Experienced Homelessness",
-"Survived a Natural Disaster",
-"Victim of a Crime",
-"Convicted of a Crime",
-"Served Time in Prison",
-"Experienced Discrimination",
-"Overcame Poverty",
-"Rags to Riches Story",
-"Experienced Great Loss",
-"Survived an Accident",
-"Lived Off the Grid",
-"Worked in Multiple Countries",
-"Retired Early",
-"Started a Second Career",
-"Became a Grandparent",
-"Caregiver for Grandchildren",
-"Outlived Spouse",
-"Remarried Late in Life",
-"Celebrated Golden Anniversary",
-"Centenarian"
+"Inexperienced",
+"A little experienced",
+"Some experience",
+"Experienced",
+"Highly Experienced",
+"Very Experienced",
 ]
 
 story_elements["PERSONAL_IDEOLOGY"] = [
@@ -3465,7 +3411,8 @@ def generate_story():
     story += f"Birthplace: {select_random_element('BIRTHPLACE')} \n\n"
     story += f"Birth location: {select_random_element('BIRTH_LOCATION')} \n\n"
     story += f"Social Environment: {select_random_element('SOCIAL_ENVIRONMENT')} \n\n"
-    story += f"Life Experience: Level: {[random.randint(0, 10)]} {select_random_element('LIFE_EXPERIENCE')} \n\n"
+    story += f"Life Experience: {select_random_element('LIFE_EXPERIENCE')} \n\n"
+    story += f"Job Level: {[random.randint(0, 100)]} \n\n"
     story += f"Overall life satisfaction: {select_random_element('LIFE_SATISFACTION')} \n\n"
     story += f"Mental health status: {select_random_element('MENTAL_HEALTH_STATUS')} \n\n"
     story += f"Physical health status: {select_random_element('PHYSICAL_HEALTH_STATUS')} \n\n"
