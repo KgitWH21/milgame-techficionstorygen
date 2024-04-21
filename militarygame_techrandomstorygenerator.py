@@ -1,4 +1,5 @@
 import random
+import string
 
 # Assuming story_elements is your organized data dictionary
 # ...
@@ -335,11 +336,13 @@ story_elements["VIDEO_GAME_FRANCHISE"] = [
 ]
 
 story_elements["CHARACTER_GENDER"] = [
-        "male","male","male","male","female", "female", "female", "female", "ungendered", "transgender"    
+        "male","male","male","male","female", "female", "female", "female", "ungendered", "transgender (woman to man)", "transgender (man to woman)",    
     ]
 
 story_elements["CHARACTER_ATTRACTION"] = [
-        "men","men","men","men","women", "women", "women", "women", "ungendered", "transgender", "male cyborgs", "female cyborgs", "men with animal features", "women with animal features", "otherworldy/fantasy beings", "themselves",  
+        "men","men","men","men", "men", "men", "women", "women", "women", "women", "women", "women", "ungendered feminine", "ungendered masculine", "transgender (woman to man)", 
+        "transgender (man to woman)", "male cyborgs", 
+        "female cyborgs", "men with animal features", "women with animal features", "otherworldy/fantasy beings", "themselves",  
     ]
 
 story_elements["JOBS"] = [
@@ -522,7 +525,22 @@ story_elements["CHARACTER_RACE"] = ["human", "human", "human", "bio-hacked human
 
 story_elements["CHARACTER_ETHNICITY"] = ["White American", "Black Texan", "Japanese", "Chinese", "Singaporean", "Mongolian", "Italian", "Mexican", "White British", "Indian",
         "Maldivian", "Burmese", "Japanese - Ainu", "Japanese American", "Black Washington DC", "Spanish", "French", "Bruneian", "Australian", "Canadian", "Taiwanese",
-        "Native American - Navajo", "Hispanic", "Nicaraguan", "Chinese American", 
+        "Native American - Navajo", "Hispanic", "Nicaraguan", "Chinese American", "Afghan", "Albanian", "Algerian", "American", "Andorran", "Angolan", "Antiguan", 
+        "Argentine", "Armenian", "Australian", "Austrian", "Azerbaijani", "Bahamian", "Bahraini", "Bangladeshi", "Barbadian", "Belarusian", "Belgian", "Belizean", "Beninese", "Bhutanese", 
+        "Bolivian", "Bosnian", "Botswanan", "Brazilian", "British", "Bruneian", "Bulgarian", "Burkinabe", "Burmese", "Burundian", "Cambodian", "Cameroonian", "Canadian", "Cape Verdean", 
+        "Central African", "Chadian", "Chilean", "Chinese", "Chinese American", "Colombian", "Comorian", "Congolese", "Costa Rican", "Croatian", "Cuban", "Cypriot", "Czech", "Danish", 
+        "Djiboutian", "Dominican", "Dutch", "Ecuadorian", "Egyptian", "Emirati", "Equatorial Guinean", "Eritrean", "Estonian", "Ethiopian", "Fijian", "Filipino", "Finnish", "French", 
+        "Gabonese", "Gambian", "Georgian", "German", "Ghanaian", "Greek", "Grenadian", "Guatemalan", "Guinean", "Guyanese", "Haitian", "Honduran", "Hungarian", "Icelander", "Indian", 
+        "Indonesian", "Iranian", "Iraqi", "Irish", "Israeli", "Italian", "Ivorian", "Jamaican", "Japanese", "Japanese - Ainu", "Japanese American", "Jordanian", "Kazakhstani", "Kenyan", 
+        "Kittitian and Nevisian", "Kuwaiti", "Kyrgyz", "Lao", "Latvian", "Lebanese", "Liberian", "Libyan", "Liechtensteiner", "Lithuanian", "Luxembourger", "Macedonian", "Malagasy", "Malawian", 
+        "Malaysian", "Maldivian", "Malian", "Maltese", "Marshallese", "Mauritanian", "Mauritian", "Mexican", "Micronesian", "Moldovan", "Monacan", "Mongolian", "Montenegrin", "Moroccan", "Mosotho", 
+        "Motswana", "Mozambican", "Namibian", "Nauruan", "Nepalese", "New Zealander", "Ni-Vanuatu", "Nicaraguan", "Nigerian", "Nigerien", "North Korean", "Northern Irish", "Norwegian", "Omani", 
+        "Pakistani", "Palauan", "Palestinian", "Panamanian", "Papua New Guinean", "Paraguayan", "Peruvian", "Polish", "Portuguese", "Qatari", "Romanian", "Russian", "Rwandan", "Saint Lucian", 
+        "Salvadoran", "Samoan", "San Marinese", "Sao Tomean", "Saudi", "Scottish", "Senegalese", "Serbian", "Seychellois", "Sierra Leonean", "Singaporean", "Slovak", "Slovenian", "Solomon Islander", 
+        "Somali", "South African", "South Korean", "South Sudanese", "Spanish", "Sri Lankan", "Sudanese", "Surinamese", "Swazi", "Swedish", "Swiss", "Syrian", "Taiwanese", "Tajik", "Tanzanian", "Thai", 
+        "Timorese", "Togolese", "Tongan", "Trinidadian and Tobagonian", "Tunisian", "Turkish", "Turkmen", "Tuvaluan", "Ugandan", "Ukrainian", "Uruguayan", "Uzbek", "Venezuelan", "Vietnamese", "Welsh", 
+        "White American", "White British", "Yemeni", "Zambian", "Zimbabwean", "Black Texan", "Black Washington DC", "Native American - Navajo", "Hispanic", 
+        "Nicaraguan"
     ]
 
 story_elements["CHARACTER_AGE"] = ["Child (8 - 12)",
@@ -721,6 +739,126 @@ story_elements["BIRTHPLACE"] = ["A bustling city", "A remote village", "The dept
     "A community living on a tapestry of interconnected mini-worlds",
     "A town in a realm where historical eras coexist simultaneously",
     "A civilization on a fragment of reality drifting through a void of possibilities"
+]
+
+story_elements["BIRTH_LOCATION"] = [
+    "north", "south", "east", "west", "central", 
+]
+
+story_elements["CHARACTER_NAME_TYPE"] = [
+    "Traditional",
+    "Unconventional",
+    "Common",
+    "Rare",
+    "Unique",
+    "Classic",
+    "Modern",
+    "Trendy",
+    "Old-fashioned",
+    "Retro",
+    "Vintage",
+    "Historical",
+    "Futuristic",
+    "Sci-fi inspired",
+    "Fantasy inspired",
+    "Mythological",
+    "Biblical",
+    "Literary",
+    "Artistic",
+    "Musical",
+    "Popular culture inspired",
+    "Fandom inspired",
+    "Cultural",
+    "Ethnic",
+    "Regional",
+    "Geographic",
+    "Nature-inspired",
+    "Floral",
+    "Animal-inspired",
+    "Celestial",
+    "Elemental",
+    "Seasonal",
+    "Holiday-related",
+    "Occupational",
+    "Aspirational",
+    "Virtue-based",
+    "Characteristic-based",
+    "Personality-based",
+    "Appearance-based",
+    "Gender-neutral",
+    "Masculine",
+    "Feminine",
+    "Unisex",
+    "Androgynous",
+    "Surname as first name",
+    "Name blending",
+    "Name with numeral",
+    "Name with special character",
+    "Name with unconventional spelling",
+    "Acronym name",
+    "Initialism name",
+    "Palindromic name",
+    "Anagrammatic name",
+    "Alliterative name",
+    "Rhyming name",
+    "Pun-based name",
+    "Joke name",
+    "Ironic name",
+    "Oxymoronic name",
+    "Name with hidden meaning",
+    "Name with cultural significance",
+    "Name with historical significance",
+    "Name with literary significance",
+    "Name with personal significance",
+    "Name inspired by a place",
+    "Name inspired by an event",
+    "Name inspired by a concept",
+    "Name inspired by an object",
+    "Name inspired by a color",
+    "Name inspired by a sound",
+    "Name inspired by a feeling",
+    "Name inspired by a memory",
+    "Name inspired by a dream",
+    "Name inspired by a vision",
+    "Name inspired by a belief",
+    "Name inspired by a philosophy",
+    "Name inspired by a religion",
+    "Name inspired by a mythology",
+    "Name inspired by a folktale",
+    "Name inspired by a fairytale",
+    "Name inspired by a legend",
+    "Name inspired by a superstition",
+    "Name inspired by a tradition",
+    "Name inspired by a custom",
+    "Name inspired by a trend",
+    "Name inspired by a fad",
+    "Name inspired by a meme",
+    "Name inspired by a joke",
+    "Name inspired by a pun",
+    "Name inspired by a riddle",
+    "Name inspired by a puzzle",
+    "Name inspired by a game",
+    "Name inspired by a sport",
+    "Name inspired by a hobby",
+    "Name inspired by a skill",
+    "Name inspired by a talent",
+    "Name inspired by an achievement",
+    "Name inspired by a goal",
+    "Name inspired by a dream job",
+    "Name inspired by a role model",
+    "Name inspired by a hero",
+    "Name inspired by an idol",
+    "Name inspired by a celebrity",
+    "Name inspired by a fictional character",
+    "Name inspired by a historical figure",
+    "Name inspired by a political figure",
+    "Name inspired by a religious figure",
+    "Name inspired by a mythological figure",
+    "Name inspired by a literary figure",
+    "Name inspired by an artistic figure",
+    "Name inspired by a musical figure",
+    "Name inspired by a scientific figure",
+    "Name inspired by a philosophical figure"
 ]
 
 story_elements["LIFE_SATISFACTION"] = [
@@ -2857,6 +2995,7 @@ def generate_story():
     story += f"The disaster they face is {select_random_element('STORY_COMPLICATIONS')}. \n\n"
     story += f"Resonant element: {select_random_element('RESONANT_ELEMENT')}. \n\n"
     story += f"Here are more facts about the main character: \n\n"
+    story += f"Their name is {select_random_element('CHARACTER_NAME_TYPE')}. It starts with [{random.choice(string.ascii_uppercase)}]. \n\n"
     story += f"Physical build: {select_random_element('PHYSICAL_BUILD')} \n\n"
     story += f"Height: {select_random_element('HEIGHT')} \n\n"
     story += f"Body Image: {select_random_element('BODY_IMAGE')} \n\n"
@@ -2867,7 +3006,8 @@ def generate_story():
     story += f"Language: {select_random_element('LANGUAGE')} \n\n"  
     story += f"Special skill: {select_random_element('SPECIAL_SKILL')} \n\n"  
     story += f"Clothing style: {select_random_element('CLOTHING_STYLE')} \n\n"  
-    story += f"Birth location: {select_random_element('BIRTHPLACE')} \n\n"
+    story += f"Birthplace: {select_random_element('BIRTHPLACE')} \n\n"
+    story += f"Birth location: {select_random_element('BIRTH_LOCATION')} \n\n"
     story += f"Social Environment: {select_random_element('SOCIAL_ENVIRONMENT')} \n\n"
     story += f"Life Experience: Level: {[random.randint(0, 10)]} {select_random_element('LIFE_EXPERIENCE')} \n\n"
     story += f"Overall life satisfaction: {select_random_element('LIFE_SATISFACTION')} \n\n"
