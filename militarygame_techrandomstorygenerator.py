@@ -943,6 +943,34 @@ story_elements["STRESS_RESPONSE"] = [
 "Mixed"
 ]
 
+story_elements["SKIN_TONE"] = [
+    "Alabaster (extremely pale, almost white)",
+    "Porcelain (very pale, like white porcelain)",
+    "Ivory (pale, creamy white, like ivory)",
+    "Milky (light, creamy complexion)",
+    "Fair (light complexion with pink undertones)",
+    "Peach (light complexion with warm, peachy undertones)",
+    "Cream (light complexion with yellow or golden undertones)",
+    "Beige (light to medium, neutral tone, like sand)",
+    "Wheat (light to medium, with golden or yellow undertones)",
+    "Almond (light to medium, with golden or olive undertones)",
+    "Golden (medium complexion with warm, golden undertones)",
+    "Tan (medium complexion with warm, brown undertones, like tanned skin)",
+    "Olive (medium complexion with greenish or olive undertones)",
+    "Honey (medium to dark complexion with warm, golden undertones, like honey)",
+    "Caramel (medium to dark complexion with warm, reddish-brown undertones, like caramel)",
+    "Amber (medium to dark complexion with golden or orange undertones, like amber)",
+    "Chestnut (medium to dark complexion with reddish-brown undertones, like a chestnut)",
+    "Bronze (dark complexion with warm, golden-brown undertones, like bronze metal)",
+    "Copper (dark complexion with reddish-brown undertones, like copper metal)",
+    "Mahogany (dark complexion with deep, reddish-brown undertones, like mahogany wood)",
+    "Walnut (dark complexion with deep, brown undertones, like a walnut)",
+    "Espresso (very dark complexion with cool, deep brown undertones, like espresso coffee)",
+    "Chocolate (very dark complexion with warm, deep brown undertones, like dark chocolate)",
+    "Ebony (extremely dark, almost black complexion, like ebony wood)",
+    "Onyx (extremely dark, jet-black complexion, like onyx stone)"
+]
+
 story_elements["SOCIAL_ENVIRONMENT"] = [
 "High School Friends",
 "College Buddies",
@@ -2997,6 +3025,7 @@ def generate_story():
     story += f"Here are more facts about the main character: \n\n"
     story += f"Their name is {select_random_element('CHARACTER_NAME_TYPE')}. It starts with [{random.choice(string.ascii_uppercase)}]. \n\n"
     story += f"Physical build: {select_random_element('PHYSICAL_BUILD')} \n\n"
+    story += f"Skin tone: {select_random_element('SKIN_TONE')} \n\n"
     story += f"Height: {select_random_element('HEIGHT')} \n\n"
     story += f"Body Image: {select_random_element('BODY_IMAGE')} \n\n"
     story += f"Notable body part: {select_random_element('BODY_PART_OBSESSION')} \n\n"
