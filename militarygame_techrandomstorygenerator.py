@@ -2105,7 +2105,7 @@ story_elements["SEX_KINK"] = [
 "Glasses",
 "Military uniform",
 "Nurse scrubs",
-"Medical coat"
+"Medical coat",
 "Jeans",
 "Submission",
 "Domination",
