@@ -336,7 +336,7 @@ story_elements["VIDEO_GAME_FRANCHISE"] = [
 ]
 
 story_elements["CHARACTER_GENDER"] = [
-        "male","male","male","male","female", "female", "female", "female", "ungendered", "transgender (woman to man)", "transgender (man to woman)",    
+        "male","male","male","male", "male", "female", "female", "female", "female", "female", "ungendered masculine", "ungendered feminine", "transgender (woman to man)", "transgender (man to woman)",    
     ]
 
 story_elements["CHARACTER_ATTRACTION"] = [
@@ -559,7 +559,15 @@ story_elements["CHARACTER_RELATIONSHIP"] = ["Siblings", "Single (happy)", "Singl
         "Childhood friends", "Best friends", "Distant friends", "Online only friends (never met in person)", "In a relationship (just started dating)", "In a long term relationship",
         "Fracturing relationship", "Sex only relationship", "Ex-partners", "Engaged", "Married (happily)", "Newlyweds", "Married (unhappy)", "Married (with kids)", "Married (open marriage)",
         "Divorced (happily)", "Divorced (unhappily)", "Divorced (with kids)", "Re-married", "Widow/Widower", "Parasocial relationship", "In a relationship with a higher power/organization",
-        "In a relationship with work"
+        "In a relationship with work", "Arranged marriage", "Business partners", "Classmates", "Neighbors", "Roommates", "Landlord-tenant",
+        "Teacher-student", "Mentor-mentee", "Coach-athlete", "Doctor-patient", "Therapist-client", "Lawyer-client", "Artist-muse", "Writer-editor",
+        "Agent-client", "Manager-employee", "Colleagues from different departments", "Former classmates", "Alumni from the same school",
+        "Fraternity/Sorority members", "Club members", "Teammates", "Band members", "Cast mates", "Gaming buddies", "Workout partners",
+        "Travel companions", "Pen pals", "Language exchange partners", "Study group members", "Debate opponents", "Political allies",
+        "Political rivals", "Protest organizers", "Volunteers for the same cause", "Community leaders", "Neighborhood watch members",
+        "Parent-teacher association members", "Carpool partners", "Godparent-godchild", "Foster parent-foster child","Adoptive parent-adopted child",
+        "Legal guardian-ward", "Caregiver-care recipient", "Pet owner-pet", "Service animal-owner", "Bodyguard-client", "Celebrity-fan",
+        "Influencer-follower", "Rival gang members", "Prisoner-guard", "Probation officer-parolee"
     ]
 
 story_elements["PHYSICAL_BUILD"] = [
