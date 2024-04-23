@@ -3897,6 +3897,110 @@ story_elements["CHARACTER_OCCUPATION"] = [
     "witness tamperer", "cyber-extortionist", "darknet marketplace admin"
 ]
 
+story_elements["SCENE_GOAL"] = [
+    "Satisfy",
+    "Deny",
+    "Give in to",
+    "Resist",
+    "Maintain",
+    "Follow",
+    "Fight",
+    "Escape From",
+    "Excuse",
+    "Ignore",
+    "Satisfy",
+    "Deny",
+    "Give in to",
+    "Resist",
+    "Maintain",
+    "Follow",
+    "Fight",
+    "Escape From",
+    "Excuse",
+    "Ignore",
+    "Satisfy",
+    "Deny",
+    "Give in to",
+    "Resist",
+    "Maintain",
+    "Follow",
+    "Fight",
+    "Escape From",
+    "Excuse",
+    "Ignore",
+    "Explain to someone",
+    "Explain to themselves",
+    "Discover",
+    "Observe",
+    "Share"
+]
+
+story_elements["SCENE_OPPONENTS"] = [
+"Rival colleague", "Jealous friend", "Overprotective parent", "Controlling spouse", "Manipulative ex-partner",
+"Stubborn bureaucrat", "Corrupt politician", "Ruthless business competitor", "Skeptical investor", "Demanding boss",
+"Uncooperative team member", "Gossiping coworker", "Unreliable ally", "Unpredictable client", "Defiant subordinate",
+"Rebellious teenager", "Disapproving family member", "Nosy neighbor", "Obsessive fan", "Relentless paparazzi",
+"Cynical mentor", "Bitter rival", "Vengeful enemy", "Paranoid conspiracy theorist", "Fanatical cult leader",
+"Prejudiced authority figure", "Narrow-minded traditionalist", "Arrogant expert", "Condescending critic", "Dishonest journalist",
+"Heckler in the audience", "Disruptive protestor", "Attention-seeking troublemaker", "Ill-tempered customer", "Negligent landlord",
+"Greedy creditor", "Ruthless debt collector", "Shady underworld figure", "Dangerous stalker", "Cyberbully",
+"Identity thief", "Malicious hacker", "Blackmailer", "Gaslighting partner", "Guilt-tripping family member",
+"Procrastination", "Self-doubt", "Perfectionism", "Imposter syndrome", "Fear of failure",
+"Fear of change", "Fear of rejection", "Fear of success", "Lack of motivation", "Lack of focus",
+"Lack of discipline", "Lack of resources", "Lack of support", "Lack of experience", "Lack of confidence",
+"Addiction", "Burnout", "Depression", "Anxiety", "Stress",
+"Trauma", "Grief", "Anger", "Resentment", "Jealousy",
+"Envy", "Greed", "Pride", "Laziness", "Complacency",
+"Recklessness", "Impulsiveness", "Stubbornness", "Indecisiveness", "Overthinking",
+"Catastrophizing", "Rumination", "Negative self-talk", "Limiting beliefs", "Cognitive distortions",
+"Confirmation bias", "Impostor syndrome", "Analysis paralysis", "Perfectionism paralysis", "Procrastination paralysis",
+"Time pressure", "Financial constraints", "Legal obstacles", "Ethical dilemmas", "Moral quandaries",
+"Bureaucratic red tape", "Technological failures", "Natural disasters", "Health issues", "Accidents",
+"Cultural barriers", "Language barriers", "Generation gaps", "Ideological differences", "Philosophical disagreements",
+"Losing their house keys", "Getting a flat tire", "Misplacing their wallet", "Forgetting to charge their phone", "Oversleeping and missing an important meeting",
+"Getting stuck in traffic", "Dealing with a clogged toilet", "Running out of gas", "Dealing with a power outage", "Having a bout of diarrhea",
+"Getting a painful papercut", "Spilling coffee on their shirt", "Getting a nasty sunburn", "Dealing with a persistent cold", "Having a migraine",
+"Getting a splinter", "Dealing with a broken air conditioner", "Having a bad hair day", "Losing an important document", "Getting a parking ticket",
+"Dealing with a malfunctioning printer", "Having a dead car battery", "Dealing with a slow internet connection", "Getting locked out of their car", "Losing their credit card",
+"Dealing with a jammed garbage disposal", "Having a nosebleed", "Dealing with a leaky faucet", "Getting a blister from new shoes", "Losing their umbrella in the rain",
+"Dealing with a malfunctioning coffee maker", "Having a muscle cramp", "Dealing with a stuck zipper", "Getting a stain on their favorite shirt", "Losing their car keys",
+"Dealing with a broken shoelace", "Having a bad case of hiccups", "Dealing with a tangled necklace", "Getting a hangnail", "Losing their bookmark",
+"Hurricane", "Tornado", "Earthquake", "Volcanic eruption", "Tsunami",
+"Flood", "Wildfire", "Blizzard", "Heatwave", "Drought",
+"Landslide", "Avalanche", "Sinkhole", "Sandstorm", "Hailstorm",
+"Lightning strike", "Solar flare", "Geomagnetic storm", "Meteor shower", "Plague of locusts",
+"Algal bloom", "Red tide", "Jellyfish swarm", "Shark attack", "Venomous snake bite",
+"Killer bee attack", "Poison ivy rash", "Allergic reaction to food", "Choking on a meal", "Food poisoning",
+"Septic tank backup", "Burst water pipe", "Gas leak", "Electrical short circuit", "Mold infestation",
+"Termite damage", "Rodent infestation", "Bed bug infestation", "Cockroach infestation", "Ant infestation",
+"Wasp nest on the porch", "Skunk spray", "Raccoon rummaging through trash", "Bat flying into the house", "Squirrel chewing electrical wires",
+"Cursed amulet that brings misfortune", "Haunted house with malevolent spirits", "Enchanted forest that traps wanderers", "Possessed doll that seeks revenge", "Werewolf transformation during a full moon",
+"Vampire's insatiable thirst for blood", "Ghost that won't let go of a grudge", "Genie that twists wishes", "Leprechaun guarding its pot of gold", "Mermaid's siren song luring sailors to their doom",
+"Banshee's wail foretelling death", "Succubus seducing and draining life force", "Incubus manipulating dreams", "Shapeshifter impersonating loved ones", "Doppelganger creating chaos",
+"Golem on a rampage", "Kraken dragging ships to the depths", "Dragon hoarding treasure", "Phoenix rising from its ashes", "Basilisk's petrifying gaze",
+"Chimera's multi-headed attack", "Minotaur stalking a labyrinth", "Centaur's archery skills", "Pegasus's ability to fly", "Griffin's aerial assaults",
+"Unicorn's magical horn", "Fairy's mischievous pranks", "Elf's superiority complex", "Dwarf's stubbornness", "Orc's brutal strength",
+"Troll's regenerative powers", "Giant's massive size", "Goblin's cunning traps", "Hobgoblin's military tactics", "Kobold's tunnel networks",
+"Demon's temptation and corruption", "Angel's righteous judgment", "Nephilim's existential crisis", "Cambion's internal struggle", "Grim Reaper's looming presence",
+"Banshee's mournful cries", "Wendigo's insatiable hunger", "Chupacabra's livestock attacks", "Jersey Devil's terror", "Mothman's eerie sightings",
+"Sasquatch's elusive nature", "Yeti's icy domain", "Loch Ness Monster's deep lake habitat", "Krampus's Christmas punishments", "Boogeyman's closet dwelling",
+"Sandman's dream manipulation", "Tooth Fairy's obsession with teeth", "Easter Bunny's chocolate addiction", "Cupid's misaimed arrows", "Jack Frost's icy touch",
+"Poltergeist's noisy hauntings", "Dybbuk's possession", "Churel's vengeance", "Pontianak's deadly allure", "Jiangshi's hopping corpse",
+"Hungry Ghost's insatiable appetite", "Kitsune's shapeshifting trickery", "Oni's brutish strength", "Tengu's martial prowess", "Kappa's obsession with cucumbers",
+"Nukekubi's detachable head", "Gashadokuro's skeletal terror", "Akaname's toilet licking", "Bakeneko's ghostly cat form", "Tsukumogami's animated household objects",
+"The protagonist's evil twin", "A corrupt god seeking world domination", "A sentient AI that wants to eradicate humanity", "The mastermind behind a global conspiracy", "A powerful sorcerer intent on unleashing hell on Earth",
+"The protagonist's mentor, revealed to be the villain all along", "An ancient dragon, awakened from its slumber", "The embodiment of the protagonist's deepest fears", "The leader of an interdimensional invasion force", "Death incarnate, come to collect the protagonist's soul",
+"A hive mind that absorbs and controls all living creatures", "The personification of entropy, seeking to unravel reality", "A time-traveling assassin sent to erase the protagonist from history", "The puppet master orchestrating all the conflicts in the protagonist's life", "The dark reflection of the protagonist, born from a magic mirror",
+"An eldritch abomination that feeds on the sanity of its victims", "The ghost of the protagonist's ancestor, seeking revenge for a past betrayal", "The embodiment of the seven deadly sins", "The mad scientist behind a doomsday device", "The demon that the protagonist unwittingly released from its prison",
+"The corrupt chancellor who usurped the throne", "The alien queen commanding a swarm of deadly creatures", "The protagonist's own subconscious, sabotaging their every move", "The spirit of a cursed sword, possessing its wielder", "The god of mischief, sowing chaos and discord",
+"A shapeshifting monster that can assume the form of anyone", "The leader of a cult that worships an eldritch horror", "The artificial intelligence that has taken control of the world's technology", "The mastermind behind a string of serial killings", "The mad king who believes the protagonist is a threat to their rule",
+"The doppelganger who has stolen the protagonist's identity", "The dark messiah, believed by many to be a savior", "The protagonist's own clone, created to replace them", "The malevolent spirit that haunts the protagonist's dreams", "The corrupt businessperson who will stop at nothing to achieve their goals",
+"The leader of a terrorist organization bent on world destruction", "The demon that feeds on the souls of the innocent", "The mad god who sees the protagonist as a plaything", "The machine that absorbs the life force of all living things", "The monster born from the protagonist's darkest secret",
+"The sorcerer who has enslaved the minds of the masses", "The alien hivemind that seeks to assimilate all life in the universe", "The ancient god that demands human sacrifices", "The superintelligent zombie virus that infects through thoughts", "The nanite swarm that consumes all matter in its path",
+"The alternate version of the protagonist from a darker timeline", "The cosmic entity that feeds on the energy of dying stars", "The protagonist's own guilt and regret, given physical form", "The collective unconscious of humanity, rejecting individuality", "The avatar of nihilism, seeking to unmake all of creation",
+
+]
+
 
 
 # Now, all your categories are formatted and ready for use in your story generator.
@@ -3933,7 +4037,7 @@ def generate_story():
     story += f"Occupation: {select_random_element('EXPERIENCE')} {select_random_element('CHARACTER_OCCUPATION')}. \n\n"
     story += f"WORK level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
     story += f"In SOCIETY they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
-    story += f"Primary social environment {select_random_element('SOCIAL_ENVIRONMENT')}. \n\n"
+    story += f"Primary social environment: {select_random_element('SOCIAL_ENVIRONMENT')}. \n\n"
     story += f"SOCIETY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
     story += f"Copes with STRESS by {select_random_element('HABITS')} and {select_random_element('HABITS')}. \n\n"
     story += f"When threatened their response is {select_random_element('STRESS_RESPONSE')}. \n\n"
@@ -3986,6 +4090,9 @@ def generate_story():
     story += f"Death age: {[random.randint(0, 199)]} \n\n"
     story += f"Cause of death? {select_random_element('DEATH_CAUSE')} \n\n"
     story += f"SCENE: \n\n"
+    story += f"They seek to {select_random_element('SCENE_GOAL')} their {select_random_element('EMOTION')}. \n\n"
+    story += f"{select_random_element('SCENE_OPPONENTS')} get in their way. \n\n"
+    story += f"It causes {select_random_element('STORY_DESCRIPTOR')} {select_random_element('BASIC_EVENT')}, that leads to {select_random_element('EMOTION_AMPLIFIER')}.  \n\n"
 
     return story
 
