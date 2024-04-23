@@ -366,7 +366,7 @@ story_elements["MILITARY_JOBS"] = [
     "Paralegal Specialist", "Army Bandperson", "Environmental Science/Engineering Officer", "Medical Service Corps Officer", "Pharmacy Specialist", "Aircraft Powerplant Repairer",
     "Quartermaster Officer", "Field Artillery Firefinder Radar Operator", "Special Forces Medical Sergeant", "Armor Officer", "Nuclear Medical Science Officer", "Aircraft Electrician",
     "Carpentry and Masonry Specialist", "Biomedical Equipment Specialist", "Criminal Investigations Special Agent", "Horizontal Construction Engineer", "Multimedia Illustrator", "Petroleum Supply Specialist",
-    "Signal Support Systems Specialist", "Watercraft Operator", "Geospatial Engineer", "Army National Guard Sniper"
+    "Signal Support Systems Specialist", "Watercraft Operator", "Geospatial Engineer", "Army National Guard Sniper",
     #Navy Jobs
     "Naval Aviator - F/A-18 Hornet Pilot", "Cryptologic Warfare Officer", "Explosive Ordnance Disposal (EOD) Officer", 
     "Navy SEAL Officer", "Nuclear Submarine Officer", "Naval Flight Officer - E-2 Hawkeye", "Surface Warfare Officer - Destroyer",
@@ -1147,13 +1147,17 @@ story_elements["SOCIAL_ENVIRONMENT"] = [
 "Underground Fight Club"
 ]
 
-story_elements["LIFE_EXPERIENCE"] = [
-"Inexperienced",
-"A little experienced",
-"Some experience",
-"Experienced",
-"Highly Experienced",
-"Very Experienced",
+story_elements["EXPERIENCE"] = [
+    "Novice", "Beginner", "Apprentice", "Trainee", "Intern",
+    "Student", "Entry-level", "Junior", "Probationary", "Rookie",
+    "Intermediate", "Skilled", "Proficient", "Competent", "Journeyman",
+    "Experienced", "Seasoned", "Well-versed", "Practiced", "Accomplished",
+    "Senior", "Advanced", "Specialist", "Expert", "Proficient",
+    "Mentor", "Consultant", "Supervisor", "Manager", "Director",
+    "Leader", "Executive", "Veteran", "Authority", "Guru",
+    "Master", "Virtuoso", "Prodigy", "Genius", "Legend",
+    "Visionary", "Innovator", "Pioneer", "Trailblazer", "Luminary",
+    "Icon", "Celebrity", "Renowned", "World-class", "Legendary"
 ]
 
 story_elements["PERSONAL_IDEOLOGY"] = [
@@ -3461,7 +3465,7 @@ def generate_story():
     story += f"In LOVE (relationships) they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n Attracted to: {select_random_element('CHARACTER_ATTRACTION')}. \n Sexual Turn-on: {select_random_element('SEX_KINK')}. Sexual Turn-off: {select_random_element('SEX_KINK')}.  \n\n"
     story += f"LOVE level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
     story += f"At WORK they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
-    story += f"Occupation: {select_random_element('LIFE_EXPERIENCE')} {select_random_element('CHARACTER_OCCUPATION')}. \n\n"
+    story += f"Occupation: {select_random_element('EXPERIENCE')} {select_random_element('CHARACTER_OCCUPATION')}. \n\n"
     story += f"WORK level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
     story += f"In SOCIETY they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
     story += f"SOCIETY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
@@ -3491,7 +3495,6 @@ def generate_story():
     story += f"Birthplace: {select_random_element('BIRTHPLACE')} \n\n"
     story += f"Birth location: {select_random_element('BIRTH_LOCATION')} \n\n"
     story += f"Social Environment: {select_random_element('SOCIAL_ENVIRONMENT')} \n\n"
-    story += f"Life Experience: {select_random_element('LIFE_EXPERIENCE')} \n\n"
     story += f"Job Level: {[random.randint(0, 100)]} \n\n"
     story += f"Overall life satisfaction: {select_random_element('LIFE_SATISFACTION')} \n\n"
     story += f"Mental health status: {select_random_element('MENTAL_HEALTH_STATUS')} \n\n"
