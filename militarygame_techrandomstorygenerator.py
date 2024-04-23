@@ -260,13 +260,18 @@ story_elements["EMOTION"] = [
 ]
 
 story_elements["EMOTION_AMPLIFIER"] = [
-    "Addiction", "Arousal", "Attraction", "Boredom", "Cold", "Dehydration", "Distraction", "Exhaustion", 
-    "Hangover", "Heat", "Hunger", "Illness", "Inebriation", "Lethargy", "Overstimulation", "Pain", 
-    "Relaxation", "Stress", "Drunken stupor", "Drunken rage", "Bloodlust", "Terrified", "Rage", "Hypoxic", "Poisoned",
-    "Drowning panic", "Suicidal thoughts", "Acid trip", "Dreamy hallucination", "Nightmare hallucination", "Uncontrolled laughter",
-    "Endless crying", "Dark depression", "Neuroticism", "Animalistic rage", "Suffocating Isolation", "Intense loneliness", "Hedonistic binge",
-    "Stress eating", "Starvation", "Blood slowing", "Blood rushing", "Amnesia", "Blindness", "Deafness", "Body constriction", "Vomit inducing vertigo"
-    "General anxiety"
+    "Addiction", "Arousal", "Attraction", "Boredom", "Cold", "Dehydration", "Distraction", "Exhaustion", "Hangover", "Heat",
+    "Hunger", "Illness", "Inebriation", "Lethargy", "Overstimulation", "Pain", "Relaxation", "Stress", "Drunken stupor", "Drunken rage",
+    "Bloodlust", "Terrified", "Rage", "Hypoxic", "Poisoned", "Drowning panic", "Suicidal thoughts", "Acid trip", "Dreamy hallucination",
+    "Nightmare hallucination", "Uncontrolled laughter", "Endless crying", "Dark depression", "Neuroticism", "Animalistic rage", "Suffocating Isolation", "Intense loneliness",
+    "Hedonistic binge", "Stress eating", "Starvation", "Blood slowing", "Blood rushing", "Amnesia", "Blindness", "Deafness", "Body constriction",
+    "Vomit inducing vertigo", "General anxiety", "Euphoria", "Paranoia", "Claustrophobia", "Agoraphobia", "Sensory deprivation", "Sleep deprivation", "Adrenaline rush",
+    "Fight or flight response", "Hysterical strength", "Dissociation", "Derealization", "Depersonalization", "Panic attack", "Hyperventilation", "Heart palpitations",
+    "Tremors", "Muscle spasms", "Tunnel vision", "Auditory hallucinations", "Visual hallucinations", "Tactile hallucinations", "Olfactory hallucinations", "Gustatory hallucinations",
+    "Synesthesia", "Out-of-body experience", "Near-death experience", "Religious ecstasy", "Existential dread", "Nihilistic despair", "Overwhelming guilt", "Crushing shame",
+    "Unrelenting jealousy", "Possessiveness", "Obsession", "Compulsion", "Mania", "Hypomania", "Psychosis", "Delusions", "Catatonia",
+    "Paralysis", "Seizures", "Sensory overload", "Diminished inhibitions", "Heightened suggestibility", "Trance state", "Hypnotic suggestion", "Brainwashing",
+    "Stockholm syndrome", "Lima syndrome", "Capgras delusion", "Cotard delusion", "Fregoli delusion", "Alien hand syndrome", "Phantom limb", "Exploding head syndrome"
 ]
 
 story_elements["SUPERHUMAN_ABILITY"] = [
@@ -4001,6 +4006,62 @@ story_elements["SCENE_OPPONENTS"] = [
 
 ]
 
+story_elements["SCENE_OUTCOME"] = [
+    "SUCCEEDS", "FAILS",
+
+]
+
+story_elements["NEXT_OBSTACLE"] = [
+    "OPPONENT", "ALLY CHARACTER", "WEATHER", "EVIL", "DARKNESS", "PARTNER",
+    "FRIEND",     "SELF",
+
+]
+
+story_elements["CHARACTER_ACTION"] = [
+    "runs", "jumps", "shoots", "hides", "climbs",
+    "sneaks", "drives", "flies", "swims", "rides",
+    "crawls", "dances", "sings", "paints", "writes",
+    "cooks", "cleans", "fixes", "breaks", "builds",
+    "destroys", "creates", "solves", "analyzes", "investigates",
+    "questions", "answers", "argues", "agrees", "disagrees",
+    "laughs", "cries", "shouts", "whispers", "lies",
+    "tells the truth", "helps", "hinders", "protects", "attacks",
+    "defends", "surrenders", "escapes", "searches", "finds",
+    "loses", "wins", "fails", "succeeds", "tries",
+    "gives up", "perseveres", "adapts", "innovates", "improvises",
+    "dodges", "parries", "thrusts", "grapples", "throws",
+    "catches", "rolls", "crouches", "leaps", "sprints",
+    "tiptoes", "waltzes", "harmonizes", "sketches", "composes",
+    "bakes", "scrubs", "mends", "shatters", "constructs",
+    "demolishes", "invents", "deciphers", "examines", "explores",
+    "interrogates", "responds", "debates", "concurs", "opposes",
+    "chuckles", "weeps", "yells", "murmurs", "deceives",
+    "confesses", "assists", "impedes", "defends", "assaults",
+    "guards", "yields", "flees", "hunts", "discovers",
+    "misplaces", "triumphs", "falters", "achieves", "attempts",
+    "surrenders", "endures", "adjusts", "pioneers", "conjures",
+    "evades", "deflects", "lunges", "wrestles", "hurls",
+    "grabs", "somersaults", "ducks", "bounds", "dashes",
+    "creeps", "twirls", "hums", "scribbles", "writes music",
+    "roasts", "dusts", "repairs", "smashes", "erects",
+    "razes", "designs", "unravels", "inspects", "delves",
+    "probes", "retorts", "discusses", "accedes", "refutes",
+    "giggles", "sobs", "bellows", "mutters", "fibs",
+    "admits", "supports", "obstructs", "shields", "strikes",
+    "protects", "relinquishes", "retreats", "pursues", "uncovers",
+    "forgets", "conquers", "stumbles", "accomplishes", "endeavors",
+    "quits", "persists", "conforms", "trailblazes", "envisions",
+]
+
+story_elements["CHARACTER_AWARENESS"] = [
+    "knows", "doesn't know", "has a feeling",
+
+]
+
+story_elements["SCENE_TYPE"] = [
+    "SCENE", "SEQUEL", "SCENE", "SEQUEL", "SCENE", "SEQUEL", "SET PIECE", "SET PIECE", "FINAL CLIMAX"
+]
+
 
 
 # Now, all your categories are formatted and ready for use in your story generator.
@@ -4031,7 +4092,7 @@ def generate_story():
     story += f"CHARACTER: \n\n"
     story += f"The main character is a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_GENDER')} {select_random_element('CHARACTER_ETHNICITY')} {select_random_element('CHARACTER_RACE')} {select_random_element('CHARACTER_AGE')}, "
     story += f"their relationship status is {select_random_element('CHARACTER_RELATIONSHIP')}. \n\n"
-    story += f"In LOVE (relationships) they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n Attracted to: {select_random_element('CHARACTER_ATTRACTION')}. \n Sexual Turn-on: {select_random_element('SEX_KINK')}. Sexual Turn-off: {select_random_element('SEX_KINK')}.  \n\n"
+    story += f"In LOVE (relationships) they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n Attracted to: {select_random_element('CHARACTER_ATTRACTION')}. \n (If adult) Sexual Turn-on: {select_random_element('SEX_KINK')}. Sexual Turn-off: {select_random_element('SEX_KINK')}.  \n\n"
     story += f"LOVE level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
     story += f"At WORK they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
     story += f"Occupation: {select_random_element('EXPERIENCE')} {select_random_element('CHARACTER_OCCUPATION')}. \n\n"
@@ -4090,10 +4151,13 @@ def generate_story():
     story += f"Death age: {[random.randint(0, 199)]} \n\n"
     story += f"Cause of death? {select_random_element('DEATH_CAUSE')} \n\n"
     story += f"SCENE: \n\n"
-    story += f"They seek to {select_random_element('SCENE_GOAL')} their {select_random_element('EMOTION')}. \n\n"
-    story += f"{select_random_element('SCENE_OPPONENTS')} get in their way. \n\n"
+    story += f"Focal character wants to {select_random_element('SCENE_GOAL')} their {select_random_element('EMOTION')}. \n\n"
+    story += f"{select_random_element('SCENE_OPPONENTS')} gets in their way. \n\n"
     story += f"It causes {select_random_element('STORY_DESCRIPTOR')} {select_random_element('BASIC_EVENT')}, that leads to {select_random_element('EMOTION_AMPLIFIER')}.  \n\n"
-
+    story += f"Character {select_random_element('SCENE_OUTCOME')} and feels {select_random_element('EMOTION')}. \n\n"
+    story += f"BUT {select_random_element('NEXT_OBSTACLE')} {select_random_element('CHARACTER_ACTION')}. Focal character {select_random_element('CHARACTER_AWARENESS')} about it.\n\n"
+    story += f"This causes {select_random_element('MOST_IMPORTANT')} to become a {select_random_element('STORY_DESCRIPTOR')} {select_random_element('BASIC_EVENT')} \n"
+    story += f"leading to a {select_random_element('SCENE_TYPE')}. \n\n"    
     return story
 
 # Generate a story
