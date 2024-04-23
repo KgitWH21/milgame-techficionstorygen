@@ -345,7 +345,7 @@ story_elements["CHARACTER_ATTRACTION"] = [
         "female cyborgs", "men with animal features", "women with animal features", "otherworldy/fantasy beings", "themselves",  
     ]
 
-story_elements["JOBS"] = [
+story_elements["MILITARY_JOBS"] = [
     "KC-135 Stratotanker Pilot", "F-16 Fighting Falcon Pilot", "B-2 Spirit Bombardier", "C-17 Globemaster III Navigator", "Weapons Systems Officer", "Drone Pilot",
     "Intelligence Analyst", "Aerospace Propulsion Specialist", "Cyber Transport Systems Specialist", "Equal Opportunity Specialist", "Special Investigations Officer",
     "Fire Protection Specialist", "Aerospace Ground Equipment Specialist", "Aircraft Loadmaster", "Aircraft Electrical and Environmental Systems Specialist",
@@ -3349,6 +3349,85 @@ story_elements["GREATEST_FEAR"] = [
     "Existential dread"
 ]
 
+story_elements["CHARACTER_OCCUPATION"] = [
+    "accountant", "actor", "architect", "artist", "baker", "banker", "barista",
+    "bartender", "carpenter", "chef", "civil engineer", "data analyst", "dentist", 
+    "designer", "doctor", "electrician", "entrepreneur", "farmer", "firefighter",
+    "fitness trainer", "freelance writer", "graphic designer", "hairdresser", 
+    "journalist", "lawyer", "librarian", "mechanic", "musician", "nurse",
+    "pharmacist", "photographer", "pilot", "plumber", "police officer",
+    "programmer", "project manager", "psychologist", "real estate agent",
+    "receptionist", "restaurant manager", "retail worker", "salesperson",
+    "social media manager", "software engineer", "teacher", "tour guide",
+    "translator", "truck driver", "veterinarian", "web developer",
+    "agricultural worker", "animal breeder", "beekeeper", "blacksmith",
+    "butcher", "cattle rancher", "conservationist", "crop duster pilot",
+    "dairy farmer", "farm equipment mechanic", "farrier", "fisherman",
+    "forestry worker", "game warden", "gardener", "goat herder", "grain elevator operator",
+    "greenhouse manager", "horse trainer", "hunting guide", "irrigation specialist",
+    "landscaper", "lumberjack", "maple syrup producer", "miller", "miner",
+    "national park ranger", "organic farmer", "orchard manager", "park ranger",
+    "pest control specialist", "plant nursery worker", "poultry farmer", 
+    "railroad worker", "ranch hand", "rural mail carrier", "saddlemaker",
+    "shearer", "sheep farmer", "small engine mechanic", "soil conservationist",
+    "stable hand", "tractor operator", "tree surgeon", "viticulturist",
+    "water well driller", "wind turbine technician", "winemaker", "wool grader",
+    "zookeeper",
+    "3D printing specialist", "acupuncturist", "art curator", "astronaut",
+    "audiologist", "balloon artist", "body painter", "brewmaster", "cartographer",
+    "circus performer", "color expert", "crime scene investigator", "cryonics technician",
+    "crystal healer", "digital nomad", "drone operator", "escape room designer",
+    "ethical hacker", "feng shui consultant", "food scientist", "forensic accountant", 
+    "fortune teller", "fragrance chemist", "futurist", "glass blower", "holistic nutritionist",
+    "home stager", "ice sculptor", "lepidopterist", "life coach", "marine archaeologist",
+    "master sommelier", "medical illustrator", "merfolk performer", "meteorologist", 
+    "music therapist", "nano-technician", "opera singer", "pet psychologist",
+    "planetary scientist", "professional bridesmaid", "professional cuddler",
+    "quantum cryptographer", "robot engineer", "scent designer", "soap maker", 
+    "space lawyer", "sports statistician", "stem cell researcher", "food stylist",
+    "tattoo artist", "taxidermist", "tea sommelier", "time broker",
+    "art dealer", "auction house specialist", "billionaire entrepreneur", "brand ambassador",
+    "business magnate", "celebrity agent", "celebrity chef", "celebrity stylist",
+    "charity foundation director", "chief executive officer", "corporate lawyer",
+    "cosmetic surgeon", "country club manager", "cruise ship director", "estate manager",
+    "fashion designer", "film director", "fine art collector", "hedge fund manager",
+    "high-end event planner", "high-end interior designer", "high-end jeweler",
+    "high-end real estate developer", "high-end travel consultant", "investment banker",
+    "luxury brand consultant", "luxury car salesperson", "luxury hotel manager",
+    "luxury property manager", "luxury watch dealer", "media mogul", "modeling agency director",
+    "museum curator", "opera house director", "orchestra conductor", "philanthropy advisor",
+    "political strategist", "private art collector", "private banker", "private equity executive", 
+    "private jet pilot", "professional polo player", "public relations executive",
+    "luxury retail buyer", "socialite event coordinator", "sports team owner",
+    "talent agent", "television producer", "trust fund manager", "venture capitalist",
+    "vineyard owner", "wealth management advisor", "yacht broker",
+    "arms dealer", "bank robber", "bookmaker", "bounty hunter", "burglar",
+    "car thief", "card shark", "cat burglar", "con artist", "counterfeiter",
+    "drug dealer", "drug smuggler", "escort", "extortionist", "fence",
+    "forger", "gambler", "getaway driver", "graffiti artist", "hacker",
+    "hitman", "human trafficker", "illegal arms trader", "illegal gambling operator",
+    "illegal logging worker", "illegal mining worker", "illegal waste dumper", "identity thief", 
+    "loan shark", "mafia boss", "money launderer", "pickpocket", "pimp",
+    "poacher", "prostitute", "pyramid scheme operator", "racketeering operative", 
+    "numbers runner", "shoplifter", "smuggler", "street beggar", "street vendor",
+    "stripper", "thief", "illegal taxi driver", "unlicensed masseuse", "unlicensed street performer",
+    "illegal bouncer", "illegal immigrant worker", "illegal casino worker", "sweatshop worker",
+    "drug lab operator", "chop shop worker", "illegal organ harvester", "black market trader",
+    "assassin", "bank hacker", "blackmailer", "bodyguard for hire", "bookie",
+    "contract killer", "corrupt corporate executive", "corrupt government official", "credit card fraudster",
+    "dark web arms dealer", "dark web drug dealer", "desperate cybercriminal", "embezzler",
+    "escaped convict", "illegal fight club promoter", "fraudulent investment broker", "grave robber",
+    "hired muscle", "illegal betting ring leader", "illegal exotic animal smuggler", "illegal fireworks dealer",
+    "illegal gambling den owner", "illegal immigrant smuggler", "illegal medical practitioner", "illegal sex trade worker",
+    "illicit antiquities dealer", "illicit drug cook", "illicit drug courier", "illicit pharmaceutical dealer",
+    "insider trading broker", "international jewel thief", "loan shark enforcer", "malware developer",
+    "mob accountant", "mob debt collector", "mob extortionist", "mob informant", "mob-owned business operator",
+    "money laundering expert", "park bookie", "pirated goods distributor", "professional arsonist",
+    "professional safecracker", "ransom negotiator", "rogue stock trader", "shell corporation director",
+    "underground casino manager", "underground chemist", "underground plastic surgeon", "weapons smuggler",
+    "witness tamperer", "cyber-extortionist", "darknet marketplace admin"
+]
+
 
 
 # Now, all your categories are formatted and ready for use in your story generator.
@@ -3367,7 +3446,7 @@ def generate_story():
     story += f"Elements and themes from the video game {select_random_element('VIDEO_GAME_FRANCHISE')} are adapted in this story.\n\n"
     story += f"STORY: \n\n"
     story += f"This story follows the plot archetype: {select_random_element('PLOT_ARCHETYPE')}. \n\n"
-    story += f"It is a {select_random_element('NARRATIVE_PERSPECTIVE')} story is about a {select_random_element('MILITARY_PROTAGONIST')} {select_random_element('JOBS')} during {select_random_element('MILITARY_SCENARIO')}. "
+    story += f"It is a {select_random_element('NARRATIVE_PERSPECTIVE')} story is about a {select_random_element('MILITARY_PROTAGONIST')} {select_random_element('MILITARY_JOBS')} during {select_random_element('MILITARY_SCENARIO')}. "
     story += f"But {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('BASIC_EVENT')} gets in their way. \n\n"
     story += f"The major event of the story involves {select_random_element('BASIC_EVENT')}. "
     story += f"This is a {select_random_element('STORY_DESCRIPTOR')} {select_random_element('STORY_TYPE')}-themed story, "
@@ -3382,6 +3461,7 @@ def generate_story():
     story += f"In LOVE (relationships) they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n Attracted to: {select_random_element('CHARACTER_ATTRACTION')}. \n Sexual Turn-on: {select_random_element('SEX_KINK')}. Sexual Turn-off: {select_random_element('SEX_KINK')}.  \n\n"
     story += f"LOVE level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
     story += f"At WORK they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
+    story += f"Occupation: {select_random_element('LIFE_EXPERIENCE')} {select_random_element('CHARACTER_OCCUPATION')}. \n\n"
     story += f"WORK level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
     story += f"In SOCIETY they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
     story += f"SOCIETY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
@@ -3427,6 +3507,7 @@ def generate_story():
     story += f"Character weapon: {select_random_element('WEAPON')} \n\n"
     story += f"Mega-archetype: {select_random_element('CHARACTER_MEGA_ARCHETYPE')} \n\n"
     story += f"Sub-archetype: {select_random_element('Character_sub-archetype')} \n\n"
+    story += f"Current mood: {select_random_element('EMOTION')} about {select_random_element('MOST_IMPORTANT')}  \n\n"
     story += f"DESTINY DICE: \n\n"
     story += f"DESTINY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"  
     story += f"Their destiny is discovered through {select_random_element('DESTINY_DISCOVERY')} \n\n"
@@ -3435,6 +3516,7 @@ def generate_story():
     story += f"Age destiny achieved: {[random.randint(0, 199)]} \n\n"
     story += f"Death age: {[random.randint(0, 199)]} \n\n"
     story += f"Cause of death? {select_random_element('DEATH_CAUSE')} \n\n"
+    story += f"SCENE: \n\n"
 
     return story
 
