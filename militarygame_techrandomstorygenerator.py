@@ -716,7 +716,7 @@ story_elements["BIRTHPLACE"] = ["A bustling city", "A remote village", "The dept
     "A floating monastery in the Himalayas",
     "A sky city suspended by balloons",
     "A labyrinth beneath an ancient city",
-    "An isolated research facility in Antarctica",
+    "An isolated research facility",
     "A hidden valley of dinosaurs",
     "An eco-village in the Amazon rainforest",
     "A colony inside a massive asteroid",
@@ -859,10 +859,7 @@ story_elements["BIRTHPLACE"] = ["A bustling city", "A remote village", "The dept
     "An island in a sea of swirling, solid air",
     "A community living on a tapestry of interconnected mini-worlds",
     "A town in a realm where historical eras coexist simultaneously",
-    "A civilization on a fragment of reality drifting through a void of possibilities"
-]
-
-story_elements["BIRTH_LOCATION"] = [
+    "A civilization on a fragment of reality drifting through a void of possibilities",
 "DESERT", "DESERT", "DESERT", "TUNDRA", "TUNDRA", "TUNDRA", "RAINFOREST", "RAINFOREST", "RAINFOREST",
 "MOUNTAINS", "MOUNTAINS", "MOUNTAINS", "MOUNTAINS", "PLAINS", "PLAINS", "PLAINS", "PLAINS", "PLAINS",
 "FOREST", "FOREST", "FOREST", "FOREST", "HILLS", "HILLS", "HILLS", "HILLS", "SWAMP", "SWAMP",
@@ -876,6 +873,20 @@ story_elements["BIRTH_LOCATION"] = [
 "PLANTATION", "PLANTATION", "SLUM", "SLUM", "SHANTYTOWN", "SHANTYTOWN", "CITY", "CITY", "CITY", "CITY",
 "CITY", "CITY", "CITY", "TOWN", "TOWN", "TOWN", "TOWN", "TOWN", "VILLAGE", "VILLAGE",
 "VILLAGE", "VILLAGE", "VILLAGE", "HAMLET", "HAMLET", "SUBURB", "SUBURB", "SUBURB", "METROPOLIS", "METROPOLIS"
+]
+
+story_elements["BIRTH_DIRECTION"] = [
+"EASTERN", "EASTERN", "EASTERN", "WESTERN", "WESTERN", "WESTERN", "SOUTHERN", "SOUTHERN", "SOUTHERN", "NORTHERN", "NORTHERN", "NORTHERN",
+"NORTHEASTERN", "NORTHEASTERN", "SOUTHEASTERN", "SOUTHEASTERN", "SOUTHWESTERN", "SOUTHWESTERN", "NORTHWESTERN", "NORTHWESTERN",
+"NORTH-NORTHEASTERN", "NORTH-NORTHEASTERN", "EAST-NORTHEASTERN", "EAST-NORTHEASTERN", "EAST-SOUTHEASTERN", "EAST-SOUTHEASTERN", "SOUTH-SOUTHEASTERN", "SOUTH-SOUTHEASTERN",
+"SOUTH-SOUTHWESTERN", "SOUTH-SOUTHWESTERN", "WEST-SOUTHWESTERN", "WEST-SOUTHWESTERN", "WEST-NORTHWESTERN", "WEST-NORTHWESTERN", "NORTH-NORTHWESTERN", "NORTH-NORTHWESTERN",
+"CENTRAL", "CENTRAL", "CENTRAL", "UPPER", "UPPER", "LOWER", "LOWER", "MIDDLE", "MIDDLE",
+"INLAND", "INLAND", "COASTAL", "COASTAL", "MARITIME", "MARITIME", "MAINLAND", "MAINLAND", "ISLAND", "ISLAND",
+"MOUNTAINOUS", "MOUNTAINOUS", "LOWLAND", "LOWLAND", "HIGHLAND", "HIGHLAND", "VALLEY", "VALLEY", "PLATEAU", "PLATEAU",
+"RIVERSIDE", "RIVERSIDE", "LAKESIDE", "LAKESIDE", "SEASIDE", "SEASIDE", "DESERT", "DESERT", "FOREST", "FOREST",
+"URBAN", "URBAN", "SUBURBAN", "SUBURBAN", "RURAL", "RURAL", "ARCTIC", "ARCTIC", "ANTARCTIC", "ANTARCTIC",
+"TROPICAL", "TROPICAL", "EQUATORIAL", "EQUATORIAL", "SUBEQUATORIAL", "SUBEQUATORIAL", "TEMPERATE", "TEMPERATE", "SUBARCTIC", "SUBARCTIC",
+"SUBANTARCTIC", "SUBANTARCTIC", "HEMISPHERIC", "HEMISPHERIC", "GLOBAL", "GLOBAL", "UNIVERSAL", "UNIVERSAL", "COSMIC", "COSMIC"
 ]
 
 story_elements["PARENT_STATUS"] = [
@@ -1183,6 +1194,46 @@ story_elements["BODY_IMAGE"] = [
     "Highly Confident"
 ]
 
+story_elements["HAIRSTYLE"] = [
+"BALD", "BALD", "BUZZ CUT", "BUZZ CUT", "CREW CUT", "CREW CUT", "PIXIE CUT", "PIXIE CUT",
+"UNDERCUT", "UNDERCUT", "MOHAWK", "MOHAWK", "FAUXHAWK", "FAUXHAWK", "POMPADOUR", "POMPADOUR",
+"QUIFF", "QUIFF", "SIDE PART", "SIDE PART", "SLICKED BACK", "SLICKED BACK", "COMB OVER", "COMB OVER",
+"IVY LEAGUE", "IVY LEAGUE", "FRENCH CROP", "FRENCH CROP", "CAESAR CUT", "CAESAR CUT", "BOWL CUT", "BOWL CUT",
+"MUSHROOM CUT", "MUSHROOM CUT", "MULLET", "MULLET", "RAT TAIL", "RAT TAIL", "JHERI CURL", "JHERI CURL",
+"CORNROWS", "CORNROWS", "DREADLOCKS", "DREADLOCKS", "TWISTS", "TWISTS", "BRAIDS", "BRAIDS",
+"TOPKNOT", "TOPKNOT", "MAN BUN", "MAN BUN", "PONYTAIL", "PONYTAIL", "PIGTAILS", "PIGTAILS",
+"FRENCH BRAID", "FRENCH BRAID", "DUTCH BRAID", "DUTCH BRAID", "FISHTAIL BRAID", "FISHTAIL BRAID", "WATERFALL BRAID", "WATERFALL BRAID",
+"CROWN BRAID", "CROWN BRAID", "MILKMAID BRAID", "MILKMAID BRAID", "BOX BRAIDS", "BOX BRAIDS", "MICRO BRAIDS", "MICRO BRAIDS",
+"CROCHET BRAIDS", "CROCHET BRAIDS", "FAUX LOCS", "FAUX LOCS", "BANTU KNOTS", "BANTU KNOTS", "TWIST OUT", "TWIST OUT",
+"BRAID OUT", "BRAID OUT", "AFRO", "AFRO", "BLOWOUT", "BLOWOUT", "FINGER WAVES", "FINGER WAVES",
+"PIN CURLS", "PIN CURLS", "VICTORY ROLLS", "VICTORY ROLLS", "BEACH WAVES", "BEACH WAVES", "LOOSE WAVES", "LOOSE WAVES",
+"TIGHT CURLS", "TIGHT CURLS", "SPIRAL CURLS", "SPIRAL CURLS", "CORKSCREW CURLS", "CORKSCREW CURLS", "RINGLETS", "RINGLETS",
+"BOB", "BOB", "LOB", "LOB", "SHAG", "SHAG", "LAYERED", "LAYERED",
+"FEATHERED", "FEATHERED", "BLUNT CUT", "BLUNT CUT", "A-LINE", "A-LINE", "ASYMMETRICAL", "ASYMMETRICAL",
+"OMBRE", "OMBRE", "BALAYAGE", "BALAYAGE", "HIGHLIGHTS", "HIGHLIGHTS", "LOWLIGHTS", "LOWLIGHTS",
+"FROSTED TIPS", "FROSTED TIPS", "STREAKS", "STREAKS", "DIP DYE", "DIP DYE", "PASTEL", "PASTEL",
+"NEON", "NEON", "NATURAL", "NATURAL", "WIGS", "WIGS", "EXTENSIONS", "EXTENSIONS"
+]
+
+story_elements["HAIRCOLOR"] = [
+"BLACK", "BLACK", "BLACK", "JET BLACK", "JET BLACK", "SOFT BLACK", "SOFT BLACK", "DARK BROWN", "DARK BROWN", "DARK BROWN",
+"MEDIUM BROWN", "MEDIUM BROWN", "MEDIUM BROWN", "LIGHT BROWN", "LIGHT BROWN", "LIGHT BROWN", "GOLDEN BROWN", "GOLDEN BROWN", "CHESTNUT BROWN", "CHESTNUT BROWN",
+"CHOCOLATE BROWN", "CHOCOLATE BROWN", "ASH BROWN", "ASH BROWN", "ESPRESSO", "ESPRESSO", "DARK BLONDE", "DARK BLONDE", "DARK BLONDE",
+"MEDIUM BLONDE", "MEDIUM BLONDE", "MEDIUM BLONDE", "LIGHT BLONDE", "LIGHT BLONDE", "LIGHT BLONDE", "HONEY BLONDE", "HONEY BLONDE", "GOLDEN BLONDE", "GOLDEN BLONDE",
+"ASH BLONDE", "ASH BLONDE", "PLATINUM BLONDE", "PLATINUM BLONDE", "STRAWBERRY BLONDE", "STRAWBERRY BLONDE", "DIRTY BLONDE", "DIRTY BLONDE", "BLEACH BLONDE", "BLEACH BLONDE",
+"COPPER", "COPPER", "AUBURN", "AUBURN", "GINGER", "GINGER", "RED", "RED", "RED",
+"BURGUNDY", "BURGUNDY", "MAHOGANY", "MAHOGANY", "CHERRY RED", "CHERRY RED", "FIRE ENGINE RED", "FIRE ENGINE RED", "DARK RED", "DARK RED",
+"LIGHT RED", "LIGHT RED", "ROSE GOLD", "ROSE GOLD", "ORANGE", "ORANGE", "APRICOT", "APRICOT", "PEACH", "PEACH",
+"PINK", "PINK", "HOT PINK", "HOT PINK", "LIGHT PINK", "LIGHT PINK", "PASTEL PINK", "PASTEL PINK", "LAVENDER", "LAVENDER",
+"LILAC", "LILAC", "PURPLE", "PURPLE", "DARK PURPLE", "DARK PURPLE", "INDIGO", "INDIGO", "VIOLET", "VIOLET",
+"BLUE", "BLUE", "NAVY BLUE", "NAVY BLUE", "ROYAL BLUE", "ROYAL BLUE", "PASTEL BLUE", "PASTEL BLUE", "TURQUOISE", "TURQUOISE",
+"TEAL", "TEAL", "MINT GREEN", "MINT GREEN", "GREEN", "GREEN", "DARK GREEN", "DARK GREEN", "OLIVE GREEN", "OLIVE GREEN",
+"LIME GREEN", "LIME GREEN", "NEON GREEN", "NEON GREEN", "YELLOW", "YELLOW", "BRIGHT YELLOW", "BRIGHT YELLOW", "MUSTARD YELLOW", "MUSTARD YELLOW",
+"GOLD", "GOLD", "SILVER", "SILVER", "GRAY", "GRAY", "CHARCOAL", "CHARCOAL", "WHITE", "WHITE",
+"RAINBOW", "RAINBOW", "OMBRE", "OMBRE", "BALAYAGE", "BALAYAGE", "HIGHLIGHTS", "HIGHLIGHTS", "LOWLIGHTS", "LOWLIGHTS",
+"FROSTED", "FROSTED", "STREAKS", "STREAKS", "DIP DYE", "DIP DYE", "PASTEL", "PASTEL", "NEON", "NEON",
+]
+
 story_elements["HEIGHT"] = [
     "Very Short",
     "Short",
@@ -1196,6 +1247,11 @@ story_elements["HEIGHT"] = [
 story_elements["STRESS_RESPONSE"] = [
     "Fight",
     "Flight",
+]
+
+story_elements["STRESS_RESPONSE_PRESENT"] = [
+    "Fighting",
+    "Running From",
 ]
 
 story_elements["SKIN_TONE"] = [
@@ -4291,7 +4347,7 @@ def generate_story():
     story += f"The piece of technology central to the plot is the {select_random_element('TECHNOLOGY_FUNCTION')} {select_random_element('TECHNOLOGY_OBJECT')}. "
     story += f"This is known to cause {select_random_element('EMOTION_AMPLIFIER')} leading to {select_random_element('EMOTION')}. \n\n"
     story += f"It is also rumored to allow the user the ability of: {select_random_element('SUPERHUMAN_ABILITY')}.\n\n"
-    story += f"This story explores the emotion of: {select_random_element('EMOTION')}.\n\n"
+    story += f"This story explores the emotion of: {select_random_element('EMOTION')}.\n\n\n"
     story += f"CHARACTER: \n\n"
     story += f"The main character is a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_GENDER')} {select_random_element('CHARACTER_ETHNICITY')} {select_random_element('CHARACTER_RACE')} {select_random_element('CHARACTER_AGE')}, "
     story += f"their relationship status is {select_random_element('CHARACTER_RELATIONSHIP')}. \n\n"
@@ -4311,11 +4367,12 @@ def generate_story():
     story += f"OPPONENT level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
     story += f"The disaster they face is {select_random_element('STORY_COMPLICATIONS')}. \n\n"
     story += f"They prioritize {select_random_element('MOST_IMPORTANT')} over everything. \n\n"
-    story += f"Resonant element: {select_random_element('RESONANT_ELEMENT')}. \n\n"
-    story += f"Here are more facts about the main character: \n\n"
+    story += f"Resonant element: {select_random_element('RESONANT_ELEMENT')}. \n\n\n"
+    story += f"PHYSICAL APPEARANCE: \n\n" 
     story += f"Their name is {select_random_element('CHARACTER_NAME_TYPE')}. It starts with [{random.choice(string.ascii_uppercase)}]. \n\n"
     story += f"BODY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
     story += f"Physical build: {select_random_element('PHYSICAL_BUILD')} \n\n"
+    story += f"Hairstyle: {select_random_element('HAIRCOLOR')} {select_random_element('HAIRSTYLE')} \n\n"
     story += f"Skin tone: {select_random_element('SKIN_TONE')} \n\n"
     story += f"Height: {select_random_element('HEIGHT')} \n\n"
     story += f"Body Image: {select_random_element('BODY_IMAGE')} \n\n"
@@ -4325,30 +4382,30 @@ def generate_story():
     story += f"Language type: {select_random_element('LANGUAGE_TYPE')} \n\n"
     story += f"Language: {select_random_element('LANGUAGE')} \n\n"  
     story += f"Special skill: {select_random_element('SPECIAL_SKILL')} \n\n"  
-    story += f"Clothing style: {select_random_element('CLOTHING_STYLE')} \n\n"
+    story += f"Clothing style: {select_random_element('CLOTHING_STYLE')} \n\n\n"
     story += f"FAMILY: \n\n"  
-    story += f"Birthplace: A version of a {select_random_element('BIRTH_LOCATION')} in {select_random_element('BIRTH_COUNTRY')} \n\n"
+    story += f"Birthplace: A version of a {select_random_element('BIRTH_DIRECTION')} in {select_random_element('BIRTHPLACE')} in {select_random_element('BIRTH_COUNTRY')} \n\n"
     story += f"Family birth order: {select_random_element('CHARACTER_CHILD_STATUS')} \n\n"
     story += f"Mother (Status): {select_random_element('PARENT_STATUS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it.  \n\n"
-    story += f"Father (Status): {select_random_element('PARENT_STATUS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it.  \n\n"
+    story += f"Father (Status): {select_random_element('PARENT_STATUS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it.  \n\n\n"
     story += f"PERSONAL STATUS: \n\n"
     story += f"Overall life satisfaction: {select_random_element('LIFE_SATISFACTION')} \n\n"
     story += f"Mental health status: {select_random_element('MENTAL_HEALTH_STATUS')} \n\n"
     story += f"Physical health status: {select_random_element('PHYSICAL_HEALTH_STATUS')} \n\n"
-    story += f"Financial health status: {select_random_element('FINANCIAL_HEALTH_STATUS')} \n\n"
+    story += f"Financial health status: {select_random_element('FINANCIAL_HEALTH_STATUS')} \n\n\n"
     story += f"PSYCHOGRAPHIC PROFILE: \n\n"
     story += f"Greatest fear: {select_random_element('GREATEST_FEAR')} \n\n"
     story += f"Personal motivation: {select_random_element('PERSONAL_MOTIVATION')} \n\n"
     story += f"Personal ideology: {select_random_element('PERSONAL_IDEOLOGY')} \n\n"
     story += f"Character strength: {select_random_element('CHARACTER_STRENGTH')} \n\n" 
     story += f"Character weakness: {select_random_element('CHARACTER_WEAKNESS')} \n\n" 
-    story += f"Character secret: {select_random_element('CHARACTER_SECRET')} \n\n"
-    story += f"Fighting: \n\n"
+    story += f"Character secret: {select_random_element('CHARACTER_SECRET')} \n\n\n"
+    story += f"IN BATTLE: \n\n"
     story += f"Character fighting style: {select_random_element('FIGHTING_STYLE')} style \n\n"
-    story += f"Character weapon: {select_random_element('WEAPON')} \n\n"
-    story += f"Character Archetype: \n\n"
+    story += f"Character weapon: {select_random_element('WEAPON')} \n\n\n"
+    story += f"CHARACTER ARCHETYPE: \n\n"
     story += f"Mega-archetype: {select_random_element('CHARACTER_MEGA_ARCHETYPE')} \n\n"
-    story += f"Sub-archetype: {select_random_element('Character_sub-archetype')} \n\n"
+    story += f"Sub-archetype: {select_random_element('Character_sub-archetype')} \n\n\n"
     story += f"DESTINY DICE: \n\n"
     story += f"DESTINY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"  
     story += f"Their destiny is discovered through {select_random_element('DESTINY_DISCOVERY')} \n\n"
@@ -4356,7 +4413,15 @@ def generate_story():
     story += f"Age at discovery: {[random.randint(0, 199)]} \n\n"
     story += f"Age destiny achieved: {[random.randint(0, 199)]} \n\n"
     story += f"Death age: {[random.randint(0, 199)]} \n\n"
-    story += f"Cause of death? {select_random_element('DEATH_CAUSE')} \n\n"
+    story += f"Cause of death? {select_random_element('DEATH_CAUSE')} \n\n\n"
+    story += f"DEATH KNOWLEDGE: \n\n"
+    story += f"Knows death age?: {select_random_element('CHARACTER_AWARENESS')} \n\n"
+    story += f"If yes, reacts by {select_random_element('HABITS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it. \n\n"
+    story += f"Knows death date?: {select_random_element('CHARACTER_AWARENESS')} \n\n"
+    story += f"If yes, reacts by {select_random_element('HABITS')} and {select_random_element('HABITS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it. \n\n"
+    story += f"Knows death cause?: {select_random_element('CHARACTER_AWARENESS')} \n\n"
+    story += f"If yes, reacts by {select_random_element('STRESS_RESPONSE_PRESENT')} cause with focus on {select_random_element('MOST_IMPORTANT')} and {select_random_element('HABITS')}. \n\n"
+    story += f"They feel {select_random_element('STORY_DESCRIPTOR')} {select_random_element('CHARACTER_EMOTION')} about it. Ultimately, they are {select_random_element('LIFE_SATISFACTION')} abut their fate.  \n\n\n"
     story += f"Current mood: {select_random_element('CHARACTER_EMOTION')} about {select_random_element('MOST_IMPORTANT')}  \n\n"
     story += f"SCENE: \n\n"
     story += f"Focal character wants to {select_random_element('SCENE_GOAL')} their {select_random_element('CHARACTER_EMOTION')}. \n\n"
