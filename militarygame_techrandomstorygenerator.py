@@ -4312,6 +4312,64 @@ story_elements["CHARACTER_ACTION"] = [
     "quits", "persists", "conforms", "trailblazes", "envisions",
 ]
 
+story_elements["CHARACTER_ACTION_INF"] = [
+"to run", "to jump", "to shoot", "to hide", "to climb",
+"to sneak", "to drive", "to fly", "to swim", "to ride",
+"to crawl", "to dance", "to sing", "to paint", "to write",
+"to cook", "to clean", "to fix", "to break", "to build",
+"to destroy", "to create", "to solve", "to analyze", "to investigate",
+"to question", "to answer", "to argue", "to agree", "to disagree",
+"to laugh", "to cry", "to shout", "to whisper", "to lie",
+"to tell the truth", "to help", "to hinder", "to protect", "to attack",
+"to defend", "to surrender", "to escape", "to search", "to find",
+"to lose", "to win", "to fail", "to succeed", "to try",
+"to give up", "to persevere", "to adapt", "to innovate", "to improvise",
+"to dodge", "to parry", "to thrust", "to grapple", "to throw",
+"to catch", "to roll", "to crouch", "to leap", "to sprint",
+"to tiptoe", "to waltz", "to harmonize", "to sketch", "to compose",
+"to bake", "to scrub", "to mend", "to shatter", "to construct",
+"to demolish", "to invent", "to decipher", "to examine", "to explore",
+"to interrogate", "to respond", "to debate", "to concur", "to oppose",
+"to chuckle", "to weep", "to yell", "to murmur", "to deceive",
+"to confess", "to assist", "to impede", "to defend", "to assault",
+"to guard", "to yield", "to flee", "to hunt", "to discover",
+"to misplace", "to triumph", "to falter", "to achieve", "to attempt",
+"to surrender", "to endure", "to adjust", "to pioneer", "to conjure",
+"to evade", "to deflect", "to lunge", "to wrestle", "to hurl",
+"to grab", "to somersault", "to duck", "to bound", "to dash",
+"to creep", "to twirl", "to hum", "to scribble", "to write music",
+"to roast", "to dust", "to repair", "to smash", "to erect",
+"to raze", "to design", "to unravel", "to inspect", "to delve",
+"to probe", "to retort", "to discuss", "to accede", "to refute",
+"to giggle", "to sob", "to bellow", "to mutter", "to fib",
+"to admit", "to support", "to obstruct", "to shield", "to strike",
+"to protect", "to relinquish", "to retreat", "to pursue", "to uncover",
+"to forget", "to conquer", "to stumble", "to accomplish", "to endeavor",
+"to quit", "to persist", "to conform", "to trailblaze", "to envision",
+"to hesitate", "to ponder", "to reflect", "to meditate", "to contemplate",
+"to daydream", "to fantasize", "to imagine", "to visualize", "to anticipate",
+"to dread", "to worry", "to panic", "to relax", "to unwind",
+"to de-stress", "to calm down", "to breathe deeply", "to stretch", "to yawn",
+"to doze", "to nap", "to sleep", "to dream", "to wake up",
+"to get up", "to rise", "to stand", "to sit", "to lie down",
+"to kneel", "to crouch", "to squat", "to bend", "to twist",
+"to turn", "to spin", "to flip", "to cartwheel", "to handstand",
+"to backflip", "to juggle", "to balance", "to hang", "to swing",
+"to sway", "to rock", "to vibrate", "to shake", "to tremble",
+"to shiver", "to quiver", "to wobble", "to stagger", "to stumble",
+"to trip", "to fall", "to collapse", "to faint", "to pass out",
+"to regain consciousness", "to come to", "to recover", "to heal", "to mend",
+"to cure", "to treat", "to nurse", "to care for", "to comfort",
+"to console", "to sympathize", "to empathize", "to relate", "to understand",
+"to misunderstand", "to clarify", "to explain", "to teach", "to learn",
+"to study", "to memorize", "to forget", "to recall", "to remember",
+"to remind", "to recognize", "to identify", "to distinguish", "to differentiate",
+"to compare", "to contrast", "to categorize", "to classify", "to sort",
+"to arrange", "to organize", "to plan", "to prepare", "to anticipate",
+"to expect", "to predict", "to forecast", "to estimate", "to guess",
+"to hypothesize", "to theorize", "to speculate", "to wonder", "to ponder"
+]
+
 story_elements["CHARACTER_AWARENESS"] = [
     "knows", "doesn't know", "has a feeling",
 
@@ -4321,7 +4379,81 @@ story_elements["SCENE_TYPE"] = [
     "SCENE", "SEQUEL", "SCENE", "SEQUEL", "SCENE", "SEQUEL", "SET PIECE", "SET PIECE", "FINAL CLIMAX"
 ]
 
+story_elements["TIME_OF_DAY"] = [
+"00:00", "00:30", "01:00", "01:30", "02:00", "02:30", "03:00", "03:30",
+"04:00", "04:30", "05:00", "05:30", "06:00", "06:30", "07:00", "07:30",
+"08:00", "08:00", "08:00", "08:30", "08:30", "08:30", "09:00", "09:00", "09:00", "09:30", "09:30", "09:30",
+"10:00", "10:00", "10:00", "10:30", "10:30", "10:30", "11:00", "11:00", "11:00", "11:30", "11:30", "11:30",
+"12:00", "12:00", "12:00", "12:30", "12:30", "12:30", "13:00", "13:00", "13:00", "13:30", "13:30", "13:30",
+"14:00", "14:00", "14:00", "14:30", "14:30", "14:30", "15:00", "15:00", "15:00", "15:30", "15:30", "15:30",
+"16:00", "16:00", "16:00", "16:30", "16:30", "16:30", "17:00", "17:00", "17:00", "17:30", "17:30", "17:30",
+"18:00", "18:00", "18:00", "18:30", "18:30", "18:30", "19:00", "19:00", "19:00", "19:30", "19:30", "19:30",
+"20:00", "20:00", "20:00", "20:30", "20:30", "20:30", "21:00", "21:00", "21:00", "21:30", "21:30", "21:30",
+"22:00", "22:00", "22:00", "22:30", "22:30", "22:30", "23:00", "23:00", "23:00", "23:30", "23:30", "23:30"
+]
 
+story_elements["WEATHER"] = [
+"SUNNY", "SUNNY", "SUNNY", "SUNNY", "SUNNY", "SUNNY", "CLEAR", "CLEAR", "CLEAR", "CLEAR", "CLEAR",
+"PARTLY CLOUDY", "PARTLY CLOUDY", "PARTLY CLOUDY", "PARTLY CLOUDY", "PARTLY CLOUDY", "CLOUDY", "CLOUDY", "CLOUDY", "CLOUDY", "OVERCAST", "OVERCAST", "OVERCAST",
+"LIGHT RAIN", "LIGHT RAIN", "LIGHT RAIN", "LIGHT RAIN", "MODERATE RAIN", "MODERATE RAIN", "MODERATE RAIN", "HEAVY RAIN", "HEAVY RAIN", "TORRENTIAL RAIN",
+"DRIZZLE", "DRIZZLE", "DRIZZLE", "MIST", "MIST", "MIST", "FOG", "FOG", "FOG", "DENSE FOG",
+"LIGHT SNOW", "LIGHT SNOW", "LIGHT SNOW", "MODERATE SNOW", "MODERATE SNOW", "HEAVY SNOW", "HEAVY SNOW", "BLIZZARD", "SNOW STORM",
+"SLEET", "SLEET", "FREEZING RAIN", "FREEZING RAIN", "HAIL", "HAIL", "ICE STORM", "THUNDERSTORM", "THUNDERSTORM", "THUNDERSTORM",
+"SEVERE THUNDERSTORM", "SEVERE THUNDERSTORM", "LIGHTNING STORM", "HEATWAVE", "HEATWAVE", "COLD SNAP", "COLD SNAP", "HUMID", "HUMID", "HUMID",
+"DRY", "DRY", "DRY", "WINDY", "WINDY", "WINDY", "WINDY", "BREEZY", "BREEZY", "BREEZY", "GALE", "GALE",
+"STORM", "STORM", "STORM", "HURRICANE", "HURRICANE", "TYPHOON", "TYPHOON", "TORNADO", "WATERSPOUT", "DUST STORM", "DUST STORM",
+"SANDSTORM", "VOLCANIC ASH", "ACID RAIN", "SOLAR FLARE", "GEOMAGNETIC STORM", "METEOR SHOWER", "COMET SIGHTING",
+"AURORA BOREALIS", "AURORA AUSTRALIS", "RAINBOW", "RAINBOW", "DOUBLE RAINBOW", "MOONBOW", "FOGBOW", "SUNSHOWER", "DIAMOND DUST",
+"FIRE RAINBOW", "SUN PILLAR", "LIGHT PILLAR", "NOCTILUCENT CLOUDS", "MAMMATUS CLOUDS", "LENTICULAR CLOUDS", "VIRGA",
+"HABOOB", "DERECHO", "HEAT BURST", "FALLSTREAK HOLE", "PYROCUMULUS CLOUD", "CATATUMBO LIGHTNING", "SPRITES AND JETS",
+"MOONLIGHT RAINBOW", "LUNAR ECLIPSE", "SOLAR ECLIPSE", "BLOOD MOON", "SUPERMOON", "HARVEST MOON", "BLUE MOON",
+"Fire WHIRL", "STEAM DEVIL", "SNOW DEVIL", "FAIRY RING", "SUN DOGS", "MOON DOGS", "EARTHQUAKE LIGHTS", "BALL LIGHTNING",
+"WILL-O'-THE-WISP", "ST. ELMO'S FIRE", "MOONBOW STORM", "STARDUST RAIN", "BIOLUMINESCENT WAVES", "FIRE RAIN", "ICE RAIN",
+"DARK MATTER STORM", "QUANTUM FLUX", "GRAVITATIONAL ANOMALY", "TEMPORAL DISTORTION", "REALITY RIFT", "COSMIC RAY BURST", "ANTIMATTER SHOWER"
+]
+
+story_elements["SCENE_SETTING"] = [
+"Abandoned amusement park", "Ancient ruins", "Art gallery", "Auction house", "Back alley", "Bakery", "Ballet studio", "Bank vault", "Beach at sunset",
+"Botanical garden", "Boxing gym", "Bustling city street", "Busy airport terminal", "Carnival midway", "Casino floor", "Castle dungeon", "Cathedral",
+"Cave system", "Cemetery", "Circus tent", "Clock tower", "Coffee shop", "Concert hall", "Construction site", "Cornfield", "Courtroom",
+"Cozy cabin", "Cruise ship deck", "Dance club", "Dense forest", "Desert oasis", "Diner", "Dive bar", "Docked submarine", "Dragon's lair",
+"Dystopian cityscape", "Enchanted forest", "Factory floor", "Fairy tale cottage", "Farmer's market", "Fishing boat", "Flower shop", "Foggy pier",
+"Fortune teller's shop", "Frat house", "Frozen lake", "Fruit orchard", "Futuristic laboratory", "Ghost town", "Gondola", "Graffiti-covered subway",
+"Graveyard", "Greenhouse", "Haunted mansion", "Helicopter pad", "Hidden speakeasy", "High-end boutique", "High-tech command center", "Highway rest stop",
+"Historic battlefield", "Hockey rink", "Horse stable", "Hospital operating room", "Hot air balloon", "Hotel lobby", "House of mirrors", "Ice cave",
+"Ivy-covered university", "Jazz club", "Junkyard", "Karaoke bar", "Laundromat", "Lavish ballroom", "Library", "Lighthouse", "Lingerie store",
+"Luxury spa", "Mayan temple", "Medieval marketplace", "Monastery", "Moonlit meadow", "Mortuary", "Mountain top", "Museum", "Music festival grounds",
+"Neon-lit alley", "Newspaper office", "Night club", "Nursing home", "Observatory", "Ocean floor", "Oil rig", "Old-growth forest", "Opera house",
+"Orchid greenhouse", "Outdoor amphitheater", "Penthouse suite", "Pet store", "Pirate ship", "Police station", "Political rally", "Post-apocalyptic bunker",
+"Prison cell block", "Private detective's office", "Psychiatric ward", "Public park", "Pumpkin patch", "Puppet theater", "Quantum physics lab", "Quaint bookstore",
+"Quiet cafe", "Race track", "Radio station", "Record store", "Recycling center", "Red carpet event", "Research station", "Retirement home", "River rafting",
+"Robot factory", "Roller skating rink", "Rooftop garden", "Rustic winery", "Sailboat", "Salvage yard", "Sauna", "School playground", "Science museum",
+"Secret garden", "Serene pond", "Sewer system", "Shipwreck", "Ski resort", "Skyscraper rooftop", "Slaughterhouse", "Sleepy village", "Smoke-filled casino",
+"Snowy forest", "Soccer stadium", "Soup kitchen", "Space station", "Spice market", "Spiral staircase", "Spooky attic", "Sports arena", "Starlit rooftop",
+"Steam room", "Steampunk airship", "Subway platform", "Summer camp", "Sunset on the savannah", "Sushi restaurant", "Swamp", "Tailor's shop", "Tango dance hall",
+"Tattoo parlor", "Taxidermy shop", "Tea house", "Teeming aquarium", "Temple ruins", "Therapeutic hot springs", "Tightrope over a chasm", "Toy store", "Train station",
+"Treehouse", "Tropical rainforest", "Truck stop", "Underground bunker", "Underwater cave", "University lecture hall", "Urban rooftop garden", "Used car lot",
+"Utopian city", "Vampire's castle", "Venetian canal", "Veterinarian's office", "Vibrant coral reef", "Video game arcade", "Vinyl record shop", "Virtual reality simulation",
+"Volcanic crater", "Voodoo shop", "Voting booth", "Waiting room", "Walltomwall aquarium", "War room", "Wardrobe department", "Warehouse rave", "Waterfall grotto",
+"Wedding chapel", "Western saloon", "Whale watching boat", "Whiskey distillery", "White sand beach", "Wildlife preserve", "Witch's cottage", "Wizard's tower",
+"Worm farm", "Wrecking yard", "Wrestling ring", "Writer's retreat", "Yoga studio", "Zen garden", "Zombie apocalypse bunker", "Zoo", "Zeppelin"
+]
+
+story_elements["PHYSICAL_STATUS"] = [
+"ENERGETIC", "ENERGETIC", "ENERGETIC", "ALERT", "ALERT", "ALERT", "REFRESHED", "REFRESHED", "REFRESHED", "WELL-RESTED", "WELL-RESTED", "WELL-RESTED",
+"HEALTHY", "HEALTHY", "HEALTHY", "FIT", "FIT", "FIT", "STRONG", "STRONG", "STRONG", "AGILE", "AGILE", "AGILE", "VIGOROUS", "VIGOROUS", "VIGOROUS",
+"SLEEPY", "SLEEPY", "SLEEPY", "DROWSY", "DROWSY", "DROWSY", "TIRED", "TIRED", "TIRED", "FATIGUED", "FATIGUED", "FATIGUED", "EXHAUSTED", "EXHAUSTED",
+"SORE", "SORE", "SORE", "ACHY", "ACHY", "STIFF", "STIFF", "BRUISED", "BRUISED", "INJURED", "INJURED", "WOUNDED", "WOUNDED", "CRIPPLED", "CRIPPLED",
+"ILL", "ILL", "FEVERISH", "FEVERISH", "NAUSEATED", "NAUSEATED", "DIZZY", "DIZZY", "LIGHTHEADED", "LIGHTHEADED", "DELIRIOUS", "WEAK", "WEAK", "FRAIL",
+"HUNGRY", "HUNGRY", "HUNGRY", "THIRSTY", "THIRSTY", "THIRSTY", "FAMISHED", "FAMISHED", "DEHYDRATED", "DEHYDRATED", "MALNOURISHED", "MALNOURISHED",
+"STUFFED", "BLOATED", "INTOXICATED", "INTOXICATED", "BUZZED", "TIPSY", "DRUNK", "HUNGOVER", "HUNGOVER", "CAFFEINE RUSH", "SUGAR RUSH", "JITTERY",
+"ANXIOUS", "ANXIOUS", "NERVOUS", "NERVOUS", "TENSE", "TENSE", "STRESSED", "STRESSED", "OVERWHELMED", "PANICKED", "PANICKED", "FEARFUL", "FEARFUL",
+"RELAXED", "RELAXED", "CALM", "CALM", "SERENE", "SERENE", "CONTENT", "CONTENT", "CAREFREE", "RELIEVED", "RELIEVED", "BORED", "BORED", "RESTLESS",
+"COLD", "COLD", "CHILLY", "FREEZING", "SHIVERING", "NUMB", "FROSTBITTEN", "WARM", "WARM", "HOT", "HOT", "SWELTERING", "SWEATY", "SWEATY", "CLAMMY",
+"AROUSED", "AROUSED", "HORNY", "HORNY", "LUSTFUL", "LUSTFUL", "PASSIONATE", "PASSIONATE", "TURNED ON", "FRISKY", "EXCITED", "EXCITED", "ENTHUSIASTIC",
+"BORED", "BORED", "APATHETIC", "APATHETIC", "INDIFFERENT", "INDIFFERENT", "NUMB", "NUMB", "DESENSITIZED", "DESENSITIZED", "WORLD-WEARY", "WORLD-WEARY",
+
+]
 
 # Now, all your categories are formatted and ready for use in your story generator.
 
@@ -4332,107 +4464,153 @@ story_elements["SCENE_TYPE"] = [
 def select_random_element(category):
     return random.choice(story_elements[category])
 
-def generate_story():
-    story = f"WORLD: \n\n"
-    story += f"This story takes place in the {select_random_element('TIME_PERIOD')} in a {select_random_element('World_State')} {select_random_element('world_scopes')} world influenced by {select_random_element('Culture_Inspiration')} culture. \n\n"
-    story += f"Customs, traditions, and lore of {select_random_element('MILITARY_CULTURE')} military culture dominate the society. \n\n" 
-    story += f"Elements and themes from the video game {select_random_element('VIDEO_GAME_FRANCHISE')} are adapted in this story.\n\n"
-    story += f"STORY: \n\n"
-    story += f"This story follows the plot archetype: {select_random_element('PLOT_ARCHETYPE')}. \n\n"
-    story += f"It is a {select_random_element('NARRATIVE_PERSPECTIVE')} story is about a {select_random_element('MILITARY_PROTAGONIST')} {select_random_element('MILITARY_JOBS')} during {select_random_element('MILITARY_SCENARIO')}. "
-    story += f"But {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('BASIC_EVENT')} gets in their way. \n\n"
-    story += f"The major event of the story involves {select_random_element('BASIC_EVENT')}. "
-    story += f"This is a {select_random_element('STORY_DESCRIPTOR')} {select_random_element('STORY_TYPE')}-themed story, "
-    story += f"with a {select_random_element('STORY_DESCRIPTOR')} ending. \n\n"
-    story += f"The piece of technology central to the plot is the {select_random_element('TECHNOLOGY_FUNCTION')} {select_random_element('TECHNOLOGY_OBJECT')}. "
-    story += f"This is known to cause {select_random_element('EMOTION_AMPLIFIER')} leading to {select_random_element('EMOTION')}. \n\n"
-    story += f"It is also rumored to allow the user the ability of: {select_random_element('SUPERHUMAN_ABILITY')}.\n\n"
-    story += f"This story explores the emotion of: {select_random_element('EMOTION')}.\n\n\n"
-    story += f"CHARACTER: \n\n"
-    story += f"The main character is a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_GENDER')} {select_random_element('CHARACTER_ETHNICITY')} {select_random_element('CHARACTER_RACE')} {select_random_element('CHARACTER_AGE')}, "
-    story += f"their relationship status is {select_random_element('CHARACTER_RELATIONSHIP')}. \n\n"
-    story += f"In LOVE (relationships) they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n Attracted to: {select_random_element('CHARACTER_ATTRACTION')}. \n (If adult) Sexual Turn-on: {select_random_element('SEX_KINK')}. Sexual Turn-off: {select_random_element('SEX_KINK')}.  \n\n"
-    story += f"LOVE level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
-    story += f"At WORK they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
-    story += f"Occupation: {select_random_element('EXPERIENCE')} {select_random_element('CHARACTER_OCCUPATION')}. \n\n"
-    story += f"WORK level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
-    story += f"In SOCIETY they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
-    story += f"Primary social environment: {select_random_element('SOCIAL_ENVIRONMENT')}. \n\n"
-    story += f"SOCIETY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
-    story += f"Copes with STRESS by {select_random_element('HABITS')} and {select_random_element('HABITS')}. \n\n"
-    story += f"When threatened their response is {select_random_element('STRESS_RESPONSE')}. \n\n"
-    story += f"Their OBJECTIVE is to {select_random_element('CHARACTER_GOALS')}. \n\n"
-    story += f"OBJECTIVE level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
-    story += f"Their OPPONENT is a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('OPPONENTS')}. \n\n"
-    story += f"OPPONENT level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
-    story += f"The disaster they face is {select_random_element('STORY_COMPLICATIONS')}. \n\n"
-    story += f"They prioritize {select_random_element('MOST_IMPORTANT')} over everything. \n\n"
-    story += f"Resonant element: {select_random_element('RESONANT_ELEMENT')}. \n\n\n"
-    story += f"PHYSICAL APPEARANCE: \n\n" 
-    story += f"Their name is {select_random_element('CHARACTER_NAME_TYPE')}. It starts with [{random.choice(string.ascii_uppercase)}]. \n\n"
-    story += f"BODY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
-    story += f"Physical build: {select_random_element('PHYSICAL_BUILD')} \n\n"
-    story += f"Hairstyle: {select_random_element('HAIRCOLOR')} {select_random_element('HAIRSTYLE')} \n\n"
-    story += f"Skin tone: {select_random_element('SKIN_TONE')} \n\n"
-    story += f"Height: {select_random_element('HEIGHT')} \n\n"
-    story += f"Body Image: {select_random_element('BODY_IMAGE')} \n\n"
-    story += f"Notable body part: {select_random_element('BODY_PART_OBSESSION')} \n\n"
-    story += f"Movement style: {select_random_element('MOVEMENT_STYLE')} \n\n"
-    story += f"Tone of voice: {select_random_element('TONE_OF_VOICE')} \n\n"
-    story += f"Language type: {select_random_element('LANGUAGE_TYPE')} \n\n"
-    story += f"Language: {select_random_element('LANGUAGE')} \n\n"  
-    story += f"Special skill: {select_random_element('SPECIAL_SKILL')} \n\n"  
-    story += f"Clothing style: {select_random_element('CLOTHING_STYLE')} \n\n\n"
-    story += f"FAMILY: \n\n"  
-    story += f"Birthplace: A version of a {select_random_element('BIRTH_DIRECTION')} in {select_random_element('BIRTHPLACE')} in {select_random_element('BIRTH_COUNTRY')} \n\n"
-    story += f"Family birth order: {select_random_element('CHARACTER_CHILD_STATUS')} \n\n"
-    story += f"Mother (Status): {select_random_element('PARENT_STATUS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it.  \n\n"
-    story += f"Father (Status): {select_random_element('PARENT_STATUS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it.  \n\n\n"
-    story += f"PERSONAL STATUS: \n\n"
-    story += f"Overall life satisfaction: {select_random_element('LIFE_SATISFACTION')} \n\n"
-    story += f"Mental health status: {select_random_element('MENTAL_HEALTH_STATUS')} \n\n"
-    story += f"Physical health status: {select_random_element('PHYSICAL_HEALTH_STATUS')} \n\n"
-    story += f"Financial health status: {select_random_element('FINANCIAL_HEALTH_STATUS')} \n\n\n"
-    story += f"PSYCHOGRAPHIC PROFILE: \n\n"
-    story += f"Greatest fear: {select_random_element('GREATEST_FEAR')} \n\n"
-    story += f"Personal motivation: {select_random_element('PERSONAL_MOTIVATION')} \n\n"
-    story += f"Personal ideology: {select_random_element('PERSONAL_IDEOLOGY')} \n\n"
-    story += f"Character strength: {select_random_element('CHARACTER_STRENGTH')} \n\n" 
-    story += f"Character weakness: {select_random_element('CHARACTER_WEAKNESS')} \n\n" 
-    story += f"Character secret: {select_random_element('CHARACTER_SECRET')} \n\n\n"
-    story += f"IN BATTLE: \n\n"
-    story += f"Character fighting style: {select_random_element('FIGHTING_STYLE')} style \n\n"
-    story += f"Character weapon: {select_random_element('WEAPON')} \n\n\n"
-    story += f"CHARACTER ARCHETYPE: \n\n"
-    story += f"Mega-archetype: {select_random_element('CHARACTER_MEGA_ARCHETYPE')} \n\n"
-    story += f"Sub-archetype: {select_random_element('Character_sub-archetype')} \n\n\n"
-    story += f"DESTINY DICE: \n\n"
-    story += f"DESTINY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"  
-    story += f"Their destiny is discovered through {select_random_element('DESTINY_DISCOVERY')} \n\n"
-    story += f"Their destiny is {select_random_element('DESTINY')} \n\n"
-    story += f"Age at discovery: {[random.randint(0, 199)]} \n\n"
-    story += f"Age destiny achieved: {[random.randint(0, 199)]} \n\n"
-    story += f"Death age: {[random.randint(0, 199)]} \n\n"
-    story += f"Cause of death? {select_random_element('DEATH_CAUSE')} \n\n\n"
-    story += f"DEATH KNOWLEDGE: \n\n"
-    story += f"Knows death age?: {select_random_element('CHARACTER_AWARENESS')} \n\n"
-    story += f"If yes, reacts by {select_random_element('HABITS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it. \n\n"
-    story += f"Knows death date?: {select_random_element('CHARACTER_AWARENESS')} \n\n"
-    story += f"If yes, reacts by {select_random_element('HABITS')} and {select_random_element('HABITS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it. \n\n"
-    story += f"Knows death cause?: {select_random_element('CHARACTER_AWARENESS')} \n\n"
-    story += f"If yes, reacts by {select_random_element('STRESS_RESPONSE_PRESENT')} cause with focus on {select_random_element('MOST_IMPORTANT')} and {select_random_element('HABITS')}. \n\n"
-    story += f"They feel {select_random_element('STORY_DESCRIPTOR')} {select_random_element('CHARACTER_EMOTION')} about it. Ultimately, they are {select_random_element('LIFE_SATISFACTION')} abut their fate.  \n\n\n"
-    story += f"Current mood: {select_random_element('CHARACTER_EMOTION')} about {select_random_element('MOST_IMPORTANT')}  \n\n"
-    story += f"SCENE: \n\n"
-    story += f"Focal character wants to {select_random_element('SCENE_GOAL')} their {select_random_element('CHARACTER_EMOTION')}. \n\n"
-    story += f"{select_random_element('SCENE_OPPONENTS')} gets in their way. \n\n"
-    story += f"It causes {select_random_element('STORY_DESCRIPTOR')} {select_random_element('BASIC_EVENT')}, that leads to {select_random_element('EMOTION_AMPLIFIER')}.  \n\n"
-    story += f"Character {select_random_element('SCENE_OUTCOME')} and feels {select_random_element('EMOTION')}. \n\n"
-    story += f"BUT {select_random_element('NEXT_OBSTACLE')} {select_random_element('CHARACTER_ACTION')}. Focal character {select_random_element('CHARACTER_AWARENESS')} about it.\n\n"
-    story += f"This causes {select_random_element('MOST_IMPORTANT')} to become a {select_random_element('STORY_DESCRIPTOR')} {select_random_element('BASIC_EVENT')} \n"
-    story += f"leading to a {select_random_element('SCENE_TYPE')}. \n\n"
+def generate_world():
+    world = (f"WORLD: \n\n"
+    f"This story takes place in the {select_random_element('TIME_PERIOD')} in a {select_random_element('World_State')} {select_random_element('world_scopes')} world influenced by {select_random_element('Culture_Inspiration')} culture. \n\n"
+    f"Customs, traditions, and lore of {select_random_element('MILITARY_CULTURE')} military culture dominate the society. \n\n" 
+    f"Elements and themes from the video game {select_random_element('VIDEO_GAME_FRANCHISE')} are adapted in this story.\n\n\n"
+    )
 
+    return world
+    
+
+def generate_story():
+    story = (
+        "STORY: \n\n"
+        f"This story follows the plot archetype: {select_random_element('PLOT_ARCHETYPE')}. \n\n"
+        f"It is a {select_random_element('NARRATIVE_PERSPECTIVE')} story about a "
+        f"{select_random_element('MILITARY_PROTAGONIST')} {select_random_element('MILITARY_JOBS')} "
+        f"during {select_random_element('MILITARY_SCENARIO')}. But "
+        f"{select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('BASIC_EVENT')} "
+        f"gets in their way. \n\n"
+        f"The major event of the story involves {select_random_element('BASIC_EVENT')}. This is a "
+        f"{select_random_element('STORY_DESCRIPTOR')} {select_random_element('STORY_TYPE')}-themed story, "
+        f"with a {select_random_element('STORY_DESCRIPTOR')} ending. \n\n"
+        f"The piece of technology central to the plot is the {select_random_element('TECHNOLOGY_FUNCTION')} "
+        f"{select_random_element('TECHNOLOGY_OBJECT')}. This is known to cause "
+        f"{select_random_element('EMOTION_AMPLIFIER')} leading to {select_random_element('EMOTION')}. \n\n"
+        f"It is also rumored to allow the user the ability of: {select_random_element('SUPERHUMAN_ABILITY')}. \n\n"
+        f"This story explores the emotion of: {select_random_element('EMOTION')}. \n\n"
+    )
     return story
 
+def generate_character():
+    character = (
+        "CHARACTER: \n\n"
+        f"The main character is a {select_random_element('CHARACTER_DESCRIPTOR')} "
+        f"{select_random_element('CHARACTER_GENDER')} {select_random_element('CHARACTER_ETHNICITY')} "
+        f"{select_random_element('CHARACTER_RACE')} {select_random_element('CHARACTER_AGE')}, "
+        f"their relationship status is {select_random_element('CHARACTER_RELATIONSHIP')}. \n\n"
+        f"In LOVE (relationships) they are {select_random_element('CHARACTER_DESCRIPTOR')}. "
+        f"Attracted to: {select_random_element('CHARACTER_ATTRACTION')}. \n"
+        f"(If adult) Sexual Turn-on: {select_random_element('SEX_KINK')}. "
+        f"Sexual Turn-off: {select_random_element('SEX_KINK')}. \n\n"
+        f"LOVE level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
+        f"At WORK they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
+        f"Occupation: {select_random_element('EXPERIENCE')} {select_random_element('CHARACTER_OCCUPATION')}. \n\n"
+        f"WORK level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
+        f"In SOCIETY they are {select_random_element('CHARACTER_DESCRIPTOR')}. \n\n"
+        f"Primary social environment: {select_random_element('SOCIAL_ENVIRONMENT')}. \n\n"
+        f"SOCIETY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
+        f"Copes with STRESS by {select_random_element('HABITS')} and {select_random_element('HABITS')}. \n\n"
+        f"When threatened their response is {select_random_element('STRESS_RESPONSE')}. \n\n"
+        f"Their OBJECTIVE is to {select_random_element('CHARACTER_GOALS')}. \n\n"
+        f"OBJECTIVE level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
+        f"Their OPPONENT is a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('OPPONENTS')}. \n\n"
+        f"OPPONENT level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
+        f"The disaster they face is {select_random_element('STORY_COMPLICATIONS')}. \n\n"
+        f"They prioritize {select_random_element('MOST_IMPORTANT')} over everything. \n\n"
+        f"Resonant element: {select_random_element('RESONANT_ELEMENT')}. \n\n"
+        f"PHYSICAL APPEARANCE: \n\n"
+        f"Their name is {select_random_element('CHARACTER_NAME_TYPE')}. It starts with [{random.choice(string.ascii_uppercase)}]. \n\n"
+        f"BODY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
+        f"Physical build: {select_random_element('PHYSICAL_BUILD')} \n\n"
+        f"Hairstyle: {select_random_element('HAIRCOLOR')} {select_random_element('HAIRSTYLE')} \n\n"
+        f"Skin tone: {select_random_element('SKIN_TONE')} \n\n"
+        f"Height: {select_random_element('HEIGHT')} \n\n"
+        f"Body Image: {select_random_element('BODY_IMAGE')} \n\n"
+        f"Notable body part: {select_random_element('BODY_PART_OBSESSION')} \n\n"
+        f"Movement style: {select_random_element('MOVEMENT_STYLE')} \n\n"
+        f"Tone of voice: {select_random_element('TONE_OF_VOICE')} \n\n"
+        f"Language type: {select_random_element('LANGUAGE_TYPE')} \n\n"
+        f"Language: {select_random_element('LANGUAGE')} \n\n"
+        f"Special skill: {select_random_element('SPECIAL_SKILL')} \n\n"
+        f"Clothing style: {select_random_element('CLOTHING_STYLE')} \n\n"
+        f"FAMILY: \n\n"
+        f"Birthplace: A version of a {select_random_element('BIRTH_DIRECTION')} in {select_random_element('BIRTHPLACE')} in {select_random_element('BIRTH_COUNTRY')} \n\n"
+        f"Family birth order: {select_random_element('CHARACTER_CHILD_STATUS')} \n\n"
+        f"Mother (Status): {select_random_element('PARENT_STATUS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it. \n\n"
+        f"Father (Status): {select_random_element('PARENT_STATUS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it. \n\n"
+        f"PERSONAL STATUS: \n\n"
+        f"Overall life satisfaction: {select_random_element('LIFE_SATISFACTION')} \n\n"
+        f"Mental health status: {select_random_element('MENTAL_HEALTH_STATUS')} \n\n"
+        f"Physical health status: {select_random_element('PHYSICAL_HEALTH_STATUS')} \n\n"
+        f"Financial health status: {select_random_element('FINANCIAL_HEALTH_STATUS')} \n\n"
+        f"PSYCHOGRAPHIC PROFILE: \n\n"
+        f"Greatest fear: {select_random_element('GREATEST_FEAR')} \n\n"
+        f"Personal motivation: {select_random_element('PERSONAL_MOTIVATION')} \n\n"
+        f"Personal ideology: {select_random_element('PERSONAL_IDEOLOGY')} \n\n"
+        f"Character strength: {select_random_element('CHARACTER_STRENGTH')} \n\n"
+        f"Character weakness: {select_random_element('CHARACTER_WEAKNESS')} \n\n"
+        f"Character secret: {select_random_element('CHARACTER_SECRET')} \n\n"
+        f"IN BATTLE: \n\n"
+        f"Character fighting style: {select_random_element('FIGHTING_STYLE')} style \n\n"
+        f"Character weapon: {select_random_element('WEAPON')} \n\n"
+        f"CHARACTER ARCHETYPE: \n\n"
+        f"Mega-archetype: {select_random_element('CHARACTER_MEGA_ARCHETYPE')} \n\n"
+        f"Sub-archetype: {select_random_element('Character_sub-archetype')} \n\n\n"
+    )
+    return character
+
+def generate_destiny_dice():
+    destiny_dice = (
+        "DESTINY DICE: \n\n"
+        f"DESTINY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
+        f"Their destiny is discovered through {select_random_element('DESTINY_DISCOVERY')}. \n\n"
+        f"Their destiny is {select_random_element('DESTINY')}. \n\n"
+        f"Age at discovery: {random.randint(0, 199)}. \n\n"
+        f"Age destiny achieved: {random.randint(0, 199)}. \n\n"
+        f"Death age: {random.randint(0, 199)}. \n\n"
+        f"Cause of death: {select_random_element('DEATH_CAUSE')}. \n\n"
+        f"DEATH KNOWLEDGE: \n\n"
+        f"Knows death age?: {select_random_element('CHARACTER_AWARENESS')}. \n\n"
+        f"If yes, reacts by {select_random_element('HABITS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it. \n\n"
+        f"Knows death date?: {select_random_element('CHARACTER_AWARENESS')}. \n\n"
+        f"If yes, reacts by {select_random_element('HABITS')} and {select_random_element('HABITS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it. \n\n"
+        f"Knows death cause?: {select_random_element('CHARACTER_AWARENESS')}. \n\n"
+        f"If yes, reacts by {select_random_element('STRESS_RESPONSE_PRESENT')} cause with focus on {select_random_element('MOST_IMPORTANT')} and {select_random_element('HABITS')}. \n\n"
+        f"They feel {select_random_element('STORY_DESCRIPTOR')} {select_random_element('CHARACTER_EMOTION')} about it. Ultimately, they are {select_random_element('LIFE_SATISFACTION')} about their fate. \n\n"
+    )
+    return destiny_dice
+
+def generate_scene():
+    scene = (
+        "SCENE: \n\n"
+        "SETTING: \n\n"
+        f"Time of day: {select_random_element('TIME_OF_DAY')} \n\n"
+        f"Weather: {select_random_element('WEATHER')} \n\n"
+        f"Location: A {select_random_element('BIRTH_DIRECTION')} {select_random_element('SCENE_SETTING')} in {select_random_element('BIRTH_COUNTRY')} \n\n"
+        f"Physical status: {select_random_element('PHYSICAL_STATUS')} \n\n"
+        f"Current mood: {select_random_element('CHARACTER_EMOTION')} about {select_random_element('MOST_IMPORTANT')}. \n\n"
+        f"Scene Goal: Focal character needs {select_random_element('CHARACTER_ACTION_INF')} about a {select_random_element('BASIC_EVENT')}. \n\n"
+        f"Emotional Goal: Focal character wants to {select_random_element('SCENE_GOAL')} their {select_random_element('CHARACTER_EMOTION')}. \n\n"
+        f"{select_random_element('SCENE_OPPONENTS')} gets in their way. \n\n"
+        f"It causes {select_random_element('STORY_DESCRIPTOR')} {select_random_element('BASIC_EVENT')}, that leads to {select_random_element('EMOTION_AMPLIFIER')}. \n\n"
+        f"Scene goal: Character {select_random_element('SCENE_OUTCOME')}. \n\n"
+        f"Emotional goal: Character {select_random_element('SCENE_OUTCOME')} and feels {select_random_element('EMOTION')}. \n\n"
+        f"BUT {select_random_element('NEXT_OBSTACLE')} {select_random_element('CHARACTER_ACTION')}. Focal character {select_random_element('CHARACTER_AWARENESS')} about it.\n\n"
+        f"This causes {select_random_element('MOST_IMPORTANT')} to become a {select_random_element('STORY_DESCRIPTOR')} {select_random_element('BASIC_EVENT')}, leading to a {select_random_element('SCENE_TYPE')}. \n\n"
+    )
+    return scene
+
+
 # Generate a story
+print(generate_world())
 print(generate_story())
+print(generate_character())
+print(generate_destiny_dice())
+print(generate_scene())
+
+
+
+
