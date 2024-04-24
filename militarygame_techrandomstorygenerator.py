@@ -259,6 +259,30 @@ story_elements["EMOTION"] = [
     "Worry", "Worthlessness"
 ]
 
+story_elements["CHARACTER_EMOTION"] = [
+"Acceptance", "Admiration", "Adoration", "Agitation", "Amazement", "Amusement", "Anger", "Anguish", "Annoyance", "Anticipation",
+"Anxiety", "Appallment", "Apprehension", "Awe", "Betrayal", "Bitterness", "Certainty", "Concern", "Confidence", "Conflict",
+"Confusion", "Connectedness", "Contempt", "Curiosity", "Defeat", "Defensiveness", "Defiance", "Denial", "Depression", "Desire",
+"Despair", "Desperation", "Determination", "Devastation", "Disappointment", "Disbelief", "Discouragement", "Disgust", "Disillusionment", "Dissatisfaction",
+"Doubt", "Dread", "Eagerness", "Elation", "Emasculation", "Embarrassment", "Empathy", "Envy", "Euphoria", "Excitement",
+"Fear", "Fearlessness", "Fluster", "Frustration", "Giddiness", "Gratitude", "Grief", "Guilt", "Happiness", "Hatred",
+"Homesickness", "Hopefulness", "Horror", "Humility", "Humiliation", "Hurt", "Hysteria", "Impatience", "Inadequacy", "Indifference",
+"Indignation", "Insecurity", "Inspiration", "Intimidation", "Irritation", "Jealousy", "Joy", "Loneliness", "Longing", "Love",
+"Lust", "Misery", "Moodiness", "Being moved", "Neglect", "Nervousness", "Nostalgia", "Obsession", "Overwhelm", "Panic",
+"Paranoia", "Peacefulness", "Pity", "Pleasure", "Powerlessness", "Pride", "Rage", "Regret", "Relief", "Reluctance",
+"Remorse", "Resentment", "Resignation", "Revulsion", "Sadness", "Sappiness", "Satisfaction", "Schadenfreude", "Scorn", "Self-loathing",
+"Self-pity", "Shame", "Shock", "Skepticism", "Smugness", "Somberness", "Amazement", "Surprise", "Suspicion", "Sympathy",
+"Terror", "Torment", "Unappreciation", "Uncertainty", "Unease", "Validation", "Feeling valued", "Vengefulness", "Vindication", "Vulnerability",
+"Wanderlust", "Wariness", "Wistfulness", "Worry", "Worthlessness", "Affection", "Alienation", "Ambivalence", "Apathy", "Astonishment",
+"Attachment", "Aversion", "Bewilderment", "Bliss", "Boredom", "Calmness", "Camaraderie", "Compassion", "Contentment", "Delight",
+"Desolation", "Distress", "Disdain", "Displeasure", "Disquiet", "Distrust", "Ecstasy", "Enchantment", "Enthusiasm", "Exasperation",
+"Exhilaration", "Expectancy", "Fondness", "Foreboding", "Forgiveness", "Frantic", "Fury", "Gratefulness", "Heartbreak", "Heartache",
+"Hilarity", "Hope", "Hopelessness", "Hostility", "Incredulity", "Indignance", "Jubilation", "Kindness", "Melancholy", "Mortification",
+"Nausea", "Optimism", "Outrage", "Pensiveness", "Perplexity", "Pessimism", "Pity", "Rapture", "Repugnance", "Revulsion",
+"Sentimentality", "Serenity", "Spite", "Suffering", "Tenderness", "Tenseness", "Thrill", "Triumph", "Unrest", "Vigilance",
+"Wonder", "Wrath", "Zeal", "Zest"
+]
+
 story_elements["EMOTION_AMPLIFIER"] = [
     "Addiction", "Arousal", "Attraction", "Boredom", "Cold", "Dehydration", "Distraction", "Exhaustion", "Hangover", "Heat",
     "Hunger", "Illness", "Inebriation", "Lethargy", "Overstimulation", "Pain", "Relaxation", "Stress", "Drunken stupor", "Drunken rage",
@@ -839,7 +863,142 @@ story_elements["BIRTHPLACE"] = ["A bustling city", "A remote village", "The dept
 ]
 
 story_elements["BIRTH_LOCATION"] = [
-    "north", "south", "east", "west", "central", 
+"DESERT", "DESERT", "DESERT", "TUNDRA", "TUNDRA", "TUNDRA", "RAINFOREST", "RAINFOREST", "RAINFOREST",
+"MOUNTAINS", "MOUNTAINS", "MOUNTAINS", "MOUNTAINS", "PLAINS", "PLAINS", "PLAINS", "PLAINS", "PLAINS",
+"FOREST", "FOREST", "FOREST", "FOREST", "HILLS", "HILLS", "HILLS", "HILLS", "SWAMP", "SWAMP",
+"JUNGLE", "JUNGLE", "COASTAL", "COASTAL", "COASTAL", "COASTAL", "COASTAL", "ISLAND", "ISLAND", "ISLAND",
+"ARCHIPELAGO", "ARCHIPELAGO", "STEPPE", "STEPPE", "SAVANNA", "SAVANNA", "WETLANDS", "WETLANDS", "GLACIER", "GLACIER",
+"VOLCANIC", "VOLCANIC", "OASIS", "OASIS", "CANYON", "CANYON", "CAVE", "CAVE", "DELTA", "DELTA",
+"VALLEY", "VALLEY", "VALLEY", "PLATEAU", "PLATEAU", "MESA", "MESA", "FJORD", "FJORD", "LAKESIDE",
+"LAKESIDE", "LAKESIDE", "RIVERSIDE", "RIVERSIDE", "RIVERSIDE", "BAY", "BAY", "HARBOR", "HARBOR", "PENINSULA",
+"PENINSULA", "ISTHMUS", "ISTHMUS", "CLIFF", "CLIFF", "WATERFALL", "WATERFALL", "GEYSER", "GEYSER", "TEMPLE",
+"TEMPLE", "FARM", "FARM", "FARM", "RANCH", "RANCH", "VINEYARD", "VINEYARD", "ORCHARD", "ORCHARD",
+"PLANTATION", "PLANTATION", "SLUM", "SLUM", "SHANTYTOWN", "SHANTYTOWN", "CITY", "CITY", "CITY", "CITY",
+"CITY", "CITY", "CITY", "TOWN", "TOWN", "TOWN", "TOWN", "TOWN", "VILLAGE", "VILLAGE",
+"VILLAGE", "VILLAGE", "VILLAGE", "HAMLET", "HAMLET", "SUBURB", "SUBURB", "SUBURB", "METROPOLIS", "METROPOLIS"
+]
+
+story_elements["PARENT_STATUS"] = [
+"ALIVE - WELL", "ALIVE - WELL", "ALIVE - WELL", "ALIVE - WELL", "ALIVE - WELL",
+"ALIVE - ESTRANGED", "ALIVE - ESTRANGED", "ALIVE - ESTRANGED", "ALIVE - ESTRANGED",
+"ALIVE - DIVORCED", "ALIVE - DIVORCED", "ALIVE - DIVORCED",
+"ALIVE - SEPARATED", "ALIVE - SEPARATED", "ALIVE - SEPARATED",
+"ALIVE - REMARRIED", "ALIVE - REMARRIED", "ALIVE - REMARRIED",
+"ALIVE - SINGLE PARENT", "ALIVE - SINGLE PARENT", "ALIVE - SINGLE PARENT",
+"ALIVE - INCARCERATED", "ALIVE - INCARCERATED",
+"ALIVE - INSTITUTIONALIZED", "ALIVE - INSTITUTIONALIZED",
+"ALIVE - ADDICTED", "ALIVE - ADDICTED",
+"ALIVE - ABUSIVE", "ALIVE - ABUSIVE",
+"ALIVE - NEGLECTFUL", "ALIVE - NEGLECTFUL",
+"ALIVE - OVERPROTECTIVE", "ALIVE - OVERPROTECTIVE",
+"ALIVE - CONTROLLING", "ALIVE - CONTROLLING",
+"ALIVE - SUPPORTIVE", "ALIVE - SUPPORTIVE", "ALIVE - SUPPORTIVE",
+"ALIVE - LOVING", "ALIVE - LOVING", "ALIVE - LOVING",
+"ALIVE - DISTANT", "ALIVE - DISTANT",
+"ALIVE - WORKAHOLIC", "ALIVE - WORKAHOLIC",
+"ALIVE - ADVENTUROUS", "ALIVE - ADVENTUROUS",
+"ALIVE - STRICT", "ALIVE - STRICT",
+"ALIVE - PERMISSIVE", "ALIVE - PERMISSIVE",
+"ALIVE - TRADITIONAL", "ALIVE - TRADITIONAL",
+"ALIVE - PROGRESSIVE", "ALIVE - PROGRESSIVE",
+"ALIVE - RELIGIOUS", "ALIVE - RELIGIOUS",
+"ALIVE - ATHEIST", "ALIVE - ATHEIST",
+"ALIVE - UNKNOWN", "ALIVE - UNKNOWN",
+"DECEASED - NATURAL CAUSES", "DECEASED - NATURAL CAUSES", "DECEASED - NATURAL CAUSES",
+"DECEASED - ACCIDENT", "DECEASED - ACCIDENT",
+"DECEASED - ILLNESS", "DECEASED - ILLNESS",
+"DECEASED - MURDER", "DECEASED - MURDER",
+"DECEASED - SUICIDE", "DECEASED - SUICIDE",
+"DECEASED - WAR", "DECEASED - WAR",
+"DECEASED - UNKNOWN", "DECEASED - UNKNOWN",
+"MISSING - ABANDONED", "MISSING - ABANDONED",
+"MISSING - DISAPPEARED", "MISSING - DISAPPEARED",
+"MISSING - KIDNAPPED", "MISSING - KIDNAPPED",
+"MISSING - LOST", "MISSING - LOST",
+"MISSING - UNKNOWN", "MISSING - UNKNOWN",
+"UNKNOWN", "UNKNOWN", "UNKNOWN",
+"ALIVE - WELL", "ALIVE - WELL", "ALIVE - WELL", "ALIVE - WELL", "ALIVE - WELL",
+"ALIVE - ESTRANGED", "ALIVE - ESTRANGED", "ALIVE - ESTRANGED", "ALIVE - ESTRANGED",
+"ALIVE - DIVORCED", "ALIVE - DIVORCED", "ALIVE - DIVORCED",
+"ALIVE - SEPARATED", "ALIVE - SEPARATED", "ALIVE - SEPARATED",
+"ALIVE - REMARRIED", "ALIVE - REMARRIED", "ALIVE - REMARRIED",
+"ALIVE - SINGLE PARENT", "ALIVE - SINGLE PARENT", "ALIVE - SINGLE PARENT",
+"ALIVE - INCARCERATED", "ALIVE - INCARCERATED",
+"ALIVE - INSTITUTIONALIZED", "ALIVE - INSTITUTIONALIZED",
+"ALIVE - ADDICTED", "ALIVE - ADDICTED",
+"ALIVE - ABUSIVE", "ALIVE - ABUSIVE",
+"ALIVE - NEGLECTFUL", "ALIVE - NEGLECTFUL",
+"ALIVE - OVERPROTECTIVE", "ALIVE - OVERPROTECTIVE",
+"ALIVE - CONTROLLING", "ALIVE - CONTROLLING",
+"ALIVE - SUPPORTIVE", "ALIVE - SUPPORTIVE", "ALIVE - SUPPORTIVE",
+"ALIVE - LOVING", "ALIVE - LOVING", "ALIVE - LOVING",
+"ALIVE - DISTANT", "ALIVE - DISTANT",
+"ALIVE - WORKAHOLIC", "ALIVE - WORKAHOLIC",
+"ALIVE - ADVENTUROUS", "ALIVE - ADVENTUROUS",
+"ALIVE - STRICT", "ALIVE - STRICT",
+"ALIVE - PERMISSIVE", "ALIVE - PERMISSIVE",
+"ALIVE - TRADITIONAL", "ALIVE - TRADITIONAL",
+"ALIVE - PROGRESSIVE", "ALIVE - PROGRESSIVE",
+"ALIVE - RELIGIOUS", "ALIVE - RELIGIOUS",
+"ALIVE - ATHEIST", "ALIVE - ATHEIST",
+"ALIVE - UNKNOWN", "ALIVE - UNKNOWN",
+"DECEASED - NATURAL CAUSES", "DECEASED - NATURAL CAUSES", "DECEASED - NATURAL CAUSES",
+"DECEASED - ACCIDENT", "DECEASED - ACCIDENT",
+"DECEASED - ILLNESS", "DECEASED - ILLNESS",
+"DECEASED - MURDER", "DECEASED - MURDER",
+"DECEASED - SUICIDE", "DECEASED - SUICIDE",
+"DECEASED - WAR", "DECEASED - WAR",
+"DECEASED - UNKNOWN", "DECEASED - UNKNOWN",
+"MISSING - ABANDONED", "MISSING - ABANDONED",
+"MISSING - DISAPPEARED", "MISSING - DISAPPEARED",
+"MISSING - KIDNAPPED", "MISSING - KIDNAPPED",
+"MISSING - LOST", "MISSING - LOST",
+"MISSING - UNKNOWN", "MISSING - UNKNOWN",
+"UNKNOWN", "UNKNOWN", "UNKNOWN",
+"ALIVE - WELL", "ALIVE - WELL", "ALIVE - WELL", "ALIVE - WELL",
+"ALIVE - CURSED", "ALIVE - CURSED",
+"ALIVE - POSSESSED", "ALIVE - POSSESSED",
+"ALIVE - IMMORTAL", "ALIVE - IMMORTAL",
+"ALIVE - TIME TRAVELER", "ALIVE - TIME TRAVELER",
+"ALIVE - SHAPESHIFTER", "ALIVE - SHAPESHIFTER",
+"ALIVE - UNDERCOVER SPY", "ALIVE - UNDERCOVER SPY",
+"ALIVE - ALIEN IN DISGUISE", "ALIVE - ALIEN IN DISGUISE",
+"ALIVE - WANTED CRIMINAL", "ALIVE - WANTED CRIMINAL",
+"ALIVE - AMNESIA", "ALIVE - AMNESIA",
+"ALIVE - ALTERNATE REALITY", "ALIVE - ALTERNATE REALITY",
+"ALIVE - CLONE", "ALIVE - CLONE",
+"ALIVE - ANDROID", "ALIVE - ANDROID",
+"ALIVE - HOLOGRAM", "ALIVE - HOLOGRAM",
+"ALIVE - VAMPIRE", "ALIVE - VAMPIRE",
+"ALIVE - WEREWOLF", "ALIVE - WEREWOLF",
+"ALIVE - GHOST", "ALIVE - GHOST",
+"ALIVE - GUARDIAN ANGEL", "ALIVE - GUARDIAN ANGEL",
+"ALIVE - GENIE", "ALIVE - GENIE",
+"ALIVE - SUPERHERO", "ALIVE - SUPERHERO",
+"ALIVE - SUPERVILLAIN", "ALIVE - SUPERVILLAIN",
+"DECEASED - SUPERNATURAL FORCES", "DECEASED - SUPERNATURAL FORCES",
+"DECEASED - ANCIENT CURSE", "DECEASED - ANCIENT CURSE",
+"DECEASED - MAGIC SPELL", "DECEASED - MAGIC SPELL",
+"DECEASED - TIME PARADOX", "DECEASED - TIME PARADOX",
+"DECEASED - PARALLEL UNIVERSE", "DECEASED - PARALLEL UNIVERSE",
+"DECEASED - ALIEN ABDUCTION", "DECEASED - ALIEN ABDUCTION",
+"DECEASED - GOVERNMENT CONSPIRACY", "DECEASED - GOVERNMENT CONSPIRACY",
+"DECEASED - HAUNTED", "DECEASED - HAUNTED",
+"DECEASED - RESURRECTED", "DECEASED - RESURRECTED",
+"DECEASED - ZOMBIE", "DECEASED - ZOMBIE",
+"MISSING - TRAPPED IN ANOTHER DIMENSION", "MISSING - TRAPPED IN ANOTHER DIMENSION",
+"MISSING - LOST IN TIME", "MISSING - LOST IN TIME",
+"MISSING - ABDUCTED BY CREATURES", "MISSING - ABDUCTED BY CREATURES",
+"MISSING - VANISHED INTO THIN AIR", "MISSING - VANISHED INTO THIN AIR",
+"MISSING - UNDERCOVER MISSION", "MISSING - UNDERCOVER MISSION",
+"MISSING - WITNESS PROTECTION", "MISSING - WITNESS PROTECTION",
+"MISSING - AMNESIA", "MISSING - AMNESIA",
+"MISSING - ALTERNATE REALITY", "MISSING - ALTERNATE REALITY",
+"UNKNOWN - MYSTERIOUS CIRCUMSTANCES", "UNKNOWN - MYSTERIOUS CIRCUMSTANCES",
+"UNKNOWN - CLASSIFIED INFORMATION", "UNKNOWN - CLASSIFIED INFORMATION",
+"UNKNOWN - REALITY GLITCH", "UNKNOWN - REALITY GLITCH",
+"UNKNOWN - COSMIC ENIGMA", "UNKNOWN - COSMIC ENIGMA",
+
 ]
 
 story_elements["CHARACTER_NAME_TYPE"] = [
@@ -3699,6 +3858,50 @@ story_elements["MOST_IMPORTANT"] = [
     "DESTINY",
 ]
 
+story_elements["CHARACTER_CHILD_STATUS"] = [
+    "ONLY CHILD", "ONLY CHILD", "ONLY CHILD", "OLDEST OF 2 CHILDREN", "OLDEST OF 2 CHILDREN",
+    "OLDEST OF 2 CHILDREN", "YOUNGEST OF 2 CHILDREN", "YOUNGEST OF 2 CHILDREN", "YOUNGEST OF 2 CHILDREN",
+    "OLDEST OF 3 CHILDREN", "OLDEST OF 3 CHILDREN", "MIDDLE CHILD OF 3 CHILDREN", "MIDDLE CHILD OF 3 CHILDREN",
+    "MIDDLE CHILD OF 3 CHILDREN", "YOUNGEST OF 3 CHILDREN", "YOUNGEST OF 3 CHILDREN", "OLDEST OF 4 CHILDREN",
+    "OLDEST OF 4 CHILDREN", "SECOND OLDEST OF 4 CHILDREN", "SECOND OLDEST OF 4 CHILDREN", "SECOND YOUNGEST OF 4 CHILDREN",
+    "SECOND YOUNGEST OF 4 CHILDREN", "YOUNGEST OF 4 CHILDREN", "YOUNGEST OF 4 CHILDREN", "OLDEST OF 5 CHILDREN",
+    "SECOND OLDEST OF 5 CHILDREN", "MIDDLE CHILD OF 5 CHILDREN", "SECOND YOUNGEST OF 5 CHILDREN", "YOUNGEST OF 5 CHILDREN",
+    "OLDEST OF 6 CHILDREN", "SECOND OLDEST OF 6 CHILDREN", "THIRD OLDEST OF 6 CHILDREN", "THIRD YOUNGEST OF 6 CHILDREN",
+    "SECOND YOUNGEST OF 6 CHILDREN", "YOUNGEST OF 6 CHILDREN", "OLDEST OF 7 CHILDREN", "MIDDLE CHILD OF 7 CHILDREN",
+    "YOUNGEST OF 7 CHILDREN", "OLDEST OF 8 CHILDREN", "MIDDLE CHILD OF 8 CHILDREN", "YOUNGEST OF 8 CHILDREN",
+    "OLDEST OF 9 CHILDREN", "MIDDLE CHILD OF 9 CHILDREN", "YOUNGEST OF 9 CHILDREN", "OLDEST OF 10 CHILDREN",
+    "MIDDLE CHILD OF 10 CHILDREN", "YOUNGEST OF 10 CHILDREN", "TWIN", "TWIN", "TRIPLET",
+    "QUADRUPLET", "QUINTUPLET", "SEXTUPLET", "SEPTUPLET", "OCTUPLET", "ADOPTED",
+    "ADOPTED", "ADOPTED", "ORPHANED", "ORPHANED", "ORPHANED", "ABANDONED AT BIRTH",
+    "ABANDONED AT BIRTH", "UNKNOWN BIRTH ORDER", "UNKNOWN BIRTH ORDER", "RAISED BY SINGLE PARENT",
+    "RAISED BY SINGLE PARENT", "RAISED BY GRANDPARENTS", "RAISED BY GRANDPARENTS", "RAISED IN FOSTER CARE",
+    "RAISED IN FOSTER CARE", "RAISED BY RELATIVES", "RAISED BY RELATIVES", "RAISED IN INSTITUTION",
+    "RAISED IN INSTITUTION", "UNKNOWN PARENTAGE", "UNKNOWN PARENTAGE"
+]
+
+story_elements["BIRTH_COUNTRY"] = [
+    "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", "Armenia", "Australia", "Austria",
+    "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bhutan",
+    "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cabo Verde", "Cambodia",
+    "Cameroon", "Canada", "Central African Republic", "Chad", "Chile", "China", "Colombia", "Comoros", "Congo", "Costa Rica",
+    "Croatia", "Cuba", "Cyprus", "Czech Republic", "Democratic Republic of the Congo", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador",
+    "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Eswatini", "Ethiopia", "Fiji", "Finland", "France",
+    "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Greece", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau",
+    "Guyana", "Haiti", "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland",
+    "Israel", "Italy", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Kuwait", "Kyrgyzstan",
+    "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Madagascar",
+    "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Mauritania", "Mauritius", "Mexico", "Micronesia",
+    "Moldova", "Monaco", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauru", "Nepal",
+    "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Korea", "North Macedonia", "Norway", "Oman", "Pakistan",
+    "Palau", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Qatar", "Romania",
+    "Russia", "Rwanda", "Saint Kitts and Nevis", "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Senegal",
+    "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Korea",
+    "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname", "Sweden", "Switzerland", "Syria", "Tajikistan", "Tanzania",
+    "Thailand", "Timor-Leste", "East Timor", "Togo", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda",
+    "Ukraine", "United Arab Emirates", "United Kingdom", "United States", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City", "Venezuela", "Vietnam",
+    "Yemen", "Zambia", "Zimbabwe"
+]
+
 story_elements["GREATEST_FEAR"] = [
     "Abandonment",
     "Betrayal",
@@ -4122,26 +4325,30 @@ def generate_story():
     story += f"Language type: {select_random_element('LANGUAGE_TYPE')} \n\n"
     story += f"Language: {select_random_element('LANGUAGE')} \n\n"  
     story += f"Special skill: {select_random_element('SPECIAL_SKILL')} \n\n"  
-    story += f"Clothing style: {select_random_element('CLOTHING_STYLE')} \n\n"  
-    story += f"Birthplace: {select_random_element('BIRTHPLACE')} \n\n"
-    story += f"Birth location: {select_random_element('BIRTH_LOCATION')} \n\n"
-    story += f"Social Environment: {select_random_element('SOCIAL_ENVIRONMENT')} \n\n"
-    story += f"Job Level: {[random.randint(0, 100)]} \n\n"
+    story += f"Clothing style: {select_random_element('CLOTHING_STYLE')} \n\n"
+    story += f"FAMILY: \n\n"  
+    story += f"Birthplace: A version of a {select_random_element('BIRTH_LOCATION')} in {select_random_element('BIRTH_COUNTRY')} \n\n"
+    story += f"Family birth order: {select_random_element('CHARACTER_CHILD_STATUS')} \n\n"
+    story += f"Mother (Status): {select_random_element('PARENT_STATUS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it.  \n\n"
+    story += f"Father (Status): {select_random_element('PARENT_STATUS')}. They feel {select_random_element('CHARACTER_EMOTION')} about it.  \n\n"
+    story += f"PERSONAL STATUS: \n\n"
     story += f"Overall life satisfaction: {select_random_element('LIFE_SATISFACTION')} \n\n"
     story += f"Mental health status: {select_random_element('MENTAL_HEALTH_STATUS')} \n\n"
     story += f"Physical health status: {select_random_element('PHYSICAL_HEALTH_STATUS')} \n\n"
     story += f"Financial health status: {select_random_element('FINANCIAL_HEALTH_STATUS')} \n\n"
+    story += f"PSYCHOGRAPHIC PROFILE: \n\n"
     story += f"Greatest fear: {select_random_element('GREATEST_FEAR')} \n\n"
     story += f"Personal motivation: {select_random_element('PERSONAL_MOTIVATION')} \n\n"
     story += f"Personal ideology: {select_random_element('PERSONAL_IDEOLOGY')} \n\n"
     story += f"Character strength: {select_random_element('CHARACTER_STRENGTH')} \n\n" 
     story += f"Character weakness: {select_random_element('CHARACTER_WEAKNESS')} \n\n" 
     story += f"Character secret: {select_random_element('CHARACTER_SECRET')} \n\n"
+    story += f"Fighting: \n\n"
     story += f"Character fighting style: {select_random_element('FIGHTING_STYLE')} style \n\n"
     story += f"Character weapon: {select_random_element('WEAPON')} \n\n"
+    story += f"Character Archetype: \n\n"
     story += f"Mega-archetype: {select_random_element('CHARACTER_MEGA_ARCHETYPE')} \n\n"
     story += f"Sub-archetype: {select_random_element('Character_sub-archetype')} \n\n"
-    story += f"Current mood: {select_random_element('EMOTION')} about {select_random_element('MOST_IMPORTANT')}  \n\n"
     story += f"DESTINY DICE: \n\n"
     story += f"DESTINY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"  
     story += f"Their destiny is discovered through {select_random_element('DESTINY_DISCOVERY')} \n\n"
@@ -4150,14 +4357,16 @@ def generate_story():
     story += f"Age destiny achieved: {[random.randint(0, 199)]} \n\n"
     story += f"Death age: {[random.randint(0, 199)]} \n\n"
     story += f"Cause of death? {select_random_element('DEATH_CAUSE')} \n\n"
+    story += f"Current mood: {select_random_element('CHARACTER_EMOTION')} about {select_random_element('MOST_IMPORTANT')}  \n\n"
     story += f"SCENE: \n\n"
-    story += f"Focal character wants to {select_random_element('SCENE_GOAL')} their {select_random_element('EMOTION')}. \n\n"
+    story += f"Focal character wants to {select_random_element('SCENE_GOAL')} their {select_random_element('CHARACTER_EMOTION')}. \n\n"
     story += f"{select_random_element('SCENE_OPPONENTS')} gets in their way. \n\n"
     story += f"It causes {select_random_element('STORY_DESCRIPTOR')} {select_random_element('BASIC_EVENT')}, that leads to {select_random_element('EMOTION_AMPLIFIER')}.  \n\n"
     story += f"Character {select_random_element('SCENE_OUTCOME')} and feels {select_random_element('EMOTION')}. \n\n"
     story += f"BUT {select_random_element('NEXT_OBSTACLE')} {select_random_element('CHARACTER_ACTION')}. Focal character {select_random_element('CHARACTER_AWARENESS')} about it.\n\n"
     story += f"This causes {select_random_element('MOST_IMPORTANT')} to become a {select_random_element('STORY_DESCRIPTOR')} {select_random_element('BASIC_EVENT')} \n"
-    story += f"leading to a {select_random_element('SCENE_TYPE')}. \n\n"    
+    story += f"leading to a {select_random_element('SCENE_TYPE')}. \n\n"
+
     return story
 
 # Generate a story
