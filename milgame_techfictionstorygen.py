@@ -1,5 +1,5 @@
 
-from flask import Flask, render_template
+from flask import Flask, render_template, send_from_directory
 from militarygame_techrandomstorygenerator import create_world, create_story, create_character, create_destiny_dice, create_scene
 
 app = Flask(__name__)
@@ -7,6 +7,11 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return "Welcome to the Military Game-Tech Fiction Story Generator!"
+
+@app.route('/static/<path:filename>')
+def serve_static(filename):
+    return send_from_directory('static', filename)
+
 
 @app.route('/generate_world', methods=['GET'])
 def gen_world():
