@@ -4619,18 +4619,24 @@ story_elements["PHYSICAL_STATUS_ACTIONS"] = [
 def select_random_element(category):
     return random.choice(story_elements[category])
 
-def create_world():
-    world = (f"WORLD: \n\n"
-    f"This story takes place in the {select_random_element('TIME_PERIOD')} in a {select_random_element('World_State')} {select_random_element('world_scopes')} world influenced by {select_random_element('Culture_Inspiration')} culture. \n\n"
-    f"Customs, traditions, and lore of {select_random_element('MILITARY_CULTURE')} military culture dominate the society. \n\n" 
-    f"Elements and themes from the video game {select_random_element('VIDEO_GAME_FRANCHISE')} are adapted in this story.\n\n\n"
-    )
+# militarygame_techrandomstorygenerator.py
 
-    return world
+# ... other imports and functions ...
+
+def create_world():
+    # No more world variable definition here. We'll return the created value
+    return (f"WORLD: \n\n"
+            f"This story takes place in the {select_random_element('TIME_PERIOD')} in a {select_random_element('World_State')} {select_random_element('world_scopes')} world influenced by {select_random_element('Culture_Inspiration')} culture. \n\n"
+            f"Customs, traditions, and lore of {select_random_element('MILITARY_CULTURE')} military culture dominate the society. \n\n" 
+            f"Elements and themes from the video game {select_random_element('VIDEO_GAME_FRANCHISE')} are adapted in this story.\n\n\n"
+            )
+
+world = create_world() # Call the function to generate and assign to world
+
     
 
 def create_story():
-    story = (
+    return (
         "STORY: \n\n"
         f"This story follows the plot archetype: {select_random_element('PLOT_ARCHETYPE')}. \n\n"
         f"It is a {select_random_element('NARRATIVE_PERSPECTIVE')} story about a "
@@ -4643,10 +4649,11 @@ def create_story():
         f"{select_random_element('EMOTION_AMPLIFIER')} leading to {select_random_element('EMOTION')}. \n\n"
         f"It is also rumored to allow the user the ability of: {select_random_element('SUPERHUMAN_ABILITY')}. \n\n"
     )
-    return story
+    
+story = create_story()
 
 def create_character():
-    character = (
+    return (
         "CHARACTER: \n\n"
         f"The main character is a {random.randint(1, 200)}-{select_random_element('CHARACTER_AGE')}-old "
         f"{select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_ETHNICITY')} "
@@ -4710,10 +4717,11 @@ def create_character():
         f"Mega-archetype: {select_random_element('CHARACTER_MEGA_ARCHETYPE')} \n\n"
         f"Sub-archetype: {select_random_element('Character_sub-archetype')} \n\n\n"
     )
-    return character
+    
+character = create_character()
 
 def create_destiny_dice():
-    destiny_dice = (
+    return (
         "DESTINY DICE: \n\n"
         f"DESTINY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
         f"Their destiny is discovered through {select_random_element('DESTINY_DISCOVERY')}. \n\n"
@@ -4731,10 +4739,11 @@ def create_destiny_dice():
         f"If yes, reacts by {select_random_element('STRESS_RESPONSE_PRESENT')} cause with focus on {select_random_element('MOST_IMPORTANT')} and {select_random_element('HABITS')}. \n\n"
         f"They feel {select_random_element('STORY_DESCRIPTOR')} {select_random_element('CHARACTER_EMOTION')} about it. Ultimately, they are {select_random_element('LIFE_SATISFACTION')} about their fate. \n\n"
     )
-    return destiny_dice
+
+destiny_dice = create_destiny_dice()
 
 def create_scene():
-    scene = (
+    return (
         "SCENE: \n\n"
         "SETTING: \n\n"
         f"Time of day: {select_random_element('TIME_OF_DAY')} \n\n"
@@ -4751,7 +4760,8 @@ def create_scene():
         f"BUT {select_random_element('NEXT_OBSTACLE')} {select_random_element('CHARACTER_ACTION')}. Focal character {select_random_element('CHARACTER_AWARENESS')} about it.\n\n"
         f"This causes {select_random_element('MOST_IMPORTANT')} to become a {select_random_element('STORY_DESCRIPTOR')} {select_random_element('BASIC_EVENT')}, leading to a {select_random_element('SCENE_TYPE')}. \n\n"
     )
-    return scene
+
+scene = create_scene()
 
 
 # Generate a story

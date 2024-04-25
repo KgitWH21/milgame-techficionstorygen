@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Military Game Tech Fiction Story Generator</title>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="static/style.css">
+       
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Military Game Tech Fiction Story Generator</h1>
+            <form action="/generate_world" method="get">
+                <button type="submit" class="generate-button">Generate World</button>
+                <div class="output-box" id="worldBox">{{ world.replace('\n', '<br>')|safe }}</div>
+            </form>
+            <form action="/generate_story" method="get">
+                <button type="submit" class="generate-button">Generate Story</button>
+                <div class="output-box" id="storyBox">{{ story.replace('\n', '<br>')|safe }}</div>
+            </form>
+            <form action="/generate_character" method="get">
+                <button type="submit" class="generate-button">Generate Character</button>
+                <div class="output-box" id="characterBox">{{ character.replace('\n', '<br>')|safe }}</div>
+            </form>
+            <form action="/generate_destiny" method="get">
+                <button type="submit" class="generate-button">Generate Destiny Dice</button>
+                <div class="output-box" id="destinyBox">{{ destiny.replace('\n', '<br>')|safe }}</div>
+            </form>
+            <form action="/generate_scene" method="get">
+                <button type="submit" class="generate-button">Generate Scene</button>
+                <div class="output-box" id="sceneBox">{{ scene.replace('\n', '<br>')|safe }}</div>
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="container2">
+            <strong>Military game-tech fiction:</strong><p><i>human stories of military conflict featuring advanced technology told with concepts in video games</i></p>
+        </div>
+    </body>
+</html>
