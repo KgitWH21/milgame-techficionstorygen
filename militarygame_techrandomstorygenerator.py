@@ -124,7 +124,82 @@ story_elements["BASIC_EVENT"] = [
     "Violence", "Virtue", "Vulnerability", "War", "Wealth", "fire", "typhoon", "jail time", "traffic jam", "street fight", "darkness",
     "power outage", "blizzard", "tornado", "famine", "dehydration", "pestilience", "pandemic", "inflation", "election", "nemesis", "rival", "adversary", "hater", "act of God",
     "digital troll", "boss", "mini-boss", "race", "competition", "ex-boyfriend", "ex-girlfriend", "ex-lover", "ex-boss", "parents", "mother-in-law", "father-in-law", "brother"
-    "sister", "opponent", "drug dealer", "crooked cop", "gang member", "thug", "overlord", "demonlord", "restless ghost" 
+    "sister", "opponent", "drug dealer", "crooked cop", "gang member", "thug", "overlord", "demonlord", "restless ghost",
+    "Rival colleague", "Jealous friend", "Overprotective parent", "Controlling spouse", "Manipulative ex-partner",
+"Stubborn bureaucrat", "Corrupt politician", "Ruthless business competitor", "Skeptical investor", "Demanding boss",
+"Uncooperative team member", "Gossiping coworker", "Unreliable ally", "Unpredictable client", "Defiant subordinate",
+"Rebellious teenager", "Disapproving family member", "Nosy neighbor", "Obsessive fan", "Relentless paparazzi",
+"Cynical mentor", "Bitter rival", "Vengeful enemy", "Paranoid conspiracy theorist", "Fanatical cult leader",
+"Prejudiced authority figure", "Narrow-minded traditionalist", "Arrogant expert", "Condescending critic", "Dishonest journalist",
+"Heckler in the audience", "Disruptive protestor", "Attention-seeking troublemaker", "Ill-tempered customer", "Negligent landlord",
+"Greedy creditor", "Ruthless debt collector", "Shady underworld figure", "Dangerous stalker", "Cyberbully",
+"Identity thief", "Malicious hacker", "Blackmailer", "Gaslighting partner", "Guilt-tripping family member",
+"rival", "adversary", "hater", "act of God",
+    "digital troll", "boss", "mini-boss", "race", "competition", "ex-boyfriend", "ex-girlfriend", "ex-lover", "ex-boss", "parents", "mother-in-law", "father-in-law", "brother"
+    "sister", "opponent", "drug dealer", "crooked cop", "gang member", "thug", "overlord", "demonlord", "restless ghost",
+    "Rival colleague", "Jealous friend", "Overprotective parent", "Controlling spouse", "Manipulative ex-partner",
+"Stubborn bureaucrat", "Corrupt politician", "Ruthless business competitor", "Skeptical investor", "Demanding boss",
+"Uncooperative team member", "Gossiping coworker", "Unreliable ally", "Unpredictable client", "Defiant subordinate",
+"Rebellious teenager", "Disapproving family member", "Nosy neighbor", "Obsessive fan", "Relentless paparazzi",
+"Cynical mentor", "Bitter rival", "Vengeful enemy", "Paranoid conspiracy theorist", "Fanatical cult leader",
+"Prejudiced authority figure", "Narrow-minded traditionalist", "Arrogant expert", "Condescending critic", "Dishonest journalist",
+"Heckler in the audience", "Disruptive protestor", "Attention-seeking troublemaker", "Ill-tempered customer", "Negligent landlord",
+"Greedy creditor", "Ruthless debt collector", "Shady underworld figure", "Dangerous stalker", "Cyberbully",
+"Identity thief", "Malicious hacker", "Blackmailer", "Gaslighting partner", "Guilt-tripping family member",
+"Procrastination", "Self-doubt", "Perfectionism", "Imposter syndrome", "Fear of failure",
+"Fear of change", "Fear of rejection", "Fear of success", "Lack of motivation", "Lack of focus",
+"Lack of discipline", "Lack of resources", "Lack of support", "Lack of experience", "Lack of confidence",
+"Addiction", "Burnout", "Depression", "Anxiety", "Stress",
+"Trauma", "Grief", "Anger", "Resentment", "Jealousy",
+"Envy", "Greed", "Pride", "Laziness", "Complacency",
+"Recklessness", "Impulsiveness", "Stubbornness", "Indecisiveness", "Overthinking",
+"Catastrophizing", "Rumination", "Negative self-talk", "Limiting beliefs", "Cognitive distortions",
+"Confirmation bias", "Impostor syndrome", "Analysis paralysis", "Perfectionism paralysis", "Procrastination paralysis",
+"Time pressure", "Financial constraints", "Legal obstacles", "Ethical dilemmas", "Moral quandaries",
+"Bureaucratic red tape", "Technological failures", "Natural disasters", "Health issues", "Accidents",
+"Cultural barriers", "Language barriers", "Generation gaps", "Ideological differences", "Philosophical disagreements",
+"Losing their house keys", "Getting a flat tire", "Misplacing their wallet", "Forgetting to charge their phone", "Oversleeping and missing an important meeting",
+"Getting stuck in traffic", "Dealing with a clogged toilet", "Running out of gas", "Dealing with a power outage", "Having a bout of diarrhea",
+"Getting a painful papercut", "Spilling coffee on their shirt", "Getting a nasty sunburn", "Dealing with a persistent cold", "Having a migraine",
+"Getting a splinter", "Dealing with a broken air conditioner", "Having a bad hair day", "Losing an important document", "Getting a parking ticket",
+"Dealing with a malfunctioning printer", "Having a dead car battery", "Dealing with a slow internet connection", "Getting locked out of their car", "Losing their credit card",
+"Dealing with a jammed garbage disposal", "Having a nosebleed", "Dealing with a leaky faucet", "Getting a blister from new shoes", "Losing their umbrella in the rain",
+"Dealing with a malfunctioning coffee maker", "Having a muscle cramp", "Dealing with a stuck zipper", "Getting a stain on their favorite shirt", "Losing their car keys",
+"Dealing with a broken shoelace", "Having a bad case of hiccups", "Dealing with a tangled necklace", "Getting a hangnail", "Losing their bookmark",
+"Hurricane", "Tornado", "Earthquake", "Volcanic eruption", "Tsunami",
+"Flood", "Wildfire", "Blizzard", "Heatwave", "Drought",
+"Landslide", "Avalanche", "Sinkhole", "Sandstorm", "Hailstorm",
+"Lightning strike", "Solar flare", "Geomagnetic storm", "Meteor shower", "Plague of locusts",
+"Algal bloom", "Red tide", "Jellyfish swarm", "Shark attack", "Venomous snake bite",
+"Killer bee attack", "Poison ivy rash", "Allergic reaction to food", "Choking on a meal", "Food poisoning",
+"Septic tank backup", "Burst water pipe", "Gas leak", "Electrical short circuit", "Mold infestation",
+"Termite damage", "Rodent infestation", "Bed bug infestation", "Cockroach infestation", "Ant infestation",
+"Wasp nest on the porch", "Skunk spray", "Raccoon rummaging through trash", "Bat flying into the house", "Squirrel chewing electrical wires",
+"Cursed amulet that brings misfortune", "Haunted house with malevolent spirits", "Enchanted forest that traps wanderers", "Possessed doll that seeks revenge", "Werewolf transformation during a full moon",
+"Vampire's insatiable thirst for blood", "Ghost that won't let go of a grudge", "Genie that twists wishes", "Leprechaun guarding its pot of gold", "Mermaid's siren song luring sailors to their doom",
+"Banshee's wail foretelling death", "Succubus seducing and draining life force", "Incubus manipulating dreams", "Shapeshifter impersonating loved ones", "Doppelganger creating chaos",
+"Golem on a rampage", "Kraken dragging ships to the depths", "Dragon hoarding treasure", "Phoenix rising from its ashes", "Basilisk's petrifying gaze",
+"Chimera's multi-headed attack", "Minotaur stalking a labyrinth", "Centaur's archery skills", "Pegasus's ability to fly", "Griffin's aerial assaults",
+"Unicorn's magical horn", "Fairy's mischievous pranks", "Elf's superiority complex", "Dwarf's stubbornness", "Orc's brutal strength",
+"Troll's regenerative powers", "Giant's massive size", "Goblin's cunning traps", "Hobgoblin's military tactics", "Kobold's tunnel networks",
+"Demon's temptation and corruption", "Angel's righteous judgment", "Nephilim's existential crisis", "Cambion's internal struggle", "Grim Reaper's looming presence",
+"Banshee's mournful cries", "Wendigo's insatiable hunger", "Chupacabra's livestock attacks", "Jersey Devil's terror", "Mothman's eerie sightings",
+"Sasquatch's elusive nature", "Yeti's icy domain", "Loch Ness Monster's deep lake habitat", "Krampus's Christmas punishments", "Boogeyman's closet dwelling",
+"Sandman's dream manipulation", "Tooth Fairy's obsession with teeth", "Easter Bunny's chocolate addiction", "Cupid's misaimed arrows", "Jack Frost's icy touch",
+"Poltergeist's noisy hauntings", "Dybbuk's possession", "Churel's vengeance", "Pontianak's deadly allure", "Jiangshi's hopping corpse",
+"Hungry Ghost's insatiable appetite", "Kitsune's shapeshifting trickery", "Oni's brutish strength", "Tengu's martial prowess", "Kappa's obsession with cucumbers",
+"Nukekubi's detachable head", "Gashadokuro's skeletal terror", "Akaname's toilet licking", "Bakeneko's ghostly cat form", "Tsukumogami's animated household objects",
+"The protagonist's evil twin", "A corrupt god seeking world domination", "A sentient AI that wants to eradicate humanity", "The mastermind behind a global conspiracy", "A powerful sorcerer intent on unleashing hell on Earth",
+"The protagonist's mentor, revealed to be the villain all along", "An ancient dragon, awakened from its slumber", "The embodiment of the protagonist's deepest fears", "The leader of an interdimensional invasion force", "Death incarnate, come to collect the protagonist's soul",
+"A hive mind that absorbs and controls all living creatures", "The personification of entropy, seeking to unravel reality", "A time-traveling assassin sent to erase the protagonist from history", "The puppet master orchestrating all the conflicts in the protagonist's life", "The dark reflection of the protagonist, born from a magic mirror",
+"An eldritch abomination that feeds on the sanity of its victims", "The ghost of the protagonist's ancestor, seeking revenge for a past betrayal", "The embodiment of the seven deadly sins", "The mad scientist behind a doomsday device", "The demon that the protagonist unwittingly released from its prison",
+"The corrupt chancellor who usurped the throne", "The alien queen commanding a swarm of deadly creatures", "The protagonist's own subconscious, sabotaging their every move", "The spirit of a cursed sword, possessing its wielder", "The god of mischief, sowing chaos and discord",
+"A shapeshifting monster that can assume the form of anyone", "The leader of a cult that worships an eldritch horror", "The artificial intelligence that has taken control of the world's technology", "The mastermind behind a string of serial killings", "The mad king who believes the protagonist is a threat to their rule",
+"The doppelganger who has stolen the protagonist's identity", "The dark messiah, believed by many to be a savior", "The protagonist's own clone, created to replace them", "The malevolent spirit that haunts the protagonist's dreams", "The corrupt businessperson who will stop at nothing to achieve their goals",
+"The leader of a terrorist organization bent on world destruction", "The demon that feeds on the souls of the innocent", "The mad god who sees the protagonist as a plaything", "The machine that absorbs the life force of all living things", "The monster born from the protagonist's darkest secret",
+"The sorcerer who has enslaved the minds of the masses", "The alien hivemind that seeks to assimilate all life in the universe", "The ancient god that demands human sacrifices", "The superintelligent zombie virus that infects through thoughts", "The nanite swarm that consumes all matter in its path",
+"The alternate version of the protagonist from a darker timeline", "The cosmic entity that feeds on the energy of dying stars", "The protagonist's own guilt and regret, given physical form", "The collective unconscious of humanity, rejecting individuality", "The avatar of nihilism, seeking to unmake all of creation",
+ 
 ]
 
 story_elements["PLOT_ARCHETYPE"] = [
@@ -549,7 +624,7 @@ story_elements["CHARACTER_GOALS"] = [
         "Steal identities through advanced brain-computer interfaces", "Engineer a virus capable of infecting both biological and cybernetic organisms"
     ]
 
-story_elements["CHARACTER_RACE"] = ["human", "human", "human", "bio-hacked human", "human with animal abilities", "cyborg", 
+story_elements["CHARACTER_RACE"] = ["human", "human", "human", "human", "human", "genetically enhanced-human", "bio-hacked human", "human with animal abilities", "cyborg", 
     ]
 
 story_elements["CHARACTER_ETHNICITY"] = ["White American", "Black Texan", "Japanese", "Chinese", "Singaporean", "Mongolian", "Italian", "Mexican", "White British", "Indian",
@@ -574,15 +649,15 @@ story_elements["CHARACTER_ETHNICITY"] = ["White American", "Black Texan", "Japan
         "Nicaraguan"
     ]
 
-story_elements["CHARACTER_AGE"] = ["Child (8 - 12)",
-        "Young Adult (13 - 17)",
-        "College Age Adult (18 - 25)",
-        "Young Working Adult (26 - 35)",
-        "Working Adult (36 - 45)",
-        "Older Working Adult (46 - 65)",
-        "Old person (66 - 74)",
-        "Elderly (75 - 110)",
-        "Genetically enhanced (110+)"
+story_elements["CHARACTER_AGE"] = ["month",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
     ]
 
 story_elements["CHARACTER_RELATIONSHIP"] = ["Siblings", "Single (happy)", "Single (searching)", "Single (cynical)", "Single (heartbroken)", "Single (playing the field)", "Co-workers (Unacquainted)",
@@ -1129,55 +1204,55 @@ story_elements["CHARACTER_NAME_TYPE"] = [
 ]
 
 story_elements["LIFE_SATISFACTION"] = [
-    "Miserable", 
-    "Very Unhappy", 
-    "Unhappy", 
-    "Slightly Unsatisfied", 
-    "Neutral", 
-    "Slightly Satisfied", 
-    "Content", 
-    "Happy", 
-    "Very Happy", 
-    "Almost Perfect!"
+    "Lvl 1 - Miserable", 
+    "Lvl 2 - Very Unhappy", 
+    "Lvl 3 - Unhappy", 
+    "Lvl 4 - Slightly Unsatisfied", 
+    "Lvl 5 - Neutral", 
+    "Lvl 6 - Slightly Satisfied", 
+    "Lvl 7 - Content", 
+    "Lvl 8 - Happy", 
+    "Lvl 9 - Very Happy", 
+    "Lvl 10 - Almost Perfect!"
 ]
 
 story_elements["MENTAL_HEALTH_STATUS"] = [
-    "Borderline Suicidal", 
-    "Severely Depressed",
-    "Depressed",
-    "Anxious",
-    "Average",
-    "Mentally Stable",
-    "Well-adjusted",
-    "Optimistic",
-    "Highly Resilient",
-    "Perfectly balanced"
+    "Lvl 1 - Borderline Suicidal", 
+    "Lvl 2 - Severely Depressed",
+    "Lvl 3 - Depressed",
+    "Lvl 4 - Anxious",
+    "Lvl 5 - Average",
+    "Lvl 6 - Mentally Stable",
+    "Lvl 7 - Well-adjusted",
+    "Lvl 8 - Optimistic",
+    "Lvl 9 - Highly Resilient",
+    "Lvl 10 - Perfectly balanced"
 ]
 
 story_elements["PHYSICAL_HEALTH_STATUS"] = [
-    "Frail, Possibly Disabled",
-    "Chronically Ill",
-    "Frequently Unwell",
-    "Below Average",
-    "Average",
-    "Fit",
-    "Very Fit",
-    "Athletic",
-    "Exceptionally Healthy",
-    "Excellent Health"
+    "Lvl 1 - Frail, Possibly Disabled",
+    "Lvl 2 - Chronically Ill",
+    "Lvl 3 - Frequently Unwell",
+    "Lvl 4 - Below Average",
+    "Lvl 5 - Average",
+    "Lvl 6 - Fit",
+    "Lvl 7 - Very Fit",
+    "Lvl 8 - Athletic",
+    "Lvl 9 - Exceptionally Healthy",
+    "Lvl 10 - Excellent Health"
 ]
 
 story_elements["FINANCIAL_HEALTH_STATUS"] = [
-    "Poor",
-    "Struggling",
-    "Financially Stressed",
-    "Making Ends Meet",
-    "Average",
-    "Comfortable",
-    "Well-off",
-    "Financially Secure",
-    "Affluent",
-    "Wealthy"
+    "Lvl 1 - Poor",
+    "Lvl 2 - Struggling",
+    "Lvl 3 - Financially Stressed",
+    "Lvl 4 - Making Ends Meet",
+    "Lvl 5 - Average",
+    "Lvl 6 - Comfortable",
+    "Lvl 7 - Well-off",
+    "Lvl 8 - Financially Secure",
+    "Lvl 9 - Affluent",
+    "Lvl 10 - Wealthy"
 ]
 
 story_elements["BODY_IMAGE"] = [
@@ -1231,7 +1306,7 @@ story_elements["HAIRCOLOR"] = [
 "LIME GREEN", "LIME GREEN", "NEON GREEN", "NEON GREEN", "YELLOW", "YELLOW", "BRIGHT YELLOW", "BRIGHT YELLOW", "MUSTARD YELLOW", "MUSTARD YELLOW",
 "GOLD", "GOLD", "SILVER", "SILVER", "GRAY", "GRAY", "CHARCOAL", "CHARCOAL", "WHITE", "WHITE",
 "RAINBOW", "RAINBOW", "OMBRE", "OMBRE", "BALAYAGE", "BALAYAGE", "HIGHLIGHTS", "HIGHLIGHTS", "LOWLIGHTS", "LOWLIGHTS",
-"FROSTED", "FROSTED", "STREAKS", "STREAKS", "DIP DYE", "DIP DYE", "PASTEL", "PASTEL", "NEON", "NEON",
+"FROSTED", "FROSTED", "STREAKS", "STREAKS", "DIP DYE", "DIP DYE", "PASTEL", "PASTEL", "NEON", "NEON", "NATURAL", "NATURAL","NATURAL", "NATURAL", "NATURAL",
 ]
 
 story_elements["HEIGHT"] = [
@@ -1939,7 +2014,7 @@ story_elements["BODY_PART_OBSESSION"] = [
     "Peach Fuzz", "Unibrow", "Cowlick", "Widow's Peak", "Hairline", "Roots", "Split Ends",
     "Highlights", "Body Hair", "Chest Hair", "Leg Hair", "Toe Hair", "Nose Hair", "Ear Hair",
     "Pubic Hair", "Bald Spot", "Tan Lines", "Stretch Marks", "Cellulite", "Wrinkles", "Crow's Feet",
-    "Laugh Lines", "Worry Lines", "Frown Lines", "Hickey"
+    "Laugh Lines", "Worry Lines", "Frown Lines", "Hickey", "Tummy", "Belly Button", "Love handles",
 ]
 
 
@@ -2697,7 +2772,9 @@ story_elements["SEX_KINK"] = [
 "Nipples",
 "Ribs",
 "Stomach",
+"Tummy",
 "Belly Button",
+"Love handles",
 "Waist",
 "Hips",
 "Butt",
@@ -3526,21 +3603,35 @@ story_elements["HABITS"] = [
     "Reading a book", "Practicing yoga", "Meditating", "Taking a nature walk", "Gardening",
     "Cooking a healthy meal", "Painting or drawing", "Writing in a journal", "Playing a musical instrument",
     "Singing", "Dancing", "Knitting or crocheting", "Doing a jigsaw puzzle", "Playing chess",
-    "Solving crossword puzzles", "Taking a relaxing bath", "Getting a massage", "Stargazing",
-    "Bird watching", "Fishing", "Swimming", "Cycling", "Hiking", "Camping", "Practicing deep breathing",
-    "Stretching", "Taking a nap", "Listening to calming music", "Watching a comedy", "Having a picnic",
-    "Playing with a pet", "Volunteering for a cause", "Attending a support group", "Learning a new skill",
-    "Taking a photography class", "Joining a book club", "Attending a pottery workshop", "Going to a museum",
-    "Visiting an art gallery", "Attending a concert", "Going to a theater performance", "Taking a dance class",
-    "Joining a sports team", "Playing mini-golf", "Going bowling", "Attending a yoga retreat",
-    "Joining a meditation group", "Taking a cooking class", "Attending a personal development seminar",
-    "Going on a scenic drive", "Visiting a botanical garden", "Attending a farmer's market",
-    "Going to a health spa", "Taking a martial arts class", "Spending time with friends or family",
-    "Lifting weights", "Spending time with children", "Running", "Seeing a therapist", "Commenting online",
-    "Talking to strangers online", "Laughing", "People watching",
+    "Solving crossword puzzles", "Taking a relaxing bath", "Getting a massage", "Stargazing", "Bird watching",
+    "Fishing", "Swimming", "Cycling", "Hiking", "Camping", "Practicing deep breathing", "Stretching",
+    "Taking a nap", "Listening to calming music", "Watching a comedy", "Having a picnic", "Playing with a pet",
+    "Volunteering for a cause", "Attending a support group", "Learning a new skill", "Taking a photography class",
+    "Joining a book club", "Attending a pottery workshop", "Going to a museum", "Visiting an art gallery",
+    "Attending a concert", "Going to a theater performance", "Taking a dance class", "Joining a sports team",
+    "Playing mini-golf", "Going bowling", "Attending a yoga retreat", "Joining a meditation group",
+    "Taking a cooking class", "Attending a personal development seminar", "Going on a scenic drive",
+    "Visiting a botanical garden", "Attending a farmer's market", "Going to a health spa", "Taking a martial arts class",
+    "Spending time with friends or family", "Lifting weights", "Spending time with children", "Running",
+    "Seeing a therapist", "Commenting online", "Talking to strangers online", "Laughing", "People watching",
+    "Making people laugh", "Watching the sky", "Taking walks during the daytime", "Taking walks late at night",
+    "Talking to partner about problems", "Talking to friends about problems", "Going to the beach",
+    "Practicing gratitude", "Setting goals", "Maintaining a clean living space", "Drinking enough water",
+    "Eating a balanced diet", "Getting enough sleep", "Practicing self-care", "Engaging in creative hobbies",
+    "Participating in community events", "Attending workshops or seminars", "Exploring new places",
+    "Trying new cuisines", "Engaging in outdoor activities", "Practicing mindfulness", "Journaling thoughts and emotions",
+    "Creating a vision board", "Listening to educational podcasts", "Watching documentaries", "Engaging in brain teasers",
+    "Practicing forgiveness", "Cultivating a growth mindset", "Expressing appreciation to others",
+    "Engaging in random acts of kindness", "Practicing active listening", "Maintaining work-life balance",
+    "Engaging in stress-relieving activities", "Participating in group fitness classes", "Attending personal growth retreats",
+    "Engaging in self-reflection", "Practicing positive self-talk", "Setting boundaries", "Developing a morning routine",
+    "Engaging in lifelong learning", "Practicing empathy", "Cultivating meaningful relationships",
+    "Engaging in acts of service", "Practicing time management", "Developing emotional intelligence",
+    "Engaging in mindful eating", "Practicing good posture", "Engaging in regular self-assessment",
+    "Cultivating a positive attitude", "Practicing effective communication",
     #Unproductive habits 
     "Binge-watching TV shows", "Mindlessly scrolling through social media", "Procrastinating",
-    "Sleeping in excessively", "Engaging in gossip", "Playing video games for hours", "Excessive online shopping",
+    "Sleeping in excessively", "Engaging in gossip", "Playing video games excessively", "Excessive online shopping",
     "Eating junk food", "Consuming alcohol excessively", "Smoking cigarettes", "Taking recreational drugs",
     "Excessive gambling", "Engaging in risky sexual behavior", "Loitering aimlessly", "Littering", "Vandalism",
     "Trespassing", "Shoplifting", "Pickpocketing", "Stealing", "Cheating", "Lying compulsively",
@@ -3554,7 +3645,11 @@ story_elements["HABITS"] = [
     "Hoarding garbage", "Engaging in self-destructive behavior", "Self-sabotaging", "Wallowing in self-pity",
     "Constantly complaining", "Blaming others for personal problems", "Excessive weed smoking", "Excessive pornography viewing",
     "Endlessly comparing themself with others", "Zoning out", "Negative self-talk", "Yelling at others",
-    "Punching walls in", "Throwing a tantrum", "Crying non-stop", "Paying for sex",
+    "Punching walls in", "Throwing a tantrum", "Crying non-stop", "Paying for sex", "Setting fires", "Torturing animals",
+    "Making fun of others", "Yelling at kids", "Yelling at spouse", "Sitting in the dark and listening to angry music", 
+    "Sitting in the dark and excessively masturbating", "Slitting wrists", "Abusing over-the-counter medication", 
+    "Abusing prescription medication", "Abusing narcotics", "Seeking fights", "Yelling at God", "Planning a massacre",
+    "Plotting revenge", "Writing a manifesto", "Planning a terrorist attack",
 ]
 
 story_elements["CHARACTER_SECRET"] = [
@@ -3911,7 +4006,7 @@ story_elements["MOST_IMPORTANT"] = [
     "OBJECTIVE",
     "OPPONENT",
     "BODY",
-    "DESTINY",
+    "DESTINY (DEATH)",
 ]
 
 story_elements["CHARACTER_CHILD_STATUS"] = [
@@ -4367,7 +4462,7 @@ story_elements["CHARACTER_ACTION_INF"] = [
 "to compare", "to contrast", "to categorize", "to classify", "to sort",
 "to arrange", "to organize", "to plan", "to prepare", "to anticipate",
 "to expect", "to predict", "to forecast", "to estimate", "to guess",
-"to hypothesize", "to theorize", "to speculate", "to wonder", "to ponder"
+"to hypothesize", "to theorize", "to speculate", "to wonder", "to ponder", "to have sex with",
 ]
 
 story_elements["CHARACTER_AWARENESS"] = [
@@ -4443,7 +4538,7 @@ story_elements["PHYSICAL_STATUS"] = [
 "ENERGETIC", "ENERGETIC", "ENERGETIC", "ALERT", "ALERT", "ALERT", "REFRESHED", "REFRESHED", "REFRESHED", "WELL-RESTED", "WELL-RESTED", "WELL-RESTED",
 "HEALTHY", "HEALTHY", "HEALTHY", "FIT", "FIT", "FIT", "STRONG", "STRONG", "STRONG", "AGILE", "AGILE", "AGILE", "VIGOROUS", "VIGOROUS", "VIGOROUS",
 "SLEEPY", "SLEEPY", "SLEEPY", "DROWSY", "DROWSY", "DROWSY", "TIRED", "TIRED", "TIRED", "FATIGUED", "FATIGUED", "FATIGUED", "EXHAUSTED", "EXHAUSTED",
-"SORE", "SORE", "SORE", "ACHY", "ACHY", "STIFF", "STIFF", "BRUISED", "BRUISED", "INJURED", "INJURED", "WOUNDED", "WOUNDED", "CRIPPLED", "CRIPPLED",
+"SORE", "SORE", "SORE", "ACHY", "ACHY", "STIFF", "STIFF", "BRUISED", "BRUISED", "INJURED", "INJURED", "WOUNDED", "WOUNDED", "WEAKENED", "WEAKENED",
 "ILL", "ILL", "FEVERISH", "FEVERISH", "NAUSEATED", "NAUSEATED", "DIZZY", "DIZZY", "LIGHTHEADED", "LIGHTHEADED", "DELIRIOUS", "WEAK", "WEAK", "FRAIL",
 "HUNGRY", "HUNGRY", "HUNGRY", "THIRSTY", "THIRSTY", "THIRSTY", "FAMISHED", "FAMISHED", "DEHYDRATED", "DEHYDRATED", "MALNOURISHED", "MALNOURISHED",
 "STUFFED", "BLOATED", "INTOXICATED", "INTOXICATED", "BUZZED", "TIPSY", "DRUNK", "HUNGOVER", "HUNGOVER", "CAFFEINE RUSH", "SUGAR RUSH", "JITTERY",
@@ -4452,6 +4547,66 @@ story_elements["PHYSICAL_STATUS"] = [
 "COLD", "COLD", "CHILLY", "FREEZING", "SHIVERING", "NUMB", "FROSTBITTEN", "WARM", "WARM", "HOT", "HOT", "SWELTERING", "SWEATY", "SWEATY", "CLAMMY",
 "AROUSED", "AROUSED", "HORNY", "HORNY", "LUSTFUL", "LUSTFUL", "PASSIONATE", "PASSIONATE", "TURNED ON", "FRISKY", "EXCITED", "EXCITED", "ENTHUSIASTIC",
 "BORED", "BORED", "APATHETIC", "APATHETIC", "INDIFFERENT", "INDIFFERENT", "NUMB", "NUMB", "DESENSITIZED", "DESENSITIZED", "WORLD-WEARY", "WORLD-WEARY",
+
+]
+
+story_elements["SCENE_PREPOSITION"] = [
+"about", "above", "across", "after", "against","along", "among", "around", "at", "before", "behind", "below", "beneath", "beside",
+"between", "beyond", "by", "down", "during", "for", "from", "in", "inside", "into", "near", "of", "off", "on", "onto", "out",
+"outside", "over", "past", "through", "throughout", "to", "toward", "towards","under", "until", "up", "upon", "with",
+"within", "without",
+]
+
+story_elements["PHYSICAL_STATUS_ACTIONS"] = [
+"WAKING UP", "SLEEPING", "GOING TO BED", "EATING A MEAL", "HAVING SEX",
+"TAKING A SHOWER", "GETTING DRESSED", "BRUSHING TEETH", "COMBING HAIR",
+"APPLYING MAKEUP", "SHAVING", "USING THE BATHROOM", "WASHING HANDS",
+"DRINKING WATER", "DRINKING COFFEE", "DRINKING TEA", "DRINKING ALCOHOL",
+"SMOKING A CIGARETTE", "CHEWING GUM", "SNACKING", "COOKING", "CLEANING",
+"DOING LAUNDRY", "IRONING CLOTHES", "MAKING THE BED", "WASHING DISHES",
+"TAKING OUT THE TRASH", "MOWING THE LAWN", "GARDENING", "EXERCISING",
+"STRETCHING", "MEDITATING", "PRACTICING YOGA", "DANCING", "SINGING",
+"PLAYING AN INSTRUMENT", "READING A BOOK", "WATCHING TV", "LISTENING TO MUSIC",
+"PLAYING VIDEO GAMES", "WORKING", "STUDYING", "WRITING", "DRAWING", "PAINTING",
+"TAKING A NAP", "TAKING A BATH", "GETTING A MASSAGE", "SWIMMING", "SUNBATHING",
+"WALKING THE DOG", "FEEDING PETS", "WATERING PLANTS", "PAYING BILLS", "SHOPPING",
+"DRIVING", "RIDING A BIKE", "TAKING PUBLIC TRANSPORTATION", "WAITING IN LINE",
+"ATTENDING A MEETING", "MAKING A PHONE CALL", "SENDING AN EMAIL", "TEXTING",
+"BROWSING SOCIAL MEDIA", "TAKING PHOTOS", "RECORDING A VIDEO", "CHECKING THE MAIL",
+"ORGANIZING DOCUMENTS", "FILING PAPERWORK", "PACKING A BAG", "UNPACKING A BAG",
+"SETTING AN ALARM", "HITTING SNOOZE", "CHECKING THE TIME", "LOOKING IN THE MIRROR",
+"TYING SHOELACES", "BUTTONING A SHIRT", "ZIPPING A JACKET", "ADJUSTING GLASSES",
+"PUTTING ON JEWELRY", "SPRAYING PERFUME", "APPLYING DEODORANT", "FLOSSING TEETH",
+"USING MOUTHWASH", "CLIPPING NAILS", "PLUCKING EYEBROWS", "BRUSHING LINT OFF CLOTHES",
+"IRONING A SHIRT", "FOLDING CLOTHES", "HANGING CLOTHES", "SORTING LAUNDRY",
+"VACUUMING", "MOPPING", "DUSTING", "WIPING SURFACES", "SCRUBBING TOILETS",
+"WASHING WINDOWS", "SWEEPING FLOORS", "REARRANGING FURNITURE", "DECORATING A ROOM",
+"WATERING THE LAWN", "RAKING LEAVES", "TRIMMING HEDGES", "PLANTING FLOWERS",
+"SHOVELING SNOW", "SALTING SIDEWALKS", "JUMPING ROPE", "LIFTING WEIGHTS",
+"RUNNING ON A TREADMILL", "RIDING A STATIONARY BIKE", "SWIMMING LAPS", "PLAYING TENNIS",
+"SHOOTING HOOPS", "KICKING A SOCCER BALL", "THROWING A FRISBEE", "HITTING A PUNCHING BAG",
+"WRITING IN A JOURNAL", "SOLVING A PUZZLE", "PLAYING CHESS", "SHUFFLING CARDS",
+"ROLLING DICE", "BUILDING WITH LEGOS", "KNITTING", "CROCHETING", "EMBROIDERING",
+"SEWING", "TRYING TO STAY AWAKE", "WRITING", "WALKING", "RUNNING", "THINKING ABOUT OBJECTIVE",
+"THINKING ABOUT LOVE (Relationships)", "THINKING ABOUT OPPONENT", "DRIVING HOME", "DRIVING TO WORK",
+"TAKING THE BUS", "TAKING THE TRAIN", "RIDING A BOAT", 
+"SKYDIVING", "BUNGEE JUMPING", "PARASAILING", "ROCK CLIMBING", "SPELUNKING",
+"WHITE WATER RAFTING", "SURFING A GIANT WAVE", "SKIING DOWN A STEEP SLOPE",
+"SNOWBOARDING OFF A CLIFF", "WINGSUIT FLYING", "HANG GLIDING", "FLYING A PLANE",
+"PILOTING A HELICOPTER", "RACING A CAR", "RIDING A MOTORCYCLE", "JUMPING A TRAIN",
+"WALKING A TIGHTROPE", "PERFORMING A CIRCUS ACT", "ESCAPING FROM HANDCUFFS",
+"PICKING A LOCK", "HACKING A COMPUTER", "DISARMING A BOMB", "ENGAGING IN A HIGH-SPEED CHASE",
+"PARTICIPATING IN A HEIST", "INFILTRATING A SECURE FACILITY", "SPYING ON AN ENEMY",
+"INTERROGATING A SUSPECT", "TESTIFYING IN COURT", "PERFORMING OPEN-HEART SURGERY",
+"DELIVERING A BABY", "RESCUING SOMEONE FROM A BURNING BUILDING", "SAVING SOMEONE FROM DROWNING",
+"FENDING OFF A SHARK ATTACK", "ESCAPING FROM A WILD ANIMAL", "SURVIVING IN THE WILDERNESS",
+"NAVIGATING A TREACHEROUS JUNGLE", "CROSSING A DESERT", "CLIMBING MOUNT EVEREST",
+"EXPLORING AN UNDERWATER CAVE", "DISCOVERING A HIDDEN TREASURE", "DECIPHERING AN ANCIENT CODE",
+"TRANSLATING A LOST LANGUAGE", "CONDUCTING A SEANCE", "PERFORMING AN EXORCISM",
+"SUMMONING A DEMON", "CASTING A SPELL", "BREWING A POTION", "TIME TRAVELING",
+"DIMENSION HOPPING", "SHAPESHIFTING", "WIELDING A MAGIC WAND", "RUNNING FROM SOMEONE", "HIDING FROM SOMEONE",
+"FIGHTING SOMEONE", "COMFORTING A FRIEND", "CALLING FOR HELP", "REGAINING CONSCIOUSNESS", "BLEEDING HEAVILY",
+"BREATHING HARD", "TRAINING SOMEONE", "RECEIVING TRAINING",
 
 ]
 
@@ -4464,7 +4619,7 @@ story_elements["PHYSICAL_STATUS"] = [
 def select_random_element(category):
     return random.choice(story_elements[category])
 
-def generate_world():
+def create_world():
     world = (f"WORLD: \n\n"
     f"This story takes place in the {select_random_element('TIME_PERIOD')} in a {select_random_element('World_State')} {select_random_element('world_scopes')} world influenced by {select_random_element('Culture_Inspiration')} culture. \n\n"
     f"Customs, traditions, and lore of {select_random_element('MILITARY_CULTURE')} military culture dominate the society. \n\n" 
@@ -4474,32 +4629,28 @@ def generate_world():
     return world
     
 
-def generate_story():
+def create_story():
     story = (
         "STORY: \n\n"
         f"This story follows the plot archetype: {select_random_element('PLOT_ARCHETYPE')}. \n\n"
         f"It is a {select_random_element('NARRATIVE_PERSPECTIVE')} story about a "
-        f"{select_random_element('MILITARY_PROTAGONIST')} {select_random_element('MILITARY_JOBS')} "
-        f"during {select_random_element('MILITARY_SCENARIO')}. But "
-        f"{select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('BASIC_EVENT')} "
-        f"gets in their way. \n\n"
-        f"The major event of the story involves {select_random_element('BASIC_EVENT')}. This is a "
+        f"{select_random_element('MILITARY_PROTAGONIST')} {select_random_element('MILITARY_JOBS')}. "
+        f"This is a "
         f"{select_random_element('STORY_DESCRIPTOR')} {select_random_element('STORY_TYPE')}-themed story, "
         f"with a {select_random_element('STORY_DESCRIPTOR')} ending. \n\n"
         f"The piece of technology central to the plot is the {select_random_element('TECHNOLOGY_FUNCTION')} "
         f"{select_random_element('TECHNOLOGY_OBJECT')}. This is known to cause "
         f"{select_random_element('EMOTION_AMPLIFIER')} leading to {select_random_element('EMOTION')}. \n\n"
         f"It is also rumored to allow the user the ability of: {select_random_element('SUPERHUMAN_ABILITY')}. \n\n"
-        f"This story explores the emotion of: {select_random_element('EMOTION')}. \n\n"
     )
     return story
 
-def generate_character():
+def create_character():
     character = (
         "CHARACTER: \n\n"
-        f"The main character is a {select_random_element('CHARACTER_DESCRIPTOR')} "
-        f"{select_random_element('CHARACTER_GENDER')} {select_random_element('CHARACTER_ETHNICITY')} "
-        f"{select_random_element('CHARACTER_RACE')} {select_random_element('CHARACTER_AGE')}, "
+        f"The main character is a {random.randint(1, 200)}-{select_random_element('CHARACTER_AGE')}-old "
+        f"{select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('CHARACTER_ETHNICITY')} "
+        f"{select_random_element('CHARACTER_GENDER')} {select_random_element('CHARACTER_RACE')}, "
         f"their relationship status is {select_random_element('CHARACTER_RELATIONSHIP')}. \n\n"
         f"In LOVE (relationships) they are {select_random_element('CHARACTER_DESCRIPTOR')}. "
         f"Attracted to: {select_random_element('CHARACTER_ATTRACTION')}. \n"
@@ -4515,7 +4666,6 @@ def generate_character():
         f"Copes with STRESS by {select_random_element('HABITS')} and {select_random_element('HABITS')}. \n\n"
         f"When threatened their response is {select_random_element('STRESS_RESPONSE')}. \n\n"
         f"Their OBJECTIVE is to {select_random_element('CHARACTER_GOALS')}. \n\n"
-        f"OBJECTIVE level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
         f"Their OPPONENT is a {select_random_element('CHARACTER_DESCRIPTOR')} {select_random_element('OPPONENTS')}. \n\n"
         f"OPPONENT level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
         f"The disaster they face is {select_random_element('STORY_COMPLICATIONS')}. \n\n"
@@ -4562,7 +4712,7 @@ def generate_character():
     )
     return character
 
-def generate_destiny_dice():
+def create_destiny_dice():
     destiny_dice = (
         "DESTINY DICE: \n\n"
         f"DESTINY level of importance is {select_random_element('LEVEL_OF_IMPORTANCE')}. \n\n"
@@ -4583,16 +4733,16 @@ def generate_destiny_dice():
     )
     return destiny_dice
 
-def generate_scene():
+def create_scene():
     scene = (
         "SCENE: \n\n"
         "SETTING: \n\n"
         f"Time of day: {select_random_element('TIME_OF_DAY')} \n\n"
         f"Weather: {select_random_element('WEATHER')} \n\n"
         f"Location: A {select_random_element('BIRTH_DIRECTION')} {select_random_element('SCENE_SETTING')} in {select_random_element('BIRTH_COUNTRY')} \n\n"
-        f"Physical status: {select_random_element('PHYSICAL_STATUS')} \n\n"
+        f"Physical status: {select_random_element('PHYSICAL_STATUS')} while {select_random_element('PHYSICAL_STATUS_ACTIONS')}. Pulse: {random.randint(40, 200)} BPM \n\n"
         f"Current mood: {select_random_element('CHARACTER_EMOTION')} about {select_random_element('MOST_IMPORTANT')}. \n\n"
-        f"Scene Goal: Focal character needs {select_random_element('CHARACTER_ACTION_INF')} about a {select_random_element('BASIC_EVENT')}. \n\n"
+        f"Scene Goal: Focal character needs {select_random_element('CHARACTER_ACTION_INF')} {select_random_element('SCENE_PREPOSITION')} {select_random_element('BASIC_EVENT')}. \n\n"
         f"Emotional Goal: Focal character wants to {select_random_element('SCENE_GOAL')} their {select_random_element('CHARACTER_EMOTION')}. \n\n"
         f"{select_random_element('SCENE_OPPONENTS')} gets in their way. \n\n"
         f"It causes {select_random_element('STORY_DESCRIPTOR')} {select_random_element('BASIC_EVENT')}, that leads to {select_random_element('EMOTION_AMPLIFIER')}. \n\n"
@@ -4605,11 +4755,11 @@ def generate_scene():
 
 
 # Generate a story
-print(generate_world())
-print(generate_story())
-print(generate_character())
-print(generate_destiny_dice())
-print(generate_scene())
+print(create_world())
+print(create_story())
+print(create_character())
+print(create_destiny_dice())
+print(create_scene())
 
 
 
