@@ -213,8 +213,14 @@ story_elements["PLOT_ARCHETYPE"] = [
     "Amnesia", "Forbidden Power", "Mentor's Redemption", "Madness and Sanity", "Framed for Betrayal", "Race Against Time", "The Last of Their Kind", "The Secret Society",
     "Forbidden Journey", "Parental Sacrifice", "The MacGuffin", "Crime and Punishment", "Parallel Lives", "The Fall from Grace", "The False Prophecy", "Hidden Heir",
     "Cursed Bloodline", "Generation Gap", "Navigating the Afterlife", "Framed for Murder", "Obsession", "The Long Return Home", "Twist of Fate", "The Dark Past", "The Heirloom",
-    "The Puppet Master", "The Final Stand", "The Ultimate Power", "Perfect Crime"
+    "The Puppet Master", "The Final Stand", "The Ultimate Power", "Perfect Crime", "Supplication", "Deliverance", "Crime Pursued by Vengeance", "Vengeance Taken for Kin upon Kin",
+    "Pursuit", "Disaster", "Falling Prey to Cruelty or Misfortune", "Revolt", "Daring Enterprise", "Abduction", "The Enigma", "Obtaining", "Enmity of Kinsmen",
+    "Rivalry of Kinsmen", "Murderous Adultery", "Madness", "Fatal Imprudence", "Involuntary Crimes of Love", "Slaying of a Kinsman Unrecognized", "Self-Sacrificing for an Ideal",
+    "Self-Sacrificing for Kindred", "All Sacrificed for Passion", "Necessity of Sacrificing Loved Ones", "Rivalry of Superior and Inferior", "Adultery", "Crimes of Love",
+    "Discovery of the Dishonor of a Loved One", "Obstacles to Love", "An Enemy Loved", "Ambition", "Conflict with a God", "Mistaken Jealousy", "Erroneous Judgment",
+    "Remorse", "Recovery of a Lost One", "Loss of Loved Ones"
 ]
+
 
 
 # Example for other categories, following the same structure:
@@ -4701,6 +4707,33 @@ story_elements["BATTLE_MOVEMENT"] = [
 "RIDING A GIANT BUTTERFLY", "SWINGING ON A GRAPPLING GAUNTLET",
 ]
 
+
+story_elements["PAST_TRAUMA"] = [
+    "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No",
+    "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No",
+    "No", "No", "No", "No", "Yes - Physical Abuse by a Parent", "Yes - Physical Abuse by a Partner", "Yes - Physical Abuse by a Sibling",
+    "Yes - Emotional Abuse by a Parent", "Yes - Emotional Abuse by a Partner", "Yes - Emotional Abuse by a Sibling", "Yes - Neglect in Early Childhood",
+    "Yes - Neglect in Adolescence", "Yes - Neglect by Both Parents", "Yes - Witnessing Domestic Violence", "Yes - Witnessing a Violent Crime",
+    "Yes - Witnessing a Death", "Yes - Bullying at School", "Yes - Cyberbullying", "Yes - Bullying by Siblings", "Yes - Car Accident",
+    "Yes - Severe Sports Injury", "Yes - Fire Accident", "Yes - Drowning Incident", "Yes - Loss of a Parent", "Yes - Loss of a Sibling",
+    "Yes - Loss of a Close Friend", "Yes - Loss of a Pet", "Yes - Surviving a Natural Disaster", "Yes - Earthquake Survivor", "Yes - Hurricane Survivor",
+    "Yes - Flood Survivor", "Yes - Tornado Survivor", "Yes - Witnessing War", "Yes - Being a Refugee", "Yes - Military Service in a Conflict Zone",
+    "Yes - Severe Illness in Childhood", "Yes - Chronic Illness", "Yes - Major Surgery", "Yes - Long-Term Hospitalization", "Yes - Kidnapping by a Stranger",
+    "Yes - Kidnapping by a Family Member", "Yes - Sexual Abuse by a Family Member", "Yes - Sexual Abuse by a Stranger", "Yes - Sexual Abuse by a Partner",
+    "Yes - Substance Abuse by a Parent", "Yes - Substance Abuse by a Sibling", "Yes - Substance Abuse in Adolescence", "Yes - Witnessing Substance Abuse",
+    "Yes - Overdose Incident", "Yes - Gang Violence", "Yes - Homelessness", "Yes - Severe Financial Hardship", "Yes - Parental Divorce",
+    "Yes - Abandonment by a Parent", "Yes - Forced Adoption", "Yes - Witnessing Animal Cruelty", "Yes - Experiencing Animal Attack", "Yes - Being a Crime Victim",
+    "Yes - Experiencing Racism", "Yes - Experiencing Sexism", "Yes - Experiencing Homophobia", "Yes - Experiencing Transphobia", "Yes - Experiencing Xenophobia",
+    "Yes - Experiencing Religious Persecution", "Yes - Cult Involvement", "Yes - Living in a War Zone", "Yes - Refugee Camp Life", "Yes - Torture Survivor",
+    "Yes - Human Trafficking", "Yes - Forced Labor", "Yes - Prison Experience", "Yes - Police Brutality", "Yes - Wrongful Imprisonment", "Yes - Witnessing a Terrorist Attack",
+    "Yes - Living in a High-Crime Area", "Yes - Exposure to Extreme Poverty", "Yes - Experience of Famine", "Yes - Forced Migration", "Yes - Military Coup Survivor",
+    "Yes - Surviving a Hijacking", "Yes - Experiencing a Mugging", "Yes - Surviving a Hostage Situation", "Yes - Severe Allergy Reaction", "Yes - Witnessing a Suicide",
+    "Yes - Surviving a Suicide Attempt", "Yes - Experiencing Severe Phobia", "Yes - Severe Anxiety Disorder", "Yes - Post-Traumatic Stress Disorder",
+    "Yes - Severe Depression", "Yes - Experiencing a Manic Episode", "Yes - Obsessive-Compulsive Disorder", "Yes - Schizophrenia", "Yes - Bipolar Disorder",
+    "Yes - Eating Disorder", "Yes - Autism Spectrum Disorder", "Yes - Learning Disability", "Yes - Speech Disorder", "Yes - Physical Disability from Birth",
+    "Yes - Acquired Physical Disability", "Yes - Living in Foster Care", "Yes - Orphaned at a Young Age", "Yes - Experiencing Identity Crisis"
+]
+
 # Now, all your categories are formatted and ready for use in your story generator.
 
 
@@ -4731,7 +4764,7 @@ def create_story():
         "STORY: \n\n"
         f"This story follows the plot archetype: {select_random_element('PLOT_ARCHETYPE')}. \n\n"
         f"It is a {select_random_element('NARRATIVE_PERSPECTIVE')} story about a "
-        f"{select_random_element('MILITARY_PROTAGONIST')} {select_random_element('MILITARY_JOBS')}. "
+        f"{select_random_element('MILITARY_PROTAGONIST')} {select_random_element('MILITARY_JOBS')} during {select_random_element('MILITARY_SCENARIO')}. "
         f"This is a "
         f"{select_random_element('STORY_DESCRIPTOR')} {select_random_element('STORY_TYPE')}-themed story, "
         f"with a {select_random_element('STORY_DESCRIPTOR')} ending. \n\n"
@@ -4795,7 +4828,8 @@ def create_character():
         f"Physical health status: {select_random_element('PHYSICAL_HEALTH_STATUS')} \n\n"
         f"Financial health status: {select_random_element('FINANCIAL_HEALTH_STATUS')} \n\n"
         f"PSYCHOGRAPHIC PROFILE: \n\n"
-        f"Greatest fear: {select_random_element('GREATEST_FEAR')} \n\n"
+        f"Trauma? {select_random_element('PAST_TRAUMA')} \n\n"
+        f"Greatest fear: {select_random_element('GREATEST_FEAR')}. They feel {select_random_element('CHARACTER_EMOTION')} about it. \n\n"
         f"Personal motivation: {select_random_element('PERSONAL_MOTIVATION')} \n\n"
         f"Personal ideology: {select_random_element('PERSONAL_IDEOLOGY')} \n\n"
         f"Character strength: {select_random_element('CHARACTER_STRENGTH')} \n\n"
