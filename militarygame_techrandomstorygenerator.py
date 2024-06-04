@@ -3658,6 +3658,8 @@ story_elements["HABITS"] = [
     "Plotting revenge", "Writing a manifesto", "Planning a terrorist attack",
 ]
 
+
+
 story_elements["CHARACTER_SECRET"] = [
         "I'm adopted but I've never told anyone.",
         "I cheated on an important exam in high school.",
@@ -4734,6 +4736,103 @@ story_elements["PAST_TRAUMA"] = [
     "Yes - Acquired Physical Disability", "Yes - Living in Foster Care", "Yes - Orphaned at a Young Age", "Yes - Experiencing Identity Crisis"
 ]
 
+story_elements["MUSIC_GENRE"] = [
+        "Alternative", "Art Punk", "Alternative Rock", "Britpunk", "College Rock", "Crossover Thrash", "Crust Punk", 
+        "Emotional Hardcore (emo / emocore)", "Experimental Rock", "Folk Punk", "Goth / Gothic Rock", "Grunge", 
+        "Hardcore Punk", "Hard Rock", "Indie Rock", "Lo-fi", "Musique Concrète", "New Wave", "Progressive Rock", 
+        "Punk", "Shoegaze", "Steampunk", "Anime", "Blues", "Acoustic Blues", "African Blues", "Blues Rock", 
+        "Blues Shouter", "British Blues", "Canadian Blues", "Chicago Blues", "Classic Blues", "Classic Female Blues", 
+        "Contemporary Blues", "Contemporary R&B", "Country Blues", "Dark Blues", "Delta Blues", "Detroit Blues", 
+        "Doom Blues", "Electric Blues", "Folk Blues", "Gospel Blues", "Harmonica Blues", "Hill Country Blues", 
+        "Hokum Blues", "Jazz Blues", "Jump Blues", "Kansas City Blues", "Louisiana Blues", "Memphis Blues", 
+        "Modern Blues", "New Orlean Blues", "NY Blues", "Piano Blues", "Piedmont Blues", "Punk Blues", "Ragtime Blues", 
+        "Rhythm Blues", "Soul Blues", "St. Louis Blues", "Soul Blues", "Swamp Blues", "Texas Blues", "Urban Blues", 
+        "Vandeville", "West Coast Blues", "Zydeco", "Childrens Music", "Lullabies", "Sing-Along", "Stories", 
+        "Classical", "Avant-Garde", "Ballet", "Baroque", "Cantata", "Chamber Music", "String Quartet", "Chant", 
+        "Choral", "Classical Crossover", "Concerto", "Concerto Grosso", "Contemporary Classical", "Early Music", 
+        "Expressionist", "High Classical", "Impressionist", "Mass Requiem", "Medieval", "Minimalism", 
+        "Modern Composition", "Modern Classical", "Opera", "Oratorio", "Orchestral", "Organum", "Renaissance", 
+        "Romantic (early period)", "Romantic (later period)", "Sonata", "Symphonic", "Symphony", "Twelve-tone", 
+        "Wedding Music", "Comedy", "Novelty", "Parody Music (Weird Al!)", "Stand-up Comedy", "Vaudeville", 
+        "Commercial", "Jingles", "TV Themes", "Country", "Alternative Country", "Americana", "Australian Country", 
+        "Bakersfield Sound", "Bluegrass", "Progressive Bluegrass", "Reactionary Bluegrass", "Blues Country", 
+        "Cajun Fiddle Tunes", "Christian Country", "Classic Country", "Close Harmony", "Contemporary Bluegrass", 
+        "Contemporary Country", "Country Gospel", "Country Pop", "Country Rap", "Country Rock", "Country Soul", 
+        "Cowboy / Western", "Cowpunk", "Dansband", "Honky Tonk", "Franco-Country", "Gulf and Western", "Hellbilly Music", 
+        "Honky Tonk", "Instrumental Country", "Lubbock Sound", "Nashville Sound", "Neotraditional Country", 
+        "Outlaw Country", "Progressive", "Psychobilly / Punkabilly", "Red Dirt", "Sertanejo", "Texas County", 
+        "Traditional Bluegrass", "Traditional Country", "Truck-Driving Country", "Urban Cowboy", "Western Swing", 
+        "Zydeco", "Dance (EDM)", "Club / Club Dance", "Breakcore", 
+        "Breakbeat / Breakstep", "4-Beat", "Acid Breaks", "Baltimore Club", "Big Beat", "Breakbeat Hardcore", 
+        "Broken Beat", "Florida Breaks", "Nu Skool Breaks", "Brostep", "Chillstep", "Deep House", "Dubstep", 
+        "Electro House", "Electroswing", "Exercise", "Future Garage", "Garage", "Glitch Hop", "Glitch Pop", "Grime", 
+        "Hardcore", "Bouncy House", "Bouncy Techno", "Breakcore", "Digital Hardcore", "Doomcore", "Dubstyle", "Gabber", 
+        "Happy Hardcore", "Hardstyle", "Jumpstyle", "Makina", "Speedcore", "Terrorcore", "Uk Hardcore", "Hard Dance", 
+        "Hi-NRG / Eurodance", "Horrorcore (thx Matt)", "House", "Acid House", "Chicago House", "Deep House", "Diva House", 
+        "Dutch House", "Electro House", "Freestyle House", "French House", "Funky House", "Ghetto House", "Hardbag", 
+        "Hip House", "Italo House", "Latin House", "Minimal House", "Progressive House", "Rave Music", "Swing House", 
+        "Tech House", "Tribal House", "Tropical House", "UK Hard House", "US Garage", "Vocal House", "Jackin House", 
+        "Jungle / Drumnbass", "Liquid Dub", "Regstep", "Speedcore", "Techno", "Acid Techno", "Detroit Techno", 
+        "Free Tekno", "Ghettotech", "Minimal", "Nortec", "Schranz", "Techno-Dnb", "Technopop", "Tecno Brega", 
+        "Toytown Techno", "Trance", "Acid Trance", "Acid-House", "Classic Trance", "Dark Psy", "Deep House", 
+        "Dream Trance", "Goa Trance", "Dark Psytrance", "Full on", "Psybreaks", "Psyprog", "Suomisaundi", "Hard Trance", 
+        "Prog. Trance", "Psy-Trance", "Minimal Techno", "Tech House", "Tech Trance", "Uplifting Trance", "Orchestral Uplifting", 
+        "Vocal Trance", "Trap", "Disney", "Easy Listening", "Background", "Bop", "Elevator", "Furniture", "Lounge", 
+        "Middle of the Road", "Swing", "Electronic", "2-Step (thx Random Haug)", "8bit  aka 8-bit, Bitpop and Chiptune", 
+        "Ambient", "Ambient Dub", "Ambient House", "Ambient Techno", "Dark Ambient", "Drone Music", "Illbient", 
+        "Isolationism", "Lowercase", "Asian Underground", "Bassline", "Chillwave", "Chiptune", "Bitpop", "Game Boy", 
+        "Nintendocore", "Video Game Music", "Yorkshire Bleeps and Bass", "Crunk", "Downtempo", "Acid Jazz", 
+        "Balearic Beat", "Chill Out", "Dub Music", "Dubtronica", "Ethnic Electronica", "Moombahton", "Nu Jazz", "Trip Hop", 
+        "Drum & Bass", "Darkcore", "Darkstep", "Drumfunk", "Drumstep", "Hardstep", "Intelligent Drum and Bass", "Jump-Up", 
+        "Liquid Funk", "Neurofunk", "Oldschool Jungle", "Darkside Jungle", "Ragga Jungle", "Raggacore", "Sambass", "Techstep", 
+        "Electro", "Crunk", "Electro Backbeat", "Electro-Grime", "Electropop", "Electro-swing", "Electroacoustic", 
+        "Acousmatic Music", "Computer Music", "Electroacoustic Improvisation", "Field Recording", "Live Coding", 
+        "Live Electronics", "Soundscape Composition", "Tape Music", "Electronica", "Berlin School", "Chillwave", 
+        "Electronic Art Music", "Electronic Dance Music", "Folktronica", "Freestyle Music", "Glitch", "Idm", "Laptronica", 
+        "Skweee", "Sound Art", "Synthcore", "Electronic Rock", "Alternative Dance", "Baggy", "Madchester", "Dance-Punk", 
+        "Dance-Rock", "Dark Wave", "Electroclash", "Electronicore", "Electropunk", "Ethereal Wave", "Indietronica", 
+        "New Rave", "Space Rock", "Synthpop", "Synthpunk", "Eurodance", "Bubblegum Dance", "Italo Dance", "Turbofolk", 
+        "Hardstyle", "Hi-Nrg", "Eurobeat", "Hard Nrg", "New Beat", "IDM/Experimental", "Industrial", "Trip Hop", "Vaporwave", 
+        "Hyponagogic", "Vektroid", "Mallsoft", "Vaportrap", "Vaporhop", "Protovapor", "UK Garage", "2-Step", "44", 
+        "Bassline", "Grime", "Speed Garage", "Enka", "French Pop", "Folk Music", "American Folk Revival", "Anti-Folk", 
+        "British", "Alternative", "Art Punk", "Alternative Rock", "Britpunk", "College Rock", "Crossover Thrash", "Crust Punk", "Emotional Hardcore", "Experimental Rock", "Folk Punk", "Goth", "Gothic Rock", "Grunge", "Hardcore Punk", "Hard Rock", "Indie Rock", "Lo-fi", "Musique Concrète", "New Wave", "Progressive Rock", "Punk", "Shoegaze", "Steampunk", 
+        "Anime", 
+        "Blues", "Acoustic Blues", "African Blues", "Blues Rock", "Blues Shouter", "British Blues", "Canadian Blues", "Chicago Blues", "Classic Blues", "Classic Female Blues", "Contemporary Blues", "Contemporary R&B", "Country Blues", "Dark Blues", "Delta Blues", "Detroit Blues", "Doom Blues", "Electric Blues", "Folk Blues", "Gospel Blues", "Harmonica Blues", "Hill Country Blues", "Hokum Blues", "Jazz Blues", "Jump Blues", "Kansas City Blues", "Louisiana Blues", "Memphis Blues", "Modern Blues", "New Orlean Blues", "NY Blues", "Piano Blues", "Piedmont Blues", "Punk Blues", "Ragtime Blues", "Rhythm Blues", "Soul Blues", "St. Louis Blues", "Swamp Blues", "Texas Blues", "Urban Blues", "Vandeville", "West Coast Blues", "Zydeco",
+        "Children's Music", "Lullabies", "Sing-Along", "Stories",
+        "Classical", "Avant-Garde", "Ballet", "Baroque", "Cantata", "Chamber Music", "String Quartet", "Chant", "Choral", "Classical Crossover", "Concerto", "Concerto Grosso", "Contemporary Classical", "Early Music", "Expressionist", "High Classical", "Impressionist", "Mass Requiem", "Medieval", "Minimalism", "Modern Composition", "Modern Classical", "Opera", "Oratorio", "Orchestral", "Organum", "Renaissance", "Romantic (early period)", "Romantic (later period)", "Sonata", "Symphonic", "Symphony", "Twelve-tone", "Wedding Music",    
+        "Comedy", "Novelty", "Parody Music", "Stand-up Comedy", "Vaudeville",
+        "Commercial", "Jingles", "TV Themes", 
+        "Country", "Alternative Country", "Americana", "Australian Country", "Bakersfield Sound", "Bluegrass", "Progressive Bluegrass", "Reactionary Bluegrass", "Blues Country", "Cajun Fiddle Tunes", "Christian Country", "Classic Country", "Close Harmony", "Contemporary Bluegrass", "Contemporary Country", "Country Gospel", "Country Pop", "Country Rap", "Country Rock", "Country Soul", "Cowboy", "Western", "Cowpunk", "Dansband", "Honky Tonk", "Franco-Country", "Gulf and Western", "Hellbilly Music", "Instrumental Country", "Lubbock Sound", "Nashville Sound", "Neotraditional Country", "Outlaw Country", "Progressive Country", "Psychobilly", "Punkabilly", "Red Dirt", "Sertanejo", "Texas County", "Traditional Bluegrass", "Traditional Country", "Truck-Driving Country", "Urban Cowboy", "Western Swing",
+        "Dance", "Club", "Club Dance", "Breakcore", "Breakbeat", "Breakstep", "4-Beat", "Acid Breaks", "Baltimore Club", "Big Beat", "Breakbeat Hardcore", "Broken Beat", "Florida Breaks", "Nu Skool Breaks", "Brostep", "Chillstep", "Deep House", "Dubstep", "Electro House", "Electroswing", "Exercise", "Future Garage", "Garage", "Glitch Hop", "Glitch Pop", "Grime", "Hardcore", "Bouncy House", "Bouncy Techno", "Breakcore", "Digital Hardcore", "Doomcore", "Dubstyle", "Gabber", "Happy Hardcore", "Hardstyle", "Jumpstyle", "Makina", "Speedcore", "Terrorcore", "Uk Hardcore", "Hard Dance", "Hi-NRG", "Eurodance", "Horrorcore", "House", "Acid House", "Chicago House", "Deep House", "Diva House", "Dutch House", "Electro House", "Freestyle House", "French House", "Funky House", "Ghetto House", "Hardbag", "Hip House", "Italo House", "Latin House", "Minimal House", "Progressive House", "Rave Music", "Swing House", "Tech House", "Tribal House", "Tropical House", "UK Hard House", "US Garage", "Vocal House", "Jackin House", "Jungle", "Drum'n'bass", "Liquid Dub", "Regstep", "Speedcore", "Techno", "Acid Techno", "Detroit Techno", "Free Tekno", "Ghettotech", "Minimal", "Nortec", "Schranz", "Techno-Dnb", "Technopop", "Tecno Brega", "Toytown Techno", "Trance", "Acid Trance", "Acid-House", "Classic Trance", "Dark Psy", "Dream Trance", "Goa Trance", "Dark Psytrance", "Full on", "Psybreaks", "Psyprog", "Suomisaundi", "Hard Trance", "Prog. Trance", "Psy-Trance", "Minimal Techno", "Tech House", "Tech Trance", "Uplifting Trance", "Orchestral Uplifting", "Vocal Trance", "Trap",
+        "Disney",
+        "Easy Listening", "Background", "Bop", "Elevator", "Furniture", "Lounge", "Middle of the Road", "Swing",  
+        "Electronic", "2-Step", "8bit", "Ambient", "Ambient Dub", "Ambient House", "Ambient Techno", "Dark Ambient", "Drone Music", "Illbient", "Isolationism", "Lowercase", "Asian Underground", "Bassline", "Chillwave", "Chiptune", "Bitpop", "Game Boy", "Nintendocore", "Video Game Music", "Yorkshire Bleeps and Bass", "Crunk", "Downtempo", "Acid Jazz", "Balearic Beat", "Chill Out", "Dub Music", "Dubtronica", "Ethnic Electronica", "Moombahton", "Nu Jazz", "Trip Hop", "Drum & Bass", "Darkcore", "Darkstep", "Drumfunk", "Drumstep", "Hardstep", "Intelligent Drum and Bass", "Jump-Up", "Liquid Funk", "Neurofunk", "Oldschool Jungle", "Darkside Jungle", "Ragga Jungle", "Raggacore", "Sambass", "Techstep", "Electro", "Crunk", "Electro Backbeat", "Electro-Grime", "Electropop", "Electro-swing", "Electroacoustic", "Acousmatic Music", "Computer Music", "Electroacoustic Improvisation", "Field Recording", "Live Coding", "Live Electronics", "Soundscape Composition", "Tape Music", "Electronica", "Berlin School", "Electronic Art Music", "Electronic Dance Music", "Folktronica", "Freestyle Music", "Glitch", "Idm", "Laptronica", "Skweee", "Sound Art", "Synthcore", "Electronic Rock", "Alternative Dance", "Baggy", "Madchester", "Dance-Punk", "Dance-Rock", "Dark Wave", "Electroclash", "Electronicore", "Electropunk", "Ethereal Wave", "Indietronica", "New Rave", "Space Rock", "Synthpop", "Synthpunk", "Eurodance", "Bubblegum Dance", "Italo Dance", "Turbofolk", "Hardstyle", "Hi-Nrg", "Eurobeat", "Hard Nrg", "New Beat", "IDM/Experimental", "Industrial", "Trip Hop", "Vaporwave", "Hyponagogic", "Vektroid", "Mallsoft", "Vaportrap", "Vaporhop", "Protovapor", "UK Garage", "2-Step", "4×4", "Bassline", "Grime", "Speed Garage",
+        "Enka", 
+        "French Pop",
+        "Folk", "American Folk Revival", "Anti-Folk", "British Folk Revival", "Contemporary Folk", "Filk Music", "Freak Folk", "Indie Folk", "Industrial Folk", "Neofolk", "Progressive Folk", "Psychedelic Folk", "Sung Poetry", "Techno-Folk",
+        "German Folk", "German Pop",     
+        "Fitness & Workout",
+        "Hip-Hop/Rap", "Alternative Rap", "Avant-Garde", "Bounce", "Chap Hop", "Christian Hip Hop", "Conscious Hip Hop", "Country-Rap", "Grunk", "Crunkcore", "Cumbia Rap", "Dirty South", "East Coast", "Brick City Club", "Hardcore Hip Hop", "Mafioso Rap", "New Jersey Hip Hop", "Freestyle Rap", "G-Funk", "Gangsta Rap", "Golden Age", "Grime", "Hardcore Rap", "Hip-Hop", "Hip Pop", "Horrorcore", "Hyphy", "Industrial Hip Hop", "Instrumental Hip Hop", "Jazz Rap", "Latin Rap", "Low Bap", "Lyrical Hip Hop", "Merenrap", "Midwest Hip Hop", "Chicago Hip Hop", "Detroit Hip Hop", "St. Louis Hip Hop", "Twin Cities Hip Hop", "Motswako", "Nerdcore", "New Jack Swing", "New School Hip Hop", "Old School Rap", "Rap", "Trap", "Turntablism", "Underground Rap", "West Coast Rap",
+        "Holiday", "Chanukah", "Christmas", "Christmas: Children's", "Christmas: Classic", "Christmas: Classical", "Christmas: Comedy", "Christmas: Jazz", "Christmas: Modern", "Christmas: Pop", "Christmas: R&B", "Christmas: Religious", "Christmas: Rock", "Easter", "Halloween", "Holiday: Other", "Thanksgiving",
+        "Indie Pop",
+        "Industrial", "Aggrotech", "Coldwave", "Cybergrind", "Dark Electro", "Death Industrial", "Electro-Industrial", "Electronic Body Music", "Futurepop", "Industrial Metal", "Neue Deutsche Härte", "Industrial Rock", "Noise", "Japanoise", "Power Electronics", "Power Noise", "Witch House",  
+        "Inspirational", "Christian & Gospel", "CCM", "Christian Metal", "Christian Pop", "Christian Rap", "Christian Rock", "Classic Christian", "Contemporary Gospel", "Gospel", "Praise & Worship", "Qawwali", "Southern Gospel", "Traditional Gospel",
+        "Instrumental", "March (Marching Band)",
+        "J-Pop", "J-Rock", "J-Synth", "J-Ska", "J-Punk",
+        "Jazz", "Acid Jazz", "Afro-Cuban Jazz", "Avant-Garde Jazz", "Bebop", "Big Band", "Blue Note", "British Dance Band", "Cape Jazz", "Chamber Jazz", "Contemporary Jazz", "Continental Jazz", "Cool Jazz", "Crossover Jazz", "Dark Jazz", "Dixieland", "Early Jazz", "Electro Swing", "Ethio-jazz", "Ethno-Jazz", "European Free Jazz", "Free Funk", "Free Jazz", "Fusion", "Gypsy Jazz", "Hard Bop", "Indo Jazz", "Jazz Blues", "Jazz-Funk", "Jazz-Fusion", "Jazz Rap", "Jazz Rock", "Kansas City Jazz", "Latin Jazz", "M-Base Jazz", "Mainstream Jazz", "Modal Jazz", "Neo-Bop", "Neo-Swing", "Nu Jazz", "Orchestral Jazz", "Post-Bop", "Punk Jazz", "Ragtime", "Ska Jazz", "Skiffle", "Smooth Jazz", "Soul Jazz", "Swing Jazz", "Straight-Ahead Jazz", "Trad Jazz", "Third Stream", "West Coast Jazz",  
+        "K-Pop",
+        "Karaoke",
+        "Kayokyoku",
+        "Latin", "Alternativo & Rock Latino", "Argentine Tango", "Bachata", "Baithak Gana", "Baladas y Boleros", "Bolero", "Bossa Nova", "Brazilian", "Axé", "Bossa Nova", "Brazilian Rock", "Brega", "Choro", "Forró", "Frevo", "Funk Carioca", "Lambada", "Maracatu", "Música Popular Brasileira", "Música Sertaneja", "Pagode", "Samba", "Samba Rock", "Tecnobrega", "Tropicalia", "Zouk-Lambada", "Chicha", "Criolla", "Contemporary Latin", "Cumbia", "Flamenco", "Spanish Flamenco", "Huayno", "Joropo", "Latin Jazz", "Mambo", "Mariachi", "Merengue Típico", "Nuevo Flamenco", "Pop Latino", "Portuguese Fado", "Punta", "Punta Rock", "Ranchera", "Raíces", "Raison", "Reggaeton y Hip-Hop", "Regional Mexicano", "Salsa y Tropical", "Soca", "Son", "Tejano", "Timba", "Twoubadou", "Vallenato", "Zouk",
+        "Metal", "Heavy Metal", "Speed Metal", "Thrash Metal", "Power Metal", "Death Metal", "Black Metal", "Pagan Metal", "Viking Metal", "Folk Metal", "Symphonic Metal", "Gothic Metal", "Glam Metal", "Hair Metal", "Doom Metal", "Groove Metal", "Industrial Metal", "Modern Metal", "Neoclassical Metal", "New Wave Of British Heavy Metal", "Post Metal", "Progressive Metal", "Avantgarde Metal", "Sludge", "Djent", "Drone", "Kawaii Metal", "Pirate Metal", "Nu Metal", "Neue Deutsche Härte", "Math Metal", "Crossover", "Grindcore", "Hardcore", "Metalcore", "Deathcore", "Post Hardcore", "Mathcore",
+        "New Age", "Environmental", "Healing", "Meditation", "Nature", "Relaxation", "Travel", 
+        "Opera",
+        "Pop", "Adult Contemporary", "Arab Pop", "Baroque", "Britpop", "Bubblegum Pop", "Chamber Pop", "Chanson", "Christian Pop", "Classical Crossover", "Europop", "Austropop", "Balkan Pop", "French Pop", "Latin Pop", "Laïkó", "Nederpop", "Russian Pop", "Dance Pop", "Dream Pop", "Electro Pop", "Iranian Pop", "Jangle Pop", "Latin Ballad", "Levenslied", "Louisiana Swamp Pop", "Mexican Pop", "Motorpop", "New Romanticism", "Orchestral Pop", "Pop Rap", "Popera", "Pop/Rock", "Pop Punk", "Power Pop", "Psychedelic Pop", "Schlager", "Soft Rock", "Sophisti-Pop", "Space Age Pop", "Sunshine Pop", "Surf Pop", "Synthpop", "Teen Pop", "Traditional Pop Music", "Turkish Pop", "Vispop", "Wonky Pop",
+        "Post-Disco", "Boogie", "Dance-pop", 
+        "Progressive", "Progressive House", "Progressive Trance", "Disco House", "Dream House", "Space House", "Japanese House", "Bounce", "Scouse House", "Progressive Breaks", "Progressive Drum & Bass", "Progressive Techno",
+        "R&B/Soul", "Beach Music", "Contemporary R&B", "Disco",
+    ]
+
 # Now, all your categories are formatted and ready for use in your story generator.
 
 
@@ -4817,6 +4916,7 @@ def create_character():
         f"Language: {select_random_element('LANGUAGE')} \n\n"
         f"Special skill: {select_random_element('SPECIAL_SKILL')} \n\n"
         f"Clothing style: {select_random_element('CLOTHING_STYLE')} \n\n"
+        f"Favorite music genre: {select_random_element('MUSIC_GENRE')} \n\n"
         f"FAMILY: \n\n"
         f"Birthplace: A version of a {select_random_element('BIRTH_DIRECTION')} in {select_random_element('BIRTHPLACE')} in {select_random_element('BIRTH_COUNTRY')} \n\n"
         f"Family birth order: {select_random_element('CHARACTER_CHILD_STATUS')} \n\n"
