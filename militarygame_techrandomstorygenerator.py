@@ -4833,6 +4833,24 @@ story_elements["MUSIC_GENRE"] = [
         "R&B/Soul", "Beach Music", "Contemporary R&B", "Disco",
     ]
 
+story_elements["MUSIC_SPEED"] = [
+    "Slow", "Chill", "Vibey", "Upbeat", "Fast", 
+    "Moderate", "Energetic", "Lively", "Brisk", "Calm", 
+    "Melancholic", "Groovy", "Intense", "Mellow", "Rapid", 
+    "Leisurely", "Bouncy", "Swinging", "Steady", "Pulsating",
+    "Hypnotic", "Frenetic", "Dynamic", "Smooth", "Flowing",
+    "Peppy", "Rushed", "Relaxed", "Serene", "Frantic",
+    "Dreamy", "Aggressive", "Laid-back", "Exciting", "Tranquil",
+    "Euphoric", "Vibrant", "Tense", "Jazzy", "Rhythmic", "RPG - Battle theme", "RPG - Boss battle", "RPG - town music", "RPG - Exploration music", 
+    "Love theme", "RPG - world map"
+]
+
+story_elements["MUSIC_TYPE"] = [
+    "Instrumental", "Vocal", "Duet", "Instrumental", "Group", "Instrumental",
+]
+
+
+
 # Now, all your categories are formatted and ready for use in your story generator.
 
 
@@ -4916,7 +4934,7 @@ def create_character():
         f"Language: {select_random_element('LANGUAGE')} \n\n"
         f"Special skill: {select_random_element('SPECIAL_SKILL')} \n\n"
         f"Clothing style: {select_random_element('CLOTHING_STYLE')} \n\n"
-        f"Favorite music genre: {select_random_element('MUSIC_GENRE')} \n\n"
+        f"Favorite music genre: {select_random_element('MUSIC_SPEED')} {select_random_element('MUSIC_TYPE')} {select_random_element('MUSIC_GENRE')} \n\n"
         f"FAMILY: \n\n"
         f"Birthplace: A version of a {select_random_element('BIRTH_DIRECTION')} in {select_random_element('BIRTHPLACE')} in {select_random_element('BIRTH_COUNTRY')} \n\n"
         f"Family birth order: {select_random_element('CHARACTER_CHILD_STATUS')} \n\n"
