@@ -4,158 +4,143 @@
         <title>Military Game Tech Fiction Story Generator</title>
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/static/style.css">
-
-        <div id="css-placeholder"></div> 
     </head>
 
-    
-    <script>
-    
-    
-    function generateWorld() {
-    fetch('/generate_world') // AJAX request to your Flask route
-        .then(response => response.text())  // Get text response
-        .then(data => { 
-            document.getElementById('worldBox').innerHTML = data; // Update content
-        });
-        }
-
-
-    function generateStory() {
-    fetch('/generate_story')
-        .then(response => response.text()) 
-        .then(data => { 
-            document.getElementById('storyBox').innerHTML = data;
-        });
-        }
-
-    function generateCharacterJS() {
-    fetch('/generate_character')
-        .then(response => response.text()) 
-        .then(data => { 
-            document.getElementById('characterBox').innerHTML = data;
-        });
-        }
-    
-    function generateDestiny() {
-    fetch('/generate_destiny_dice')
-        .then(response => response.text()) 
-        .then(data => { 
-            document.getElementById('destinyBox').innerHTML = data;
-        });
-        }
-    
-    function generateScene() {
-    fetch('/generate_scene')
-        .then(response => response.text()) 
-        .then(data => { 
-            document.getElementById('sceneBox').innerHTML = data;
-        });
-        }
-
-
-    </script>
-
     <body>
+        <script>
+        function copyText(elementId) {
+            // Get the text content from the div, removing HTML tags and converting <br> back to newlines
+            const text = document.getElementById(elementId).innerHTML
+                .replace(/<br\s*[\/]?>/gi, "\n")
+                .replace(/&nbsp;/g, " ")
+                .replace(/(<([^>]+)>)/gi, "");
+            
+            // Create temporary textarea
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            
+            // Select and copy
+            textarea.select();
+            document.execCommand('copy');
+            
+            // Clean up
+            document.body.removeChild(textarea);
+            
+            // Visual feedback
+            const button = document.querySelector(`button[onclick="copyText('${elementId}')"]`);
+            const originalText = button.innerHTML;
+            button.innerHTML = "Copied!";
+            setTimeout(() => {
+                button.innerHTML = originalText;
+            }, 2000);
+        }
+
+        // Add missing JavaScript functions
+        function generateWorld() {
+            fetch('/generate_world')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('worldBox').innerHTML = data.replace(/\n/g, '<br>');
+                });
+        }
+
+        function generateStory() {
+            fetch('/generate_story')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('storyBox').innerHTML = data.replace(/\n/g, '<br>');
+                });
+        }
+
+        function generateCharacterJS() {
+            fetch('/generate_character')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('characterBox').innerHTML = data.replace(/\n/g, '<br>');
+                });
+        }
+
+        function generateDestiny() {
+            fetch('/generate_destiny_dice')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('destinyBox').innerHTML = data.replace(/\n/g, '<br>');
+                });
+        }
+
+        function generateScene() {
+            fetch('/generate_scene')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('sceneBox').innerHTML = data.replace(/\n/g, '<br>');
+                });
+        }
+        </script>
+
+        <style>
+        .copy-button {
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .copy-button:hover {
+            background-color: #45a049;
+        }
+        </style>
+
         <div class="container">
             <h1>Military Game Tech Fiction Story Generator</h1>
+            <div>
                 <button class="generate-button" onclick="generateWorld()">Generate World</button>
                 <div class="output-box" id="worldBox">{{ world.replace('\n', '<br>')|safe }}</div>
-            
+                <div>
+                    <button class="copy-button" onclick="copyText('worldBox')">Copy World</button>
+                </div>
+            </div>
+
+            <div>
                 <button class="generate-button" onclick="generateStory()">Generate Story</button>
                 <div class="output-box" id="storyBox">{{ story.replace('\n', '<br>')|safe }}</div>
+                <div>
+                    <button class="copy-button" onclick="copyText('storyBox')">Copy Story</button>
+                </div>
+            </div>
 
+            <div>
                 <button class="generate-button" onclick="generateCharacterJS()">Generate Character</button>
                 <div class="output-box" id="characterBox">{{ character.replace('\n', '<br>')|safe }}</div>
-            
-            
+                <div>
+                    <button class="copy-button" onclick="copyText('characterBox')">Copy Character</button>
+                </div>
+            </div>
+
+            <div>
                 <button class="generate-button" onclick="generateDestiny()">Generate Destiny</button>
                 <div class="output-box" id="destinyBox">{{ destiny_dice.replace('\n', '<br>')|safe }}</div>
-            
-            
+                <div>
+                    <button class="copy-button" onclick="copyText('destinyBox')">Copy Destiny</button>
+                </div>
+            </div>
+
+            <div>
                 <button class="generate-button" onclick="generateScene()">Generate Scene</button>
                 <div class="output-box" id="sceneBox">{{ scene.replace('\n', '<br>')|safe }}</div>
-            
+                <div>
+                    <button class="copy-button" onclick="copyText('sceneBox')">Copy Scene</button>
+                </div>
+            </div>
         </div>
 
+        <br>
+        <br>
+        <div class="container2">
+            <strong>Military game-tech fiction:</strong><p><i>human stories of military conflict featuring advanced technology told with concepts in video games</i></p>
+        </div>
     </body>
 </html>
-<script>
-function copyText(elementId) {
-    // Get the text content from the div, removing HTML tags and converting <br> back to newlines
-    const text = document.getElementById(elementId).innerHTML
-        .replace(/<br\s*[\/]?>/gi, "\n")
-        .replace(/&nbsp;/g, " ")
-        .replace(/(<([^>]+)>)/gi, "");
-    
-    // Create temporary textarea
-    const textarea = document.createElement('textarea');
-    textarea.value = text;
-    document.body.appendChild(textarea);
-    
-    // Select and copy
-    textarea.select();
-    document.execCommand('copy');
-    
-    // Clean up
-    document.body.removeChild(textarea);
-    
-    // Visual feedback
-    const button = document.querySelector(`button[onclick="copyText('${elementId}')"]`);
-    const originalText = button.innerHTML;
-    button.innerHTML = "Copied!";
-    setTimeout(() => {
-        button.innerHTML = originalText;
-    }, 2000);
-}
-</script>
-
-<style>
-.copy-button {
-    margin-top: 10px;
-    padding: 5px 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.copy-button:hover {
-    background-color: #45a049;
-}
-</style>
-
-<div class="container">
-    <h1>Military Game Tech Fiction Story Generator</h1>
-    <button class="generate-button" onclick="generateWorld()">Generate World</button>
-    <div class="output-box" id="worldBox">{{ world.replace('\n', '<br>')|safe }}</div>
-    <button class="copy-button" onclick="copyText('worldBox')">Copy World</button>
-
-    <button class="generate-button" onclick="generateStory()">Generate Story</button>
-    <div class="output-box" id="storyBox">{{ story.replace('\n', '<br>')|safe }}</div>
-    <button class="copy-button" onclick="copyText('storyBox')">Copy Story</button>
-
-    <button class="generate-button" onclick="generateCharacterJS()">Generate Character</button>
-    <div class="output-box" id="characterBox">{{ character.replace('\n', '<br>')|safe }}</div>
-    <button class="copy-button" onclick="copyText('characterBox')">Copy Character</button>
-
-    <button class="generate-button" onclick="generateDestiny()">Generate Destiny</button>
-    <div class="output-box" id="destinyBox">{{ destiny_dice.replace('\n', '<br>')|safe }}</div>
-    <button class="copy-button" onclick="copyText('destinyBox')">Copy Destiny</button>
-
-    <button class="generate-button" onclick="generateScene()">Generate Scene</button>
-    <div class="output-box" id="sceneBox">{{ scene.replace('\n', '<br>')|safe }}</div>
-    <button class="copy-button" onclick="copyText('sceneBox')">Copy Scene</button>
-</div>
-
-<br>
-<br>
-<div class="container2">
-    <strong>Military game-tech fiction:</strong><p><i>human stories of military conflict featuring advanced technology told with concepts in video games</i></p>
-</div>
-
-
-
-
-

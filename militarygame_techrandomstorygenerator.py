@@ -3716,7 +3716,7 @@ story_elements["CHARACTER_SECRET"] = [
         "I never graduated high school like I claim.",
         "I started malicious rumors about a former boss who fired me.",
         "I take credit for other people's work and ideas.",
-                "I'm adopted but I've never told anyone.",
+        "I'm adopted but I've never told anyone.",
         "I cheated on an important exam in high school.",
         "I'm still in love with my ex.",
         "I have a secret half-sibling my family doesn't know about.",
@@ -4005,17 +4005,12 @@ story_elements["Character_sub-archetype"] = [
 ]
 
 story_elements["LEVEL_OF_IMPORTANCE"] = [
-    "0 - Not Important at All",
-    "1 - A little Important",
-    "2 - Slightly Important",
-    "3 - Somewhat Important",
-    "4 - Moderately Important",
-    "5 - Important",
-    "6 - Quite Important",
-    "7 - Very Important",
-    "8 - Highly Important",
-    "9 - Tremendously Important",
-    "10 - Extremely Important"
+    "0 - Irrelevant: Has no impact on the story or character's journey",
+    "1 - Minor: Plays a small background role but could be changed without affecting much",
+    "2 - Notable: Has some influence on events but isn't crucial to the main plot",
+    "3 - Significant: Shapes important story elements and character decisions",
+    "4 - Critical: Fundamental to the story's progression and character development",
+    "5 - Paramount: The entire narrative revolves around this element"
 ]
 
 story_elements["MOST_IMPORTANT"] = [
