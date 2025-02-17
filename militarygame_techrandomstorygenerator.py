@@ -4966,6 +4966,60 @@ story_elements["MUSIC_TYPE"] = [
     "Instrumental", "Vocal", "Duet", "Instrumental", "Group", "Instrumental",
 ]
 
+story_elements["STORY_SOCIAL_ISSUE"] = [
+    "Mental health issues including anxiety, depression, and burnout from constant connectivity",
+    "Economic inequality and widening wealth gaps",
+    "Job insecurity due to automation and the gig economy",
+    "Social isolation despite online connectivity",
+    "Environmental concerns and climate anxiety",
+    "Information overload and decision fatigue",
+    "Political polarization and societal divisions",
+    "Erosion of trust in institutions and media",
+    "Poor work-life balance and productivity pressure",
+    "Existential dread about humanity's future",
+    "Digital divide and unequal tech access",
+    "Privacy concerns and surveillance",
+    "Body image issues from social media",
+    "Aging population challenges",
+    "Urbanization and overcrowding issues",
+    "Food insecurity and access",
+    "Healthcare inequality",
+    "Education access disparities",
+    "Loss of traditional community",
+    "Rise of nationalism and xenophobia",
+    "Evolving and non-traditional family structures",
+    "Ethical concerns around emerging technologies",
+    "Decline of traditional value systems",
+    "Political corruption and lack of transparency",
+    "Misinformation and fake news proliferation",
+    "Global pandemic threats",
+    "Resource scarcity and depletion",
+    "Forced migration and displacement",
+    "Cybersecurity vulnerabilities",
+    "Loss of personal agency and control",
+    "Excessive consumerism and materialism",
+    "Declining civic engagement",
+    "Cultural identity erosion from globalization",
+    "Intergenerational conflicts",
+    "Addiction and substance abuse epidemics",
+    "Violence and crime in communities",
+    "Discrimination and systemic prejudice",
+    "Declining empathy in society",
+    "Burnout from productivity culture",
+    "Reduced support for arts and humanities",
+    "AI-driven unemployment concerns",
+    "Ethical questions around transhumanism",
+    "Resource-based conflicts",
+    "Climate refugee crises",
+    "Bioethics of genetic engineering",
+    "Space colonization challenges",
+    "Antibiotic-resistant pandemic risks",
+    "Critical infrastructure cyberthreats",
+    "Mass surveillance concerns",
+    "Virtual reality social isolation"
+
+]
+
 
 
 # Now, all your categories are formatted and ready for use in your story generator.
@@ -5002,10 +5056,7 @@ def create_story():
         f"This is a "
         f"{select_random_element('STORY_DESCRIPTOR')} {select_random_element('STORY_TYPE')}-themed story, "
         f"with a {select_random_element('STORY_DESCRIPTOR')} ending. \n\n"
-        f"The piece of technology central to the plot is the {select_random_element('TECHNOLOGY_FUNCTION')} "
-        f"{select_random_element('TECHNOLOGY_OBJECT')}. This is known to cause "
-        f"{select_random_element('EMOTION_AMPLIFIER')} leading to {select_random_element('EMOTION')}. \n\n"
-        f"It is also rumored to allow the user the ability of: {select_random_element('SUPERHUMAN_ABILITY')}. \n\n"
+        f"The story explores the social issue of {select_random_element('STORY_SOCIAL_ISSUE')}. \n\n"
     )
     
 story = create_story()
