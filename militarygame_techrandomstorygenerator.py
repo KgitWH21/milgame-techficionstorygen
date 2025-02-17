@@ -61,7 +61,7 @@ story_elements = {
         "genetic engineering ethics", "ghost story", "global disaster", "high seas adventure", "historical romance", "intergalactic war", "interplanetary exploration", 
         "journey to the center of the earth", "lost civilization", "love triangle", "martial arts epic", "medical drama", "medieval fantasy", "mind control thriller", 
         "multigenerational saga", "mythic retelling", "pirate adventure", "post-war drama", "prehistoric fiction", "psychological horror", "robotic uprising", "shakespearean", 
-        "space colonization", "spy thriller", "time loop", "virtual reality adventure"
+        "space colonization", "spy thriller", "time loop", "virtual reality adventure", "romantasy"
     ],
 
     "NARRATIVE_PERSPECTIVE": [
@@ -440,9 +440,20 @@ story_elements["VIDEO_GAME_FRANCHISE"] = [
     "LittleBigPlanet", "Octopath Traveler", "Valkyria Chronicles", "Disco Elysium", "Syberia", "Professor Layton", 
     "Banjo-Kazooie", "Legend of Dragoon", "Brothers: A Tale of Two Sons", "Braid", "Amnesia: The Dark Descent", 
     "SOMA", "The Witness", "Until Dawn", "Kentucky Route Zero", "Limbo", "Inside", "Oxenfree", "Pillars of Eternity", 
-    "Ghost of Tsushima", "Control", "Hellblade: Senua's Sacrifice" , "Final Fantasy IV", "Final Fantasy V", "Final Fantasy VI",
+    "Ghost of Tsushima", "Control", "Hellblade: Senua's Sacrifice", "Final Fantasy IV", "Final Fantasy V", "Final Fantasy VI",
     "Final Fantasy VII", "Final Fantasy VIII", "Final Fantasy IX", "Final Fantasy X", "Final Fantasy XII", "Final Fantasy XIII",
-    "Final Fantasy XIII-2", "Lightning Returns: Final Fantasy XIII", "Final Fantasy Tactics", "Xenoblade Chronicles 2", "Xenoblade Chronicles 3",  "Xenoblade Chronicles X", "The Legend of Zelda: A Link to the Past"
+    "Final Fantasy XIII-2", "Lightning Returns: Final Fantasy XIII", "Final Fantasy Tactics", "Xenoblade Chronicles 2", "Xenoblade Chronicles 3", "Xenoblade Chronicles X", "The Legend of Zelda: A Link to the Past",
+    "Elden Ring", "Baldur's Gate 3", "Starfield", "Spider-Man", "Spider-Man 2", "God of War Ragnarök", "Diablo", "Diablo II", "Diablo III", "Diablo IV",
+    "World of Warcraft", "The Sims", "Minecraft", "Pokemon", "Super Mario", "The Legend of Zelda: Breath of the Wild", "The Legend of Zelda: Tears of the Kingdom",
+    "Metroid", "Metroid Prime", "Super Metroid", "Castlevania", "Symphony of the Night", "Metal Gear Rising: Revengeance",
+    "Hollow Knight", "Celeste", "Hades", "Stardew Valley", "Terraria", "Monster Hunter", "Monster Hunter: World",
+    "Subnautica", "Outer Wilds", "Death Stranding", "Red Dead Redemption 2", "The Witcher 3: Wild Hunt", "Divinity: Original Sin 2",
+    "Sekiro: Shadows Die Twice", "It Takes Two", "Portal 2", "Mass Effect Legendary Edition", "Dragon's Dogma",
+    "Persona 5 Royal", "Final Fantasy XIV", "Final Fantasy XVI", "Mortal Kombat", "Street Fighter", "Tekken",
+    "Doom", "Doom Eternal", "Wolfenstein", "Prey", "Dead Cells", "Risk of Rain 2", "Returnal", "Deathloop",
+    "Demon's Souls", "Dark Souls III", "Bloodborne", "Nioh", "Nioh 2", "Team Fortress 2", "Left 4 Dead", "Left 4 Dead 2",
+    "Back 4 Blood", "Deep Rock Galactic", "Sea of Thieves", "No Man's Sky", "Among Us", "Fall Guys", "Overwatch",
+    "League of Legends", "DOTA 2", "Counter-Strike", "Valorant", "Rainbow Six Siege", "Apex Legends"
 ]
 
 story_elements["CHARACTER_GENDER"] = [
