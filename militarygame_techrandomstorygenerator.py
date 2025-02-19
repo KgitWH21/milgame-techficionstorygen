@@ -5098,8 +5098,36 @@ story_elements["STORY_SOCIAL_ISSUE"] = [
     "boy's issue: coping with early experiences of romantic rejection",
     "boy's issue: managing video game addiction and screen time",
     "boy's issue: dealing with absent or unavailable father figures",
-    "boy's issue: handling physical development and puberty concerns"
+    "boy's issue: handling physical development and puberty concerns",
+    "boy's issue: finding your Blackness",
+    "boy's issue: Bullies",
+    "boy's issue: being a bully",
+    "boy's issue: classroom rivalry",
+    "boy's issue: sports rivalry",
+    "boy's issue: relationship rivalry",
+    "boy's issue: traveling away from home",
+    "boy's issue: feeling lost",
+    "boy's issue: how to deal with obsessions",
+    "boy's issue: thinking about religion",
+    "boy's issue: thinking about death",
+    "boy's issue: thinking about drugs: marijuana, cocaine, meth, heroin, etc.",
+    "boy's issue: thinking about drugs: porn, masturbation, etc.",
+    "boy's issue: thinking about drugs: alcohol, vaping, etc.",
+    "boy's issue: thinking about drugs: video games",
+    "boy's issue: thinking about drugs: gambling",
+    "boy's issue: thinking about sex",
+    "boy's issue: thinking about money",
+    "boy's issue: thinking about power",
+    "boy's issue: when you disappoint your parents",
+    "boy's issue: when your parents disappoint you",
+    "boy's issue: when you disappoint yourself",
+    "boy's issue: letting siblings go",
+    "boy's issue: how to stop relying on your parents",
+    "boy's issue: designing a modern rite of passage",
+    "boy's issue: being a good citizen",
+    "boy's issue: connecting to something greater than yourself",
 ]
+
 
 
 
