@@ -5073,7 +5073,32 @@ story_elements["STORY_SOCIAL_ISSUE"] = [
     "men's issue: loss of a loved one through suicide",
     "men's issue: dealing with the loss of a loved one through suicide",
     "men's issue: dealing with hair loss",
-    "men's issue: what to do when a loved one takes a wrong turn in life"
+    "men's issue: what to do when a loved one takes a wrong turn in life",
+    "boy's issue: resisting negative peer pressure and bullying",
+    "boy's issue: navigating identity formation outside traditional stereotypes",
+    "boy's issue: learning healthy emotional expression and anger management",
+    "boy's issue: dealing with changing friendship dynamics and making new friends",
+    "boy's issue: coping with body image pressures and unrealistic standards",
+    "boy's issue: handling parental divorce and family conflicts",
+    "boy's issue: adapting to new family structures and step-families",
+    "boy's issue: managing sibling rivalry and competition",
+    "boy's issue: dealing with high parental expectations",
+    "boy's issue: processing grief and loss of loved ones",
+    "boy's issue: managing academic pressure and school stress",
+    "boy's issue: coping with learning differences and ADHD",
+    "boy's issue: surviving school bullying and seeking help",
+    "boy's issue: navigating complex school social dynamics",
+    "boy's issue: balancing sports and extracurricular pressures",
+    "boy's issue: maintaining online safety and dealing with cyberbullying",
+    "boy's issue: finding healthy outlets for anger and aggression",
+    "boy's issue: resisting pressure to experiment with substances",
+    "boy's issue: overcoming limitations of growing up in poverty",
+    "boy's issue: understanding and engaging with global issues",
+    "boy's issue: dealing with the pressure to 'man up' or 'be tough'",
+    "boy's issue: coping with early experiences of romantic rejection",
+    "boy's issue: managing video game addiction and screen time",
+    "boy's issue: dealing with absent or unavailable father figures",
+    "boy's issue: handling physical development and puberty concerns"
 ]
 
 
