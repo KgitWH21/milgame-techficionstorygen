@@ -5172,7 +5172,8 @@ story_elements = {
         "Puzzles/Riddles", "Quizzes", "Branching Narratives/Choose Your Own Adventure",
         "Clickable Elements", "Mini-Games", "Polls/Surveys", "Interactive Timelines",
         "Character Profiles", "Embedded Quests/Challenges", "Interactive Maps", "Animated GIFs",
-        "Word fill in the blank", "Real world word find (readers take picture of words to fill in the story)"
+        "Word fill in the blank", "Real world word find (readers take picture of words to fill in the story)",
+        "Video game", "An app"
     ],
     "LOCATION_BASED_ELEMENTS": [
         "GPS Triggers", "Location-Aware Narratives",
