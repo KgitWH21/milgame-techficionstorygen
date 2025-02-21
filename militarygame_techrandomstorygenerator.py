@@ -5160,6 +5160,39 @@ story_elements["FAV_VIDEO_GAME_TYPE"] = [
     "Extreme Sports", "Skateboarding Games", "Snowboarding Games", "BMX Games"
 ]
 
+story_elements = {
+    "VISUAL_ENHANCEMENTS": [
+        "Illustrations", "Comics/Graphic Panels", "Interactive Maps", "Animated GIFs",
+        "Embedded Videos", "360° Photos/Videos", "Augmented Reality (AR) Overlays"
+    ],
+    "AUDIO_ENHANCEMENTS": [
+        "Sound Effects", "Music", "Narration/Voice Acting", "Audio Clips"
+    ],
+    "INTERACTIVE_ELEMENTS": [
+        "Puzzles/Riddles", "Quizzes", "Branching Narratives/Choose Your Own Adventure",
+        "Clickable Elements", "Mini-Games", "Polls/Surveys", "Interactive Timelines",
+        "Character Profiles", "Embedded Quests/Challenges"
+    ],
+    "LOCATION_BASED_ELEMENTS": [
+        "GPS Triggers", "Location-Aware Narratives",
+        "Augmented Reality Experiences (Location-Based)"
+    ],
+    "TEXT_BASED_ENHANCEMENTS": [
+        "Hyperlinks", "Footnotes/Endnotes", "Pop-up Definitions/Explanations",
+        "Interactive Glossary", "Text Animations", "Chat Fiction Format"
+    ],
+    "COMMUNITY_FEATURES": [
+        "Discussion Forums", "Social Media Integration", "Reader Comments",
+        "Collaborative Storytelling Features"
+    ],
+    "FORMAT_ENHANCEMENTS": [
+        "Episodic Release", "Multimedia Storytelling", "Audio-First Experiences"
+    ],
+    "MISCELLANEOUS": [
+        "Hidden Content/Easter Eggs", "Personalized Narratives", "Gamification Elements"
+    ]
+}
+
 
 
 
@@ -5200,6 +5233,12 @@ def create_story():
         f"{select_random_element('STORY_DESCRIPTOR')} {select_random_element('STORY_TYPE')}-themed story, "
         f"with a {select_random_element('STORY_DESCRIPTOR')} ending. \n\n"
         f"The story explores the social issue of {select_random_element('STORY_SOCIAL_ISSUE')}. \n\n"
+        f"TECHNICAL ENHANCEMENTS: \n\n"
+        f"Location Features: {select_random_element('LOCATION_FEATURES')} \n"
+        f"Text Enhancements: {select_random_element('TEXT_BASED_ENHANCEMENTS')} \n"
+        f"Community Features: {select_random_element('COMMUNITY_FEATURES')} \n"
+        f"Format: {select_random_element('FORMAT_ENHANCEMENTS')} \n"
+        f"Additional Features: {select_random_element('MISCELLANEOUS')} \n\n"
     )
     
 story = create_story()
