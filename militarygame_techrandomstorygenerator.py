@@ -5171,7 +5171,8 @@ story_elements = {
     "INTERACTIVE_ELEMENTS": [
         "Puzzles/Riddles", "Quizzes", "Branching Narratives/Choose Your Own Adventure",
         "Clickable Elements", "Mini-Games", "Polls/Surveys", "Interactive Timelines",
-        "Character Profiles", "Embedded Quests/Challenges"
+        "Character Profiles", "Embedded Quests/Challenges", "Interactive Maps", "Animated GIFs",
+        "Word fill in the blank", "Real world word find (readers take picture of words to fill in the story)"
     ],
     "LOCATION_BASED_ELEMENTS": [
         "GPS Triggers", "Location-Aware Narratives",
@@ -5234,11 +5235,11 @@ def create_story():
         f"with a {select_random_element('STORY_DESCRIPTOR')} ending. \n\n"
         f"The story explores the social issue of {select_random_element('STORY_SOCIAL_ISSUE')}. \n\n"
         f"TECHNICAL ENHANCEMENTS: \n\n"
-        f"Location Features: {select_random_element('LOCATION_FEATURES')} \n"
-        f"Text Enhancements: {select_random_element('TEXT_BASED_ENHANCEMENTS')} \n"
-        f"Community Features: {select_random_element('COMMUNITY_FEATURES')} \n"
-        f"Format: {select_random_element('FORMAT_ENHANCEMENTS')} \n"
-        f"Additional Features: {select_random_element('MISCELLANEOUS')} \n\n"
+        f"The story incorporates location Features: {select_random_element('LOCATION_FEATURES')} \n"
+        f"The story features text enhancements: {select_random_element('TEXT_BASED_ENHANCEMENTS')} \n"
+        f"The story has community features: {select_random_element('COMMUNITY_FEATURES')} \n"
+        f"The story has the following format: {select_random_element('FORMAT_ENHANCEMENTS')} \n"
+        f"The story contains additional features: {select_random_element('MISCELLANEOUS')} \n\n"
     )
     
 story = create_story()
