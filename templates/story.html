@@ -1,9 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Military Game Tech Fiction Story Generator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Military Game-Tech Story Generator</title>
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/static/style.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f0f0f0;
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                background-color: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+
+            h1 {
+                text-align: center;
+                color: #333;
+                font-size: 24px;
+            }
+
+            .output-box {
+                width: 100%;
+                min-height: 200px;
+                margin: 20px 0;
+                padding: 15px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                white-space: pre-wrap;
+                font-size: 16px;
+            }
+
+            .button-group {
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                margin-top: 20px;
+            }
+
+            button {
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                background-color: #007bff;
+                color: white;
+            }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+            @media (max-width: 600px) {
+                body {
+                    padding: 10px;
+                }
+
+                h1 {
+                    font-size: 20px;
+                }
+
+                .output-box {
+                    font-size: 14px;
+                }
+
+                button {
+                    padding: 8px 16px;
+                    font-size: 14px;
+                }
+            }
+        </style>
     </head>
 
     <body>
@@ -46,10 +122,10 @@
         }
 
         function generateStory() {
-            fetch('/generate_story')
+            fetch('/generate')
                 .then(response => response.text())
                 .then(data => {
-                    document.getElementById('storyBox').innerHTML = data.replace(/\n/g, '<br>');
+                    document.getElementById('storyOutput').value = data;
                 });
         }
 
@@ -78,100 +154,12 @@
         }
         </script>
 
-        <style>
-        .copy-button {
-            margin-top: 10px;
-            padding: 8px 16px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-            min-width: 120px;
-        }
-
-        .copy-button:hover {
-            background-color: #45a049;
-        }
-
-        .generate-button {
-            padding: 10px 20px;
-            font-size: 16px;
-            min-width: 160px;
-        }
-
-        /* Mobile responsive styles */
-        @media screen and (max-width: 768px) {
-            .copy-button, .generate-button {
-                padding: 12px 24px;
-                font-size: 18px;
-                min-width: 200px;
-                margin: 10px auto;
-                display: block;
-                width: 80%;
-            }
-
-            .output-box {
-                width: 90%;
-                margin: 10px auto;
-            }
-
-            .container {
-                padding: 10px;
-            }
-        }
-
-        /* Small mobile devices */
-        @media screen and (max-width: 480px) {
-            .copy-button, .generate-button {
-                padding: 15px 30px;
-                font-size: 20px;
-                width: 90%;
-            }
-        }
-        </style>
-
         <div class="container">
-            <h1>Military Game Tech Fiction Story Generator</h1>
-            <div>
-                <button class="generate-button" onclick="generateWorld()">Generate World</button>
-                <div class="output-box" id="worldBox">{{ world.replace('\n', '<br>')|safe }}</div>
-                <div>
-                    <button class="copy-button" onclick="copyText('worldBox')">Copy World</button>
-                </div>
-            </div>
-
-            <div>
-                <button class="generate-button" onclick="generateStory()">Generate Story</button>
-                <div class="output-box" id="storyBox">{{ story.replace('\n', '<br>')|safe }}</div>
-                <div>
-                    <button class="copy-button" onclick="copyText('storyBox')">Copy Story</button>
-                </div>
-            </div>
-
-            <div>
-                <button class="generate-button" onclick="generateCharacterJS()">Generate Character</button>
-                <div class="output-box" id="characterBox">{{ character.replace('\n', '<br>')|safe }}</div>
-                <div>
-                    <button class="copy-button" onclick="copyText('characterBox')">Copy Character</button>
-                </div>
-            </div>
-
-            <div>
-                <button class="generate-button" onclick="generateDestiny()">Generate Destiny</button>
-                <div class="output-box" id="destinyBox">{{ destiny_dice.replace('\n', '<br>')|safe }}</div>
-                <div>
-                    <button class="copy-button" onclick="copyText('destinyBox')">Copy Destiny</button>
-                </div>
-            </div>
-
-            <div>
-                <button class="generate-button" onclick="generateScene()">Generate Scene</button>
-                <div class="output-box" id="sceneBox">{{ scene.replace('\n', '<br>')|safe }}</div>
-                <div>
-                    <button class="copy-button" onclick="copyText('sceneBox')">Copy Scene</button>
-                </div>
+            <h1>Military Game-Tech Story Generator</h1>
+            <textarea id="storyOutput" class="output-box" readonly></textarea>
+            <div class="button-group">
+                <button onclick="generateStory()">Generate Story</button>
+                <button onclick="copyToClipboard()">Copy to Clipboard</button>
             </div>
         </div>
 
