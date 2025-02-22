@@ -5229,7 +5229,7 @@ def create_story():
     return (
         "STORY: \n\n"
         f"This story follows the plot archetype: {select_random_element('PLOT_ARCHETYPE')}. \n\n"
-        f"It is a {select_random_element('NARRATIVE_PERSPECTIVE')} story about a "
+        f"It is a {select_random_element('NARRATIVE_PERSPECTIVE')} story about a {select_random_element('CHARACTER_DESCRIPTOR')} "
         f"{select_random_element('MILITARY_PROTAGONIST')} {select_random_element('MILITARY_JOBS')} during {select_random_element('MILITARY_SCENARIO')}. "
         f"This is a "
         f"{select_random_element('STORY_DESCRIPTOR')} {select_random_element('STORY_TYPE')}-themed story, "
