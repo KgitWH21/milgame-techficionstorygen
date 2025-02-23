@@ -12,13 +12,17 @@
                 margin: 0;
                 padding: 20px;
                 background-color: #f0f0f0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
             }
 
             .container {
+                width: 90%;
                 max-width: 800px;
-                margin: 0 auto;
                 background-color: white;
-                padding: 20px;
+                padding: 30px;
                 border-radius: 10px;
                 box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             }
@@ -27,34 +31,38 @@
                 text-align: center;
                 color: #333;
                 font-size: 24px;
+                margin-bottom: 30px;
             }
 
             .output-box {
                 width: 100%;
-                min-height: 200px;
+                min-height: 300px;
                 margin: 20px 0;
-                padding: 15px;
+                padding: 20px;
                 border: 1px solid #ccc;
                 border-radius: 5px;
                 white-space: pre-wrap;
                 font-size: 16px;
+                line-height: 1.5;
+                box-sizing: border-box;
             }
 
             .button-group {
                 display: flex;
-                gap: 10px;
+                gap: 15px;
                 justify-content: center;
                 margin-top: 20px;
             }
 
             button {
-                padding: 10px 20px;
+                padding: 12px 24px;
                 font-size: 16px;
                 cursor: pointer;
                 border: none;
                 border-radius: 5px;
                 background-color: #007bff;
                 color: white;
+                transition: background-color 0.2s;
             }
 
             button:hover {
@@ -66,17 +74,23 @@
                     padding: 10px;
                 }
 
+                .container {
+                    padding: 20px;
+                }
+
                 h1 {
                     font-size: 20px;
                 }
 
                 .output-box {
                     font-size: 14px;
+                    min-height: 250px;
                 }
 
                 button {
-                    padding: 8px 16px;
+                    padding: 10px 20px;
                     font-size: 14px;
+                    width: 45%;
                 }
             }
         </style>
@@ -155,7 +169,7 @@
         </script>
 
         <div class="container">
-            <h1>Military Game-Tech Story Generator</h1>
+            <h1>HAC Studios Story Spinner 2.0</h1>
             <textarea id="storyOutput" class="output-box" readonly></textarea>
             <div class="button-group">
                 <button onclick="generateStory()">Generate Story</button>
