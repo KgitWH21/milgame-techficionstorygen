@@ -16,7 +16,7 @@ def create_story():
         f"The main character is a {select_random_element('character', 'descriptors')} "
         f"{random.randint(1, 130)}-year-old "
         f"{select_random_element('character', 'race')} who is {select_random_element('character', 'gender')} "
-        f"and has a relationship status of{select_random_element('character', 'relationship')}. \n\n"
+        f"and has a relationship status of {select_random_element('character', 'relationship')}. \n\n"
     )
 
 story = create_story()
